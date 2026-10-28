@@ -1,42 +1,257 @@
 [
-{"id":"t001","title":"Republic Day","topic":"Bayram","date":"2026-10-28",
- "paragraphs":["Tomorrow is the twenty-ninth of October. It is Republic Day in Turkey. Every school and office is closed. People put a big red flag on the balcony.","In the morning, children sing songs at school. In the evening, families walk in the city center and watch the lights. My father always says, \"This is a great day for our country.\" I love this day."],
- "tr":["Yarın ekimin yirmi dokuzu. Türkiye'de Cumhuriyet Bayramı. Her okul ve ofis kapalı. İnsanlar balkona büyük bir kırmızı bayrak asar.","Sabah çocuklar okulda şarkı söyler. Akşam aileler şehir merkezinde yürür ve ışıkları izler. Babam her zaman \"Bu, ülkemiz için harika bir gün\" der. Bu günü seviyorum."],
- "gloss":{"twenty-ninth":"yirmi dokuzuncu","republic":"cumhuriyet","turkey":"Türkiye","song":"şarkı"}},
-{"id":"t002","title":"Autumn Weather","topic":"Hava durumu","date":"2026-10-27",
- "paragraphs":["Autumn is here. The weather is cold and cloudy today. It rains a lot in October. The streets are wet, and the leaves fall from the trees.","I wear a warm jacket and take an umbrella to work. In the evening, I drink hot tea and read a book at home. My cat sleeps on the sofa. I like autumn because it is quiet."],
- "tr":["Sonbahar geldi. Bugün hava soğuk ve bulutlu. Ekim ayında çok yağmur yağar. Sokaklar ıslak ve yapraklar ağaçlardan düşüyor.","Sıcak bir ceket giyerim ve işe şemsiye alırım. Akşam sıcak çay içer ve evde kitap okurum. Kedim kanepede uyur. Sonbaharı severim çünkü sessiz."],
- "gloss":{"leaf":"yaprak","umbrella":"şemsiye","sofa":"kanepe","quiet":"sessiz","wet":"ıslak","autumn":"sonbahar"}},
-{"id":"t003","title":"My New Phone","topic":"Teknoloji","date":"2026-10-26",
- "paragraphs":["I bought a new phone last week. It has a good camera and a big screen. I use it every day. I send messages to my friends, and I listen to music on the bus.","My sister uses it to learn English. She plays word games and reads short stories. But my father says, \"Do not look at the phone all day.\" He is right. I put it in my bag at dinner."],
- "tr":["Geçen hafta yeni bir telefon aldım. İyi bir kamerası ve büyük bir ekranı var. Her gün kullanırım. Arkadaşlarıma mesaj gönderirim ve otobüste müzik dinlerim.","Kız kardeşim onu İngilizce öğrenmek için kullanır. Kelime oyunları oynar ve kısa hikayeler okur. Ama babam \"Bütün gün telefona bakma\" der. Haklı. Akşam yemeğinde onu çantama koyarım."],
- "gloss":{"screen":"ekran","music":"müzik","story":"hikaye","phone":"telefon"}},
-{"id":"t004","title":"The Weekend Match","topic":"Spor","date":"2026-10-25",
- "paragraphs":["On Saturday, we watched a football match on television. Our team played very well. The goalkeeper stopped two important goals.","In the second half, a young player scored a great goal. The crowd stood up and shouted. At the end, we won three to one. My brother was so happy that he called all his friends."],
- "tr":["Cumartesi günü televizyonda bir futbol maçı izledik. Takımımız çok iyi oynadı. Kaleci iki önemli golü önledi.","İkinci yarıda genç bir oyuncu harika bir gol attı. Kalabalık ayağa kalktı ve bağırdı. Sonunda üçe bir kazandık. Kardeşim o kadar mutluydu ki bütün arkadaşlarını aradı."],
- "gloss":{"crowd":"kalabalık","shout":"bağırmak","stand":"ayakta durmak","stood":"ayağa kalktı","score":"gol atmak","won":"kazandı","win":"kazanmak","play":"oynamak","team":"takım","match":"maç","half":"yarı","saturday":"cumartesi"}},
-{"id":"t005","title":"A Healthy Breakfast","topic":"Sağlık","date":"2026-10-24",
- "paragraphs":["A good breakfast gives you energy for the day. In my house, we eat white cheese, olives, tomatoes, and fresh bread. Sometimes my mother makes eggs.","I drink a glass of milk or a cup of tea. We do not eat too much sugar. Doctors say that breakfast is important for your health. I never skip it. What do you eat in the morning?"],
- "tr":["İyi bir kahvaltı size gün boyu enerji verir. Evimizde beyaz peynir, zeytin, domates ve taze ekmek yeriz. Bazen annem yumurta yapar.","Bir bardak süt ya da bir fincan çay içerim. Çok fazla şeker yemeyiz. Doktorlar kahvaltının sağlık için önemli olduğunu söyler. Onu asla atlamam. Sabahları ne yersin?"],
- "gloss":{"tomato":"domates","olive":"zeytin","milk":"süt","sugar":"şeker","skip":"atlamak","health":"sağlık","too":"çok fazla, de/da","never":"asla"}},
-{"id":"t006","title":"At the Doctor","topic":"Sağlık","date":"2026-10-23",
- "paragraphs":["It is the flu season. Many people have a cough and a headache. Yesterday, I felt tired and hot, so I went to the doctor.","He looked at my throat and listened to my heart. He said, \"You have a cold. Stay at home, drink warm water, and rest.\" He gave me some medicine. Today I feel better. Wash your hands often and keep warm."],
- "tr":["Grip mevsimi. Birçok insanın öksürüğü ve baş ağrısı var. Dün yorgun ve sıcak hissettim, bu yüzden doktora gittim.","Boğazıma baktı ve kalbimi dinledi. \"Üşütmüşsün. Evde kal, ılık su iç ve dinlen\" dedi. Bana biraz ilaç verdi. Bugün daha iyi hissediyorum. Ellerinizi sık sık yıkayın ve sıcak tutun."],
- "gloss":{"flu":"grip","headache":"baş ağrısı","throat":"boğaz","medicine":"ilaç","cold":"nezle, soğuk","stay":"kalmak","often":"sık sık","went":"gitti","wash":"yıkamak"}},
-{"id":"t007","title":"Winter Shopping","topic":"Alışveriş","date":"2026-10-22",
- "paragraphs":["Winter is coming, so I need new clothes. On Sunday, I went to the market with my mother. We looked at coats, hats, gloves, and warm socks. Everything was expensive.","At last, we found a nice brown coat at a cheap price. I paid at the cashier by card. We also bought a blue scarf for my father. We came home tired but happy."],
- "tr":["Kış geliyor, bu yüzden yeni kıyafetlere ihtiyacım var. Pazar günü annemle çarşıya gittim. Paltolara, şapkalara, eldivenlere ve sıcak çoraplara baktık. Her şey pahalıydı.","Sonunda ucuz bir fiyata güzel bir kahverengi palto bulduk. Kasada kartla ödedim. Babam için de mavi bir atkı aldık. Eve yorgun ama mutlu geldik."],
- "gloss":{"clothes":"kıyafet","coat":"palto","expensive":"pahalı","scarf":"atkı","winter":"kış","sunday":"pazar","paid":"ödedi","pay":"ödemek","bought":"satın aldı","last":"son"}},
-{"id":"t008","title":"Halloween Party","topic":"Eğlence","date":"2026-10-21",
- "paragraphs":["This Friday is Halloween. My friend has a party at her house. We wear funny clothes and masks. I want to be a king, but my brother wants to be a doctor.","There is a big cake and a lot of candy. We play games and dance. At midnight, we tell scary stories. My mother says we must be home before twelve."],
- "tr":["Bu cuma Cadılar Bayramı. Arkadaşımın evinde bir parti var. Komik kıyafetler ve maskeler giyeriz. Ben kral olmak istiyorum ama kardeşim doktor olmak istiyor.","Büyük bir pasta ve bir sürü şeker var. Oyun oynar ve dans ederiz. Gece yarısı korkunç hikayeler anlatırız. Annem on ikiden önce evde olmamız gerektiğini söyler."],
- "gloss":{"halloween":"Cadılar Bayramı","party":"parti","funny":"komik","mask":"maske","dance":"dans etmek","midnight":"gece yarısı","scary":"korkunç","story":"hikaye","must":"-meli, -malı","tell":"anlatmak","clothes":"kıyafet","friday":"cuma"}},
-{"id":"t009","title":"By Train","topic":"Ulaşım","date":"2026-10-20",
- "paragraphs":["I go to work by train every day. The station is five minutes from my house. I buy a ticket at the machine and wait on the platform.","The train is usually on time, but sometimes it is late because of heavy rain. On the train, I read the newspaper or listen to the radio. People are quiet and tired in the morning. I get off at the city center and walk to the office."],
- "tr":["Her gün işe trenle giderim. İstasyon evimden beş dakika uzaklıkta. Makineden bilet alır ve peronda beklerim.","Tren genellikle zamanında gelir ama bazen şiddetli yağmur yüzünden geç kalır. Trende gazete okur ya da radyo dinlerim. İnsanlar sabahları sessiz ve yorgun. Şehir merkezinde inerim ve ofise yürürüm."],
- "gloss":{"platform":"peron","quiet":"sessiz","minute":"dakika","station":"istasyon","usually":"genellikle","sometimes":"bazen","because":"çünkü","tired":"yorgun","get off":"inmek","off":"-den (inmek)"}},
-{"id":"t010","title":"Learning English","topic":"Dil","date":"2026-10-19",
- "paragraphs":["English is an important language. It is useful for travel, work, and the internet. I learn ten words every week. First, I read a short text.","Then I write new sentences in my notebook and say them aloud. I also watch a film in English with subtitles. It is not easy, but I enjoy it. Step by step, I understand more."],
- "tr":["İngilizce önemli bir dildir. Seyahat, iş ve internet için faydalıdır. Her hafta on kelime öğrenirim. Önce kısa bir metin okurum.","Sonra defterime yeni cümleler yazar ve yüksek sesle söylerim. Ayrıca İngilizce altyazılı film izlerim. Kolay değil ama keyif alırım. Adım adım daha çok anlarım."],
- "gloss":{"subtitle":"altyazı","step":"adım","travel":"seyahat","ten":"on","week":"hafta","useful":"faydalı","understand":"anlamak","write":"yazmak","text":"metin","say":"söylemek"}}
+ {
+  "id": "t001",
+  "title": "Republic Day",
+  "topic": "Bayram",
+  "date": "2026-10-28",
+  "paragraphs": [
+   "Tomorrow is the twenty-ninth of October. It is Republic Day in Turkey. Every school and office is closed. People put a big red flag on the balcony.",
+   "In the morning, children sing songs at school. In the evening, families walk in the city center and watch the lights. My father always says, \"This is a great day for our country.\" I love this day."
+  ],
+  "tr": [
+   "Yarın ekimin yirmi dokuzu. Türkiye'de Cumhuriyet Bayramı. Her okul ve ofis kapalı. İnsanlar balkona büyük bir kırmızı bayrak asar.",
+   "Sabah çocuklar okulda şarkı söyler. Akşam aileler şehir merkezinde yürür ve ışıkları izler. Babam her zaman \"Bu, ülkemiz için harika bir gün\" der. Bu günü seviyorum."
+  ],
+  "gloss": {
+   "twenty-ninth": "yirmi dokuzuncu",
+   "republic": "cumhuriyet",
+   "turkey": "Türkiye",
+   "song": "şarkı"
+  },
+  "cat": "gundem"
+ },
+ {
+  "id": "t002",
+  "title": "Autumn Weather",
+  "topic": "Hava durumu",
+  "date": "2026-10-27",
+  "paragraphs": [
+   "Autumn is here. The weather is cold and cloudy today. It rains a lot in October. The streets are wet, and the leaves fall from the trees.",
+   "I wear a warm jacket and take an umbrella to work. In the evening, I drink hot tea and read a book at home. My cat sleeps on the sofa. I like autumn because it is quiet."
+  ],
+  "tr": [
+   "Sonbahar geldi. Bugün hava soğuk ve bulutlu. Ekim ayında çok yağmur yağar. Sokaklar ıslak ve yapraklar ağaçlardan düşüyor.",
+   "Sıcak bir ceket giyerim ve işe şemsiye alırım. Akşam sıcak çay içer ve evde kitap okurum. Kedim kanepede uyur. Sonbaharı severim çünkü sessiz."
+  ],
+  "gloss": {
+   "leaf": "yaprak",
+   "umbrella": "şemsiye",
+   "sofa": "kanepe",
+   "quiet": "sessiz",
+   "wet": "ıslak",
+   "autumn": "sonbahar"
+  },
+  "cat": "doga"
+ },
+ {
+  "id": "t003",
+  "title": "My New Phone",
+  "topic": "Teknoloji",
+  "date": "2026-10-26",
+  "paragraphs": [
+   "I bought a new phone last week. It has a good camera and a big screen. I use it every day. I send messages to my friends, and I listen to music on the bus.",
+   "My sister uses it to learn English. She plays word games and reads short stories. But my father says, \"Do not look at the phone all day.\" He is right. I put it in my bag at dinner."
+  ],
+  "tr": [
+   "Geçen hafta yeni bir telefon aldım. İyi bir kamerası ve büyük bir ekranı var. Her gün kullanırım. Arkadaşlarıma mesaj gönderirim ve otobüste müzik dinlerim.",
+   "Kız kardeşim onu İngilizce öğrenmek için kullanır. Kelime oyunları oynar ve kısa hikayeler okur. Ama babam \"Bütün gün telefona bakma\" der. Haklı. Akşam yemeğinde onu çantama koyarım."
+  ],
+  "gloss": {
+   "screen": "ekran",
+   "music": "müzik",
+   "story": "hikaye",
+   "phone": "telefon"
+  },
+  "cat": "teknoloji"
+ },
+ {
+  "id": "t004",
+  "title": "The Weekend Match",
+  "topic": "Spor",
+  "date": "2026-10-25",
+  "paragraphs": [
+   "On Saturday, we watched a football match on television. Our team played very well. The goalkeeper stopped two important goals.",
+   "In the second half, a young player scored a great goal. The crowd stood up and shouted. At the end, we won three to one. My brother was so happy that he called all his friends."
+  ],
+  "tr": [
+   "Cumartesi günü televizyonda bir futbol maçı izledik. Takımımız çok iyi oynadı. Kaleci iki önemli golü önledi.",
+   "İkinci yarıda genç bir oyuncu harika bir gol attı. Kalabalık ayağa kalktı ve bağırdı. Sonunda üçe bir kazandık. Kardeşim o kadar mutluydu ki bütün arkadaşlarını aradı."
+  ],
+  "gloss": {
+   "crowd": "kalabalık",
+   "shout": "bağırmak",
+   "stand": "ayakta durmak",
+   "stood": "ayağa kalktı",
+   "score": "gol atmak",
+   "won": "kazandı",
+   "win": "kazanmak",
+   "play": "oynamak",
+   "team": "takım",
+   "match": "maç",
+   "half": "yarı",
+   "saturday": "cumartesi"
+  },
+  "cat": "spor"
+ },
+ {
+  "id": "t005",
+  "title": "A Healthy Breakfast",
+  "topic": "Sağlık",
+  "date": "2026-10-24",
+  "paragraphs": [
+   "A good breakfast gives you energy for the day. In my house, we eat white cheese, olives, tomatoes, and fresh bread. Sometimes my mother makes eggs.",
+   "I drink a glass of milk or a cup of tea. We do not eat too much sugar. Doctors say that breakfast is important for your health. I never skip it. What do you eat in the morning?"
+  ],
+  "tr": [
+   "İyi bir kahvaltı size gün boyu enerji verir. Evimizde beyaz peynir, zeytin, domates ve taze ekmek yeriz. Bazen annem yumurta yapar.",
+   "Bir bardak süt ya da bir fincan çay içerim. Çok fazla şeker yemeyiz. Doktorlar kahvaltının sağlık için önemli olduğunu söyler. Onu asla atlamam. Sabahları ne yersin?"
+  ],
+  "gloss": {
+   "tomato": "domates",
+   "olive": "zeytin",
+   "milk": "süt",
+   "sugar": "şeker",
+   "skip": "atlamak",
+   "health": "sağlık",
+   "too": "çok fazla, de/da",
+   "never": "asla"
+  },
+  "cat": "saglik"
+ },
+ {
+  "id": "t006",
+  "title": "At the Doctor",
+  "topic": "Sağlık",
+  "date": "2026-10-23",
+  "paragraphs": [
+   "It is the flu season. Many people have a cough and a headache. Yesterday, I felt tired and hot, so I went to the doctor.",
+   "He looked at my throat and listened to my heart. He said, \"You have a cold. Stay at home, drink warm water, and rest.\" He gave me some medicine. Today I feel better. Wash your hands often and keep warm."
+  ],
+  "tr": [
+   "Grip mevsimi. Birçok insanın öksürüğü ve baş ağrısı var. Dün yorgun ve sıcak hissettim, bu yüzden doktora gittim.",
+   "Boğazıma baktı ve kalbimi dinledi. \"Üşütmüşsün. Evde kal, ılık su iç ve dinlen\" dedi. Bana biraz ilaç verdi. Bugün daha iyi hissediyorum. Ellerinizi sık sık yıkayın ve sıcak tutun."
+  ],
+  "gloss": {
+   "flu": "grip",
+   "headache": "baş ağrısı",
+   "throat": "boğaz",
+   "medicine": "ilaç",
+   "cold": "nezle, soğuk",
+   "stay": "kalmak",
+   "often": "sık sık",
+   "went": "gitti",
+   "wash": "yıkamak"
+  },
+  "cat": "saglik"
+ },
+ {
+  "id": "t007",
+  "title": "Winter Shopping",
+  "topic": "Alışveriş",
+  "date": "2026-10-22",
+  "paragraphs": [
+   "Winter is coming, so I need new clothes. On Sunday, I went to the market with my mother. We looked at coats, hats, gloves, and warm socks. Everything was expensive.",
+   "At last, we found a nice brown coat at a cheap price. I paid at the cashier by card. We also bought a blue scarf for my father. We came home tired but happy."
+  ],
+  "tr": [
+   "Kış geliyor, bu yüzden yeni kıyafetlere ihtiyacım var. Pazar günü annemle çarşıya gittim. Paltolara, şapkalara, eldivenlere ve sıcak çoraplara baktık. Her şey pahalıydı.",
+   "Sonunda ucuz bir fiyata güzel bir kahverengi palto bulduk. Kasada kartla ödedim. Babam için de mavi bir atkı aldık. Eve yorgun ama mutlu geldik."
+  ],
+  "gloss": {
+   "clothes": "kıyafet",
+   "coat": "palto",
+   "expensive": "pahalı",
+   "scarf": "atkı",
+   "winter": "kış",
+   "sunday": "pazar",
+   "paid": "ödedi",
+   "pay": "ödemek",
+   "bought": "satın aldı",
+   "last": "son"
+  },
+  "cat": "gunluk"
+ },
+ {
+  "id": "t008",
+  "title": "Halloween Party",
+  "topic": "Eğlence",
+  "date": "2026-10-21",
+  "paragraphs": [
+   "This Friday is Halloween. My friend has a party at her house. We wear funny clothes and masks. I want to be a king, but my brother wants to be a doctor.",
+   "There is a big cake and a lot of candy. We play games and dance. At midnight, we tell scary stories. My mother says we must be home before twelve."
+  ],
+  "tr": [
+   "Bu cuma Cadılar Bayramı. Arkadaşımın evinde bir parti var. Komik kıyafetler ve maskeler giyeriz. Ben kral olmak istiyorum ama kardeşim doktor olmak istiyor.",
+   "Büyük bir pasta ve bir sürü şeker var. Oyun oynar ve dans ederiz. Gece yarısı korkunç hikayeler anlatırız. Annem on ikiden önce evde olmamız gerektiğini söyler."
+  ],
+  "gloss": {
+   "halloween": "Cadılar Bayramı",
+   "party": "parti",
+   "funny": "komik",
+   "mask": "maske",
+   "dance": "dans etmek",
+   "midnight": "gece yarısı",
+   "scary": "korkunç",
+   "story": "hikaye",
+   "must": "-meli, -malı",
+   "tell": "anlatmak",
+   "clothes": "kıyafet",
+   "friday": "cuma"
+  },
+  "cat": "gunluk"
+ },
+ {
+  "id": "t009",
+  "title": "By Train",
+  "topic": "Ulaşım",
+  "date": "2026-10-20",
+  "paragraphs": [
+   "I go to work by train every day. The station is five minutes from my house. I buy a ticket at the machine and wait on the platform.",
+   "The train is usually on time, but sometimes it is late because of heavy rain. On the train, I read the newspaper or listen to the radio. People are quiet and tired in the morning. I get off at the city center and walk to the office."
+  ],
+  "tr": [
+   "Her gün işe trenle giderim. İstasyon evimden beş dakika uzaklıkta. Makineden bilet alır ve peronda beklerim.",
+   "Tren genellikle zamanında gelir ama bazen şiddetli yağmur yüzünden geç kalır. Trende gazete okur ya da radyo dinlerim. İnsanlar sabahları sessiz ve yorgun. Şehir merkezinde inerim ve ofise yürürüm."
+  ],
+  "gloss": {
+   "platform": "peron",
+   "quiet": "sessiz",
+   "minute": "dakika",
+   "station": "istasyon",
+   "usually": "genellikle",
+   "sometimes": "bazen",
+   "because": "çünkü",
+   "tired": "yorgun",
+   "get off": "inmek",
+   "off": "-den (inmek)"
+  },
+  "cat": "gezi"
+ },
+ {
+  "id": "t010",
+  "title": "Learning English",
+  "topic": "Dil",
+  "date": "2026-10-19",
+  "paragraphs": [
+   "English is an important language. It is useful for travel, work, and the internet. I learn ten words every week. First, I read a short text.",
+   "Then I write new sentences in my notebook and say them aloud. I also watch a film in English with subtitles. It is not easy, but I enjoy it. Step by step, I understand more."
+  ],
+  "tr": [
+   "İngilizce önemli bir dildir. Seyahat, iş ve internet için faydalıdır. Her hafta on kelime öğrenirim. Önce kısa bir metin okurum.",
+   "Sonra defterime yeni cümleler yazar ve yüksek sesle söylerim. Ayrıca İngilizce altyazılı film izlerim. Kolay değil ama keyif alırım. Adım adım daha çok anlarım."
+  ],
+  "gloss": {
+   "subtitle": "altyazı",
+   "step": "adım",
+   "travel": "seyahat",
+   "ten": "on",
+   "week": "hafta",
+   "useful": "faydalı",
+   "understand": "anlamak",
+   "write": "yazmak",
+   "text": "metin",
+   "say": "söylemek"
+  },
+  "cat": "gunluk"
+ }
 ]

@@ -35,6 +35,7 @@ tids = [x['id'] for x in texts]
 assert len(tids) == len(set(tids)), 'yinelenen metin id'
 for x in texts:
     assert x['title'] and x['paragraphs'] and all(isinstance(p, str) for p in x['paragraphs']), x['id']
+    assert x.get('cat') in {'gundem','siyaset','ekonomi','bilim','teknoloji','sanat','gezi','spor','saglik','doga','tarih','gunluk'}, x['id'] + ': cat'
     if x.get('tr'): assert len(x['tr']) == len(x['paragraphs']), x['id'] + ': tr/paragraf sayisi'
 texts.sort(key=lambda x: x.get('date', ''), reverse=True)
 print('metin:', len(texts))

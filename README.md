@@ -25,3 +25,9 @@ Adres: `https://KULLANICI_ADI.github.io/REPO_ADI/`
 - Uygulama içinden de eklenebilir: Ayarlar > Metin ekle (JSON yapıştır) — yeniden derleme gerekmez.
 - Şema: `{id,title,topic,date,paragraphs[],tr[],gloss{}}` (tr, paragraphs ile aynı sayıda).
 - `texts_01.json` ÖRNEK metinlerdir; gerçek güncel metinleri Argon üretir.
+
+## Otomatik metin yayını (v1.5)
+- `.github/workflows/update-texts.yml` her 6 saatte `src/fetch_feed.py` çalıştırır, `docs/feed.json` günceller.
+- İlk kurulumdan sonra: Actions > Update texts feed > Run workflow.
+- Uygulama önce `feed.json`'u (aynı site), olmazsa Wikipedia'yı doğrudan dener.
+- Metinde `more` alanı varsa "Metni uzat" düğmesi çıkar.
