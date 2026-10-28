@@ -290,7 +290,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.5 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.7 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -318,6 +318,7 @@ const CL=Object.fromEntries(CATS),DEFCATS=['gundem','bilim','spor','gezi'];
 function allTexts(){const m={};TEXTS.forEach(t=>m[t.id]=t);(S.custom||[]).forEach(t=>m[t.id]=t);(S.online||[]).forEach(t=>m[t.id]=t);return Object.values(m).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))}
 let curText=null,txTr=false,sheetSt=null;
 const getText=id=>allTexts().find(t=>t.id===id);
+function trAt(t,i){const n=t.paragraphs.length;if(i<n)return(t.tr&&t.tr.length===n&&t.tr[i])||null;let j=i-n;for(let c=0;c<(t.more||[]).length;c++){const len=t.more[c].length;if(j<len)return(t.moretr&&t.moretr[c]&&t.moretr[c].length===len&&t.moretr[c][j])||null;j-=len}return null}
 const visParas=t=>(t.paragraphs||[]).concat(...((t.more||[]).slice(0,(S.ext||{})[t.id]||0)));
 function txStats(t){let n=0,l=0,a=0,p=0;for(const para of visParas(t)){for(const m of para.matchAll(TOKRE)){n++;const c=cls(lk(m[0]));if(c==='l')l++;else if(c==='a')a++;else if(c==='p')p++}}return{n,l,a,p}}
 let catF='all',twK='l';
@@ -342,10 +343,11 @@ function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap
  app().innerHTML=`<div class="hdr"><button class="back" data-nav="texts">‹</button><b class="grow" style="font-size:19px;line-height:1.25">${esc(t.title)}</b></div>
  <div class="row" style="margin-bottom:10px"><span class="badge">${esc(CL[t.cat]||t.topic||'')}</span><span class="grow"></span><button class="badge" data-act="txlisten" style="border:0">🔊 Dinle</button><button class="badge" data-act="txtr" style="border:0">${txTr?'TR gizle':'TR göster'}</button></div>
  <div class="lg"><button class="lgb" style="background:var(--ok-soft)" data-act="twl" data-k="l">öğrendin · ${m.l.length}</button><button class="lgb" style="background:var(--red-soft)" data-act="twl" data-k="a">çalışıyorsun · ${m.a.length}</button><button class="lgb" style="background:var(--blue-soft)" data-act="twl" data-k="p">listede yeni · ${m.p.length}</button></div>
- <div class="card tx">${visParas(t).map((p,i)=>`<p>${tokHtml(p,i)}</p>${txTr&&t.tr&&t.tr[i]?`<p class="trp">${esc(t.tr[i])}</p>`:''}`).join('')}</div>
- ${t.online?`<div class="mute tiny" style="margin:-4px 0 12px">Kaynak: <a href="${esc(t.url||'#')}" target="_blank" rel="noopener" style="color:var(--blue)">${esc(t.src||'Wikipedia')}</a> · CC BY-SA. Çevirisi yok; bilmediğin kelimeye dokun.</div>`:''}
+ <div class="card tx">${visParas(t).map((p,i)=>`<p>${tokHtml(p,i)}</p>${txTr?`<p class="trp">${esc(trAt(t,i)||(S.ptr||{})[hash(p)]||(trFail[hash(p)]?'Çeviri alınamadı (internet gerekir)':'Çevriliyor…'))}</p>`:''}`).join('')}</div>
+ ${t.online?`<div class="mute tiny" style="margin:-4px 0 12px">Kaynak: <a href="${esc(t.url||'#')}" target="_blank" rel="noopener" style="color:var(--blue)">${esc(t.src||'Wikipedia')}</a> · CC BY-SA. Türkçesi için “TR göster” (otomatik çeviri).</div>`:''}
  ${(t.more||[]).length>((S.ext||{})[t.id]||0)?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat <span class="mute">(${(t.more||[]).length-((S.ext||{})[t.id]||0)} bölüm daha)</span></button>`:''}
- <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`}
+ <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`;
+ if(txTr)ensureTr(t)}
 function ctxSent(para,off){const re=/[^.!?]+[.!?]*["\u201d]?\s*/g;let m;while((m=re.exec(para))){if(off<m.index+m[0].length)return{s:m[0].trim(),i:off-m.index-(m[0].length-m[0].trimStart().length)}}return{s:para,i:off}}
 function sheetHtml(){const q=sheetSt,t=getText(curText);if(!q||!t)return'';const id=lk(q.tok),w=id&&byId[id],g=(t.gloss||{})[q.tok.toLowerCase()]||bg(q.tok.toLowerCase());
  const para=visParas(t)[q.p]||'',cs=ctxSent(para,q.o),ctx=esc(cs.s);const ci=cs.s.toLowerCase().indexOf(q.tok.toLowerCase());
@@ -411,10 +413,17 @@ async function refreshOnline(force){if(fetching||!curP())return;if(!navigator.on
  const keep=new Set(S.online.filter(t=>rd[t.id]).sort((a,b)=>String(rd[b.id]).localeCompare(String(rd[a.id]))).slice(0,5).map(t=>t.id));S.online=S.online.filter(t=>!rd[t.id]||keep.has(t.id));
  if(okAny&&got.length){S.lastFetch=Date.now();onlMsg=added?added+' yeni metin eklendi':'yeni metin yok'}else{onlErr=true;onlMsg=msgs.join(' · ')||'metin bulunamadı'}
  fetching=false;save();if(view==='texts'||view==='cats')render()}
+async function mt(q){try{const j=await jget('https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=tr&dt=t&q='+encodeURIComponent(q));const s=(j[0]||[]).map(x=>x[0]||'').join('');if(s)return s}catch(e){}
+ const j=await jget('https://api.mymemory.translated.net/get?q='+encodeURIComponent(q)+'&langpair=en|tr');const x=j.responseData&&j.responseData.translatedText;if(!x||/MYMEMORY|QUERY LENGTH|LIMIT/i.test(x))throw 0;return x}
+const trBusy={};let trFail={};
+function ensureTr(t){S.ptr=S.ptr||{};visParas(t).forEach((p,i)=>{if(trAt(t,i))return;const k=hash(p);if(S.ptr[k]||trBusy[k]||trFail[k])return;trBusy[k]=1;
+ (async()=>{try{const ss=p.match(/[^.!?]+[.!?]+["\u201d]?(?:\s|$)|[^.!?]+$/g)||[p],gs=[];let cur='';for(const s of ss){if(cur&&(cur+s).length>420){gs.push(cur);cur=''}cur+=s}if(cur)gs.push(cur);
+  const out=[];for(const g of gs)out.push(await mt(g.trim()));
+  const ks=Object.keys(S.ptr);if(ks.length>150)delete S.ptr[ks[0]];S.ptr[k]=out.join(' ');save()}catch(e){trFail[k]=1}finally{delete trBusy[k];if(view==='text'&&txTr)render()}})()})}
 async function doTr(tok){const key=tok.toLowerCase().replace(/’/g,"'");S.dict=S.dict||{};const el=()=>(sheetSt&&sheetSt.tok===tok)?$('#trout'):null;
  if(S.dict[key]){if(el())el().textContent=S.dict[key];return}
  if(!navigator.onLine){if(el())el().textContent='Çeviri için internet gerekir';return}
- try{const j=await jget('https://api.mymemory.translated.net/get?q='+encodeURIComponent(key)+'&langpair=en|tr');const tx=(j.responseData&&j.responseData.translatedText)||'';if(!tx||/MYMEMORY|QUERY LENGTH/i.test(tx))throw 0;
+ try{const tx=await mt(key);
   const ks=Object.keys(S.dict);if(ks.length>400)delete S.dict[ks[0]];S.dict[key]=tx.toLowerCase();save();if(el())el().textContent=S.dict[key]}catch(e){if(el())el().textContent='Anlam bulunamadı (internet gerekir)'}}
 /* ===== events ===== */
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&session&&session.m==='type'&&view==='study'){const b=document.querySelector('[data-act=tsubmit],[data-act=next]');b&&b.click()}});
@@ -445,7 +454,7 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
   else{sfx('bad');if(!pr.miss[id]){pr.miss[id]=1;grade(id,false,false);s.res.bad++}pr.shake=el.dataset.id;pr.sel=null}return render()}
  case'opentx':curText=el.dataset.id;txTr=false;return go('text');
  case'txmore':{const x=getText(curText);if(!x)return;S.ext=S.ext||{};const n=(S.ext[x.id]||0);if(n<(x.more||[]).length){S.ext[x.id]=n+1;save();sfx('ok');toast('Metin uzatıldı')}return render()}
- case'txtr':txTr=!txTr;return render();
+ case'txtr':txTr=!txTr;trFail={};return render();
  case'txdone':S.read=S.read||{};S.read[curText]=today();save();toast('Okundu ✓');sfx('ok');setTimeout(()=>refreshOnline(false),300);return render();
  case'tk':sheetSt={tok:el.dataset.t,p:+el.dataset.p,o:+el.dataset.o};return paintSheet();
  case'shclose':return closeSheet();
