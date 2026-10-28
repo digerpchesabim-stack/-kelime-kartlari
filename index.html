@@ -125,7 +125,8 @@ function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang='en-GB';u.r
 const activeIds=()=>WORDS.filter(w=>hasData(w)&&P(w.id).status==='active').map(w=>w.id);
 const learnedIds=()=>WORDS.filter(w=>P(w.id).status==='learned').map(w=>w.id);
 const hardIds=()=>WORDS.filter(w=>hasData(w)&&P(w.id).isHard).map(w=>w.id);
-function ensureActive(){let n=activeIds().length;for(const w of WORDS){if(n>=S.settings.activeSize)break;if(hasData(w)&&P(w.id).status==='unseen'){const p=PW(w.id);p.status='active';p.mastery=0;n++}}save()}
+function orderIds(){const o=S.order||[],have=new Set(o);const add=WORDS.map(w=>w.id).filter(i=>!have.has(i));if(add.length||!S.order){S.order=o.concat(shuffle(add))}return S.order}
+function ensureActive(){let n=activeIds().length;for(const w of orderIds().map(i=>byId[i]).filter(Boolean)){if(n>=S.settings.activeSize)break;if(hasData(w)&&P(w.id).status==='unseen'){const p=PW(w.id);p.status='active';p.mastery=0;n++}}save()}
 function bumpDay(){const t=today(),st=S.stats;st.hist=st.hist||{};st.hist[t]=(st.hist[t]||0)+1;const hk=Object.keys(st.hist).sort();while(hk.length>40)delete st.hist[hk.shift()];if(st.today.d!==t)st.today={d:t,n:0};st.today.n++;
  if(st.last!==t){const y=new Date(Date.now()-864e5).toISOString().slice(0,10);st.streak=(st.last===y)?st.streak+1:1;st.last=t}}
 const SRI=[0,1,2,4,7,15,30];
@@ -290,7 +291,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.7 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.8 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -345,7 +346,7 @@ function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap
  <div class="lg"><button class="lgb" style="background:var(--ok-soft)" data-act="twl" data-k="l">öğrendin · ${m.l.length}</button><button class="lgb" style="background:var(--red-soft)" data-act="twl" data-k="a">çalışıyorsun · ${m.a.length}</button><button class="lgb" style="background:var(--blue-soft)" data-act="twl" data-k="p">listede yeni · ${m.p.length}</button></div>
  <div class="card tx">${visParas(t).map((p,i)=>`<p>${tokHtml(p,i)}</p>${txTr?`<p class="trp">${esc(trAt(t,i)||(S.ptr||{})[hash(p)]||(trFail[hash(p)]?'Çeviri alınamadı (internet gerekir)':'Çevriliyor…'))}</p>`:''}`).join('')}</div>
  ${t.online?`<div class="mute tiny" style="margin:-4px 0 12px">Kaynak: <a href="${esc(t.url||'#')}" target="_blank" rel="noopener" style="color:var(--blue)">${esc(t.src||'Wikipedia')}</a> · CC BY-SA. Türkçesi için “TR göster” (otomatik çeviri).</div>`:''}
- ${(t.more||[]).length>((S.ext||{})[t.id]||0)?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat <span class="mute">(${(t.more||[]).length-((S.ext||{})[t.id]||0)} bölüm daha)</span></button>`:''}
+ ${((t.more||[]).length>((S.ext||{})[t.id]||0)||(t.online&&/^w\d+$/.test(t.id)&&!(t.more||[]).length))?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat${(t.more||[]).length?` <span class="mute">(${(t.more||[]).length-((S.ext||{})[t.id]||0)} bölüm daha)</span>`:''}</button>`:''}
  <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`;
  if(txTr)ensureTr(t)}
 function ctxSent(para,off){const re=/[^.!?]+[.!?]*["\u201d]?\s*/g;let m;while((m=re.exec(para))){if(off<m.index+m[0].length)return{s:m[0].trim(),i:off-m.index-(m[0].length-m[0].trimStart().length)}}return{s:para,i:off}}
@@ -408,7 +409,7 @@ async function refreshOnline(force){if(fetching||!curP())return;if(!navigator.on
  if(!got.length){const tasks=[],ce=need.filter(c=>CEC.includes(c));if(ce.length)tasks.push(fetchCE().then(r=>r.filter(t=>ce.includes(t.cat))));
   need.filter(c=>SIMPLE_KW[c]).forEach(c=>tasks.push(fetchSimple(c)));
   const rs=await Promise.allSettled(tasks);rs.forEach(r=>{if(r.status==='fulfilled'){okAny=true;got=got.concat(r.value)}else msgs.push('Wikipedia: '+errTxt(r.reason))})}
- const have=new Set(allTexts().map(t=>t.id).concat(Object.keys(rd)));let added=0;got.forEach(t=>{if(!have.has(t.id)){t.online=1;S.online.unshift(t);have.add(t.id);added++}});
+ const have=new Set(allTexts().map(t=>t.id).concat(Object.keys(rd)));let added=0;got.forEach(t=>{const ex=S.online.find(x=>x.id===t.id);if(ex){if(t.more&&t.more.length&&!(ex.more&&ex.more.length))ex.more=t.more;if(t.tr&&t.tr.length&&!(ex.tr&&ex.tr.length)){ex.tr=t.tr;ex.moretr=t.moretr||[]}return}if(!have.has(t.id)){t.online=1;S.online.unshift(t);have.add(t.id);added++}});
  const per={};S.online=S.online.filter(t=>{if(rd[t.id])return true;per[t.cat]=(per[t.cat]||0)+1;return per[t.cat]<=8});
  const keep=new Set(S.online.filter(t=>rd[t.id]).sort((a,b)=>String(rd[b.id]).localeCompare(String(rd[a.id]))).slice(0,5).map(t=>t.id));S.online=S.online.filter(t=>!rd[t.id]||keep.has(t.id));
  if(okAny&&got.length){S.lastFetch=Date.now();onlMsg=added?added+' yeni metin eklendi':'yeni metin yok'}else{onlErr=true;onlMsg=msgs.join(' · ')||'metin bulunamadı'}
@@ -453,7 +454,11 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
    if(Object.keys(pr.done).length===pr.ids.length){setTimeout(()=>go('end'),500);return render()}}
   else{sfx('bad');if(!pr.miss[id]){pr.miss[id]=1;grade(id,false,false);s.res.bad++}pr.shake=el.dataset.id;pr.sel=null}return render()}
  case'opentx':curText=el.dataset.id;txTr=false;return go('text');
- case'txmore':{const x=getText(curText);if(!x)return;S.ext=S.ext||{};const n=(S.ext[x.id]||0);if(n<(x.more||[]).length){S.ext[x.id]=n+1;save();sfx('ok');toast('Metin uzatıldı')}return render()}
+ case'txmore':{const x=getText(curText);if(!x)return;S.ext=S.ext||{};
+  const adv=()=>{const n=S.ext[x.id]||0;if(n<(x.more||[]).length){S.ext[x.id]=n+1;save();sfx('ok');toast('Metin uzatıldı')}render()};
+  if((x.more||[]).length)return adv();
+  if(/^w\d+$/.test(x.id)){toast('Devamı getiriliyor…');(async()=>{try{const j=await jget('https://simple.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exchars=3800&pageids='+x.id.slice(1)+'&format=json&origin=*');const pg=Object.values(j.query.pages)[0],more=chunkS(pg.extract||'').slice(1,3).map(twoParas);if(!more.length)throw 0;x.more=more;(S.online||[]).forEach(o=>{if(o.id===x.id)o.more=more});save();adv()}catch(e){toast('Devamı alınamadı (internet gerekir)')}})()}
+  return}
  case'txtr':txTr=!txTr;trFail={};return render();
  case'txdone':S.read=S.read||{};S.read[curText]=today();save();toast('Okundu ✓');sfx('ok');setTimeout(()=>refreshOnline(false),300);return render();
  case'tk':sheetSt={tok:el.dataset.t,p:+el.dataset.p,o:+el.dataset.o};return paintSheet();
