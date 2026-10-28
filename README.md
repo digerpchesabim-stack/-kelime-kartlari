@@ -19,3 +19,9 @@ Adres: `https://KULLANICI_ADI.github.io/REPO_ADI/`
 - `src/data/` : kelime başına anlam, cümle, IPA, ipucu (parti parti)
 - `src/build.py` : derleyici
 - `docs/` : yayınlanan site (index.html, manifest.json, sw.js, simgeler)
+
+## Metin Çalışması (v1.1)
+- Metinler `src/data/texts/*.json` içinde; `python3 src/build.py` ile uygulamaya gömülür.
+- Uygulama içinden de eklenebilir: Ayarlar > Metin ekle (JSON yapıştır) — yeniden derleme gerekmez.
+- Şema: `{id,title,topic,date,paragraphs[],tr[],gloss{}}` (tr, paragraphs ile aynı sayıda).
+- `texts_01.json` ÖRNEK metinlerdir; gerçek güncel metinleri Argon üretir.
