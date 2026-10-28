@@ -1,0 +1,452 @@
+[
+ {
+  "word": "amateur",
+  "partOfSpeech": "noun",
+  "meaningTr": "amatör",
+  "sentenceEn": "He is an amateur photographer.",
+  "sentenceTr": "O amatör bir fotoğrafçıdır.",
+  "phonetic": "/ˈæm.ə.tər/",
+  "memoryTip": "Türkçedeki 'amatör' kelimesiyle aynıdır."
+ },
+ {
+  "word": "among",
+  "partOfSpeech": "preposition",
+  "meaningTr": "arasında, aralarında",
+  "sentenceEn": "There is a small house among the trees.",
+  "sentenceTr": "Ağaçların arasında küçük bir ev var.",
+  "phonetic": "/əˈmʌŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "amount",
+  "partOfSpeech": "noun",
+  "meaningTr": "miktar, tutar",
+  "sentenceEn": "Use a small amount of sugar.",
+  "sentenceTr": "Az miktarda şeker kullanın.",
+  "phonetic": "/əˈmaʊnt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "an",
+  "partOfSpeech": "article",
+  "meaningTr": "bir",
+  "sentenceEn": "She ate an orange for breakfast.",
+  "sentenceTr": "Kahvaltıda bir portakal yedi.",
+  "phonetic": "/æn/",
+  "memoryTip": "Sesli harfle başlayan kelimelerden önce gelen 'bir'."
+ },
+ {
+  "word": "and",
+  "partOfSpeech": "conjunction",
+  "meaningTr": "ve",
+  "sentenceEn": "I bought bread and cheese.",
+  "sentenceTr": "Ekmek ve peynir aldım.",
+  "phonetic": "/ænd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "angry",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kızgın, öfkeli",
+  "sentenceEn": "The boss was angry about the mistake.",
+  "sentenceTr": "Patron hatadan dolayı kızgındı.",
+  "phonetic": "/ˈæŋ.ɡri/",
+  "memoryTip": "'Angry Birds' (Kızgın Kuşlar) oyunundan hatırlanabilir."
+ },
+ {
+  "word": "animal",
+  "partOfSpeech": "noun",
+  "meaningTr": "hayvan",
+  "sentenceEn": "The dog is a loyal animal.",
+  "sentenceTr": "Köpek sadık bir hayvandır.",
+  "phonetic": "/ˈæn.ɪ.məl/",
+  "memoryTip": "Belgesel kanalı 'Animal Planet' (Hayvan Gezegeni)."
+ },
+ {
+  "word": "another",
+  "partOfSpeech": "determiner",
+  "meaningTr": "başka bir, diğer",
+  "sentenceEn": "Can I have another cup of tea?",
+  "sentenceTr": "Bir fincan çay daha alabilir miyim?",
+  "phonetic": "/əˈnʌð.ər/",
+  "memoryTip": "An (bir) + other (diğer) = başka bir."
+ },
+ {
+  "word": "answer",
+  "partOfSpeech": "noun",
+  "meaningTr": "cevap, yanıt",
+  "sentenceEn": "Nobody knows the right answer.",
+  "sentenceTr": "Kimse doğru cevabı bilmiyor.",
+  "phonetic": "/ˈɑːn.sər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "ant",
+  "partOfSpeech": "noun",
+  "meaningTr": "karınca",
+  "sentenceEn": "A small ant walked on the table.",
+  "sentenceTr": "Masada küçük bir karınca yürüdü.",
+  "phonetic": "/ænt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "any",
+  "partOfSpeech": "determiner",
+  "meaningTr": "hiç, herhangi bir",
+  "sentenceEn": "Do you have any brothers?",
+  "sentenceTr": "Hiç erkek kardeşin var mı?",
+  "phonetic": "/ˈen.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "anybody",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "kimse, herhangi biri",
+  "sentenceEn": "Is anybody inside the office now?",
+  "sentenceTr": "Şu anda ofisin içinde kimse var mı?",
+  "phonetic": "/ˈen.iˌbɒd.i/",
+  "memoryTip": "Any (herhangi) + body (beden/kişi) = herhangi biri."
+ },
+ {
+  "word": "anyone",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "kimse, herhangi biri",
+  "sentenceEn": "Did anyone call me today?",
+  "sentenceTr": "Bugün beni kimse aradı mı?",
+  "phonetic": "/ˈen.i.wʌn/",
+  "memoryTip": "Any (herhangi) + one (bir/kişi) = herhangi biri."
+ },
+ {
+  "word": "anything",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "hiçbir şey, herhangi bir şey",
+  "sentenceEn": "I did not buy anything from the shop.",
+  "sentenceTr": "Mağazadan hiçbir şey almadım.",
+  "phonetic": "/ˈen.i.θɪŋ/",
+  "memoryTip": "Any (herhangi) + thing (şey) = herhangi bir şey."
+ },
+ {
+  "word": "anyway",
+  "partOfSpeech": "adverb",
+  "meaningTr": "neyse, her neyse, yine de",
+  "sentenceEn": "It was raining, but we set out anyway.",
+  "sentenceTr": "Yağmur yağıyordu, yine de yola çıktık.",
+  "phonetic": "/ˈen.i.weɪ/",
+  "memoryTip": "Any (herhangi) + way (yol) = her yolla, yine de."
+ },
+ {
+  "word": "anywhere",
+  "partOfSpeech": "adverb",
+  "meaningTr": "hiçbir yer, herhangi bir yer",
+  "sentenceEn": "I cannot find my keys anywhere.",
+  "sentenceTr": "Anahtarlarımı hiçbir yerde bulamıyorum.",
+  "phonetic": "/ˈen.i.weər/",
+  "memoryTip": "Any (herhangi) + where (nerede/yer) = herhangi bir yer."
+ },
+ {
+  "word": "appear",
+  "partOfSpeech": "verb",
+  "meaningTr": "görünmek, ortaya çıkmak",
+  "sentenceEn": "Stars appear in the sky at night.",
+  "sentenceTr": "Yıldızlar gece gökyüzünde görünür.",
+  "phonetic": "/əˈpɪər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "appetite",
+  "partOfSpeech": "noun",
+  "meaningTr": "iştah",
+  "sentenceEn": "Walking in the park gives me an appetite.",
+  "sentenceTr": "Parkta yürümek iştahımı açıyor.",
+  "phonetic": "/ˈæp.ə.taɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "apple",
+  "partOfSpeech": "noun",
+  "meaningTr": "elma",
+  "sentenceEn": "She cut the red apple in half.",
+  "sentenceTr": "Kırmızı elmayı ikiye böldü.",
+  "phonetic": "/ˈæp.əl/",
+  "memoryTip": "Telefon markası Apple'ın logosu ısırılmış elmadır."
+ },
+ {
+  "word": "application",
+  "partOfSpeech": "noun",
+  "meaningTr": "başvuru, uygulama",
+  "sentenceEn": "He sent a job application yesterday.",
+  "sentenceTr": "Dün bir iş başvurusu gönderdi.",
+  "phonetic": "/ˌæp.lɪˈkeɪ.ʃən/",
+  "memoryTip": "Telefondaki 'App' kelimesi bu kelimenin kısaltmasıdır."
+ },
+ {
+  "word": "apply",
+  "partOfSpeech": "verb",
+  "meaningTr": "başvurmak, uygulamak",
+  "sentenceEn": "Did you apply for the new job?",
+  "sentenceTr": "Yeni işe başvurdun mu?",
+  "phonetic": "/əˈplaɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "appointment",
+  "partOfSpeech": "noun",
+  "meaningTr": "randevu",
+  "sentenceEn": "I have a dentist appointment tomorrow morning.",
+  "sentenceTr": "Yarın sabah dişçi randevum var.",
+  "phonetic": "/əˈpɔɪnt.mənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "appropriate",
+  "partOfSpeech": "adjective",
+  "meaningTr": "uygun, yerinde",
+  "sentenceEn": "Wear appropriate clothes for the cold weather.",
+  "sentenceTr": "Soğuk hava için uygun kıyafetler giyin.",
+  "phonetic": "/əˈprəʊ.pri.ət/",
+  "memoryTip": ""
+ },
+ {
+  "word": "apricot",
+  "partOfSpeech": "noun",
+  "meaningTr": "kayısı",
+  "sentenceEn": "My mother makes sweet apricot jam.",
+  "sentenceTr": "Annem tatlı kayısı reçeli yapar.",
+  "phonetic": "/ˈeɪ.prɪ.kɒt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "April",
+  "partOfSpeech": "noun",
+  "meaningTr": "Nisan",
+  "sentenceEn": "It often rains here in April.",
+  "sentenceTr": "Burada Nisan ayında sık sık yağmur yağar.",
+  "phonetic": "/ˈeɪ.prəl/",
+  "memoryTip": "Nisan yağmurları 'aprıl' (April) yağmurlarıdır."
+ },
+ {
+  "word": "are",
+  "partOfSpeech": "verb",
+  "meaningTr": "-yız, -sınız, -lar (olmak)",
+  "sentenceEn": "We are ready for the trip.",
+  "sentenceTr": "Yolculuk için hazırız.",
+  "phonetic": "/ɑːr/",
+  "memoryTip": ""
+ },
+ {
+  "word": "argue",
+  "partOfSpeech": "verb",
+  "meaningTr": "tartışmak",
+  "sentenceEn": "They never argue about money.",
+  "sentenceTr": "Para konusunda asla tartışmazlar.",
+  "phonetic": "/ˈɑːɡ.juː/",
+  "memoryTip": "Tartışırken 'argüman' sunmak."
+ },
+ {
+  "word": "argument",
+  "partOfSpeech": "noun",
+  "meaningTr": "tartışma, sav",
+  "sentenceEn": "We had a short argument yesterday.",
+  "sentenceTr": "Dün kısa bir tartışma yaşadık.",
+  "phonetic": "/ˈɑːɡ.jə.mənt/",
+  "memoryTip": "Türkçedeki 'argüman' kelimesiyle aynı köktendir."
+ },
+ {
+  "word": "arm",
+  "partOfSpeech": "noun",
+  "meaningTr": "kol",
+  "sentenceEn": "He carried the box under his arm.",
+  "sentenceTr": "Kutuyu kolunun altında taşıdı.",
+  "phonetic": "/ɑːm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "armchair",
+  "partOfSpeech": "noun",
+  "meaningTr": "koltuk",
+  "sentenceEn": "My grandfather sits in the big armchair.",
+  "sentenceTr": "Dedem büyük koltukta oturur.",
+  "phonetic": "/ˈɑːm.tʃeər/",
+  "memoryTip": "Arm (kol) + chair (sandalye) = kollu sandalye, koltuk."
+ },
+ {
+  "word": "army",
+  "partOfSpeech": "noun",
+  "meaningTr": "ordu",
+  "sentenceEn": "His brother joined the army last year.",
+  "sentenceTr": "Erkek kardeşi geçen yıl orduya katıldı.",
+  "phonetic": "/ˈɑː.mi/",
+  "memoryTip": ""
+ },
+ {
+  "word": "around",
+  "partOfSpeech": "preposition",
+  "meaningTr": "etrafında, çevresinde",
+  "sentenceEn": "We sat around the kitchen table.",
+  "sentenceTr": "Mutfak masasının etrafında oturduk.",
+  "phonetic": "/əˈraʊnd/",
+  "memoryTip": "Round (yuvarlak/daire) kelimesinden; daire şeklinde etrafında."
+ },
+ {
+  "word": "as",
+  "partOfSpeech": "preposition",
+  "meaningTr": "olarak, gibi, kadar",
+  "sentenceEn": "She works as a teacher in Ankara.",
+  "sentenceTr": "Ankara'da öğretmen olarak çalışıyor.",
+  "phonetic": "/æz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "ashtray",
+  "partOfSpeech": "noun",
+  "meaningTr": "kül tablası",
+  "sentenceEn": "Please put the glass ashtray on the balcony.",
+  "sentenceTr": "Lütfen cam kül tablasını balkona koy.",
+  "phonetic": "/ˈæʃ.treɪ/",
+  "memoryTip": "Ash (kül) + tray (tepsi/tabla) = kül tablası."
+ },
+ {
+  "word": "ask",
+  "partOfSpeech": "verb",
+  "meaningTr": "sormak, istemek",
+  "sentenceEn": "Can I ask you a simple question?",
+  "sentenceTr": "Sana basit bir soru sorabilir miyim?",
+  "phonetic": "/ɑːsk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "aspirin",
+  "partOfSpeech": "noun",
+  "meaningTr": "aspirin",
+  "sentenceEn": "He took an aspirin for his headache.",
+  "sentenceTr": "Baş ağrısı için bir aspirin aldı.",
+  "phonetic": "/ˈæs.prɪn/",
+  "memoryTip": "Türkçedeki 'aspirin' ile tamamen aynıdır."
+ },
+ {
+  "word": "assume",
+  "partOfSpeech": "verb",
+  "meaningTr": "varsaymak, sanmak",
+  "sentenceEn": "I assume the train is on time.",
+  "sentenceTr": "Trenin zamanında geleceğini varsayıyorum.",
+  "phonetic": "/əˈsjuːm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "astronaut",
+  "partOfSpeech": "noun",
+  "meaningTr": "astronot",
+  "sentenceEn": "The astronaut travelled to space.",
+  "sentenceTr": "Astronot uzaya seyahat etti.",
+  "phonetic": "/ˈæs.trə.nɔːt/",
+  "memoryTip": "Türkçedeki 'astronot' kelimesiyle aynıdır."
+ },
+ {
+  "word": "at",
+  "partOfSpeech": "preposition",
+  "meaningTr": "-de, -da",
+  "sentenceEn": "Wait for me at the bus stop.",
+  "sentenceTr": "Beni otobüs durağında bekle.",
+  "phonetic": "/æt/",
+  "memoryTip": "E-posta adreslerindeki '@' (et) işareti yer belirtir."
+ },
+ {
+  "word": "ate",
+  "partOfSpeech": "verb",
+  "meaningTr": "yedi (eat fiilinin geçmiş zamanı)",
+  "sentenceEn": "We ate fish for dinner last night.",
+  "sentenceTr": "Dün gece akşam yemeğinde balık yedik.",
+  "phonetic": "/eɪt/",
+  "memoryTip": "'Et' — Dün akşam yemekte et yedi."
+ },
+ {
+  "word": "athlete",
+  "partOfSpeech": "noun",
+  "meaningTr": "atlet, sporcu",
+  "sentenceEn": "The young athlete runs very fast.",
+  "sentenceTr": "Genç sporcu çok hızlı koşar.",
+  "phonetic": "/ˈæθ.liːt/",
+  "memoryTip": "Türkçedeki 'atlet' (sporcu) kelimesiyle aynıdır."
+ },
+ {
+  "word": "atlas",
+  "partOfSpeech": "noun",
+  "meaningTr": "atlas, harita kitabı",
+  "sentenceEn": "Find Turkey on the world atlas.",
+  "sentenceTr": "Dünya atlasında Türkiye'yi bul.",
+  "phonetic": "/ˈæt.ləs/",
+  "memoryTip": "Türkçedeki 'atlas' kelimesiyle tamamen aynıdır."
+ },
+ {
+  "word": "attention",
+  "partOfSpeech": "noun",
+  "meaningTr": "dikkat, ilgi",
+  "sentenceEn": "Pay attention to the traffic lights.",
+  "sentenceTr": "Trafik ışıklarına dikkat et.",
+  "phonetic": "/əˈten.ʃən/",
+  "memoryTip": "Anonslarda 'Attention please!' (Lütfen dikkat!) denir."
+ },
+ {
+  "word": "attitude",
+  "partOfSpeech": "noun",
+  "meaningTr": "tutum, tavır",
+  "sentenceEn": "She has a positive attitude towards work.",
+  "sentenceTr": "İşe karşı olumlu bir tutumu var.",
+  "phonetic": "/ˈæt.ɪ.tjuːd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "August",
+  "partOfSpeech": "noun",
+  "meaningTr": "Ağustos",
+  "sentenceEn": "We go on holiday every August.",
+  "sentenceTr": "Her Ağustos ayında tatile gideriz.",
+  "phonetic": "/ˈɔː.ɡəst/",
+  "memoryTip": "Türkçedeki 'Ağustos' ayının İngilizce karşılığıdır."
+ },
+ {
+  "word": "aunt",
+  "partOfSpeech": "noun",
+  "meaningTr": "hala, teyze",
+  "sentenceEn": "My aunt lives in Izmir now.",
+  "sentenceTr": "Teyzem şimdi İzmir'de yaşıyor.",
+  "phonetic": "/ɑːnt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "authority",
+  "partOfSpeech": "noun",
+  "meaningTr": "otorite, yetki, yetkili",
+  "sentenceEn": "Who is the authority in this building?",
+  "sentenceTr": "Bu binadaki yetkili kim?",
+  "phonetic": "/ɔːˈθɒr.ə.ti/",
+  "memoryTip": "Türkçedeki 'otorite' kelimesiyle aynıdır."
+ },
+ {
+  "word": "automobile",
+  "partOfSpeech": "noun",
+  "meaningTr": "otomobil, araba",
+  "sentenceEn": "His father bought a new automobile.",
+  "sentenceTr": "Babası yeni bir otomobil satın aldı.",
+  "phonetic": "/ˈɔː.tə.mə.biːl/",
+  "memoryTip": "Türkçedeki 'otomobil' kelimesiyle aynıdır."
+ },
+ {
+  "word": "autumn",
+  "partOfSpeech": "noun",
+  "meaningTr": "sonbahar, güz",
+  "sentenceEn": "Leaves turn yellow in autumn.",
+  "sentenceTr": "Sonbaharda yapraklar sararır.",
+  "phonetic": "/ˈɔː.təm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "available",
+  "partOfSpeech": "adjective",
+  "meaningTr": "müsait, mevcut, uygun",
+  "sentenceEn": "Are there any available seats on the bus?",
+  "sentenceTr": "Otobüste hiç boş koltuk var mı?",
+  "phonetic": "/əˈveɪ.lə.bəl/",
+  "memoryTip": ""
+ }
+]

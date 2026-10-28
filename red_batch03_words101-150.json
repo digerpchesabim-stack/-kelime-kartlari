@@ -1,0 +1,452 @@
+[
+ {
+  "word": "average",
+  "partOfSpeech": "noun",
+  "meaningTr": "ortalama",
+  "sentenceEn": "The average of these three numbers is ten.",
+  "sentenceTr": "Bu üç sayının ortalaması ondur.",
+  "phonetic": "/ˈæv.ər.ɪdʒ/",
+  "memoryTip": "Türkçede de kullanılan 'averaj' (puan ortalaması) kelimesidir."
+ },
+ {
+  "word": "awake",
+  "partOfSpeech": "adjective",
+  "meaningTr": "uyanık",
+  "sentenceEn": "The baby is still awake in bed.",
+  "sentenceTr": "Bebek yatakta hâlâ uyanık.",
+  "phonetic": "/əˈweɪk/",
+  "memoryTip": "Wake (uyanmak) fiilinden türemiştir; awake = uyanık."
+ },
+ {
+  "word": "away",
+  "partOfSpeech": "adverb",
+  "meaningTr": "uzakta, uzağa",
+  "sentenceEn": "The train station is two kilometres away.",
+  "sentenceTr": "Tren istasyonu iki kilometre uzaktadır.",
+  "phonetic": "/əˈweɪ/",
+  "memoryTip": "Way (yol) kelimesinden; yola çıkıp uzağa gitmek."
+ },
+ {
+  "word": "axe",
+  "partOfSpeech": "noun",
+  "meaningTr": "balta",
+  "sentenceEn": "He cut the dry wood with an axe.",
+  "sentenceTr": "Kuru odunu baltayla kesti.",
+  "phonetic": "/æks/",
+  "memoryTip": ""
+ },
+ {
+  "word": "baby",
+  "partOfSpeech": "noun",
+  "meaningTr": "bebek",
+  "sentenceEn": "The little baby is sleeping quietly.",
+  "sentenceTr": "Küçük bebek sessizce uyuyor.",
+  "phonetic": "/ˈbeɪ.bi/",
+  "memoryTip": "Türkçedeki 'bebek' kelimesine ses olarak çok benzer."
+ },
+ {
+  "word": "back",
+  "partOfSpeech": "noun",
+  "meaningTr": "sırt, arka, geri",
+  "sentenceEn": "My back hurts after carrying heavy boxes.",
+  "sentenceTr": "Ağır kutuları taşıdıktan sonra sırtım ağrıyor.",
+  "phonetic": "/bæk/",
+  "memoryTip": "Futboldaki 'bek' (arka savunma) oyuncuları buradan gelir."
+ },
+ {
+  "word": "bad",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kötü",
+  "sentenceEn": "We stayed home because of bad weather.",
+  "sentenceTr": "Kötü hava yüzünden evde kaldık.",
+  "phonetic": "/bæd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bag",
+  "partOfSpeech": "noun",
+  "meaningTr": "çanta, poşet",
+  "sentenceEn": "She put her books into the bag.",
+  "sentenceTr": "Kitaplarını çantanın içine koydu.",
+  "phonetic": "/bæɡ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "baggage",
+  "partOfSpeech": "noun",
+  "meaningTr": "bagaj, valiz, eşya",
+  "sentenceEn": "We waited for our baggage at the airport.",
+  "sentenceTr": "Havalimanında bagajımızı bekledik.",
+  "phonetic": "/ˈbæɡ.ɪdʒ/",
+  "memoryTip": "Türkçedeki 'bagaj' kelimesiyle aynıdır."
+ },
+ {
+  "word": "balcony",
+  "partOfSpeech": "noun",
+  "meaningTr": "balkon",
+  "sentenceEn": "We drink tea on the balcony every evening.",
+  "sentenceTr": "Her akşam balkonda çay içeriz.",
+  "phonetic": "/ˈbæl.kə.ni/",
+  "memoryTip": "Türkçedeki 'balkon' kelimesiyle aynıdır."
+ },
+ {
+  "word": "ball",
+  "partOfSpeech": "noun",
+  "meaningTr": "top",
+  "sentenceEn": "The children played with a red ball.",
+  "sentenceTr": "Çocuklar kırmızı bir topla oynadı.",
+  "phonetic": "/bɔːl/",
+  "memoryTip": "Football (futbol) ve basketball (basketbol) kelimelerindeki 'ball' (top)."
+ },
+ {
+  "word": "balloon",
+  "partOfSpeech": "noun",
+  "meaningTr": "balon",
+  "sentenceEn": "The child held a yellow balloon.",
+  "sentenceTr": "Çocuk sarı bir balon tuttu.",
+  "phonetic": "/bəˈluːn/",
+  "memoryTip": "Türkçedeki 'balon' kelimesiyle aynıdır."
+ },
+ {
+  "word": "banana",
+  "partOfSpeech": "noun",
+  "meaningTr": "muz",
+  "sentenceEn": "I eat a banana before morning exercise.",
+  "sentenceTr": "Sabah egzersizinden önce bir muz yerim.",
+  "phonetic": "/bəˈnɑː.nə/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bandage",
+  "partOfSpeech": "noun",
+  "meaningTr": "bandaj, sargı bezi",
+  "sentenceEn": "The nurse put a bandage on his knee.",
+  "sentenceTr": "Hemşire onun dizine bir bandaj sardı.",
+  "phonetic": "/ˈbæn.dɪdʒ/",
+  "memoryTip": "Türkçedeki 'bandaj' kelimesiyle aynıdır."
+ },
+ {
+  "word": "bank",
+  "partOfSpeech": "noun",
+  "meaningTr": "banka",
+  "sentenceEn": "I need to get money from the bank.",
+  "sentenceTr": "Bankadan para çekmem gerekiyor.",
+  "phonetic": "/bæŋk/",
+  "memoryTip": "Türkçedeki 'banka' kelimesiyle aynıdır."
+ },
+ {
+  "word": "bar",
+  "partOfSpeech": "noun",
+  "meaningTr": "bar, kalıp",
+  "sentenceEn": "She bought a bar of dark chocolate.",
+  "sentenceTr": "Bir kalıp bitter çikolata satın aldı.",
+  "phonetic": "/bɑːr/",
+  "memoryTip": ""
+ },
+ {
+  "word": "barber",
+  "partOfSpeech": "noun",
+  "meaningTr": "berber",
+  "sentenceEn": "My father goes to the barber on Saturdays.",
+  "sentenceTr": "Babam cumartesi günleri berbere gider.",
+  "phonetic": "/ˈbɑː.bər/",
+  "memoryTip": "Türkçedeki 'berber' kelimesiyle aynıdır."
+ },
+ {
+  "word": "base",
+  "partOfSpeech": "noun",
+  "meaningTr": "taban, temel, üs",
+  "sentenceEn": "The lamp has a heavy metal base.",
+  "sentenceTr": "Lambanın ağır bir metal tabanı var.",
+  "phonetic": "/beɪs/",
+  "memoryTip": "Türkçedeki 'baz' (temel almak, baz almak) kelimesidir."
+ },
+ {
+  "word": "basic",
+  "partOfSpeech": "adjective",
+  "meaningTr": "temel, basit",
+  "sentenceEn": "Rice and bread are basic foods.",
+  "sentenceTr": "Pirinç ve ekmek temel gıdalardır.",
+  "phonetic": "/ˈbeɪ.sɪk/",
+  "memoryTip": "Base (temel) kelimesinden türemiştir; basic = temel."
+ },
+ {
+  "word": "basket",
+  "partOfSpeech": "noun",
+  "meaningTr": "sepet",
+  "sentenceEn": "Put the fresh eggs into the basket.",
+  "sentenceTr": "Taze yumurtaları sepetin içine koy.",
+  "phonetic": "/ˈbɑː.skɪt/",
+  "memoryTip": "Basketbol (sepet topu) kelimesindeki 'sepet' demektir."
+ },
+ {
+  "word": "basketball",
+  "partOfSpeech": "noun",
+  "meaningTr": "basketbol",
+  "sentenceEn": "They play basketball in the school garden.",
+  "sentenceTr": "Okul bahçesinde basketbol oynuyorlar.",
+  "phonetic": "/ˈbɑː.skɪt.bɔːl/",
+  "memoryTip": "Türkçedeki 'basketbol' kelimesiyle aynıdır."
+ },
+ {
+  "word": "bathroom",
+  "partOfSpeech": "noun",
+  "meaningTr": "banyo",
+  "sentenceEn": "I wash my hands in the bathroom.",
+  "sentenceTr": "Ellerimi banyoda yıkarım.",
+  "phonetic": "/ˈbɑːθ.ruːm/",
+  "memoryTip": "Bath (banyo/yıkanma) + room (oda) = banyo odası."
+ },
+ {
+  "word": "be",
+  "partOfSpeech": "verb",
+  "meaningTr": "olmak",
+  "sentenceEn": "Please be quiet in the library.",
+  "sentenceTr": "Lütfen kütüphanede sessiz olun.",
+  "phonetic": "/biː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bear",
+  "partOfSpeech": "noun",
+  "meaningTr": "ayı",
+  "sentenceEn": "A brown bear eats fish and honey.",
+  "sentenceTr": "Boz ayı balık ve bal yer.",
+  "phonetic": "/beər/",
+  "memoryTip": "Oyuncak ayı 'Teddy Bear' ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "beautiful",
+  "partOfSpeech": "adjective",
+  "meaningTr": "güzel",
+  "sentenceEn": "There are beautiful flowers in the park.",
+  "sentenceTr": "Parkta güzel çiçekler var.",
+  "phonetic": "/ˈbjuː.tɪ.fəl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "became",
+  "partOfSpeech": "verb",
+  "meaningTr": "oldu (become fiilinin geçmiş zamanı)",
+  "sentenceEn": "The weather became cold in the evening.",
+  "sentenceTr": "Akşam hava soğudu.",
+  "phonetic": "/bɪˈkeɪm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "because",
+  "partOfSpeech": "conjunction",
+  "meaningTr": "çünkü, -dığı için",
+  "sentenceEn": "I drank water because I was thirsty.",
+  "sentenceTr": "Su içtim çünkü susamıştım.",
+  "phonetic": "/bɪˈkɒz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "become",
+  "partOfSpeech": "verb",
+  "meaningTr": "olmak, haline gelmek",
+  "sentenceEn": "She wants to become a good doctor.",
+  "sentenceTr": "İyi bir doktor olmak istiyor.",
+  "phonetic": "/bɪˈkʌm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bed",
+  "partOfSpeech": "noun",
+  "meaningTr": "yatak",
+  "sentenceEn": "I go to bed at eleven o'clock.",
+  "sentenceTr": "Saat on birde yatağa giderim.",
+  "phonetic": "/bed/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bedroom",
+  "partOfSpeech": "noun",
+  "meaningTr": "yatak odası",
+  "sentenceEn": "The bedroom has a large window.",
+  "sentenceTr": "Yatak odasının geniş bir penceresi var.",
+  "phonetic": "/ˈbed.ruːm/",
+  "memoryTip": "Bed (yatak) + room (oda) = yatak odası."
+ },
+ {
+  "word": "been",
+  "partOfSpeech": "verb",
+  "meaningTr": "olmuş, bulunmuş (be fiilinin 3. hali)",
+  "sentenceEn": "Have you ever been to Ankara?",
+  "sentenceTr": "Hiç Ankara'ya gittin mi?",
+  "phonetic": "/biːn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "before",
+  "partOfSpeech": "preposition",
+  "meaningTr": "önce, -den önce",
+  "sentenceEn": "Wash your hands before dinner.",
+  "sentenceTr": "Akşam yemeğinden önce ellerini yıka.",
+  "phonetic": "/bɪˈfɔːr/",
+  "memoryTip": "Öncesi-sonrası fotoğraflarındaki 'Before / After' ifadesi."
+ },
+ {
+  "word": "began",
+  "partOfSpeech": "verb",
+  "meaningTr": "başladı (begin fiilinin geçmiş zamanı)",
+  "sentenceEn": "The movie began ten minutes ago.",
+  "sentenceTr": "Film on dakika önce başladı.",
+  "phonetic": "/bɪˈɡæn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "begin",
+  "partOfSpeech": "verb",
+  "meaningTr": "başlamak",
+  "sentenceEn": "Lessons begin at nine every morning.",
+  "sentenceTr": "Dersler her sabah dokuzda başlar.",
+  "phonetic": "/bɪˈɡɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "beginning",
+  "partOfSpeech": "noun",
+  "meaningTr": "başlangıç, baş",
+  "sentenceEn": "We missed the beginning of the concert.",
+  "sentenceTr": "Konserin başlangıcını kaçırdık.",
+  "phonetic": "/bɪˈɡɪn.ɪŋ/",
+  "memoryTip": "Begin (başlamak) fiilinden türeyen 'başlangıç' ismi."
+ },
+ {
+  "word": "begun",
+  "partOfSpeech": "verb",
+  "meaningTr": "başlamış (begin fiilinin 3. hali)",
+  "sentenceEn": "The rain has already begun outside.",
+  "sentenceTr": "Dışarıda yağmur çoktan başladı.",
+  "phonetic": "/bɪˈɡʌn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "behind",
+  "partOfSpeech": "preposition",
+  "meaningTr": "arkasında, gerisinde",
+  "sentenceEn": "The car is parked behind the house.",
+  "sentenceTr": "Araba evin arkasına park edilmiş.",
+  "phonetic": "/bɪˈhaɪnd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "believe",
+  "partOfSpeech": "verb",
+  "meaningTr": "inanmak",
+  "sentenceEn": "I believe your story is true.",
+  "sentenceTr": "Hikayenin doğru olduğuna inanıyorum.",
+  "phonetic": "/bɪˈliːv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "best",
+  "partOfSpeech": "adjective",
+  "meaningTr": "en iyi",
+  "sentenceEn": "Ali is my best friend at work.",
+  "sentenceTr": "Ali iş yerindeki en iyi arkadaşımdır.",
+  "phonetic": "/best/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bet",
+  "partOfSpeech": "verb",
+  "meaningTr": "bahse girmek, iddiaya girmek",
+  "sentenceEn": "I bet our team will win tonight.",
+  "sentenceTr": "Bahse girerim bu akşam bizim takım kazanacak.",
+  "phonetic": "/bet/",
+  "memoryTip": ""
+ },
+ {
+  "word": "better",
+  "partOfSpeech": "adjective",
+  "meaningTr": "daha iyi",
+  "sentenceEn": "Fresh fruit is better than candy.",
+  "sentenceTr": "Taze meyve şekerden daha iyidir.",
+  "phonetic": "/ˈbet.ər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "between",
+  "partOfSpeech": "preposition",
+  "meaningTr": "arasında (iki şeyin)",
+  "sentenceEn": "Sit between your mother and father.",
+  "sentenceTr": "Annenle babanın arasına otur.",
+  "phonetic": "/bɪˈtwiːn/",
+  "memoryTip": "İçindeki 'tw' harfleri 'two' (iki) kişi/şey arasını hatırlatır."
+ },
+ {
+  "word": "big",
+  "partOfSpeech": "adjective",
+  "meaningTr": "büyük, iri",
+  "sentenceEn": "They live in a big white house.",
+  "sentenceTr": "Büyük beyaz bir evde yaşıyorlar.",
+  "phonetic": "/bɪɡ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bill",
+  "partOfSpeech": "noun",
+  "meaningTr": "fatura, hesap",
+  "sentenceEn": "The waiter brought the dinner bill.",
+  "sentenceTr": "Garson akşam yemeği hesabını getirdi.",
+  "phonetic": "/bɪl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bird",
+  "partOfSpeech": "noun",
+  "meaningTr": "kuş",
+  "sentenceEn": "A small bird sang in the tree.",
+  "sentenceTr": "Ağaçta küçük bir kuş öttü.",
+  "phonetic": "/bɜːd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "birthday",
+  "partOfSpeech": "noun",
+  "meaningTr": "doğum günü",
+  "sentenceEn": "We baked a cake for her birthday.",
+  "sentenceTr": "Onun doğum günü için pasta pişirdik.",
+  "phonetic": "/ˈbɜːθ.deɪ/",
+  "memoryTip": "Birth (doğum) + day (gün) = doğum günü."
+ },
+ {
+  "word": "biscuit",
+  "partOfSpeech": "noun",
+  "meaningTr": "bisküvi",
+  "sentenceEn": "He ate a biscuit with his tea.",
+  "sentenceTr": "Çayıyla birlikte bir bisküvi yedi.",
+  "phonetic": "/ˈbɪs.kɪt/",
+  "memoryTip": "Türkçedeki 'bisküvi' kelimesiyle aynıdır."
+ },
+ {
+  "word": "bit",
+  "partOfSpeech": "noun",
+  "meaningTr": "parça, biraz",
+  "sentenceEn": "Add a little bit of milk.",
+  "sentenceTr": "Birazcık süt ekle.",
+  "phonetic": "/bɪt/",
+  "memoryTip": "Bilgisayardaki en küçük veri parçası 'bit'tir."
+ },
+ {
+  "word": "bite",
+  "partOfSpeech": "verb",
+  "meaningTr": "ısırmak",
+  "sentenceEn": "Friendly dogs do not bite people.",
+  "sentenceTr": "Uysal köpekler insanları ısırmaz.",
+  "phonetic": "/baɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "black",
+  "partOfSpeech": "adjective",
+  "meaningTr": "siyah, kara",
+  "sentenceEn": "He wears a black coat in winter.",
+  "sentenceTr": "Kışın siyah bir palto giyer.",
+  "phonetic": "/blæk/",
+  "memoryTip": ""
+ }
+]

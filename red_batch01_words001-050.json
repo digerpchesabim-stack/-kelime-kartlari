@@ -1,0 +1,452 @@
+[
+ {
+  "word": "a",
+  "partOfSpeech": "article",
+  "meaningTr": "bir",
+  "sentenceEn": "I bought a new coffee cup.",
+  "sentenceTr": "Yeni bir kahve fincanı aldım.",
+  "phonetic": "/ə/",
+  "memoryTip": "Tek bir harf, tek 'bir' şey demektir."
+ },
+ {
+  "word": "a.m.",
+  "partOfSpeech": "abbreviation",
+  "meaningTr": "öğleden önce, sabah",
+  "sentenceEn": "My work starts at 8 a.m.",
+  "sentenceTr": "İşim sabah saat 8'de başlıyor.",
+  "phonetic": "/ˌeɪˈem/",
+  "memoryTip": "a.m. = öğleden önce; \"AM\" sabah alarmı gibi düşün."
+ },
+ {
+  "word": "ability",
+  "partOfSpeech": "noun",
+  "meaningTr": "yetenek, beceri",
+  "sentenceEn": "She has great cooking ability.",
+  "sentenceTr": "Onun harika bir yemek yapma yeteneği var.",
+  "phonetic": "/əˈbɪl.ə.ti/",
+  "memoryTip": "'Aaa bilirdi!' — Çok yetenekli olduğu için her işi bilirdi."
+ },
+ {
+  "word": "able",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yapabilen, -ebilir",
+  "sentenceEn": "I am able to drive a car.",
+  "sentenceTr": "Araba kullanabiliyorum.",
+  "phonetic": "/ˈeɪ.bəl/",
+  "memoryTip": "\"Eybıl\" gibi okunur: \"Hey, bil!\" — yapabilen kişi bilir."
+ },
+ {
+  "word": "about",
+  "partOfSpeech": "preposition",
+  "meaningTr": "hakkında, yaklaşık",
+  "sentenceEn": "We talked about our holiday plans.",
+  "sentenceTr": "Tatil planlarımız hakkında konuştuk.",
+  "phonetic": "/əˈbaʊt/",
+  "memoryTip": "\"Abaut\" — bu konu HAKKINDA konuşalım."
+ },
+ {
+  "word": "absolutely",
+  "partOfSpeech": "adverb",
+  "meaningTr": "kesinlikle, tamamen",
+  "sentenceEn": "This cake is absolutely delicious.",
+  "sentenceTr": "Bu pasta kesinlikle çok lezzetli.",
+  "phonetic": "/ˌæb.səˈluːt.li/",
+  "memoryTip": ""
+ },
+ {
+  "word": "accept",
+  "partOfSpeech": "verb",
+  "meaningTr": "kabul etmek",
+  "sentenceEn": "We accept credit cards here.",
+  "sentenceTr": "Burada kredi kartı kabul ediyoruz.",
+  "phonetic": "/əkˈsept/",
+  "memoryTip": "'Ak cep' — Teklifi kabul edip parayı ak cebine koydu."
+ },
+ {
+  "word": "accident",
+  "partOfSpeech": "noun",
+  "meaningTr": "kaza, tesadüf",
+  "sentenceEn": "I spilled my tea by accident.",
+  "sentenceTr": "Çayımı kazara döktüm.",
+  "phonetic": "/ˈæk.sɪ.dənt/",
+  "memoryTip": "'Aksi' bir durum oldu ve kaza meydana geldi."
+ },
+ {
+  "word": "achieve",
+  "partOfSpeech": "verb",
+  "meaningTr": "başarmak, ulaşmak",
+  "sentenceEn": "You can achieve your goals today.",
+  "sentenceTr": "Bugün hedeflerine ulaşabilirsin.",
+  "phonetic": "/əˈtʃiːv/",
+  "memoryTip": "'Aç ev' — Hedefini başardın, yeni evinin kapısını aç!"
+ },
+ {
+  "word": "across",
+  "partOfSpeech": "preposition",
+  "meaningTr": "karşısında, karşıdan karşıya",
+  "sentenceEn": "The bakery is across the street.",
+  "sentenceTr": "Fırın caddenin karşısındadır.",
+  "phonetic": "/əˈkrɒs/",
+  "memoryTip": "\"Akros\" — caddenin karşısına geç."
+ },
+ {
+  "word": "act",
+  "partOfSpeech": "verb",
+  "meaningTr": "davranmak, rol yapmak",
+  "sentenceEn": "We must act quickly now.",
+  "sentenceTr": "Şimdi hızlı hareket etmeliyiz.",
+  "phonetic": "/ækt/",
+  "memoryTip": "'Aktör' sahnede rol yapar ve davranır."
+ },
+ {
+  "word": "action",
+  "partOfSpeech": "noun",
+  "meaningTr": "hareket, eylem",
+  "sentenceEn": "I like watching action movies.",
+  "sentenceTr": "Aksiyon filmleri izlemeyi severim.",
+  "phonetic": "/ˈæk.ʃən/",
+  "memoryTip": "Türkçedeki 'aksiyon' kelimesiyle aynı kökten gelir."
+ },
+ {
+  "word": "activity",
+  "partOfSpeech": "noun",
+  "meaningTr": "etkinlik, faaliyet",
+  "sentenceEn": "Swimming is a healthy weekend activity.",
+  "sentenceTr": "Yüzmek sağlıklı bir hafta sonu etkinliğidir.",
+  "phonetic": "/ækˈtɪv.ə.ti/",
+  "memoryTip": "Türkçedeki 'aktivite' kelimesidir."
+ },
+ {
+  "word": "actually",
+  "partOfSpeech": "adverb",
+  "meaningTr": "aslında, gerçekten",
+  "sentenceEn": "Actually, I prefer drinking hot tea.",
+  "sentenceTr": "Aslında sıcak çay içmeyi tercih ederim.",
+  "phonetic": "/ˈæk.tʃu.ə.li/",
+  "memoryTip": "'Ak çuval' — Aslında o çuval ak (beyaz) renktedir."
+ },
+ {
+  "word": "add",
+  "partOfSpeech": "verb",
+  "meaningTr": "eklemek, ilave etmek",
+  "sentenceEn": "Please add some salt to the soup.",
+  "sentenceTr": "Lütfen çorbaya biraz tuz ekle.",
+  "phonetic": "/æd/",
+  "memoryTip": "'Et' — Yemeğe biraz da et ekle."
+ },
+ {
+  "word": "address",
+  "partOfSpeech": "noun",
+  "meaningTr": "adres",
+  "sentenceEn": "Write your home address on paper.",
+  "sentenceTr": "Ev adresini kağıda yaz.",
+  "phonetic": "/əˈdres/",
+  "memoryTip": "Türkçedeki 'adres' kelimesiyle aynıdır."
+ },
+ {
+  "word": "adjective",
+  "partOfSpeech": "noun",
+  "meaningTr": "sıfat",
+  "sentenceEn": "Big is an easy English adjective.",
+  "sentenceTr": "Big, kolay bir İngilizce sıfattır.",
+  "phonetic": "/ˈædʒ.ek.tɪv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "advantage",
+  "partOfSpeech": "noun",
+  "meaningTr": "avantaj, fayda",
+  "sentenceEn": "Knowing English is a big advantage.",
+  "sentenceTr": "İngilizce bilmek büyük bir avantajdır.",
+  "phonetic": "/ədˈvɑːn.tɪdʒ/",
+  "memoryTip": "Türkçedeki 'avantaj' kelimesidir."
+ },
+ {
+  "word": "aerial",
+  "partOfSpeech": "noun",
+  "meaningTr": "anten",
+  "sentenceEn": "The television aerial is on the roof.",
+  "sentenceTr": "Televizyon anteni çatıdadır.",
+  "phonetic": "/ˈeə.ri.əl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "aeroplane",
+  "partOfSpeech": "noun",
+  "meaningTr": "uçak",
+  "sentenceEn": "The aeroplane landed at the airport.",
+  "sentenceTr": "Uçak havalimanına indi.",
+  "phonetic": "/ˈeə.rə.pleɪn/",
+  "memoryTip": "'Aero' hava demektir, havada süzülen uçak."
+ },
+ {
+  "word": "affect",
+  "partOfSpeech": "verb",
+  "meaningTr": "etkilemek",
+  "sentenceEn": "Cold weather can affect your health.",
+  "sentenceTr": "Soğuk hava sağlığınızı etkileyebilir.",
+  "phonetic": "/əˈfekt/",
+  "memoryTip": "Film 'efekt'leri izleyicileri çok etkiler."
+ },
+ {
+  "word": "afraid",
+  "partOfSpeech": "adjective",
+  "meaningTr": "korkmuş, korkan",
+  "sentenceEn": "My cat is afraid of dogs.",
+  "sentenceTr": "Kedim köpeklerden korkar.",
+  "phonetic": "/əˈfreɪd/",
+  "memoryTip": "'Efrat' — Evdeki efrat karanlıktan korktu."
+ },
+ {
+  "word": "after",
+  "partOfSpeech": "preposition",
+  "meaningTr": "sonra, -den sonra",
+  "sentenceEn": "I drink coffee after breakfast.",
+  "sentenceTr": "Kahvaltıdan sonra kahve içerim.",
+  "phonetic": "/ˈɑːf.tər/",
+  "memoryTip": "'Af ter' — Spor yaptıktan sonra ter atılır."
+ },
+ {
+  "word": "afternoon",
+  "partOfSpeech": "noun",
+  "meaningTr": "öğleden sonra",
+  "sentenceEn": "We have a meeting this afternoon.",
+  "sentenceTr": "Bu öğleden sonra bir toplantımız var.",
+  "phonetic": "/ˌɑːf.təˈnuːn/",
+  "memoryTip": "'After' (sonra) + 'noon' (öğle) = öğleden sonra."
+ },
+ {
+  "word": "again",
+  "partOfSpeech": "adverb",
+  "meaningTr": "tekrar, yine",
+  "sentenceEn": "Please read this short sentence again.",
+  "sentenceTr": "Lütfen bu kısa cümleyi tekrar oku.",
+  "phonetic": "/əˈɡen/",
+  "memoryTip": "'Eee gene' mi aynı şey oldu? Tekrar, yine!"
+ },
+ {
+  "word": "against",
+  "partOfSpeech": "preposition",
+  "meaningTr": "karşı, zıt",
+  "sentenceEn": "Put the table against the wall.",
+  "sentenceTr": "Masayı duvara yasla.",
+  "phonetic": "/əˈɡenst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "age",
+  "partOfSpeech": "noun",
+  "meaningTr": "yaş, çağ",
+  "sentenceEn": "What is your brother's age?",
+  "sentenceTr": "Erkek kardeşinin yaşı kaç?",
+  "phonetic": "/eɪdʒ/",
+  "memoryTip": "\"Eyc!\" — Kaç yaşındasın? Yaşın = age."
+ },
+ {
+  "word": "ago",
+  "partOfSpeech": "adverb",
+  "meaningTr": "önce",
+  "sentenceEn": "The bus left ten minutes ago.",
+  "sentenceTr": "Otobüs on dakika önce kalktı.",
+  "phonetic": "/əˈɡəʊ/",
+  "memoryTip": "'Eee go (git)' — O çoktan, yıllar önce gitti."
+ },
+ {
+  "word": "agree",
+  "partOfSpeech": "verb",
+  "meaningTr": "katılmak, aynı fikirde olmak",
+  "sentenceEn": "I agree with your good idea.",
+  "sentenceTr": "Senin güzel fikrine katılıyorum.",
+  "phonetic": "/əˈɡriː/",
+  "memoryTip": "'Eee gri!' — İkimiz de rengin gri olduğunda hemfikiriz."
+ },
+ {
+  "word": "agreement",
+  "partOfSpeech": "noun",
+  "meaningTr": "anlaşma, sözleşme",
+  "sentenceEn": "We signed the house rental agreement.",
+  "sentenceTr": "Ev kira sözleşmesini imzaladık.",
+  "phonetic": "/əˈɡriː.mənt/",
+  "memoryTip": "Agree (katılmak) kelimesinden türeyen 'anlaşma'."
+ },
+ {
+  "word": "air",
+  "partOfSpeech": "noun",
+  "meaningTr": "hava",
+  "sentenceEn": "Open the window for fresh air.",
+  "sentenceTr": "Temiz hava için pencereyi aç.",
+  "phonetic": "/eər/",
+  "memoryTip": "'Eğer' temiz hava alırsan rahat nefes alırsın."
+ },
+ {
+  "word": "air-conditioner",
+  "partOfSpeech": "noun",
+  "meaningTr": "klima",
+  "sentenceEn": "Turn on the air-conditioner in summer.",
+  "sentenceTr": "Yazın klimayı aç.",
+  "phonetic": "/ˈeə kənˌdɪʃ.ən.ər/",
+  "memoryTip": "Air (hava) şartlandırıcı, yani klima."
+ },
+ {
+  "word": "airhostess",
+  "partOfSpeech": "noun",
+  "meaningTr": "hostes, kabin memuru",
+  "sentenceEn": "The airhostess brought water to passengers.",
+  "sentenceTr": "Hostes yolculara su getirdi.",
+  "phonetic": "/ˈeəˌhəʊ.stəs/",
+  "memoryTip": "Air (hava) + hostess (hostes) = uçak hostesi."
+ },
+ {
+  "word": "airline",
+  "partOfSpeech": "noun",
+  "meaningTr": "havayolu",
+  "sentenceEn": "This airline flies to Istanbul daily.",
+  "sentenceTr": "Bu havayolu her gün İstanbul'a uçuyor.",
+  "phonetic": "/ˈeə.laɪn/",
+  "memoryTip": "Air (hava) + line (hat) = havayolu hattı."
+ },
+ {
+  "word": "airplane",
+  "partOfSpeech": "noun",
+  "meaningTr": "uçak",
+  "sentenceEn": "We saw a big white airplane.",
+  "sentenceTr": "Büyük beyaz bir uçak gördük.",
+  "phonetic": "/ˈeə.pleɪn/",
+  "memoryTip": "Air (hava) + plane (düzlem/kanat) = uçak."
+ },
+ {
+  "word": "alike",
+  "partOfSpeech": "adjective",
+  "meaningTr": "benzer, aynı",
+  "sentenceEn": "The two sisters look very alike.",
+  "sentenceTr": "İki kız kardeş birbirine çok benziyor.",
+  "phonetic": "/əˈlaɪk/",
+  "memoryTip": "Like (gibi/benzer) kelimesinden: birbirinin aynısı."
+ },
+ {
+  "word": "alive",
+  "partOfSpeech": "adjective",
+  "meaningTr": "canlı, hayatta",
+  "sentenceEn": "Keep the green plants alive with water.",
+  "sentenceTr": "Yeşil bitkileri suyla canlı tut.",
+  "phonetic": "/əˈlaɪv/",
+  "memoryTip": "Canlı yayınlarda 'Live' yazar; alive = canlı."
+ },
+ {
+  "word": "all",
+  "partOfSpeech": "determiner",
+  "meaningTr": "bütün, tüm, hepsi",
+  "sentenceEn": "All rooms in the hotel are clean.",
+  "sentenceTr": "Oteldeki bütün odalar temiz.",
+  "phonetic": "/ɔːl/",
+  "memoryTip": "\"Ol\" gibi okunur: hepsi olsun, hepsini al."
+ },
+ {
+  "word": "all right",
+  "partOfSpeech": "adjective",
+  "meaningTr": "iyi, tamam, pekala",
+  "sentenceEn": "Everything is all right at home.",
+  "sentenceTr": "Evde her şey yolunda.",
+  "phonetic": "/ˌɔːl ˈraɪt/",
+  "memoryTip": "All (hepsi) + right (doğru/iyi) = her şey tamam."
+ },
+ {
+  "word": "allow",
+  "partOfSpeech": "verb",
+  "meaningTr": "izin vermek",
+  "sentenceEn": "They do not allow pets inside.",
+  "sentenceTr": "İçeride evcil hayvana izin vermiyorlar.",
+  "phonetic": "/əˈlaʊ/",
+  "memoryTip": "'Alev' — Kamp alanında alev yakmaya izin verdiler."
+ },
+ {
+  "word": "almost",
+  "partOfSpeech": "adverb",
+  "meaningTr": "neredeyse, hemen hemen",
+  "sentenceEn": "Dinner is almost ready on the table.",
+  "sentenceTr": "Akşam yemeği masada neredeyse hazır.",
+  "phonetic": "/ˈɔːl.məʊst/",
+  "memoryTip": "'Ol dost' — Neredeyse dost oluyorduk."
+ },
+ {
+  "word": "alone",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yalnız, tek başına",
+  "sentenceEn": "He lives alone in a small flat.",
+  "sentenceTr": "Küçük bir dairede yalnız yaşıyor.",
+  "phonetic": "/əˈləʊn/",
+  "memoryTip": "'Al on' — Al on lirayı, tek başına sinemaya git."
+ },
+ {
+  "word": "along",
+  "partOfSpeech": "preposition",
+  "meaningTr": "boyunca",
+  "sentenceEn": "We walked along the beach together.",
+  "sentenceTr": "Birlikte sahil boyunca yürüdük.",
+  "phonetic": "/əˈlɒŋ/",
+  "memoryTip": "'Long' (uzun) yol boyunca yürümek."
+ },
+ {
+  "word": "aloud",
+  "partOfSpeech": "adverb",
+  "meaningTr": "yüksek sesle, sesli",
+  "sentenceEn": "Read the English words aloud every day.",
+  "sentenceTr": "Her gün İngilizce kelimeleri yüksek sesle oku.",
+  "phonetic": "/əˈlaʊd/",
+  "memoryTip": "'Loud' yüksek ses demektir; aloud = sesli olarak."
+ },
+ {
+  "word": "alphabet",
+  "partOfSpeech": "noun",
+  "meaningTr": "alfabe",
+  "sentenceEn": "The English alphabet has twenty-six letters.",
+  "sentenceTr": "İngiliz alfabesinde yirmi altı harf vardır.",
+  "phonetic": "/ˈæl.fə.bet/",
+  "memoryTip": "Türkçedeki 'alfabe' kelimesiyle aynıdır."
+ },
+ {
+  "word": "already",
+  "partOfSpeech": "adverb",
+  "meaningTr": "zaten, çoktan",
+  "sentenceEn": "I have already paid the bill.",
+  "sentenceTr": "Faturayı çoktan ödedim.",
+  "phonetic": "/ɔːlˈred.i/",
+  "memoryTip": "All (tamamen) + ready (hazır) = zaten çoktan hazır!"
+ },
+ {
+  "word": "also",
+  "partOfSpeech": "adverb",
+  "meaningTr": "ayrıca, de, da",
+  "sentenceEn": "She speaks Turkish and also English.",
+  "sentenceTr": "O Türkçe ve ayrıca İngilizce konuşuyor.",
+  "phonetic": "/ˈɔːl.səʊ/",
+  "memoryTip": "'Ol su' — Yemeğin yanına ayrıca su da olsun."
+ },
+ {
+  "word": "although",
+  "partOfSpeech": "conjunction",
+  "meaningTr": "-e rağmen, karşın",
+  "sentenceEn": "We walked although the weather was cold.",
+  "sentenceTr": "Hava soğuk olmasına rağmen yürüdük.",
+  "phonetic": "/ɔːlˈðəʊ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "always",
+  "partOfSpeech": "adverb",
+  "meaningTr": "her zaman, daima",
+  "sentenceEn": "I always eat eggs for breakfast.",
+  "sentenceTr": "Kahvaltıda her zaman yumurta yerim.",
+  "phonetic": "/ˈɔːl.weɪz/",
+  "memoryTip": "All (tüm) + ways (yollar) = her yolda, her zaman."
+ },
+ {
+  "word": "am",
+  "partOfSpeech": "verb",
+  "meaningTr": "-im, -ım (olmak)",
+  "sentenceEn": "I am a new student here.",
+  "sentenceTr": "Ben burada yeni bir öğrenciyim.",
+  "phonetic": "/æm/",
+  "memoryTip": "'I am' — Ben varım, ben ...-im."
+ }
+]

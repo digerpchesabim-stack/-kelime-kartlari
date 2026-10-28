@@ -1,0 +1,452 @@
+[
+ {
+  "word": "candle",
+  "partOfSpeech": "noun",
+  "meaningTr": "mum",
+  "sentenceEn": "She lit a white candle on the table.",
+  "sentenceTr": "Masanın üzerinde beyaz bir mum yaktı.",
+  "phonetic": "/ˈkæn.dəl/",
+  "memoryTip": "Türkçedeki 'kandil' kelimesine benzer."
+ },
+ {
+  "word": "candy",
+  "partOfSpeech": "noun",
+  "meaningTr": "şeker, şekerleme",
+  "sentenceEn": "The child ate a piece of sweet candy.",
+  "sentenceTr": "Çocuk bir parça tatlı şeker yedi.",
+  "phonetic": "/ˈkæn.di/",
+  "memoryTip": "Popüler telefon oyunu 'Candy Crush' (Şeker Patlatma)."
+ },
+ {
+  "word": "cap",
+  "partOfSpeech": "noun",
+  "meaningTr": "şapka, kep, kapak",
+  "sentenceEn": "He wore a blue cap in the sun.",
+  "sentenceTr": "Güneşte mavi bir şapka taktı.",
+  "phonetic": "/kæp/",
+  "memoryTip": "Türkçede de şapka anlamında kullanılan 'kep' kelimesidir."
+ },
+ {
+  "word": "capital",
+  "partOfSpeech": "noun",
+  "meaningTr": "başkent, büyük harf, sermaye",
+  "sentenceEn": "Ankara is the capital of Turkey.",
+  "sentenceTr": "Ankara Türkiye'nin başkentidir.",
+  "phonetic": "/ˈkæp.ɪ.təl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "car",
+  "partOfSpeech": "noun",
+  "meaningTr": "araba, otomobil",
+  "sentenceEn": "My father washed his car on Sunday.",
+  "sentenceTr": "Babam pazar günü arabasını yıkadı.",
+  "phonetic": "/kɑːr/",
+  "memoryTip": ""
+ },
+ {
+  "word": "card",
+  "partOfSpeech": "noun",
+  "meaningTr": "kart",
+  "sentenceEn": "You can pay the bill by card.",
+  "sentenceTr": "Hesabı kartla ödeyebilirsiniz.",
+  "phonetic": "/kɑːd/",
+  "memoryTip": "Türkçedeki 'kart' (kredi kartı, tebrik kartı) kelimesidir."
+ },
+ {
+  "word": "care",
+  "partOfSpeech": "noun",
+  "meaningTr": "bakım, özen, ilgi",
+  "sentenceEn": "This plant needs special care in winter.",
+  "sentenceTr": "Bu bitkinin kışın özel bakıma ihtiyacı var.",
+  "phonetic": "/keər/",
+  "memoryTip": "Şampuan ve kremlerdeki 'Hair Care / Skin Care' (saç/cilt bakımı) ifadesi."
+ },
+ {
+  "word": "careful",
+  "partOfSpeech": "adjective",
+  "meaningTr": "dikkatli, özenli",
+  "sentenceEn": "Be careful when you cross the road.",
+  "sentenceTr": "Yoldan karşıya geçerken dikkatli ol.",
+  "phonetic": "/ˈkeə.fəl/",
+  "memoryTip": "Care (özen/dikkat) + full (dolu) = dikkat dolu, dikkatli."
+ },
+ {
+  "word": "carpet",
+  "partOfSpeech": "noun",
+  "meaningTr": "halı",
+  "sentenceEn": "We bought a new carpet for the living room.",
+  "sentenceTr": "Oturma odası için yeni bir halı aldık.",
+  "phonetic": "/ˈkɑː.pɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "carrot",
+  "partOfSpeech": "noun",
+  "meaningTr": "havuç",
+  "sentenceEn": "She put a grated carrot into the salad.",
+  "sentenceTr": "Salatanın içine rendelenmiş bir havuç koydu.",
+  "phonetic": "/ˈkær.ət/",
+  "memoryTip": ""
+ },
+ {
+  "word": "carry",
+  "partOfSpeech": "verb",
+  "meaningTr": "taşımak",
+  "sentenceEn": "Can you help me carry this heavy bag?",
+  "sentenceTr": "Bu ağır çantayı taşımama yardım edebilir misin?",
+  "phonetic": "/ˈkær.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "case",
+  "partOfSpeech": "noun",
+  "meaningTr": "durum, kutu, kılıf",
+  "sentenceEn": "Put your glasses back in their case.",
+  "sentenceTr": "Gözlüğünü tekrar kılıfına koy.",
+  "phonetic": "/keɪs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cashier",
+  "partOfSpeech": "noun",
+  "meaningTr": "kasiyer, vezne",
+  "sentenceEn": "Pay the money to the supermarket cashier.",
+  "sentenceTr": "Parayı süpermarket kasiyerine öde.",
+  "phonetic": "/kæʃˈɪər/",
+  "memoryTip": "Türkçedeki 'kasiyer' kelimesiyle aynıdır."
+ },
+ {
+  "word": "cassette",
+  "partOfSpeech": "noun",
+  "meaningTr": "kaset",
+  "sentenceEn": "My father still keeps his old music cassette.",
+  "sentenceTr": "Babam eski müzik kasetini hâlâ saklıyor.",
+  "phonetic": "/kəˈset/",
+  "memoryTip": "Türkçedeki 'kaset' kelimesiyle aynıdır."
+ },
+ {
+  "word": "cat",
+  "partOfSpeech": "noun",
+  "meaningTr": "kedi",
+  "sentenceEn": "The white cat slept on the warm sofa.",
+  "sentenceTr": "Beyaz kedi sıcak koltukta uyudu.",
+  "phonetic": "/kæt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "catch",
+  "partOfSpeech": "verb",
+  "meaningTr": "yakalamak, yetişmek",
+  "sentenceEn": "Run fast to catch the morning bus.",
+  "sentenceTr": "Sabah otobüsüne yetişmek için hızlı koş.",
+  "phonetic": "/kætʃ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "caught",
+  "partOfSpeech": "verb",
+  "meaningTr": "yakaladı (catch fiilinin geçmiş zamanı)",
+  "sentenceEn": "The goalkeeper caught the ball easily.",
+  "sentenceTr": "Kaleci topu kolayca yakaladı.",
+  "phonetic": "/kɔːt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cause",
+  "partOfSpeech": "noun",
+  "meaningTr": "neden, sebep, sebep olmak",
+  "sentenceEn": "Ice on the road can cause accidents.",
+  "sentenceTr": "Yoldaki buz kazalara neden olabilir.",
+  "phonetic": "/kɔːz/",
+  "memoryTip": "Because (çünkü/sebebiyle) kelimesinin içindeki 'cause' (sebep)."
+ },
+ {
+  "word": "ceiling",
+  "partOfSpeech": "noun",
+  "meaningTr": "tavan",
+  "sentenceEn": "A bright lamp hangs from the ceiling.",
+  "sentenceTr": "Tavandan parlak bir lamba sarkıyor.",
+  "phonetic": "/ˈsiː.lɪŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cell",
+  "partOfSpeech": "noun",
+  "meaningTr": "hücre",
+  "sentenceEn": "Each cell in the body is very small.",
+  "sentenceTr": "Vücuttaki her hücre çok küçüktür.",
+  "phonetic": "/sel/",
+  "memoryTip": "Turkcell isminde olduğu gibi 'cell phone' (cep telefonu/hücresel telefon) buradan gelir."
+ },
+ {
+  "word": "center",
+  "partOfSpeech": "noun",
+  "meaningTr": "merkez, orta",
+  "sentenceEn": "The hotel is in the city center.",
+  "sentenceTr": "Otel şehir merkezindedir.",
+  "phonetic": "/ˈsen.tər/",
+  "memoryTip": "Alışveriş merkezlerindeki 'Shopping Center' ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "centigrade",
+  "partOfSpeech": "noun",
+  "meaningTr": "santigrat (derece)",
+  "sentenceEn": "Water boils at one hundred degrees centigrade.",
+  "sentenceTr": "Su yüz santigrat derecede kaynar.",
+  "phonetic": "/ˈsen.tɪ.ɡreɪd/",
+  "memoryTip": "Türkçedeki 'santigrat' derece kelimesiyle aynıdır."
+ },
+ {
+  "word": "central",
+  "partOfSpeech": "adjective",
+  "meaningTr": "merkezi, ana",
+  "sentenceEn": "Our flat has central heating in winter.",
+  "sentenceTr": "Dairemizde kışın merkezi ısıtma vardır.",
+  "phonetic": "/ˈsen.trəl/",
+  "memoryTip": "Center (merkez) kelimesinden türemiştir; telefon 'santral'i de buradan gelir."
+ },
+ {
+  "word": "century",
+  "partOfSpeech": "noun",
+  "meaningTr": "yüzyıl, asır",
+  "sentenceEn": "This stone bridge is one century old.",
+  "sentenceTr": "Bu taş köprü yüz yıllık.",
+  "phonetic": "/ˈsen.tʃər.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "certain",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kesin, emin, belirli",
+  "sentenceEn": "I am certain about the meeting time.",
+  "sentenceTr": "Toplantı saatinden eminim.",
+  "phonetic": "/ˈsɜː.tən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "certainly",
+  "partOfSpeech": "adverb",
+  "meaningTr": "kesinlikle, elbette",
+  "sentenceEn": "I will certainly help you tomorrow.",
+  "sentenceTr": "Yarın sana kesinlikle yardım edeceğim.",
+  "phonetic": "/ˈsɜː.tən.li/",
+  "memoryTip": "Certain (emin/kesin) + -ly (zarf eki) = kesinlikle."
+ },
+ {
+  "word": "chair",
+  "partOfSpeech": "noun",
+  "meaningTr": "sandalye",
+  "sentenceEn": "Pull up a chair to the table.",
+  "sentenceTr": "Masanın yanına bir sandalye çek.",
+  "phonetic": "/tʃeər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "chalk",
+  "partOfSpeech": "noun",
+  "meaningTr": "tebeşir",
+  "sentenceEn": "The teacher took a piece of white chalk.",
+  "sentenceTr": "Öğretmen bir parça beyaz tebeşir aldı.",
+  "phonetic": "/tʃɔːk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "chance",
+  "partOfSpeech": "noun",
+  "meaningTr": "şans, fırsat, ihtimal",
+  "sentenceEn": "Give me one more chance to try.",
+  "sentenceTr": "Denemem için bana bir şans daha ver.",
+  "phonetic": "/tʃɑːns/",
+  "memoryTip": "Türkçedeki 'şans' kelimesiyle aynıdır."
+ },
+ {
+  "word": "change",
+  "partOfSpeech": "verb",
+  "meaningTr": "değiştirmek, değişmek, para üstü",
+  "sentenceEn": "I want to change my wet shirt.",
+  "sentenceTr": "Islak gömleğimi değiştirmek istiyorum.",
+  "phonetic": "/tʃeɪndʒ/",
+  "memoryTip": "Döviz bürolarında 'Exchange' (para değiştirme) yazar."
+ },
+ {
+  "word": "character",
+  "partOfSpeech": "noun",
+  "meaningTr": "karakter, kişilik",
+  "sentenceEn": "Who is the main character in this book?",
+  "sentenceTr": "Bu kitaptaki ana karakter kim?",
+  "phonetic": "/ˈkær.ək.tər/",
+  "memoryTip": "Türkçedeki 'karakter' kelimesiyle aynıdır."
+ },
+ {
+  "word": "charge",
+  "partOfSpeech": "verb",
+  "meaningTr": "ücret almak, şarj etmek",
+  "sentenceEn": "I need to charge my phone battery.",
+  "sentenceTr": "Telefonumun bataryasını şarj etmem gerekiyor.",
+  "phonetic": "/tʃɑːdʒ/",
+  "memoryTip": "Türkçedeki 'şarj' (doldurma) kelimesiyle aynıdır."
+ },
+ {
+  "word": "cheap",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ucuz",
+  "sentenceEn": "Fresh vegetables are cheap at the local market.",
+  "sentenceTr": "Semt pazarında taze sebzeler ucuzdur.",
+  "phonetic": "/tʃiːp/",
+  "memoryTip": ""
+ },
+ {
+  "word": "check",
+  "partOfSpeech": "verb",
+  "meaningTr": "kontrol etmek",
+  "sentenceEn": "Please check your answers before the end.",
+  "sentenceTr": "Bitirmeden önce lütfen cevaplarınızı kontrol edin.",
+  "phonetic": "/tʃek/",
+  "memoryTip": "Hastanedeki 'check-up' (genel sağlık kontrolü) sözünden hatırlanabilir."
+ },
+ {
+  "word": "cheek",
+  "partOfSpeech": "noun",
+  "meaningTr": "yanak",
+  "sentenceEn": "The mother kissed the baby on the cheek.",
+  "sentenceTr": "Anne bebeği yanağından öptü.",
+  "phonetic": "/tʃiːk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cheerful",
+  "partOfSpeech": "adjective",
+  "meaningTr": "neşeli, keyifli",
+  "sentenceEn": "Our neighbour is always a cheerful person.",
+  "sentenceTr": "Komşumuz her zaman neşeli bir insandır.",
+  "phonetic": "/ˈtʃɪə.fəl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cheese",
+  "partOfSpeech": "noun",
+  "meaningTr": "peynir",
+  "sentenceEn": "I like eating white cheese at breakfast.",
+  "sentenceTr": "Kahvaltıda beyaz peynir yemeyi severim.",
+  "phonetic": "/tʃiːz/",
+  "memoryTip": "Fotoğraf çekilirken gülümsemek için 'Say cheese!' (peynir de) denir."
+ },
+ {
+  "word": "cheeseburger",
+  "partOfSpeech": "noun",
+  "meaningTr": "çizburger, peynirli hamburger",
+  "sentenceEn": "He ordered a hot cheeseburger for lunch.",
+  "sentenceTr": "Öğle yemeği için sıcak bir çizburger sipariş etti.",
+  "phonetic": "/ˈtʃiːzˌbɜː.ɡər/",
+  "memoryTip": "Cheese (peynir) + burger = peynirli burger (çizburger)."
+ },
+ {
+  "word": "chemist's",
+  "partOfSpeech": "noun",
+  "meaningTr": "eczane",
+  "sentenceEn": "Buy the medicine from the nearest chemist's.",
+  "sentenceTr": "İlacı en yakın eczaneden al.",
+  "phonetic": "/ˈkem.ɪsts/",
+  "memoryTip": "Kimyager (chemist) kelimesinden; ilaç hazırlanan yer, eczane."
+ },
+ {
+  "word": "chess",
+  "partOfSpeech": "noun",
+  "meaningTr": "satranç",
+  "sentenceEn": "My grandfather taught me how to play chess.",
+  "sentenceTr": "Dedem bana nasıl satranç oynanacağını öğretti.",
+  "phonetic": "/tʃes/",
+  "memoryTip": ""
+ },
+ {
+  "word": "chicken",
+  "partOfSpeech": "noun",
+  "meaningTr": "tavuk",
+  "sentenceEn": "We cooked roast chicken and rice for dinner.",
+  "sentenceTr": "Akşam yemeği için fırında tavuk ve pilav pişirdik.",
+  "phonetic": "/ˈtʃɪk.ɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "child",
+  "partOfSpeech": "noun",
+  "meaningTr": "çocuk",
+  "sentenceEn": "Every child likes playing in the park.",
+  "sentenceTr": "Her çocuk parkta oynamayı sever.",
+  "phonetic": "/tʃaɪld/",
+  "memoryTip": ""
+ },
+ {
+  "word": "children",
+  "partOfSpeech": "noun",
+  "meaningTr": "çocuklar",
+  "sentenceEn": "The children are waiting for the school bus.",
+  "sentenceTr": "Çocuklar okul otobüsünü bekliyorlar.",
+  "phonetic": "/ˈtʃɪl.drən/",
+  "memoryTip": "Child (çocuk) kelimesinin çoğul halidir."
+ },
+ {
+  "word": "chimney",
+  "partOfSpeech": "noun",
+  "meaningTr": "baca",
+  "sentenceEn": "Smoke rose from the house chimney.",
+  "sentenceTr": "Evin bacasından duman yükseldi.",
+  "phonetic": "/ˈtʃɪm.ni/",
+  "memoryTip": ""
+ },
+ {
+  "word": "chips",
+  "partOfSpeech": "noun",
+  "meaningTr": "patates kızartması, cips",
+  "sentenceEn": "The children ate fish and hot chips.",
+  "sentenceTr": "Çocuklar balık ve sıcak patates kızartması yedi.",
+  "phonetic": "/tʃɪps/",
+  "memoryTip": "Türkçeye 'cips' olarak geçmiştir."
+ },
+ {
+  "word": "chocolate",
+  "partOfSpeech": "noun",
+  "meaningTr": "çikolata",
+  "sentenceEn": "She drank a cup of hot chocolate.",
+  "sentenceTr": "Bir fincan sıcak çikolata içti.",
+  "phonetic": "/ˈtʃɒk.lət/",
+  "memoryTip": "Türkçedeki 'çikolata' kelimesiyle aynıdır."
+ },
+ {
+  "word": "choice",
+  "partOfSpeech": "noun",
+  "meaningTr": "seçim, tercih, seçenek",
+  "sentenceEn": "Living near work is a good choice.",
+  "sentenceTr": "İş yerine yakın yaşamak iyi bir tercihtir.",
+  "phonetic": "/tʃɔɪs/",
+  "memoryTip": "Choose (seçmek) fiilinin isim halidir."
+ },
+ {
+  "word": "choose",
+  "partOfSpeech": "verb",
+  "meaningTr": "seçmek",
+  "sentenceEn": "You can choose any book from the shelf.",
+  "sentenceTr": "Raftan herhangi bir kitabı seçebilirsin.",
+  "phonetic": "/tʃuːz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "church",
+  "partOfSpeech": "noun",
+  "meaningTr": "kilise",
+  "sentenceEn": "There is an old stone church in the square.",
+  "sentenceTr": "Meydanda eski bir taş kilise var.",
+  "phonetic": "/tʃɜːtʃ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cigarette",
+  "partOfSpeech": "noun",
+  "meaningTr": "sigara",
+  "sentenceEn": "The sign says no cigarette smoking inside.",
+  "sentenceTr": "Tabelada içeride sigara içilmez yazıyor.",
+  "phonetic": "/ˌsɪɡ.ərˈet/",
+  "memoryTip": "Türkçedeki 'sigara' kelimesiyle aynıdır."
+ }
+]

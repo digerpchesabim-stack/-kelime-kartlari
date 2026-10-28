@@ -1,0 +1,902 @@
+[
+ {
+  "word": "internet",
+  "partOfSpeech": "noun",
+  "meaningTr": "internet, genel ağ",
+  "sentenceEn": "You can pay your bills on the internet.",
+  "sentenceTr": "Faturalarınızı internet üzerinden ödeyebilirsiniz.",
+  "phonetic": "/ˈɪn.tə.net/",
+  "memoryTip": "Türkçedeki 'internet' kelimesiyle tamamen aynıdır."
+ },
+ {
+  "word": "interrupt",
+  "partOfSpeech": "verb",
+  "meaningTr": "sözünü kesmek, bölmek",
+  "sentenceEn": "Please do not interrupt me while I speak.",
+  "sentenceTr": "Lütfen ben konuşurken sözümü kesmeyin.",
+  "phonetic": "/ˌɪn.təˈrʌpt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "into",
+  "partOfSpeech": "preposition",
+  "meaningTr": "içine, içeriye",
+  "sentenceEn": "Pour the hot tea into the glass.",
+  "sentenceTr": "Sıcak çayı bardağın içine dök.",
+  "phonetic": "/ˈɪn.tuː/",
+  "memoryTip": "In (iç) + to (-e/-a yönelme) = içine doğru."
+ },
+ {
+  "word": "introduce",
+  "partOfSpeech": "verb",
+  "meaningTr": "tanıştırmak, tanıtmak",
+  "sentenceEn": "Let me introduce my friend to you.",
+  "sentenceTr": "Arkadaşımı seninle tanıştırayım.",
+  "phonetic": "/ˌɪn.trəˈdjuːs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "invention",
+  "partOfSpeech": "noun",
+  "meaningTr": "icat, buluş",
+  "sentenceEn": "The telephone was an important invention.",
+  "sentenceTr": "Telefon önemli bir icattı.",
+  "phonetic": "/ɪnˈven.ʃən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "inventor",
+  "partOfSpeech": "noun",
+  "meaningTr": "mucit",
+  "sentenceEn": "The young inventor made a new machine.",
+  "sentenceTr": "Genç mucit yeni bir makine yaptı.",
+  "phonetic": "/ɪnˈven.tər/",
+  "memoryTip": "Invention (icat) yapan kişi, yani mucit."
+ },
+ {
+  "word": "investment",
+  "partOfSpeech": "noun",
+  "meaningTr": "yatırım",
+  "sentenceEn": "Buying land is a good long-term investment.",
+  "sentenceTr": "Arsa almak iyi bir uzun vadeli yatırımdır.",
+  "phonetic": "/ɪnˈvest.mənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "irregular",
+  "partOfSpeech": "adjective",
+  "meaningTr": "düzensiz, kuralsız",
+  "sentenceEn": "Write the irregular verbs in your notebook.",
+  "sentenceTr": "Düzensiz fiilleri defterine yaz.",
+  "phonetic": "/ɪˈreɡ.jə.lər/",
+  "memoryTip": "Ir- (olumsuzluk eki) + regular (düzenli) = düzensiz."
+ },
+ {
+  "word": "item",
+  "partOfSpeech": "noun",
+  "meaningTr": "madde, parça, ürün",
+  "sentenceEn": "Check every item on the shopping list.",
+  "sentenceTr": "Alışveriş listesindeki her ürünü kontrol et.",
+  "phonetic": "/ˈaɪ.təm/",
+  "memoryTip": "Oyunlarda da eşya/parça anlamında 'item' olarak kullanılır."
+ },
+ {
+  "word": "its",
+  "partOfSpeech": "determiner",
+  "meaningTr": "onun (cansız ve hayvan)",
+  "sentenceEn": "The cat drank all its milk quickly.",
+  "sentenceTr": "Kedi bütün sütünü hızlıca içti.",
+  "phonetic": "/ɪts/",
+  "memoryTip": "It (o) + -s (iyelik eki) = onun."
+ },
+ {
+  "word": "itself",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "kendisi, kendini (cansız ve hayvan)",
+  "sentenceEn": "The door locks itself automatically at night.",
+  "sentenceTr": "Kapı geceleri otomatik olarak kendini kilitler.",
+  "phonetic": "/ɪtˈself/",
+  "memoryTip": "It (o) + self (kendi) = kendisi."
+ },
+ {
+  "word": "jacket",
+  "partOfSpeech": "noun",
+  "meaningTr": "ceket, mont",
+  "sentenceEn": "Take your warm jacket before going outside.",
+  "sentenceTr": "Dışarı çıkmadan önce sıcak ceketini al.",
+  "phonetic": "/ˈdʒæk.ɪt/",
+  "memoryTip": "Türkçedeki 'ceket' kelimesiyle aynıdır."
+ },
+ {
+  "word": "jam",
+  "partOfSpeech": "noun",
+  "meaningTr": "reçel, sıkışıklık",
+  "sentenceEn": "We eat strawberry jam at breakfast.",
+  "sentenceTr": "Kahvaltıda çilek reçeli yeriz.",
+  "phonetic": "/dʒæm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "January",
+  "partOfSpeech": "noun",
+  "meaningTr": "Ocak (ayı)",
+  "sentenceEn": "January is the first month of the year.",
+  "sentenceTr": "Ocak yılın ilk ayıdır.",
+  "phonetic": "/ˈdʒæn.ju.ər.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "jaw",
+  "partOfSpeech": "noun",
+  "meaningTr": "çene",
+  "sentenceEn": "My lower jaw hurts after the dentist visit.",
+  "sentenceTr": "Dişçi ziyaretinden sonra alt çenem ağrıyor.",
+  "phonetic": "/dʒɔː/",
+  "memoryTip": "Ünlü köpekbalığı filmi 'Jaws' (Çeneler) isminden hatırlanabilir."
+ },
+ {
+  "word": "jazz",
+  "partOfSpeech": "noun",
+  "meaningTr": "caz (müzik)",
+  "sentenceEn": "They play soft jazz music in this cafe.",
+  "sentenceTr": "Bu kafede hafif caz müziği çalıyorlar.",
+  "phonetic": "/dʒæz/",
+  "memoryTip": "Türkçedeki 'caz' müziği kelimesiyle aynıdır."
+ },
+ {
+  "word": "jelly",
+  "partOfSpeech": "noun",
+  "meaningTr": "jöle",
+  "sentenceEn": "The children ate fruit jelly after lunch.",
+  "sentenceTr": "Çocuklar öğle yemeğinden sonra meyveli jöle yedi.",
+  "phonetic": "/ˈdʒel.i/",
+  "memoryTip": "Türkçedeki 'jöle' ve 'jelibon' kelimeleriyle benzerdir."
+ },
+ {
+  "word": "job",
+  "partOfSpeech": "noun",
+  "meaningTr": "iş, meslek, görev",
+  "sentenceEn": "My sister found a new job yesterday.",
+  "sentenceTr": "Kız kardeşim dün yeni bir iş buldu.",
+  "phonetic": "/dʒɒb/",
+  "memoryTip": ""
+ },
+ {
+  "word": "join",
+  "partOfSpeech": "verb",
+  "meaningTr": "katılmak, birleştirmek",
+  "sentenceEn": "Would you like to join our dinner tonight?",
+  "sentenceTr": "Bu akşam yemeğimize katılmak ister misin?",
+  "phonetic": "/dʒɔɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "joy",
+  "partOfSpeech": "noun",
+  "meaningTr": "neşe, sevinç",
+  "sentenceEn": "The baby brought great joy to the family.",
+  "sentenceTr": "Bebek aileye büyük bir sevinç getirdi.",
+  "phonetic": "/dʒɔɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "jug",
+  "partOfSpeech": "noun",
+  "meaningTr": "sürahi",
+  "sentenceEn": "Put a jug of cold water on the table.",
+  "sentenceTr": "Masaya bir sürahi soğuk su koy.",
+  "phonetic": "/dʒʌɡ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "juice",
+  "partOfSpeech": "noun",
+  "meaningTr": "meyve suyu",
+  "sentenceEn": "I drink fresh orange juice every morning.",
+  "sentenceTr": "Her sabah taze portakal suyu içerim.",
+  "phonetic": "/dʒuːs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "July",
+  "partOfSpeech": "noun",
+  "meaningTr": "Temmuz",
+  "sentenceEn": "The weather is very hot here in July.",
+  "sentenceTr": "Temmuz ayında burada hava çok sıcaktır.",
+  "phonetic": "/dʒuˈlaɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "June",
+  "partOfSpeech": "noun",
+  "meaningTr": "Haziran",
+  "sentenceEn": "Schools close for summer holiday in June.",
+  "sentenceTr": "Okullar Haziran ayında yaz tatili için kapanır.",
+  "phonetic": "/dʒuːn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "jungle",
+  "partOfSpeech": "noun",
+  "meaningTr": "tropikal orman, balta girmemiş orman",
+  "sentenceEn": "Monkeys live in the deep green jungle.",
+  "sentenceTr": "Maymunlar sık yeşil ormanda yaşar.",
+  "phonetic": "/ˈdʒʌŋ.ɡəl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "just",
+  "partOfSpeech": "adverb",
+  "meaningTr": "sadece, yalnızca, az önce",
+  "sentenceEn": "Wait just five minutes at the door.",
+  "sentenceTr": "Kapıda sadece beş dakika bekle.",
+  "phonetic": "/dʒʌst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kangaroo",
+  "partOfSpeech": "noun",
+  "meaningTr": "kanguru",
+  "sentenceEn": "A kangaroo carries its baby in a pouch.",
+  "sentenceTr": "Kanguru yavrusunu bir kesede taşır.",
+  "phonetic": "/ˌkæŋ.ɡəˈruː/",
+  "memoryTip": "Türkçedeki 'kanguru' kelimesiyle aynıdır."
+ },
+ {
+  "word": "keep",
+  "partOfSpeech": "verb",
+  "meaningTr": "tutmak, saklamak, koruma",
+  "sentenceEn": "Keep the milk in the cold fridge.",
+  "sentenceTr": "Sütü soğuk buzdolabında tut.",
+  "phonetic": "/kiːp/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kettle",
+  "partOfSpeech": "noun",
+  "meaningTr": "su ısıtıcısı, çaydanlık",
+  "sentenceEn": "Boil some water in the electric kettle.",
+  "sentenceTr": "Elektrikli su ısıtıcısında biraz su kaynat.",
+  "phonetic": "/ˈket.əl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "key",
+  "partOfSpeech": "noun",
+  "meaningTr": "anahtar, tuş",
+  "sentenceEn": "Put the house key in your bag.",
+  "sentenceTr": "Ev anahtarını çantana koy.",
+  "phonetic": "/kiː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kid",
+  "partOfSpeech": "noun",
+  "meaningTr": "çocuk, oğlak",
+  "sentenceEn": "Every kid in the neighbourhood knows this game.",
+  "sentenceTr": "Mahalledeki her çocuk bu oyunu bilir.",
+  "phonetic": "/kɪd/",
+  "memoryTip": "Mağazalardaki 'Kids' (çocuk reyonu) yazısından hatırlanabilir."
+ },
+ {
+  "word": "kidney",
+  "partOfSpeech": "noun",
+  "meaningTr": "böbrek",
+  "sentenceEn": "Drinking water is good for your kidney health.",
+  "sentenceTr": "Su içmek böbrek sağlığınız için iyidir.",
+  "phonetic": "/ˈkɪd.ni/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kill",
+  "partOfSpeech": "verb",
+  "meaningTr": "öldürmek",
+  "sentenceEn": "Cold winter frost can kill garden flowers.",
+  "sentenceTr": "Soğuk kış donu bahçe çiçeklerini öldürebilir.",
+  "phonetic": "/kɪl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kilo",
+  "partOfSpeech": "noun",
+  "meaningTr": "kilo",
+  "sentenceEn": "Buy one kilo of tomatoes from the market.",
+  "sentenceTr": "Pazardan bir kilo domates al.",
+  "phonetic": "/ˈkiː.ləʊ/",
+  "memoryTip": "Türkçedeki 'kilo' kelimesiyle tamamen aynıdır."
+ },
+ {
+  "word": "kilogram(me)",
+  "partOfSpeech": "noun",
+  "meaningTr": "kilogram",
+  "sentenceEn": "This bag of flour weighs one kilogram.",
+  "sentenceTr": "Bu un paketi bir kilogram ağırlığındadır.",
+  "phonetic": "/ˈkɪl.ə.ɡræm/",
+  "memoryTip": "Türkçedeki 'kilogram' kelimesiyle aynıdır."
+ },
+ {
+  "word": "kilometre",
+  "partOfSpeech": "noun",
+  "meaningTr": "kilometre",
+  "sentenceEn": "The beach is only one kilometre from here.",
+  "sentenceTr": "Plaj buradan sadece bir kilometre uzaklıktadır.",
+  "phonetic": "/ˈkɪl.əˌmiː.tər/",
+  "memoryTip": "Türkçedeki 'kilometre' kelimesiyle aynıdır."
+ },
+ {
+  "word": "kind",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kibar, nazik, tür, çeşit",
+  "sentenceEn": "Our neighbour is a very kind woman.",
+  "sentenceTr": "Komşumuz çok kibar bir kadındır.",
+  "phonetic": "/kaɪnd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kindergarten",
+  "partOfSpeech": "noun",
+  "meaningTr": "anaokulu, kreş",
+  "sentenceEn": "Her little son goes to kindergarten every morning.",
+  "sentenceTr": "Onun küçük oğlu her sabah anaokuluna gidiyor.",
+  "phonetic": "/ˈkɪn.dəˌɡɑː.tən/",
+  "memoryTip": "Sürpriz yumurta 'Kinder' (çocuklar) + garden (bahçe) = çocuk bahçesi, anaokulu."
+ },
+ {
+  "word": "king",
+  "partOfSpeech": "noun",
+  "meaningTr": "kral",
+  "sentenceEn": "The old king lived in a stone castle.",
+  "sentenceTr": "Yaşlı kral taş bir şatoda yaşadı.",
+  "phonetic": "/kɪŋ/",
+  "memoryTip": "Burger King veya 'kral' anlamında sıkça duyulan kelime."
+ },
+ {
+  "word": "kiss",
+  "partOfSpeech": "verb",
+  "meaningTr": "öpmek, öpücük",
+  "sentenceEn": "Mothers always kiss their babies before sleep.",
+  "sentenceTr": "Anneler uyumadan önce bebeklerini her zaman öper.",
+  "phonetic": "/kɪs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kitchen",
+  "partOfSpeech": "noun",
+  "meaningTr": "mutfak",
+  "sentenceEn": "My father is making tea in the kitchen.",
+  "sentenceTr": "Babam mutfakta çay demliyor.",
+  "phonetic": "/ˈkɪtʃ.ən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "kite",
+  "partOfSpeech": "noun",
+  "meaningTr": "uçurtma",
+  "sentenceEn": "The boy flew a red kite on Sunday.",
+  "sentenceTr": "Çocuk pazar günü kırmızı bir uçurtma uçurdu.",
+  "phonetic": "/kaɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "knew",
+  "partOfSpeech": "verb",
+  "meaningTr": "bildi, biliyordu (know fiilinin geçmiş zamanı)",
+  "sentenceEn": "She knew the right answer to the question.",
+  "sentenceTr": "Sorunun doğru cevabını biliyordu.",
+  "phonetic": "/njuː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "know",
+  "partOfSpeech": "verb",
+  "meaningTr": "bilmek, tanımak",
+  "sentenceEn": "Do you know the way to the station?",
+  "sentenceTr": "İstasyona giden yolu biliyor musun?",
+  "phonetic": "/nəʊ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "knowledge",
+  "partOfSpeech": "noun",
+  "meaningTr": "bilgi, birikim",
+  "sentenceEn": "Reading books increases your general knowledge.",
+  "sentenceTr": "Kitap okumak genel bilginizi artırır.",
+  "phonetic": "/ˈnɒl.ɪdʒ/",
+  "memoryTip": "Know (bilmek) fiilinden türeyen 'bilgi' ismi."
+ },
+ {
+  "word": "known",
+  "partOfSpeech": "verb",
+  "meaningTr": "bilinen, tanınmış (know fiilinin 3. hali)",
+  "sentenceEn": "Antalya is known for its sunny beaches.",
+  "sentenceTr": "Antalya güneşli plajlarıyla bilinir.",
+  "phonetic": "/nəʊn/",
+  "memoryTip": "Know (bilmek) fiilinin üçüncü halidir."
+ },
+ {
+  "word": "land",
+  "partOfSpeech": "noun",
+  "meaningTr": "kara, toprak, arazi, inmek (uçak)",
+  "sentenceEn": "My grandfather owns a piece of farming land.",
+  "sentenceTr": "Dedemin bir parça tarım arazisi var.",
+  "phonetic": "/lænd/",
+  "memoryTip": "Ülke isimlerinin sonundaki 'land' (England, Finland = ülke/toprak)."
+ },
+ {
+  "word": "language",
+  "partOfSpeech": "noun",
+  "meaningTr": "dil, lisan",
+  "sentenceEn": "Turkish is a rich and beautiful language.",
+  "sentenceTr": "Türkçe zengin ve güzel bir dildir.",
+  "phonetic": "/ˈlæŋ.ɡwɪdʒ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "large",
+  "partOfSpeech": "adjective",
+  "meaningTr": "büyük, geniş",
+  "sentenceEn": "We need a large table for ten guests.",
+  "sentenceTr": "On misafir için geniş bir masaya ihtiyacımız var.",
+  "phonetic": "/lɑːdʒ/",
+  "memoryTip": "Kıyafet bedenlerindeki 'L' (Large = büyük beden) harfidir."
+ },
+ {
+  "word": "last",
+  "partOfSpeech": "determiner",
+  "meaningTr": "son, geçen",
+  "sentenceEn": "We visited our village last week.",
+  "sentenceTr": "Geçen hafta köyümüzü ziyaret ettik.",
+  "phonetic": "/lɑːst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "late",
+  "partOfSpeech": "adjective",
+  "meaningTr": "geç, gecikmiş",
+  "sentenceEn": "Hurry up, or we will be late.",
+  "sentenceTr": "Acele et, yoksa geç kalacağız.",
+  "phonetic": "/leɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "later",
+  "partOfSpeech": "adverb",
+  "meaningTr": "daha sonra, sonra",
+  "sentenceEn": "I am busy now, call me later.",
+  "sentenceTr": "Şu an meşgulüm, beni daha sonra ara.",
+  "phonetic": "/ˈleɪ.tər/",
+  "memoryTip": "Late (geç) + -er (daha) = daha sonra."
+ },
+ {
+  "word": "law",
+  "partOfSpeech": "noun",
+  "meaningTr": "hukuk, yasa, kanun",
+  "sentenceEn": "Her brother studies law at the university.",
+  "sentenceTr": "Onun erkek kardeşi üniversitede hukuk okuyor.",
+  "phonetic": "/lɔː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lay",
+  "partOfSpeech": "verb",
+  "meaningTr": "sermek, koymak, yatırmak, yumurtlamak",
+  "sentenceEn": "Please lay the clean tablecloth on the table.",
+  "sentenceTr": "Lütfen temiz masa örtüsünü masaya ser.",
+  "phonetic": "/leɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lazy",
+  "partOfSpeech": "adjective",
+  "meaningTr": "tembel, üşengeç",
+  "sentenceEn": "The lazy cat slept all afternoon.",
+  "sentenceTr": "Tembel kedi bütün öğleden sonra uyudu.",
+  "phonetic": "/ˈleɪ.zi/",
+  "memoryTip": ""
+ },
+ {
+  "word": "learn",
+  "partOfSpeech": "verb",
+  "meaningTr": "öğrenmek",
+  "sentenceEn": "Children learn new words very quickly.",
+  "sentenceTr": "Çocuklar yeni kelimeleri çok hızlı öğrenir.",
+  "phonetic": "/lɜːn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "least",
+  "partOfSpeech": "determiner",
+  "meaningTr": "en az",
+  "sentenceEn": "Drink at least eight glasses of water daily.",
+  "sentenceTr": "Günde en az sekiz bardak su için.",
+  "phonetic": "/liːst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "leave",
+  "partOfSpeech": "verb",
+  "meaningTr": "ayrılmak, çıkmak, bırakmak",
+  "sentenceEn": "What time do you leave home in the morning?",
+  "sentenceTr": "Sabahları evden saat kaçta çıkıyorsun?",
+  "phonetic": "/liːv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "left",
+  "partOfSpeech": "adjective",
+  "meaningTr": "sol, ayrıldı (leave fiilinin geçmiş zamanı)",
+  "sentenceEn": "Write your address on the left side.",
+  "sentenceTr": "Adresini sol tarafa yaz.",
+  "phonetic": "/left/",
+  "memoryTip": ""
+ },
+ {
+  "word": "left-handed",
+  "partOfSpeech": "adjective",
+  "meaningTr": "solak",
+  "sentenceEn": "My brother is left-handed and writes neatly.",
+  "sentenceTr": "Erkek kardeşim solaktır ve düzgün yazar.",
+  "phonetic": "/ˌleftˈhæn.dɪd/",
+  "memoryTip": "Left (sol) + hand (el) = sol elli, yani solak."
+ },
+ {
+  "word": "leg",
+  "partOfSpeech": "noun",
+  "meaningTr": "bacak, ayak (masa vb.)",
+  "sentenceEn": "He hurt his right leg during the match.",
+  "sentenceTr": "Maç sırasında sağ bacağını incitti.",
+  "phonetic": "/leɡ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lemon",
+  "partOfSpeech": "noun",
+  "meaningTr": "limon",
+  "sentenceEn": "Squeeze half a lemon into the soup.",
+  "sentenceTr": "Çorbanın içine yarım limon sık.",
+  "phonetic": "/ˈlem.ən/",
+  "memoryTip": "Türkçedeki 'limon' kelimesiyle aynıdır."
+ },
+ {
+  "word": "less",
+  "partOfSpeech": "determiner",
+  "meaningTr": "daha az",
+  "sentenceEn": "Put less sugar in your hot tea.",
+  "sentenceTr": "Sıcak çayına daha az şeker koy.",
+  "phonetic": "/les/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lesson",
+  "partOfSpeech": "noun",
+  "meaningTr": "ders",
+  "sentenceEn": "Our first lesson starts at nine o'clock.",
+  "sentenceTr": "İlk dersimiz saat dokuzda başlıyor.",
+  "phonetic": "/ˈles.ən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "let",
+  "partOfSpeech": "verb",
+  "meaningTr": "izin vermek, bırakmak",
+  "sentenceEn": "Let the hot soup cool for five minutes.",
+  "sentenceTr": "Sıcak çorbanın beş dakika soğumasına izin ver.",
+  "phonetic": "/let/",
+  "memoryTip": ""
+ },
+ {
+  "word": "letter",
+  "partOfSpeech": "noun",
+  "meaningTr": "mektup, harf",
+  "sentenceEn": "There is a letter for you on the table.",
+  "sentenceTr": "Masada senin için bir mektup var.",
+  "phonetic": "/ˈlet.ər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "level",
+  "partOfSpeech": "noun",
+  "meaningTr": "seviye, düzey, kat",
+  "sentenceEn": "She passed the first level of the course.",
+  "sentenceTr": "Kursun birinci seviyesini geçti.",
+  "phonetic": "/ˈlev.əl/",
+  "memoryTip": "Oyunlarda da 'level atlamak' (seviye geçmek) olarak kullanılır."
+ },
+ {
+  "word": "library",
+  "partOfSpeech": "noun",
+  "meaningTr": "kütüphane",
+  "sentenceEn": "I borrowed two books from the city library.",
+  "sentenceTr": "Şehir kütüphanesinden iki kitap ödünç aldım.",
+  "phonetic": "/ˈlaɪ.brər.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lid",
+  "partOfSpeech": "noun",
+  "meaningTr": "kapak (tencere, kutu vb.)",
+  "sentenceEn": "Put the glass lid on the cooking pot.",
+  "sentenceTr": "Tencerenin üzerine cam kapağı kapat.",
+  "phonetic": "/lɪd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "life",
+  "partOfSpeech": "noun",
+  "meaningTr": "hayat, yaşam, ömür",
+  "sentenceEn": "Village life is quiet and peaceful.",
+  "sentenceTr": "Köy hayatı sakin ve huzurludur.",
+  "phonetic": "/laɪf/",
+  "memoryTip": ""
+ },
+ {
+  "word": "light",
+  "partOfSpeech": "noun",
+  "meaningTr": "ışık, lamba, hafif, açık (renk)",
+  "sentenceEn": "Turn off the bedroom light before sleeping.",
+  "sentenceTr": "Uyumadan önce yatak odasının ışığını kapat.",
+  "phonetic": "/laɪt/",
+  "memoryTip": "Diyet ürünlerdeki 'light süt' (hafif süt) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "line",
+  "partOfSpeech": "noun",
+  "meaningTr": "çizgi, hat, sıra",
+  "sentenceEn": "Draw a straight line with your ruler.",
+  "sentenceTr": "Cetvelinle düz bir çizgi çiz.",
+  "phonetic": "/laɪn/",
+  "memoryTip": "Online (çevrim içi / hatta) kelimesindeki 'line' (hat/çizgi)."
+ },
+ {
+  "word": "list",
+  "partOfSpeech": "noun",
+  "meaningTr": "liste",
+  "sentenceEn": "Make a shopping list before going to the market.",
+  "sentenceTr": "Markete gitmeden önce bir alışveriş listesi yap.",
+  "phonetic": "/lɪst/",
+  "memoryTip": "Türkçedeki 'liste' kelimesiyle aynıdır."
+ },
+ {
+  "word": "listen",
+  "partOfSpeech": "verb",
+  "meaningTr": "dinlemek",
+  "sentenceEn": "I listen to the radio in my car.",
+  "sentenceTr": "Arabamda radyo dinlerim.",
+  "phonetic": "/ˈlɪs.ən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "litre",
+  "partOfSpeech": "noun",
+  "meaningTr": "litre",
+  "sentenceEn": "Buy one litre of milk from the shop.",
+  "sentenceTr": "Dükkandan bir litre süt al.",
+  "phonetic": "/ˈliː.tər/",
+  "memoryTip": "Türkçedeki 'litre' kelimesiyle tamamen aynıdır."
+ },
+ {
+  "word": "little",
+  "partOfSpeech": "adjective",
+  "meaningTr": "küçük, az, biraz",
+  "sentenceEn": "A little bird sat on the window.",
+  "sentenceTr": "Pencereye küçük bir kuş kondu.",
+  "phonetic": "/ˈlɪt.əl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "live",
+  "partOfSpeech": "verb",
+  "meaningTr": "yaşamak, oturmak (ikamet etmek)",
+  "sentenceEn": "My parents live in a small house.",
+  "sentenceTr": "Anne ve babam küçük bir evde yaşıyor.",
+  "phonetic": "/lɪv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "liver",
+  "partOfSpeech": "noun",
+  "meaningTr": "karaciğer",
+  "sentenceEn": "The doctor checked the patient's liver carefully.",
+  "sentenceTr": "Doktor hastanın karaciğerini dikkatlice kontrol etti.",
+  "phonetic": "/ˈlɪv.ər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lives",
+  "partOfSpeech": "noun",
+  "meaningTr": "hayatlar, yaşamlar (life kelimesinin çoğulu)",
+  "sentenceEn": "Seat belts save many lives every year.",
+  "sentenceTr": "Emniyet kemerleri her yıl birçok hayat kurtarır.",
+  "phonetic": "/laɪvz/",
+  "memoryTip": "Life (hayat) kelimesinin çoğul halidir."
+ },
+ {
+  "word": "loaf",
+  "partOfSpeech": "noun",
+  "meaningTr": "somun (ekmek)",
+  "sentenceEn": "He bought a fresh loaf of bread.",
+  "sentenceTr": "Taze bir somun ekmek satın aldı.",
+  "phonetic": "/ləʊf/",
+  "memoryTip": ""
+ },
+ {
+  "word": "local",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yerel, yöresel, mahalli",
+  "sentenceEn": "We buy cheese from the local market.",
+  "sentenceTr": "Peyniri yerel pazardan satın alırız.",
+  "phonetic": "/ˈləʊ.kəl/",
+  "memoryTip": "Türkçede de kullanılan 'lokal' (yerel) kelimesiyle aynıdır."
+ },
+ {
+  "word": "lock",
+  "partOfSpeech": "verb",
+  "meaningTr": "kilitlemek, kilit",
+  "sentenceEn": "Always lock the front door at night.",
+  "sentenceTr": "Geceleri ön kapıyı her zaman kilitle.",
+  "phonetic": "/lɒk/",
+  "memoryTip": "Klavyedeki 'Caps Lock' (büyük harf kilidi) tuşundan hatırlanabilir."
+ },
+ {
+  "word": "long",
+  "partOfSpeech": "adjective",
+  "meaningTr": "uzun",
+  "sentenceEn": "We walked along the long sandy beach.",
+  "sentenceTr": "Uzun kumlu plaj boyunca yürüdük.",
+  "phonetic": "/lɒŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lose",
+  "partOfSpeech": "verb",
+  "meaningTr": "kaybetmek, yitirmek",
+  "sentenceEn": "Put your ticket in your wallet, do not lose it.",
+  "sentenceTr": "Biletini cüzdanına koy, onu kaybetme.",
+  "phonetic": "/luːz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "loss",
+  "partOfSpeech": "noun",
+  "meaningTr": "kayıp, zarar",
+  "sentenceEn": "The company reported a financial loss this year.",
+  "sentenceTr": "Şirket bu yıl mali bir zarar bildirdi.",
+  "phonetic": "/lɒs/",
+  "memoryTip": "Lose (kaybetmek) fiilinin isim halidir."
+ },
+ {
+  "word": "lot",
+  "partOfSpeech": "noun",
+  "meaningTr": "çok, pek çok (a lot of)",
+  "sentenceEn": "There are a lot of books here.",
+  "sentenceTr": "Burada pek çok kitap var.",
+  "phonetic": "/lɒt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "love",
+  "partOfSpeech": "verb",
+  "meaningTr": "çok sevmek, sevgi, aşk",
+  "sentenceEn": "Children love playing in the snow.",
+  "sentenceTr": "Çocuklar karda oynamayı çok sever.",
+  "phonetic": "/lʌv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "low",
+  "partOfSpeech": "adjective",
+  "meaningTr": "düşük, alçak",
+  "sentenceEn": "The garden has a low wooden fence.",
+  "sentenceTr": "Bahçenin alçak bir ahşap çiti var.",
+  "phonetic": "/ləʊ/",
+  "memoryTip": "Telefon şarjı azaldığında çıkan 'Low Battery' (Düşük Pil) uyarısı."
+ },
+ {
+  "word": "luck",
+  "partOfSpeech": "noun",
+  "meaningTr": "şans, talih",
+  "sentenceEn": "I wish you good luck in the exam.",
+  "sentenceTr": "Sınavda sana iyi şanslar dilerim.",
+  "phonetic": "/lʌk/",
+  "memoryTip": "'Good luck!' (İyi şanslar!) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "luggage",
+  "partOfSpeech": "noun",
+  "meaningTr": "bagaj, valiz, bavul",
+  "sentenceEn": "Put your heavy luggage in the car boot.",
+  "sentenceTr": "Ağır bavulunu arabanın bagajına koy.",
+  "phonetic": "/ˈlʌɡ.ɪdʒ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lunch",
+  "partOfSpeech": "noun",
+  "meaningTr": "öğle yemeği",
+  "sentenceEn": "We eat lunch at twelve thirty every day.",
+  "sentenceTr": "Her gün saat on iki buçukta öğle yemeği yeriz.",
+  "phonetic": "/lʌntʃ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "lung",
+  "partOfSpeech": "noun",
+  "meaningTr": "akciğer",
+  "sentenceEn": "Fresh mountain air is good for your lung health.",
+  "sentenceTr": "Temiz dağ havası akciğer sağlığınız için iyidir.",
+  "phonetic": "/lʌŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "machine",
+  "partOfSpeech": "noun",
+  "meaningTr": "makine",
+  "sentenceEn": "Put the dirty shirts in the washing machine.",
+  "sentenceTr": "Kirli gömlekleri çamaşır makinesine koy.",
+  "phonetic": "/məˈʃiːn/",
+  "memoryTip": "Türkçedeki 'makine' kelimesiyle aynıdır."
+ },
+ {
+  "word": "mad",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kızgın, öfkeli, deli",
+  "sentenceEn": "My mother was mad about the broken vase.",
+  "sentenceTr": "Annem kırılan vazo yüzünden kızgındı.",
+  "phonetic": "/mæd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "madam",
+  "partOfSpeech": "noun",
+  "meaningTr": "hanımefendi, bayan",
+  "sentenceEn": "Can I help you with your bag, madam?",
+  "sentenceTr": "Çantanız için size yardım edebilir miyim hanımefendi?",
+  "phonetic": "/ˈmæd.əm/",
+  "memoryTip": "Türkçede de bilinen 'madam' (hanımefendi) kelimesidir."
+ },
+ {
+  "word": "made",
+  "partOfSpeech": "verb",
+  "meaningTr": "yaptı, yapılmış (make fiilinin 2. ve 3. hali)",
+  "sentenceEn": "This table is made of solid oak wood.",
+  "sentenceTr": "Bu masa sağlam meşe ağacından yapılmıştır.",
+  "phonetic": "/meɪd/",
+  "memoryTip": "Ürünlerin üzerindeki 'Made in Turkey' (Türkiye'de yapılmıştır) yazısı."
+ },
+ {
+  "word": "main",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ana, esas, temel",
+  "sentenceEn": "The bank is on the main street.",
+  "sentenceTr": "Banka ana cadde üzerindedir.",
+  "phonetic": "/meɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "make",
+  "partOfSpeech": "verb",
+  "meaningTr": "yapmak, üretmek",
+  "sentenceEn": "I will make fresh coffee for us.",
+  "sentenceTr": "Bizim için taze kahve yapacağım.",
+  "phonetic": "/meɪk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "man",
+  "partOfSpeech": "noun",
+  "meaningTr": "adam, erkek, insan",
+  "sentenceEn": "An old man sat on the park bench.",
+  "sentenceTr": "Yaşlı bir adam park bankında oturdu.",
+  "phonetic": "/mæn/",
+  "memoryTip": "Spider-Man (Örümcek Adam) gibi isimlerdeki 'adam' kelimesidir."
+ },
+ {
+  "word": "manage",
+  "partOfSpeech": "verb",
+  "meaningTr": "yönetmek, idare etmek, başarmak",
+  "sentenceEn": "She can manage this large hotel easily.",
+  "sentenceTr": "O, bu büyük oteli kolayca yönetebilir.",
+  "phonetic": "/ˈmæn.ɪdʒ/",
+  "memoryTip": "Menajer (yönetici) kelimesi bu fiilden türemiştir."
+ }
+]

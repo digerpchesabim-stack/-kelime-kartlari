@@ -1,0 +1,452 @@
+[
+ {
+  "word": "cover",
+  "partOfSpeech": "verb",
+  "meaningTr": "örtmek, kaplamak, kapak",
+  "sentenceEn": "Please cover the hot food with a plate.",
+  "sentenceTr": "Lütfen sıcak yemeğin üzerini bir tabakla ört.",
+  "phonetic": "/ˈkʌv.ər/",
+  "memoryTip": "Müzikteki 'cover' (şarkıyı yeniden yorumlama) veya kitap kapağı."
+ },
+ {
+  "word": "cow",
+  "partOfSpeech": "noun",
+  "meaningTr": "inek",
+  "sentenceEn": "The brown cow eats grass in the field.",
+  "sentenceTr": "Kahverengi inek tarlada ot yiyor.",
+  "phonetic": "/kaʊ/",
+  "memoryTip": "Kovboy (cowboy) kelimesindeki 'cow' (inek/sığır)."
+ },
+ {
+  "word": "crab",
+  "partOfSpeech": "noun",
+  "meaningTr": "yengeç",
+  "sentenceEn": "We saw a small crab on the beach.",
+  "sentenceTr": "Kumsalda küçük bir yengeç gördük.",
+  "phonetic": "/kræb/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cream",
+  "partOfSpeech": "noun",
+  "meaningTr": "krema, krem",
+  "sentenceEn": "She put some cream on her dry hands.",
+  "sentenceTr": "Kuru ellerine biraz krem sürdü.",
+  "phonetic": "/kriːm/",
+  "memoryTip": "Türkçedeki 'krem' ve 'krema' kelimesiyle aynıdır."
+ },
+ {
+  "word": "create",
+  "partOfSpeech": "verb",
+  "meaningTr": "yaratmak, oluşturmak",
+  "sentenceEn": "You can create a new folder on the computer.",
+  "sentenceTr": "Bilgisayarda yeni bir klasör oluşturabilirsiniz.",
+  "phonetic": "/kriˈeɪt/",
+  "memoryTip": "Türkçedeki 'kreatif' (yaratıcı) kelimesi buradan gelir."
+ },
+ {
+  "word": "cucumber",
+  "partOfSpeech": "noun",
+  "meaningTr": "salatalık, hıyar",
+  "sentenceEn": "Chop a fresh cucumber for the green salad.",
+  "sentenceTr": "Yeşil salata için taze bir salatalık doğra.",
+  "phonetic": "/ˈkjuː.kʌm.bər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "cup",
+  "partOfSpeech": "noun",
+  "meaningTr": "fincan, kupa",
+  "sentenceEn": "Would you like a cup of hot tea?",
+  "sentenceTr": "Bir fincan sıcak çay ister misiniz?",
+  "phonetic": "/kʌp/",
+  "memoryTip": "Türkçedeki 'kupa' (kupa bardak, şampiyonluk kupası) kelimesidir."
+ },
+ {
+  "word": "current",
+  "partOfSpeech": "adjective",
+  "meaningTr": "mevcut, şimdiki, akım",
+  "sentenceEn": "What is your current home address?",
+  "sentenceTr": "Mevcut ev adresiniz nedir?",
+  "phonetic": "/ˈkʌr.ənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "customer",
+  "partOfSpeech": "noun",
+  "meaningTr": "müşteri",
+  "sentenceEn": "The shop assistant helped the new customer.",
+  "sentenceTr": "Tezgahtar yeni müşteriye yardım etti.",
+  "phonetic": "/ˈkʌs.tə.mər/",
+  "memoryTip": "'Customer service' (müşteri hizmetleri) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "cut",
+  "partOfSpeech": "verb",
+  "meaningTr": "kesmek",
+  "sentenceEn": "Cut the paper with sharp scissors.",
+  "sentenceTr": "Kağıdı keskin makasla kes.",
+  "phonetic": "/kʌt/",
+  "memoryTip": "Bilgisayardaki 'Cut / Copy / Paste' (Kes / Kopyala / Yapıştır) komutu."
+ },
+ {
+  "word": "dad",
+  "partOfSpeech": "noun",
+  "meaningTr": "baba",
+  "sentenceEn": "My dad cooks dinner on Friday evenings.",
+  "sentenceTr": "Babam cuma akşamları akşam yemeği pişirir.",
+  "phonetic": "/dæd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "daddy",
+  "partOfSpeech": "noun",
+  "meaningTr": "babacığım, baba",
+  "sentenceEn": "The little girl ran to her daddy.",
+  "sentenceTr": "Küçük kız babasına doğru koştu.",
+  "phonetic": "/ˈdæd.i/",
+  "memoryTip": "Dad (baba) kelimesinin çocuk dilindeki sevimli hali."
+ },
+ {
+  "word": "daily",
+  "partOfSpeech": "adjective",
+  "meaningTr": "günlük, her günkü",
+  "sentenceEn": "Walking is part of my daily routine.",
+  "sentenceTr": "Yürüyüş yapmak günlük rutinimin bir parçasıdır.",
+  "phonetic": "/ˈdeɪ.li/",
+  "memoryTip": "Day (gün) kelimesinden türemiştir; daily = günlük."
+ },
+ {
+  "word": "dark",
+  "partOfSpeech": "adjective",
+  "meaningTr": "karanlık, koyu",
+  "sentenceEn": "The streets get dark early in winter.",
+  "sentenceTr": "Kışın sokaklar erken kararır.",
+  "phonetic": "/dɑːk/",
+  "memoryTip": "Telefonlardaki 'Dark Mode' (Karanlık/Koyu Mod) ayarı."
+ },
+ {
+  "word": "data",
+  "partOfSpeech": "noun",
+  "meaningTr": "veri, bilgi",
+  "sentenceEn": "Save all the important data on your computer.",
+  "sentenceTr": "Tüm önemli verileri bilgisayarına kaydet.",
+  "phonetic": "/ˈdeɪ.tə/",
+  "memoryTip": "Türkçede de bilişimde kullanılan 'data' (veri) kelimesidir."
+ },
+ {
+  "word": "date",
+  "partOfSpeech": "noun",
+  "meaningTr": "tarih, randevu, hurma",
+  "sentenceEn": "Write today's date at the top.",
+  "sentenceTr": "En üste bugünün tarihini yaz.",
+  "phonetic": "/deɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "daughter",
+  "partOfSpeech": "noun",
+  "meaningTr": "kız evlat",
+  "sentenceEn": "Their daughter studies medicine in Istanbul.",
+  "sentenceTr": "Onların kızı İstanbul'da tıp okuyor.",
+  "phonetic": "/ˈdɔː.tər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "day",
+  "partOfSpeech": "noun",
+  "meaningTr": "gün, gündüz",
+  "sentenceEn": "Have a nice day at work today.",
+  "sentenceTr": "Bugün işte iyi günler dilerim.",
+  "phonetic": "/deɪ/",
+  "memoryTip": "Sunday, Monday gibi tüm gün isimlerinin sonundaki 'gün' kelimesi."
+ },
+ {
+  "word": "dead",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ölü, cansız, bitmiş",
+  "sentenceEn": "My phone battery is completely dead now.",
+  "sentenceTr": "Telefonumun şarjı şu an tamamen bitmiş.",
+  "phonetic": "/ded/",
+  "memoryTip": ""
+ },
+ {
+  "word": "deal",
+  "partOfSpeech": "noun",
+  "meaningTr": "anlaşma, fırsat",
+  "sentenceEn": "The two companies made a good deal.",
+  "sentenceTr": "İki şirket iyi bir anlaşma yaptı.",
+  "phonetic": "/diːl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "dear",
+  "partOfSpeech": "adjective",
+  "meaningTr": "sevgili, değerli, canım",
+  "sentenceEn": "She wrote a letter to her dear friend.",
+  "sentenceTr": "Sevgili arkadaşına bir mektup yazdı.",
+  "phonetic": "/dɪər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "death",
+  "partOfSpeech": "noun",
+  "meaningTr": "ölüm",
+  "sentenceEn": "The book tells the story after the king's death.",
+  "sentenceTr": "Kitap, kralın ölümünden sonraki hikayeyi anlatıyor.",
+  "phonetic": "/deθ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "debate",
+  "partOfSpeech": "noun",
+  "meaningTr": "tartışma, müzakere, münazara",
+  "sentenceEn": "We watched a television debate last night.",
+  "sentenceTr": "Dün gece televizyonda bir tartışma programı izledik.",
+  "phonetic": "/dɪˈbeɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "December",
+  "partOfSpeech": "noun",
+  "meaningTr": "Aralık (ayı)",
+  "sentenceEn": "It snows a lot here in December.",
+  "sentenceTr": "Burada Aralık ayında çok kar yağar.",
+  "phonetic": "/dɪˈsem.bər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "decide",
+  "partOfSpeech": "verb",
+  "meaningTr": "karar vermek",
+  "sentenceEn": "We must decide on the holiday hotel soon.",
+  "sentenceTr": "Tatil oteline yakında karar vermeliyiz.",
+  "phonetic": "/dɪˈsaɪd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "decision",
+  "partOfSpeech": "noun",
+  "meaningTr": "karar",
+  "sentenceEn": "Buying this house was a good decision.",
+  "sentenceTr": "Bu evi satın almak iyi bir karardı.",
+  "phonetic": "/dɪˈsɪʒ.ən/",
+  "memoryTip": "Decide (karar vermek) fiilinin isim halidir."
+ },
+ {
+  "word": "deep",
+  "partOfSpeech": "adjective",
+  "meaningTr": "derin",
+  "sentenceEn": "Take a deep breath and relax now.",
+  "sentenceTr": "Şimdi derin bir nefes al ve rahatla.",
+  "phonetic": "/diːp/",
+  "memoryTip": "'Deep freeze' = derin dondurucu."
+ },
+ {
+  "word": "definitely",
+  "partOfSpeech": "adverb",
+  "meaningTr": "kesinlikle, şüphesiz",
+  "sentenceEn": "I will definitely call you tomorrow morning.",
+  "sentenceTr": "Yarın sabah seni kesinlikle arayacağım.",
+  "phonetic": "/ˈdef.ɪ.nət.li/",
+  "memoryTip": ""
+ },
+ {
+  "word": "demand",
+  "partOfSpeech": "noun",
+  "meaningTr": "talep, istek, talep etmek",
+  "sentenceEn": "There is a high demand for cold drinks.",
+  "sentenceTr": "Soğuk içeceklere yüksek bir talep var.",
+  "phonetic": "/dɪˈmɑːnd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "dentist",
+  "partOfSpeech": "noun",
+  "meaningTr": "diş hekimi, dişçi",
+  "sentenceEn": "Visit the dentist twice a year.",
+  "sentenceTr": "Yılda iki kez diş hekimini ziyaret edin.",
+  "phonetic": "/ˈden.tɪst/",
+  "memoryTip": "Dental (diş ile ilgili) kelimesiyle aynı kökten."
+ },
+ {
+  "word": "depend",
+  "partOfSpeech": "verb",
+  "meaningTr": "bağlı olmak, güvenmek",
+  "sentenceEn": "Our picnic plans depend on the weather.",
+  "sentenceTr": "Piknik planlarımız havaya bağlıdır.",
+  "phonetic": "/dɪˈpend/",
+  "memoryTip": ""
+ },
+ {
+  "word": "describe",
+  "partOfSpeech": "verb",
+  "meaningTr": "tarif etmek, betimlemek, tanımlamak",
+  "sentenceEn": "Can you describe the lost bag to me?",
+  "sentenceTr": "Kayıp çantayı bana tarif edebilir misin?",
+  "phonetic": "/dɪˈskraɪb/",
+  "memoryTip": ""
+ },
+ {
+  "word": "determine",
+  "partOfSpeech": "verb",
+  "meaningTr": "belirlemek, saptamak",
+  "sentenceEn": "Exams determine the students' final grades.",
+  "sentenceTr": "Sınavlar öğrencilerin son notlarını belirler.",
+  "phonetic": "/dɪˈtɜː.mɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "development",
+  "partOfSpeech": "noun",
+  "meaningTr": "gelişim, gelişme, kalkınma",
+  "sentenceEn": "Healthy food is important for child development.",
+  "sentenceTr": "Sağlıklı besin çocuk gelişimi için önemlidir.",
+  "phonetic": "/dɪˈvel.əp.mənt/",
+  "memoryTip": "Develop (geliştirmek) fiilinden türeyen 'gelişim' ismi."
+ },
+ {
+  "word": "dialogue",
+  "partOfSpeech": "noun",
+  "meaningTr": "diyalog, karşılıklı konuşma",
+  "sentenceEn": "Read the short dialogue on page ten.",
+  "sentenceTr": "Sayfa ondaki kısa diyaloğu okuyun.",
+  "phonetic": "/ˈdaɪ.ə.lɒɡ/",
+  "memoryTip": "Türkçedeki 'diyalog' kelimesiyle aynıdır."
+ },
+ {
+  "word": "dictionary",
+  "partOfSpeech": "noun",
+  "meaningTr": "sözlük",
+  "sentenceEn": "Look up the new word in a dictionary.",
+  "sentenceTr": "Yeni kelimeye sözlükten bak.",
+  "phonetic": "/ˈdɪk.ʃən.ər.i/",
+  "memoryTip": "Türkçedeki 'diksiyon' (söz söyleme sanatı) ile aynı 'söz' kökünden gelir."
+ },
+ {
+  "word": "did",
+  "partOfSpeech": "verb",
+  "meaningTr": "yaptı (do fiilinin geçmiş zamanı)",
+  "sentenceEn": "She did her housework before noon.",
+  "sentenceTr": "Öğleden önce ev işlerini yaptı.",
+  "phonetic": "/dɪd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "difference",
+  "partOfSpeech": "noun",
+  "meaningTr": "fark, ayrım",
+  "sentenceEn": "There is a big price difference between them.",
+  "sentenceTr": "Aralarında büyük bir fiyat farkı var.",
+  "phonetic": "/ˈdɪf.ər.əns/",
+  "memoryTip": "Different (farklı) sıfatının isim halidir."
+ },
+ {
+  "word": "different",
+  "partOfSpeech": "adjective",
+  "meaningTr": "farklı, değişik",
+  "sentenceEn": "The two brothers wear different shirt colours.",
+  "sentenceTr": "İki erkek kardeş farklı gömlek renkleri giyer.",
+  "phonetic": "/ˈdɪf.ər.ənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "difficult",
+  "partOfSpeech": "adjective",
+  "meaningTr": "zor, güç",
+  "sentenceEn": "The last question in the test was difficult.",
+  "sentenceTr": "Testteki son soru zordu.",
+  "phonetic": "/ˈdɪf.ɪ.kəlt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "difficulty",
+  "partOfSpeech": "noun",
+  "meaningTr": "zorluk, güçlük",
+  "sentenceEn": "He found the address without any difficulty.",
+  "sentenceTr": "Adresi hiçbir zorluk çekmeden buldu.",
+  "phonetic": "/ˈdɪf.ɪ.kəl.ti/",
+  "memoryTip": "Difficult (zor) sıfatından türeyen 'zorluk' ismi."
+ },
+ {
+  "word": "dinner",
+  "partOfSpeech": "noun",
+  "meaningTr": "akşam yemeği",
+  "sentenceEn": "We eat dinner together at seven o'clock.",
+  "sentenceTr": "Saat yedide birlikte akşam yemeği yeriz.",
+  "phonetic": "/ˈdɪn.ər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "direction",
+  "partOfSpeech": "noun",
+  "meaningTr": "yön, taraf, tarif",
+  "sentenceEn": "The bus went in the wrong direction.",
+  "sentenceTr": "Otobüs yanlış yöne gitti.",
+  "phonetic": "/daɪˈrek.ʃən/",
+  "memoryTip": "Direksiyon (araca yön veren parça) kelimesiyle aynı köktendir."
+ },
+ {
+  "word": "director",
+  "partOfSpeech": "noun",
+  "meaningTr": "müdür, yönetmen, direktör",
+  "sentenceEn": "She spoke with the company director today.",
+  "sentenceTr": "Bugün şirket müdürüyle konuştu.",
+  "phonetic": "/daɪˈrek.tər/",
+  "memoryTip": "Türkçedeki 'direktör' (yönetici/müdür) kelimesiyle aynıdır."
+ },
+ {
+  "word": "dirty",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kirli, pis",
+  "sentenceEn": "Put your dirty clothes in the basket.",
+  "sentenceTr": "Kirli kıyafetlerini sepete koy.",
+  "phonetic": "/ˈdɜː.ti/",
+  "memoryTip": ""
+ },
+ {
+  "word": "discussion",
+  "partOfSpeech": "noun",
+  "meaningTr": "tartışma, görüşme",
+  "sentenceEn": "We had a useful discussion about the project.",
+  "sentenceTr": "Proje hakkında faydalı bir görüşme yaptık.",
+  "phonetic": "/dɪˈskʌʃ.ən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "disease",
+  "partOfSpeech": "noun",
+  "meaningTr": "hastalık, rahatsızlık",
+  "sentenceEn": "Clean water protects people from disease.",
+  "sentenceTr": "Temiz su insanları hastalıktan korur.",
+  "phonetic": "/dɪˈziːz/",
+  "memoryTip": "Dis- (olumsuzluk eki) + ease (rahatlık) = rahatsızlık, hastalık."
+ },
+ {
+  "word": "divide",
+  "partOfSpeech": "verb",
+  "meaningTr": "bölmek, ayırmak",
+  "sentenceEn": "Divide the apple cake into four pieces.",
+  "sentenceTr": "Elmalı keki dört parçaya böl.",
+  "phonetic": "/dɪˈvaɪd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "do",
+  "partOfSpeech": "verb",
+  "meaningTr": "yapmak",
+  "sentenceEn": "What do you usually do on Sundays?",
+  "sentenceTr": "Pazar günleri genellikle ne yaparsın?",
+  "phonetic": "/duː/",
+  "memoryTip": "Yapılacaklar listesi 'To-do list' ifadesindeki 'yapmak' fiili."
+ },
+ {
+  "word": "doctor",
+  "partOfSpeech": "noun",
+  "meaningTr": "doktor, hekim",
+  "sentenceEn": "The doctor examined the patient carefully.",
+  "sentenceTr": "Doktor hastayı dikkatlice muayene etti.",
+  "phonetic": "/ˈdɒk.tər/",
+  "memoryTip": "Türkçedeki 'doktor' kelimesiyle aynıdır."
+ }
+]

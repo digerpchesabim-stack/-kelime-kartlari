@@ -1,0 +1,452 @@
+[
+ {
+  "word": "blackboard",
+  "partOfSpeech": "noun",
+  "meaningTr": "kara tahta, yazı tahtası",
+  "sentenceEn": "The teacher wrote the date on the blackboard.",
+  "sentenceTr": "Öğretmen kara tahtaya tarihi yazdı.",
+  "phonetic": "/ˈblæk.bɔːd/",
+  "memoryTip": "Black (siyah/kara) + board (tahta) = kara tahta."
+ },
+ {
+  "word": "blanket",
+  "partOfSpeech": "noun",
+  "meaningTr": "battaniye",
+  "sentenceEn": "Put a warm blanket on the bed.",
+  "sentenceTr": "Yatağın üzerine sıcak bir battaniye koy.",
+  "phonetic": "/ˈblæŋ.kɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "blood",
+  "partOfSpeech": "noun",
+  "meaningTr": "kan",
+  "sentenceEn": "The nurse took a small blood sample.",
+  "sentenceTr": "Hemşire küçük bir kan örneği aldı.",
+  "phonetic": "/blʌd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "blue",
+  "partOfSpeech": "adjective",
+  "meaningTr": "mavi",
+  "sentenceEn": "The sky is clear and blue today.",
+  "sentenceTr": "Bugün gökyüzü açık ve mavi.",
+  "phonetic": "/bluː/",
+  "memoryTip": "'Bluetooth' simgesi mavi renklidir."
+ },
+ {
+  "word": "board",
+  "partOfSpeech": "noun",
+  "meaningTr": "tahta, pano, kurul",
+  "sentenceEn": "Read the notices on the wooden board.",
+  "sentenceTr": "Ahşap panodaki duyuruları oku.",
+  "phonetic": "/bɔːd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "boat",
+  "partOfSpeech": "noun",
+  "meaningTr": "tekne, kayık",
+  "sentenceEn": "We crossed the lake in a small boat.",
+  "sentenceTr": "Küçük bir tekneyle gölü geçtik.",
+  "phonetic": "/bəʊt/",
+  "memoryTip": "Türkçede deniz taşıtı anlamında kullanılan 'bot' kelimesidir."
+ },
+ {
+  "word": "body",
+  "partOfSpeech": "noun",
+  "meaningTr": "vücut, beden",
+  "sentenceEn": "Regular exercise is good for your body.",
+  "sentenceTr": "Düzenli egzersiz vücudunuz için iyidir.",
+  "phonetic": "/ˈbɒd.i/",
+  "memoryTip": "Spor salonlarındaki 'body' (vücut geliştirme) sözünden hatırlanabilir."
+ },
+ {
+  "word": "book",
+  "partOfSpeech": "noun",
+  "meaningTr": "kitap",
+  "sentenceEn": "I read a good book before sleep.",
+  "sentenceTr": "Uyumadan önce iyi bir kitap okurum.",
+  "phonetic": "/bʊk/",
+  "memoryTip": "Notebook (not defteri) ve Facebook kelimelerindeki 'kitap'."
+ },
+ {
+  "word": "bookshop",
+  "partOfSpeech": "noun",
+  "meaningTr": "kitapçı, kitabevi",
+  "sentenceEn": "She bought a dictionary from the bookshop.",
+  "sentenceTr": "Kitapçıdan bir sözlük satın aldı.",
+  "phonetic": "/ˈbʊk.ʃɒp/",
+  "memoryTip": "Book (kitap) + shop (dükkan/mağaza) = kitapçı."
+ },
+ {
+  "word": "born",
+  "partOfSpeech": "verb",
+  "meaningTr": "doğmuş, dünyaya gelmiş",
+  "sentenceEn": "My sister was born in May.",
+  "sentenceTr": "Kız kardeşim Mayıs ayında doğdu.",
+  "phonetic": "/bɔːn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "both",
+  "partOfSpeech": "determiner",
+  "meaningTr": "her ikisi, ikisi de",
+  "sentenceEn": "Hold the hot pot with both hands.",
+  "sentenceTr": "Sıcak tencereyi iki elinle birden tut.",
+  "phonetic": "/bəʊθ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bottle",
+  "partOfSpeech": "noun",
+  "meaningTr": "şişe",
+  "sentenceEn": "Put a bottle of water in the fridge.",
+  "sentenceTr": "Buzdolabına bir şişe su koy.",
+  "phonetic": "/ˈbɒt.əl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bottom",
+  "partOfSpeech": "noun",
+  "meaningTr": "dip, alt, taban",
+  "sentenceEn": "Sign your name at the bottom of the page.",
+  "sentenceTr": "Sayfanın alt kısmına adını imzala.",
+  "phonetic": "/ˈbɒt.əm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bought",
+  "partOfSpeech": "verb",
+  "meaningTr": "satın aldı (buy fiilinin geçmiş zamanı)",
+  "sentenceEn": "We bought fresh bread this morning.",
+  "sentenceTr": "Bu sabah taze ekmek satın aldık.",
+  "phonetic": "/bɔːt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "box",
+  "partOfSpeech": "noun",
+  "meaningTr": "kutu",
+  "sentenceEn": "Keep your old photos in this box.",
+  "sentenceTr": "Eski fotoğraflarını bu kutuda sakla.",
+  "phonetic": "/bɒks/",
+  "memoryTip": ""
+ },
+ {
+  "word": "boxer",
+  "partOfSpeech": "noun",
+  "meaningTr": "boksör",
+  "sentenceEn": "The young boxer trained every morning.",
+  "sentenceTr": "Genç boksör her sabah antrenman yaptı.",
+  "phonetic": "/ˈbɒk.sər/",
+  "memoryTip": "Türkçedeki 'boksör' kelimesiyle aynıdır."
+ },
+ {
+  "word": "boy",
+  "partOfSpeech": "noun",
+  "meaningTr": "erkek çocuk, oğlan",
+  "sentenceEn": "The tall boy carried the shopping bags.",
+  "sentenceTr": "Uzun boylu erkek çocuk alışveriş poşetlerini taşıdı.",
+  "phonetic": "/bɔɪ/",
+  "memoryTip": "Kovboy (cowboy) kelimesindeki 'boy' (delikanlı/çocuk)."
+ },
+ {
+  "word": "branch",
+  "partOfSpeech": "noun",
+  "meaningTr": "dal, şube",
+  "sentenceEn": "A bird sat on the tree branch.",
+  "sentenceTr": "Bir kuş ağaç dalına kondu.",
+  "phonetic": "/brɑːntʃ/",
+  "memoryTip": "Türkçedeki 'branş' (kol/dal/uzmanlık alanı) kelimesiyle aynı köktendir."
+ },
+ {
+  "word": "bread",
+  "partOfSpeech": "noun",
+  "meaningTr": "ekmek",
+  "sentenceEn": "She sliced the warm bread for breakfast.",
+  "sentenceTr": "Kahvaltı için sıcak ekmeği dilimledi.",
+  "phonetic": "/bred/",
+  "memoryTip": ""
+ },
+ {
+  "word": "break",
+  "partOfSpeech": "verb",
+  "meaningTr": "kırmak, mola vermek",
+  "sentenceEn": "Be careful, do not break the glass.",
+  "sentenceTr": "Dikkatli ol, bardağı kırma.",
+  "phonetic": "/breɪk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "breakfast",
+  "partOfSpeech": "noun",
+  "meaningTr": "kahvaltı",
+  "sentenceEn": "We eat cheese and olives for breakfast.",
+  "sentenceTr": "Kahvaltıda peynir ve zeytin yeriz.",
+  "phonetic": "/ˈbrek.fəst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bring",
+  "partOfSpeech": "verb",
+  "meaningTr": "getirmek",
+  "sentenceEn": "Please bring two clean plates from the kitchen.",
+  "sentenceTr": "Lütfen mutfaktan iki temiz tabak getir.",
+  "phonetic": "/brɪŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "broke",
+  "partOfSpeech": "verb",
+  "meaningTr": "kırdı (break fiilinin geçmiş zamanı)",
+  "sentenceEn": "He broke his glasses yesterday evening.",
+  "sentenceTr": "Dün akşam gözlüğünü kırdı.",
+  "phonetic": "/brəʊk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "broken",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kırık, bozuk",
+  "sentenceEn": "Do not sit on that broken chair.",
+  "sentenceTr": "O kırık sandalyeye oturma.",
+  "phonetic": "/ˈbrəʊ.kən/",
+  "memoryTip": "Break (kırmak) fiilinden türeyen 'kırık' sıfatı."
+ },
+ {
+  "word": "brother",
+  "partOfSpeech": "noun",
+  "meaningTr": "erkek kardeş, ağabey",
+  "sentenceEn": "My brother works at a bank.",
+  "sentenceTr": "Erkek kardeşim bir bankada çalışıyor.",
+  "phonetic": "/ˈbrʌð.ər/",
+  "memoryTip": "Yazıcı markası 'Brother' veya 'birader' sözünden hatırlanabilir."
+ },
+ {
+  "word": "brought",
+  "partOfSpeech": "verb",
+  "meaningTr": "getirdi (bring fiilinin geçmiş zamanı)",
+  "sentenceEn": "The postman brought a package today.",
+  "sentenceTr": "Postacı bugün bir paket getirdi.",
+  "phonetic": "/brɔːt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "brown",
+  "partOfSpeech": "adjective",
+  "meaningTr": "kahverengi",
+  "sentenceEn": "She wore a pair of brown shoes.",
+  "sentenceTr": "Bir çift kahverengi ayakkabı giydi.",
+  "phonetic": "/braʊn/",
+  "memoryTip": "Çikolatalı kek 'browni' (brownie) kahverengidir."
+ },
+ {
+  "word": "brush",
+  "partOfSpeech": "noun",
+  "meaningTr": "fırça, fırçalamak",
+  "sentenceEn": "Clean the shoes with a soft brush.",
+  "sentenceTr": "Ayakkabıları yumuşak bir fırçayla temizle.",
+  "phonetic": "/brʌʃ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bucket",
+  "partOfSpeech": "noun",
+  "meaningTr": "kova",
+  "sentenceEn": "Fill the plastic bucket with cold water.",
+  "sentenceTr": "Plastik kovayı soğuk suyla doldur.",
+  "phonetic": "/ˈbʌk.ɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "build",
+  "partOfSpeech": "verb",
+  "meaningTr": "inşa etmek, kurmak",
+  "sentenceEn": "They want to build a new school here.",
+  "sentenceTr": "Buraya yeni bir okul inşa etmek istiyorlar.",
+  "phonetic": "/bɪld/",
+  "memoryTip": ""
+ },
+ {
+  "word": "building",
+  "partOfSpeech": "noun",
+  "meaningTr": "bina, yapı",
+  "sentenceEn": "The post office is in that tall building.",
+  "sentenceTr": "Postane şu yüksek binanın içindedir.",
+  "phonetic": "/ˈbɪl.dɪŋ/",
+  "memoryTip": "Build (inşa etmek) fiilinden türeyen 'bina/yapı' ismi."
+ },
+ {
+  "word": "built",
+  "partOfSpeech": "verb",
+  "meaningTr": "inşa etti (build fiilinin geçmiş zamanı)",
+  "sentenceEn": "My grandfather built this stone house.",
+  "sentenceTr": "Bu taş evi dedem inşa etti.",
+  "phonetic": "/bɪlt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bus",
+  "partOfSpeech": "noun",
+  "meaningTr": "otobüs",
+  "sentenceEn": "I go to work by bus every day.",
+  "sentenceTr": "Her gün işe otobüsle giderim.",
+  "phonetic": "/bʌs/",
+  "memoryTip": "Türkçedeki 'otobüs' ve 'minibüs' kelimelerinin son eki."
+ },
+ {
+  "word": "business",
+  "partOfSpeech": "noun",
+  "meaningTr": "iş, ticaret",
+  "sentenceEn": "They opened a small family business.",
+  "sentenceTr": "Küçük bir aile işletmesi açtılar.",
+  "phonetic": "/ˈbɪz.nɪs/",
+  "memoryTip": "Uçaklardaki 'Business Class' (iş/ticaret sınıfı) bölümünden hatırlanabilir."
+ },
+ {
+  "word": "businessman",
+  "partOfSpeech": "noun",
+  "meaningTr": "iş adamı",
+  "sentenceEn": "The businessman travelled to London for a meeting.",
+  "sentenceTr": "İş adamı bir toplantı için Londra'ya seyahat etti.",
+  "phonetic": "/ˈbɪz.nɪs.mən/",
+  "memoryTip": "Business (iş) + man (adam) = iş adamı."
+ },
+ {
+  "word": "busy",
+  "partOfSpeech": "adjective",
+  "meaningTr": "meşgul, yoğun, işlek",
+  "sentenceEn": "The main street is very busy today.",
+  "sentenceTr": "Ana cadde bugün çok işlek.",
+  "phonetic": "/ˈbɪz.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "but",
+  "partOfSpeech": "conjunction",
+  "meaningTr": "ama, fakat, ancak",
+  "sentenceEn": "The car is old, but it runs well.",
+  "sentenceTr": "Araba eski ama iyi çalışıyor.",
+  "phonetic": "/bʌt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "butcher's",
+  "partOfSpeech": "noun",
+  "meaningTr": "kasap dükkanı",
+  "sentenceEn": "I bought fresh meat from the butcher's.",
+  "sentenceTr": "Kasaptan taze et satın aldım.",
+  "phonetic": "/ˈbʊtʃ.əz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "butter",
+  "partOfSpeech": "noun",
+  "meaningTr": "tereyağı",
+  "sentenceEn": "Spread some butter on the warm toast.",
+  "sentenceTr": "Sıcak kızarmış ekmeğin üzerine biraz tereyağı sür.",
+  "phonetic": "/ˈbʌt.ər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "buy",
+  "partOfSpeech": "verb",
+  "meaningTr": "satın almak",
+  "sentenceEn": "Where can I buy a train ticket?",
+  "sentenceTr": "Nereden tren bileti satın alabilirim?",
+  "phonetic": "/baɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "by",
+  "partOfSpeech": "preposition",
+  "meaningTr": "ile, tarafından, yanında",
+  "sentenceEn": "We sat by the window and drank tea.",
+  "sentenceTr": "Pencerenin yanında oturduk ve çay içtik.",
+  "phonetic": "/baɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "bye",
+  "partOfSpeech": "interjection",
+  "meaningTr": "hoşça kal, güle güle",
+  "sentenceEn": "She waved her hand and said bye.",
+  "sentenceTr": "El salladı ve hoşça kal dedi.",
+  "phonetic": "/baɪ/",
+  "memoryTip": "Günlük hayatta da vedalaşırken kullandığımız 'bay bay' ifadesidir."
+ },
+ {
+  "word": "cafe",
+  "partOfSpeech": "noun",
+  "meaningTr": "kafe, kahvehane",
+  "sentenceEn": "Let us meet at the corner cafe.",
+  "sentenceTr": "Köşedeki kafede buluşalım.",
+  "phonetic": "/ˈkæf.eɪ/",
+  "memoryTip": "Türkçedeki 'kafe' kelimesiyle aynıdır."
+ },
+ {
+  "word": "cafeteria",
+  "partOfSpeech": "noun",
+  "meaningTr": "kafeterya, yemekhane",
+  "sentenceEn": "Students eat lunch in the school cafeteria.",
+  "sentenceTr": "Öğrenciler öğle yemeğini okul kafeteryasında yer.",
+  "phonetic": "/ˌkæf.əˈtɪə.ri.ə/",
+  "memoryTip": "Türkçedeki 'kafeterya' kelimesiyle aynıdır."
+ },
+ {
+  "word": "cake",
+  "partOfSpeech": "noun",
+  "meaningTr": "pasta, kek",
+  "sentenceEn": "My mother made a delicious lemon cake.",
+  "sentenceTr": "Annem lezzetli bir limonlu kek yaptı.",
+  "phonetic": "/keɪk/",
+  "memoryTip": "Türkçedeki 'kek' kelimesiyle aynıdır."
+ },
+ {
+  "word": "calendar",
+  "partOfSpeech": "noun",
+  "meaningTr": "takvim",
+  "sentenceEn": "Mark the meeting date on the wall calendar.",
+  "sentenceTr": "Toplantı tarihini duvar takviminde işaretle.",
+  "phonetic": "/ˈkæl.ən.dər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "call",
+  "partOfSpeech": "verb",
+  "meaningTr": "aramak, çağırmak, adlandırmak",
+  "sentenceEn": "I will call my mother this evening.",
+  "sentenceTr": "Bu akşam annemi telefonla arayacağım.",
+  "phonetic": "/kɔːl/",
+  "memoryTip": "'Call center' (çağrı merkezi) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "came",
+  "partOfSpeech": "verb",
+  "meaningTr": "geldi (come fiilinin geçmiş zamanı)",
+  "sentenceEn": "Our guests came at seven o'clock.",
+  "sentenceTr": "Misafirlerimiz saat yedide geldi.",
+  "phonetic": "/keɪm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "camera",
+  "partOfSpeech": "noun",
+  "meaningTr": "kamera, fotoğraf makinesi",
+  "sentenceEn": "Take a photo with your new camera.",
+  "sentenceTr": "Yeni fotoğraf makinenle bir fotoğraf çek.",
+  "phonetic": "/ˈkæm.rə/",
+  "memoryTip": "Türkçedeki 'kamera' kelimesiyle aynıdır."
+ },
+ {
+  "word": "can",
+  "partOfSpeech": "verb",
+  "meaningTr": "-ebilmek, yapabilmek",
+  "sentenceEn": "He can swim very well in the sea.",
+  "sentenceTr": "O denizde çok iyi yüzebilir.",
+  "phonetic": "/kæn/",
+  "memoryTip": ""
+ }
+]

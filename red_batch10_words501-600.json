@@ -1,0 +1,902 @@
+[
+ {
+  "word": "go",
+  "partOfSpeech": "verb",
+  "meaningTr": "gitmek",
+  "sentenceEn": "We go to the park every Sunday.",
+  "sentenceTr": "Her pazar parka gideriz.",
+  "phonetic": "/ɡəʊ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "goal",
+  "partOfSpeech": "noun",
+  "meaningTr": "gol, hedef, amaç",
+  "sentenceEn": "Our team scored a great goal tonight.",
+  "sentenceTr": "Takımımız bu akşam harika bir gol attı.",
+  "phonetic": "/ɡəʊl/",
+  "memoryTip": "Futboldaki 'gol' kelimesiyle aynıdır."
+ },
+ {
+  "word": "goalkeeper",
+  "partOfSpeech": "noun",
+  "meaningTr": "kaleci",
+  "sentenceEn": "The tall goalkeeper stopped the fast ball.",
+  "sentenceTr": "Uzun boylu kaleci hızlı topu durdurdu.",
+  "phonetic": "/ˈɡəʊlˌkiː.pər/",
+  "memoryTip": "Goal (kale/gol) + keeper (tutucu/koruyucu) = kaleci."
+ },
+ {
+  "word": "gone",
+  "partOfSpeech": "verb",
+  "meaningTr": "gitmiş (go fiilinin 3. hali)",
+  "sentenceEn": "My sister has gone to the supermarket.",
+  "sentenceTr": "Kız kardeşim süpermarkete gitti.",
+  "phonetic": "/ɡɒn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "good",
+  "partOfSpeech": "adjective",
+  "meaningTr": "iyi, güzel",
+  "sentenceEn": "Fresh fruit is good for your health.",
+  "sentenceTr": "Taze meyve sağlığınız için iyidir.",
+  "phonetic": "/ɡʊd/",
+  "memoryTip": "'Good morning' (Günaydın / İyi sabahlar) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "goodbye",
+  "partOfSpeech": "interjection",
+  "meaningTr": "hoşça kal, güle güle",
+  "sentenceEn": "We said goodbye at the train station.",
+  "sentenceTr": "Tren istasyonunda hoşça kal dedik.",
+  "phonetic": "/ɡʊdˈbaɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "got",
+  "partOfSpeech": "verb",
+  "meaningTr": "aldı, elde etti (get fiilinin geçmiş zamanı)",
+  "sentenceEn": "I got a nice letter this morning.",
+  "sentenceTr": "Bu sabah güzel bir mektup aldım.",
+  "phonetic": "/ɡɒt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "government",
+  "partOfSpeech": "noun",
+  "meaningTr": "hükümet, devlet yönetimi",
+  "sentenceEn": "The government built a new hospital here.",
+  "sentenceTr": "Hükümet buraya yeni bir hastane inşa etti.",
+  "phonetic": "/ˈɡʌv.ən.mənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "grapefruit",
+  "partOfSpeech": "noun",
+  "meaningTr": "greyfurt",
+  "sentenceEn": "She drank a glass of grapefruit juice.",
+  "sentenceTr": "Bir bardak greyfurt suyu içti.",
+  "phonetic": "/ˈɡreɪp.fruːt/",
+  "memoryTip": "Türkçedeki 'greyfurt' kelimesiyle aynıdır."
+ },
+ {
+  "word": "great",
+  "partOfSpeech": "adjective",
+  "meaningTr": "harika, büyük",
+  "sentenceEn": "We had a great time on holiday.",
+  "sentenceTr": "Tatilde harika vakit geçirdik.",
+  "phonetic": "/ɡreɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "green",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yeşil",
+  "sentenceEn": "Wait for the green light to cross.",
+  "sentenceTr": "Karşıya geçmek için yeşil ışığı bekle.",
+  "phonetic": "/ɡriːn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "greengrocer",
+  "partOfSpeech": "noun",
+  "meaningTr": "manav",
+  "sentenceEn": "Buy some fresh apples from the greengrocer.",
+  "sentenceTr": "Manavdan biraz taze elma al.",
+  "phonetic": "/ˈɡriːnˌɡrəʊ.sər/",
+  "memoryTip": "Green (yeşil sebze/meyve) satan dükkan, yani manav."
+ },
+ {
+  "word": "greeting",
+  "partOfSpeech": "noun",
+  "meaningTr": "selam, selamlama, kutlama",
+  "sentenceEn": "He sent a warm greeting to us.",
+  "sentenceTr": "Bize sıcak bir selam gönderdi.",
+  "phonetic": "/ˈɡriː.tɪŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "grew",
+  "partOfSpeech": "verb",
+  "meaningTr": "büyüdü, yetiştirdi (grow fiilinin geçmiş zamanı)",
+  "sentenceEn": "My grandmother grew roses in her garden.",
+  "sentenceTr": "Anneannem bahçesinde gül yetiştirdi.",
+  "phonetic": "/ɡruː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "ground",
+  "partOfSpeech": "noun",
+  "meaningTr": "yer, zemin, toprak",
+  "sentenceEn": "The ripe apple fell to the ground.",
+  "sentenceTr": "Olgun elma yere düştü.",
+  "phonetic": "/ɡraʊnd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "group",
+  "partOfSpeech": "noun",
+  "meaningTr": "grup, küme, topluluk",
+  "sentenceEn": "A group of tourists visited the museum.",
+  "sentenceTr": "Bir grup turist müzeyi ziyaret etti.",
+  "phonetic": "/ɡruːp/",
+  "memoryTip": "Türkçedeki 'grup' kelimesiyle aynıdır."
+ },
+ {
+  "word": "grow",
+  "partOfSpeech": "verb",
+  "meaningTr": "büyümek, yetişmek, yetiştirmek",
+  "sentenceEn": "These trees grow fast in warm weather.",
+  "sentenceTr": "Bu ağaçlar sıcak havada hızlı büyür.",
+  "phonetic": "/ɡrəʊ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "guess",
+  "partOfSpeech": "verb",
+  "meaningTr": "tahmin etmek, tahmin",
+  "sentenceEn": "Can you guess the price of this watch?",
+  "sentenceTr": "Bu saatin fiyatını tahmin edebilir misin?",
+  "phonetic": "/ɡes/",
+  "memoryTip": ""
+ },
+ {
+  "word": "had",
+  "partOfSpeech": "verb",
+  "meaningTr": "sahipti, vardı (have fiilinin geçmiş zamanı)",
+  "sentenceEn": "We had a small garden last year.",
+  "sentenceTr": "Geçen yıl küçük bir bahçemiz vardı.",
+  "phonetic": "/hæd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hair",
+  "partOfSpeech": "noun",
+  "meaningTr": "saç, tüy",
+  "sentenceEn": "She brushes her long hair every morning.",
+  "sentenceTr": "Her sabah uzun saçını tarar.",
+  "phonetic": "/heər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hairdresser",
+  "partOfSpeech": "noun",
+  "meaningTr": "kuaför, berber",
+  "sentenceEn": "My mother went to the hairdresser today.",
+  "sentenceTr": "Annem bugün kuaföre gitti.",
+  "phonetic": "/ˈheəˌdres.ər/",
+  "memoryTip": "Hair (saç) yapan/düzenleyen kişi, yani kuaför."
+ },
+ {
+  "word": "half",
+  "partOfSpeech": "noun",
+  "meaningTr": "yarım, yarı",
+  "sentenceEn": "Eat half of the sandwich now.",
+  "sentenceTr": "Sandviçin yarısını şimdi ye.",
+  "phonetic": "/hɑːf/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hall",
+  "partOfSpeech": "noun",
+  "meaningTr": "hol, koridor, salon",
+  "sentenceEn": "Leave your wet shoes in the hall.",
+  "sentenceTr": "Islak ayakkabılarını holde bırak.",
+  "phonetic": "/hɔːl/",
+  "memoryTip": "Türkçede de ev girişi için kullanılan 'hol' kelimesidir."
+ },
+ {
+  "word": "hallo",
+  "partOfSpeech": "interjection",
+  "meaningTr": "merhaba, alo",
+  "sentenceEn": "She smiled and said hallo to us.",
+  "sentenceTr": "Gülümsedi ve bize merhaba dedi.",
+  "phonetic": "/həˈləʊ/",
+  "memoryTip": "Hello ve telefondaki 'alo' sözüyle benzerdir."
+ },
+ {
+  "word": "hamburger",
+  "partOfSpeech": "noun",
+  "meaningTr": "hamburger",
+  "sentenceEn": "He ate a hot hamburger for lunch.",
+  "sentenceTr": "Öğle yemeğinde sıcak bir hamburger yedi.",
+  "phonetic": "/ˈhæmˌbɜː.ɡər/",
+  "memoryTip": "Türkçedeki 'hamburger' kelimesiyle tamamen aynıdır."
+ },
+ {
+  "word": "hand",
+  "partOfSpeech": "noun",
+  "meaningTr": "el",
+  "sentenceEn": "Hold the child's hand on the street.",
+  "sentenceTr": "Sokakta çocuğun elini tut.",
+  "phonetic": "/hænd/",
+  "memoryTip": "Hentbol (handball = el topu) kelimesindeki 'hand' (el)."
+ },
+ {
+  "word": "handkerchief",
+  "partOfSpeech": "noun",
+  "meaningTr": "mendil",
+  "sentenceEn": "He keeps a clean handkerchief in his pocket.",
+  "sentenceTr": "Cebinde temiz bir mendil taşır.",
+  "phonetic": "/ˈhæŋ.kə.tʃiːf/",
+  "memoryTip": "Hand (el) kelimesiyle başlayan el mendili."
+ },
+ {
+  "word": "handsome",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yakışıklı",
+  "sentenceEn": "The young actor is a handsome man.",
+  "sentenceTr": "Genç oyuncu yakışıklı bir adamdır.",
+  "phonetic": "/ˈhæn.səm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hang",
+  "partOfSpeech": "verb",
+  "meaningTr": "asmak, sarkmak",
+  "sentenceEn": "Please hang your coat behind the door.",
+  "sentenceTr": "Lütfen paltonu kapının arkasına as.",
+  "phonetic": "/hæŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "happen",
+  "partOfSpeech": "verb",
+  "meaningTr": "olmak, meydana gelmek",
+  "sentenceEn": "Accidents can happen on icy winter roads.",
+  "sentenceTr": "Buzlu kış yollarında kazalar meydana gelebilir.",
+  "phonetic": "/ˈhæp.ən/",
+  "memoryTip": ""
+ },
+ {
+  "word": "happiness",
+  "partOfSpeech": "noun",
+  "meaningTr": "mutluluk",
+  "sentenceEn": "Good health brings happiness to our lives.",
+  "sentenceTr": "İyi sağlık hayatımıza mutluluk getirir.",
+  "phonetic": "/ˈhæp.i.nəs/",
+  "memoryTip": "Happy (mutlu) + -ness (lık/luk isim eki) = mutluluk."
+ },
+ {
+  "word": "happy",
+  "partOfSpeech": "adjective",
+  "meaningTr": "mutlu, sevinçli",
+  "sentenceEn": "The children are happy in the park.",
+  "sentenceTr": "Çocuklar parkta mutlular.",
+  "phonetic": "/ˈhæp.i/",
+  "memoryTip": "'Happy Birthday' (Mutlu Yıllar) şarkısından hatırlanabilir."
+ },
+ {
+  "word": "hard",
+  "partOfSpeech": "adjective",
+  "meaningTr": "zor, sert, sıkı",
+  "sentenceEn": "This wooden chair is very hard.",
+  "sentenceTr": "Bu ahşap sandalye çok sert.",
+  "phonetic": "/hɑːd/",
+  "memoryTip": "Bilgisayardaki 'hard disk' (sabit/sert disk) ifadesinden hatırlanabilir."
+ },
+ {
+  "word": "has",
+  "partOfSpeech": "verb",
+  "meaningTr": "sahiptir, var (have fiilinin tekil şahıs hali)",
+  "sentenceEn": "Our flat has a sunny balcony.",
+  "sentenceTr": "Dairemizin güneşli bir balkonu var.",
+  "phonetic": "/hæz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hat",
+  "partOfSpeech": "noun",
+  "meaningTr": "şapka",
+  "sentenceEn": "Wear a warm hat in cold weather.",
+  "sentenceTr": "Soğuk havada sıcak bir şapka tak.",
+  "phonetic": "/hæt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hate",
+  "partOfSpeech": "verb",
+  "meaningTr": "nefret etmek, hiç sevmemek",
+  "sentenceEn": "I hate waiting in long bank queues.",
+  "sentenceTr": "Uzun banka kuyruklarında beklemekten nefret ederim.",
+  "phonetic": "/heɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "have",
+  "partOfSpeech": "verb",
+  "meaningTr": "sahip olmak, var olmak",
+  "sentenceEn": "Do you have a spare pen here?",
+  "sentenceTr": "Burada yedek bir kalemin var mı?",
+  "phonetic": "/hæv/",
+  "memoryTip": ""
+ },
+ {
+  "word": "have got",
+  "partOfSpeech": "verb",
+  "meaningTr": "sahip olmak, var",
+  "sentenceEn": "I have got two tickets for tonight.",
+  "sentenceTr": "Bu akşam için iki biletim var.",
+  "phonetic": "/hæv ˈɡɒt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hazelnut",
+  "partOfSpeech": "noun",
+  "meaningTr": "fındık",
+  "sentenceEn": "This chocolate cake has hazelnut inside.",
+  "sentenceTr": "Bu çikolatalı kekin içinde fındık var.",
+  "phonetic": "/ˈheɪ.zəl.nʌt/",
+  "memoryTip": "Nut (kabuklu yemiş/fındık) kelimesiyle biter."
+ },
+ {
+  "word": "he",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "o (erkek)",
+  "sentenceEn": "He works as a nurse in Ankara.",
+  "sentenceTr": "O, Ankara'da hemşire olarak çalışıyor.",
+  "phonetic": "/hiː/",
+  "memoryTip": ""
+ },
+ {
+  "word": "head",
+  "partOfSpeech": "noun",
+  "meaningTr": "baş, kafa",
+  "sentenceEn": "Put the soft pillow under your head.",
+  "sentenceTr": "Yumuşak yastığı başının altına koy.",
+  "phonetic": "/hed/",
+  "memoryTip": ""
+ },
+ {
+  "word": "headmaster",
+  "partOfSpeech": "noun",
+  "meaningTr": "okul müdürü (erkek)",
+  "sentenceEn": "The headmaster spoke to the new students.",
+  "sentenceTr": "Okul müdürü yeni öğrencilerle konuştu.",
+  "phonetic": "/ˌhedˈmɑː.stər/",
+  "memoryTip": "Head (baş) + master (usta/öğretmen) = başöğretmen, okul müdürü."
+ },
+ {
+  "word": "headmistress",
+  "partOfSpeech": "noun",
+  "meaningTr": "okul müdürü (kadın), müdire",
+  "sentenceEn": "Our headmistress opened the school library today.",
+  "sentenceTr": "Okul müdiremiz bugün okul kütüphanesini açtı.",
+  "phonetic": "/ˌhedˈmɪs.trəs/",
+  "memoryTip": "Head (baş) + mistress (kadın yönetici/öğretmen) = kadın okul müdürü."
+ },
+ {
+  "word": "hear",
+  "partOfSpeech": "verb",
+  "meaningTr": "duymak, işitmek",
+  "sentenceEn": "Can you hear the birds outside?",
+  "sentenceTr": "Dışarıdaki kuşları duyabiliyor musun?",
+  "phonetic": "/hɪər/",
+  "memoryTip": "İçinde 'ear' (kulak) kelimesi gizlidir; kulakla duymak."
+ },
+ {
+  "word": "heart",
+  "partOfSpeech": "noun",
+  "meaningTr": "kalp, yürek",
+  "sentenceEn": "Swimming is very good for your heart.",
+  "sentenceTr": "Yüzmek kalbiniz için çok iyidir.",
+  "phonetic": "/hɑːt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "heavy",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ağır, yoğun",
+  "sentenceEn": "This suitcase is too heavy to carry.",
+  "sentenceTr": "Bu valiz taşımak için fazla ağır.",
+  "phonetic": "/ˈhev.i/",
+  "memoryTip": ""
+ },
+ {
+  "word": "heel",
+  "partOfSpeech": "noun",
+  "meaningTr": "topuk, ökçe",
+  "sentenceEn": "The back heel of my shoe broke.",
+  "sentenceTr": "Ayakkabımın arka topuğu kırıldı.",
+  "phonetic": "/hiːl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hell",
+  "partOfSpeech": "noun",
+  "meaningTr": "cehennem",
+  "sentenceEn": "The summer traffic in the city is hell.",
+  "sentenceTr": "Şehirdeki yaz trafiği tam bir cehennem.",
+  "phonetic": "/hel/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hello",
+  "partOfSpeech": "interjection",
+  "meaningTr": "merhaba, selam",
+  "sentenceEn": "Say hello to your family for me.",
+  "sentenceTr": "Ailene benden selam söyle.",
+  "phonetic": "/heˈləʊ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "help",
+  "partOfSpeech": "verb",
+  "meaningTr": "yardım etmek, yardım",
+  "sentenceEn": "Can you help me with these boxes?",
+  "sentenceTr": "Bu kutular için bana yardım edebilir misin?",
+  "phonetic": "/help/",
+  "memoryTip": "Bilgisayar ve telefonlardaki 'Help' (Yardım) menüsü."
+ },
+ {
+  "word": "hen",
+  "partOfSpeech": "noun",
+  "meaningTr": "tavuk (dişi)",
+  "sentenceEn": "The brown hen laid an egg today.",
+  "sentenceTr": "Kahverengi tavuk bugün bir yumurta yumurtladı.",
+  "phonetic": "/hen/",
+  "memoryTip": ""
+ },
+ {
+  "word": "her",
+  "partOfSpeech": "determiner",
+  "meaningTr": "onun, ona (kadın)",
+  "sentenceEn": "She left her umbrella on the bus.",
+  "sentenceTr": "Şemsiyesini otobüste bıraktı.",
+  "phonetic": "/hɜːr/",
+  "memoryTip": ""
+ },
+ {
+  "word": "here",
+  "partOfSpeech": "adverb",
+  "meaningTr": "burada, buraya",
+  "sentenceEn": "Please sit here and drink your tea.",
+  "sentenceTr": "Lütfen buraya otur ve çayını iç.",
+  "phonetic": "/hɪər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "herself",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "kendisi, kendini (kadın)",
+  "sentenceEn": "She painted the bedroom walls by herself.",
+  "sentenceTr": "Yatak odasının duvarlarını tek başına boyadı.",
+  "phonetic": "/hɜːˈself/",
+  "memoryTip": "Her (o/kadın) + self (kendi) = kendisi."
+ },
+ {
+  "word": "hi",
+  "partOfSpeech": "interjection",
+  "meaningTr": "selam, merhaba",
+  "sentenceEn": "My neighbour waved and said hi.",
+  "sentenceTr": "Komşum el salladı ve selam dedi.",
+  "phonetic": "/haɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "high",
+  "partOfSpeech": "adjective",
+  "meaningTr": "yüksek",
+  "sentenceEn": "There is a high wall around the garden.",
+  "sentenceTr": "Bahçenin etrafında yüksek bir duvar var.",
+  "phonetic": "/haɪ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "him",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "onu, ona (erkek)",
+  "sentenceEn": "I gave him the new office key.",
+  "sentenceTr": "Ona yeni ofis anahtarını verdim.",
+  "phonetic": "/hɪm/",
+  "memoryTip": ""
+ },
+ {
+  "word": "himself",
+  "partOfSpeech": "pronoun",
+  "meaningTr": "kendisi, kendini (erkek)",
+  "sentenceEn": "He cooked dinner for himself last night.",
+  "sentenceTr": "Dün gece kendisi için akşam yemeği pişirdi.",
+  "phonetic": "/hɪmˈself/",
+  "memoryTip": "Him (o/erkek) + self (kendi) = kendisi."
+ },
+ {
+  "word": "hire",
+  "partOfSpeech": "verb",
+  "meaningTr": "kiralamak, işe almak",
+  "sentenceEn": "We want to hire a car tomorrow.",
+  "sentenceTr": "Yarın bir araba kiralamak istiyoruz.",
+  "phonetic": "/haɪər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "his",
+  "partOfSpeech": "determiner",
+  "meaningTr": "onun (erkek)",
+  "sentenceEn": "Ali washed his hands before lunch.",
+  "sentenceTr": "Ali öğle yemeğinden önce ellerini yıkadı.",
+  "phonetic": "/hɪz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hit",
+  "partOfSpeech": "verb",
+  "meaningTr": "vurmak, çarpmak",
+  "sentenceEn": "The ball hit the classroom window.",
+  "sentenceTr": "Top sınıfın penceresine çarptı.",
+  "phonetic": "/hɪt/",
+  "memoryTip": "En çok dinlenen 'hit şarkılar' (vuran/ses getiren) ifadesi."
+ },
+ {
+  "word": "hold",
+  "partOfSpeech": "verb",
+  "meaningTr": "tutmak, bekletmek",
+  "sentenceEn": "Please hold this bag for a minute.",
+  "sentenceTr": "Lütfen bir dakika bu çantayı tut.",
+  "phonetic": "/həʊld/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hole",
+  "partOfSpeech": "noun",
+  "meaningTr": "delik, çukur",
+  "sentenceEn": "There is a small hole in my sock.",
+  "sentenceTr": "Çorabımda küçük bir delik var.",
+  "phonetic": "/həʊl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "home",
+  "partOfSpeech": "noun",
+  "meaningTr": "ev, yuva, eve",
+  "sentenceEn": "I usually arrive home at six o'clock.",
+  "sentenceTr": "Genellikle saat altıda eve varırım.",
+  "phonetic": "/həʊm/",
+  "memoryTip": "Home office (ev ofisi) ifadesindeki 'ev' kelimesidir."
+ },
+ {
+  "word": "homeless",
+  "partOfSpeech": "adjective",
+  "meaningTr": "evsiz",
+  "sentenceEn": "The charity gives warm food to homeless people.",
+  "sentenceTr": "Yardım kuruluşu evsiz insanlara sıcak yemek veriyor.",
+  "phonetic": "/ˈhəʊm.ləs/",
+  "memoryTip": "Home (ev) + -less (-sız/-siz eki) = evsiz."
+ },
+ {
+  "word": "homework",
+  "partOfSpeech": "noun",
+  "meaningTr": "ev ödevi",
+  "sentenceEn": "The boy finished his homework before dinner.",
+  "sentenceTr": "Çocuk akşam yemeğinden önce ev ödevini bitirdi.",
+  "phonetic": "/ˈhəʊm.wɜːk/",
+  "memoryTip": "Home (ev) + work (iş/çalışma) = ev ödevi."
+ },
+ {
+  "word": "honest",
+  "partOfSpeech": "adjective",
+  "meaningTr": "dürüst, doğru sözlü",
+  "sentenceEn": "Everyone trusts him because he is honest.",
+  "sentenceTr": "Dürüst olduğu için herkes ona güvenir.",
+  "phonetic": "/ˈɒn.ɪst/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hope",
+  "partOfSpeech": "verb",
+  "meaningTr": "ummak, ümit etmek, umut",
+  "sentenceEn": "I hope the weather stays sunny tomorrow.",
+  "sentenceTr": "Umarım yarın hava güneşli kalır.",
+  "phonetic": "/həʊp/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hopeful",
+  "partOfSpeech": "adjective",
+  "meaningTr": "umutlu, ümitli",
+  "sentenceEn": "She is hopeful about the job interview.",
+  "sentenceTr": "İş görüşmesi konusunda umutlu.",
+  "phonetic": "/ˈhəʊp.fəl/",
+  "memoryTip": "Hope (umut) + -ful (-lı/-lu eki) = umutlu."
+ },
+ {
+  "word": "horse",
+  "partOfSpeech": "noun",
+  "meaningTr": "at",
+  "sentenceEn": "A white horse ran across the green field.",
+  "sentenceTr": "Beyaz bir at yeşil tarlada koştu.",
+  "phonetic": "/hɔːs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hose",
+  "partOfSpeech": "noun",
+  "meaningTr": "hortum (su hortumu)",
+  "sentenceEn": "Water the flowers with the garden hose.",
+  "sentenceTr": "Çiçekleri bahçe hortumuyla sula.",
+  "phonetic": "/həʊz/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hospital",
+  "partOfSpeech": "noun",
+  "meaningTr": "hastane",
+  "sentenceEn": "My aunt works at the city hospital.",
+  "sentenceTr": "Teyzem şehir hastanesinde çalışıyor.",
+  "phonetic": "/ˈhɒs.pɪ.təl/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hot",
+  "partOfSpeech": "adjective",
+  "meaningTr": "sıcak, acı (baharatlı)",
+  "sentenceEn": "Be careful, the soup plate is very hot.",
+  "sentenceTr": "Dikkatli ol, çorba tabağı çok sıcak.",
+  "phonetic": "/hɒt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hot dog",
+  "partOfSpeech": "noun",
+  "meaningTr": "sosisli sandviç",
+  "sentenceEn": "He bought a hot dog from the stand.",
+  "sentenceTr": "Büfeden bir sosisli sandviç aldı.",
+  "phonetic": "/ˈhɒt ˌdɒɡ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hotel",
+  "partOfSpeech": "noun",
+  "meaningTr": "otel",
+  "sentenceEn": "Our hotel is near the sea beach.",
+  "sentenceTr": "Otelimiz deniz plajının yakınındadır.",
+  "phonetic": "/həʊˈtel/",
+  "memoryTip": "Türkçedeki 'otel' kelimesiyle aynıdır."
+ },
+ {
+  "word": "hour",
+  "partOfSpeech": "noun",
+  "meaningTr": "saat (60 dakikalık süre)",
+  "sentenceEn": "The flight to Ankara takes one hour.",
+  "sentenceTr": "Ankara uçuşu bir saat sürer.",
+  "phonetic": "/aʊər/",
+  "memoryTip": ""
+ },
+ {
+  "word": "house",
+  "partOfSpeech": "noun",
+  "meaningTr": "ev, konut",
+  "sentenceEn": "They painted their house white last summer.",
+  "sentenceTr": "Geçen yaz evlerini beyaza boyadılar.",
+  "phonetic": "/haʊs/",
+  "memoryTip": ""
+ },
+ {
+  "word": "how",
+  "partOfSpeech": "adverb",
+  "meaningTr": "nasıl, ne kadar",
+  "sentenceEn": "How do you go to work every day?",
+  "sentenceTr": "Her gün işe nasıl gidiyorsun?",
+  "phonetic": "/haʊ/",
+  "memoryTip": "'How are you?' (Nasılsın?) sorusundan hatırlanabilir."
+ },
+ {
+  "word": "how many",
+  "partOfSpeech": "determiner",
+  "meaningTr": "kaç tane, ne kadar (sayılabilen)",
+  "sentenceEn": "How many chairs are in the room?",
+  "sentenceTr": "Odada kaç tane sandalye var?",
+  "phonetic": "/ˌhaʊ ˈmen.i/",
+  "memoryTip": "How (ne kadar) + many (çok/sayılabilen) = kaç tane."
+ },
+ {
+  "word": "how much",
+  "partOfSpeech": "determiner",
+  "meaningTr": "ne kadar, kaç para (sayılamayan)",
+  "sentenceEn": "How much milk do we need for cake?",
+  "sentenceTr": "Kek için ne kadar süte ihtiyacımız var?",
+  "phonetic": "/ˌhaʊ ˈmʌtʃ/",
+  "memoryTip": "How (ne kadar) + much (çok/miktar) = ne kadar."
+ },
+ {
+  "word": "hung",
+  "partOfSpeech": "verb",
+  "meaningTr": "astı (hang fiilinin geçmiş zamanı)",
+  "sentenceEn": "She hung the clean wet clothes outside.",
+  "sentenceTr": "Temiz ıslak çamaşırları dışarıya astı.",
+  "phonetic": "/hʌŋ/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hungry",
+  "partOfSpeech": "adjective",
+  "meaningTr": "aç, acıkmış",
+  "sentenceEn": "I am hungry, let us eat lunch.",
+  "sentenceTr": "Karnım aç, hadi öğle yemeği yiyelim.",
+  "phonetic": "/ˈhʌŋ.ɡri/",
+  "memoryTip": ""
+ },
+ {
+  "word": "husband",
+  "partOfSpeech": "noun",
+  "meaningTr": "koca, eş (erkek)",
+  "sentenceEn": "Her husband cooks delicious pasta on Sundays.",
+  "sentenceTr": "Onun eşi pazar günleri lezzetli makarna pişirir.",
+  "phonetic": "/ˈhʌz.bənd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "hut",
+  "partOfSpeech": "noun",
+  "meaningTr": "kulübe, baraka",
+  "sentenceEn": "The fisherman keeps his nets in a hut.",
+  "sentenceTr": "Balıkçı ağlarını bir kulübede saklar.",
+  "phonetic": "/hʌt/",
+  "memoryTip": "Pizza Hut (Pizza Kulübesi) isminden ve çatı logosundan hatırlanabilir."
+ },
+ {
+  "word": "idea",
+  "partOfSpeech": "noun",
+  "meaningTr": "fikir, düşünce",
+  "sentenceEn": "Going for a walk is a good idea.",
+  "sentenceTr": "Yürüyüşe çıkmak iyi bir fikirdir.",
+  "phonetic": "/aɪˈdɪə/",
+  "memoryTip": "Türkçedeki 'ideal' kelimesiyle benzerdir."
+ },
+ {
+  "word": "identify",
+  "partOfSpeech": "verb",
+  "meaningTr": "tanımlamak, teşhis etmek, kimliğini belirlemek",
+  "sentenceEn": "Can you identify your bag among these?",
+  "sentenceTr": "Bunların arasında kendi çantanı teşhis edebilir misin?",
+  "phonetic": "/aɪˈden.tɪ.faɪ/",
+  "memoryTip": "Kimlik kartı anlamındaki 'ID' bu kelimenin ilk iki harfidir."
+ },
+ {
+  "word": "important",
+  "partOfSpeech": "adjective",
+  "meaningTr": "önemli, mühim",
+  "sentenceEn": "Sleep is very important for good health.",
+  "sentenceTr": "İyi bir sağlık için uyku çok önemlidir.",
+  "phonetic": "/ɪmˈpɔː.tənt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "in",
+  "partOfSpeech": "preposition",
+  "meaningTr": "içinde, -de, -da",
+  "sentenceEn": "The keys are in my coat pocket.",
+  "sentenceTr": "Anahtarlar palto cebimin içindedir.",
+  "phonetic": "/ɪn/",
+  "memoryTip": ""
+ },
+ {
+  "word": "income",
+  "partOfSpeech": "noun",
+  "meaningTr": "gelir, kazanç",
+  "sentenceEn": "The family has a regular monthly income.",
+  "sentenceTr": "Ailenin düzenli bir aylık geliri var.",
+  "phonetic": "/ˈɪn.kʌm/",
+  "memoryTip": "In (içeri) + come (gelmek) = içeri gelen para, yani gelir."
+ },
+ {
+  "word": "indeed",
+  "partOfSpeech": "adverb",
+  "meaningTr": "gerçekten, doğrusu, hakikaten",
+  "sentenceEn": "The homemade bread was very tasty indeed.",
+  "sentenceTr": "Ev yapımı ekmek gerçekten çok lezzetliydi.",
+  "phonetic": "/ɪnˈdiːd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "indicate",
+  "partOfSpeech": "verb",
+  "meaningTr": "göstermek, işaret etmek, belirtmek",
+  "sentenceEn": "Dark clouds indicate rain this evening.",
+  "sentenceTr": "Koyu bulutlar bu akşam yağmura işaret ediyor.",
+  "phonetic": "/ˈɪn.dɪ.keɪt/",
+  "memoryTip": ""
+ },
+ {
+  "word": "industrial",
+  "partOfSpeech": "adjective",
+  "meaningTr": "endüstriyel, sanayi ile ilgili",
+  "sentenceEn": "Bursa is a large industrial city.",
+  "sentenceTr": "Bursa büyük bir sanayi şehridir.",
+  "phonetic": "/ɪnˈdʌs.tri.əl/",
+  "memoryTip": "Türkçedeki 'endüstriyel' (sanayi tipi) kelimesiyle aynıdır."
+ },
+ {
+  "word": "information",
+  "partOfSpeech": "noun",
+  "meaningTr": "bilgi, danışma",
+  "sentenceEn": "Ask the desk for train ticket information.",
+  "sentenceTr": "Tren bileti bilgisi için danışmaya sorun.",
+  "phonetic": "/ˌɪn.fəˈmeɪ.ʃən/",
+  "memoryTip": "Danışma masalarında yazan 'Information' kelimesidir."
+ },
+ {
+  "word": "ink",
+  "partOfSpeech": "noun",
+  "meaningTr": "mürekkep",
+  "sentenceEn": "Please write your name in blue ink.",
+  "sentenceTr": "Lütfen adınızı mavi mürekkeple yazın.",
+  "phonetic": "/ɪŋk/",
+  "memoryTip": ""
+ },
+ {
+  "word": "instead",
+  "partOfSpeech": "adverb",
+  "meaningTr": "yerine, onun yerine",
+  "sentenceEn": "We had no coffee, so I drank tea instead.",
+  "sentenceTr": "Kahvemiz yoktu, bu yüzden onun yerine çay içtim.",
+  "phonetic": "/ɪnˈsted/",
+  "memoryTip": ""
+ },
+ {
+  "word": "institution",
+  "partOfSpeech": "noun",
+  "meaningTr": "kurum, kuruluş, enstitü",
+  "sentenceEn": "A university is an important educational institution.",
+  "sentenceTr": "Üniversite önemli bir eğitim kurumudur.",
+  "phonetic": "/ˌɪn.stɪˈtjuː.ʃən/",
+  "memoryTip": "Türkçedeki 'enstitü' (kurum) kelimesidir."
+ },
+ {
+  "word": "intend",
+  "partOfSpeech": "verb",
+  "meaningTr": "niyet etmek, planlamak, düşünmek",
+  "sentenceEn": "We intend to visit Antalya next month.",
+  "sentenceTr": "Gelecek ay Antalya'yı ziyaret etmeyi planlıyoruz.",
+  "phonetic": "/ɪnˈtend/",
+  "memoryTip": ""
+ },
+ {
+  "word": "interested",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ilgili, meraklı",
+  "sentenceEn": "My brother is interested in old cars.",
+  "sentenceTr": "Erkek kardeşim eski arabalara ilgi duyuyor.",
+  "phonetic": "/ˈɪn.trə.stɪd/",
+  "memoryTip": ""
+ },
+ {
+  "word": "interesting",
+  "partOfSpeech": "adjective",
+  "meaningTr": "ilginç, ilgi çekici",
+  "sentenceEn": "I read an interesting article in the newspaper.",
+  "sentenceTr": "Gazetede ilginç bir makale okudum.",
+  "phonetic": "/ˈɪn.trə.stɪŋ/",
+  "memoryTip": "Türkçedeki 'enteresan' (ilginç) kelimesiyle benzerdir."
+ },
+ {
+  "word": "international",
+  "partOfSpeech": "adjective",
+  "meaningTr": "uluslararası",
+  "sentenceEn": "Planes land at the new international airport.",
+  "sentenceTr": "Uçaklar yeni uluslararası havalimanına iniyor.",
+  "phonetic": "/ˌɪn.təˈnæʃ.ən.əl/",
+  "memoryTip": "Inter- (arası) + national (ulusal) = uluslararası."
+ }
+]
