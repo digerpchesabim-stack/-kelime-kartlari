@@ -92,9 +92,9 @@ const curP=()=>PS.m().list.find(x=>x.id===PS.m().active)||null;
 function bootProfile(){const p=curP();if(p){StorageService.use(p.key);S=StorageService.load()}else{StorageService.use(null);S=StorageService.base()}}
 function mkProfile(name,av){const m=PS.m(),id='p'+Date.now().toString(36);let legacy=false;try{legacy=localStorage.getItem(LEGACY)!==null}catch(e){}
  const key=(legacy&&!m.list.some(x=>x.key===LEGACY))?LEGACY:'kelime_p_'+id;
- m.list.push({id,name:(name||'').trim().slice(0,24)||'Ben',av,key,created:Date.now()});m.active=id;PS.save();bootProfile();ensureActive()}
-function switchP(id){PS.m().active=id;PS.save();bootProfile();ensureActive()}
-function delP(id){const m=PS.m(),p=m.list.find(x=>x.id===id);if(!p)return;StorageService.drop(p.key);m.list=m.list.filter(x=>x.id!==id);if(m.active===id)m.active=m.list[0]?m.list[0].id:null;PS.save();bootProfile();if(curP())ensureActive()}
+ m.list.push({id,name:(name||'').trim().slice(0,24)||'Ben',av,key,created:Date.now()});m.active=id;PS.save();bootProfile();reloadCustom();ensureActive()}
+function switchP(id){PS.m().active=id;PS.save();bootProfile();reloadCustom();ensureActive()}
+function delP(id){const m=PS.m(),p=m.list.find(x=>x.id===id);if(!p)return;StorageService.drop(p.key);m.list=m.list.filter(x=>x.id!==id);if(m.active===id)m.active=m.list[0]?m.list[0].id:null;PS.save();bootProfile();reloadCustom();if(curP())ensureActive()}
 bootProfile();
 /* ===== sound ===== */
 let AC=null;
@@ -276,7 +276,7 @@ function vDetail(){const w=byId[detailId];if(!w)return go('list');const p=P(w.id
  ${hasData(w)?`<div class="mute">${esc(w.ipa)} · ${esc(w.pos)} <button class="sp" data-act="speakd" style="width:34px;height:34px;font-size:16px;margin:0 0 0 6px">🔊</button></div>
  <h2 style="color:var(--red)">${esc(w.tr)}</h2><div>${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.tip?`<div class="fc"><div class="tip" style="margin-top:10px;cursor:default">💡 ${esc(w.tip)}</div></div>`:''}
  <div class="mute tiny" style="margin-top:12px">Doğru: ${p.ok} · Yanlış: ${p.bad} · Seviye: ${p.mastery}/3</div>`:'<p class="mute">Bu kelimenin verisi henüz hazırlanmadı.</p>'}</div>
- ${hasData(w)?`<div class="grid2"><button class="btn" data-act="dhard">${mainLbl(w.id)}</button><button class="btn" data-act="dlearn">${p.status==='learned'?'↺ Tekrar öğren':'✓ Öğrendim'}</button></div><button class="btn ghost" data-act="dpick" style="margin-top:12px">📚 Listelere ekle</button>`:''}`}
+ ${hasData(w)?`<div class="grid2"><button class="btn" data-act="dhard">${mainLbl(w.id)}</button><button class="btn" data-act="dlearn">${p.status==='learned'?'↺ Tekrar öğren':'✓ Öğrendim'}</button></div><button class="btn ghost" data-act="dpick" style="margin-top:12px">📚 Listelere ekle</button>`:`<button class="btn ghost" data-act="dpick" style="width:100%">📚 Listelere ekle</button>`}`}
 /* ===== lists ===== */
 let curList='main',pickW=null;
 function lists(){if(!S.lists){S.lists=[{id:'main',name:'Çalışma listem',ids:Object.keys(S.progress).filter(k=>S.progress[k]&&S.progress[k].isHard)}]}return S.lists}
@@ -284,7 +284,24 @@ const getList=id=>lists().find(l=>l.id===id)||null;
 const inList=(lid,id)=>{const L=getList(lid);return !!L&&L.ids.includes(id)};
 const mainLbl=id=>inList('main',id)?'★ Listemde (çıkar)':'+ Çalışma listeme';
 function toggleIn(lid,id){const L=getList(lid);if(!L)return;L.ids=L.ids.includes(id)?L.ids.filter(x=>x!==id):L.ids.concat(id);save()}
-function openPicker(id){const w=id&&byId[id];if(!w||!hasData(w))return toast('Bu kelimenin kartı henüz yok');pickW=id;paintPicker()}
+function openPicker(id){const w=id&&byId[id];if(!w)return toast('Kelime bulunamadı');pickW=id;paintPicker()}
+function unloadCustom(){for(let i=WORDS.length-1;i>=0;i--){if(WORDS[i].custom){delete byId[WORDS[i].id];WORDS.splice(i,1)}}}
+function loadCustom(){Object.values((S&&S.cw)||{}).forEach(w=>{if(!byId[w.id]){WORDS.push(w);byId[w.id]=w}})}
+function reloadCustom(){unloadCustom();loadCustom()}
+const exOk=(s,k)=>{s=(s||'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();const n=s.split(' ').length;return n>=4&&n<=18&&new RegExp('(^|[^A-Za-z])'+k+'[a-z]{0,3}(?![A-Za-z])','i').test(s)?s:''};
+async function exTatoeba(k){const j=await jget('https://tatoeba.org/en/api_v0/search?from=eng&to=tur&orphans=no&unapproved=no&sort=relevance&query='+encodeURIComponent(k));
+ for(const r of (j&&j.results)||[]){const s=exOk(r.text,k);if(!s)continue;const tr=[].concat(...(r.translations||[]).map(x=>Array.isArray(x)?x:[x])).find(x=>x&&x.lang==='tur');if(tr&&tr.text)return{en:s,entr:tr.text,src:'Tatoeba'}}return null}
+function exDict(d,k){for(const e of Array.isArray(d)?d:[])for(const m of e.meanings||[])for(const df of m.definitions||[]){const s=exOk(df.example,k);if(s)return{en:s,src:'Sözlük'}}return null}
+async function exWikt(k){const j=await jget('https://en.wiktionary.org/api/rest_v1/page/definition/'+encodeURIComponent(k));
+ for(const m of (j&&j.en)||[])for(const df of m.definitions||[]){for(const x of (df.parsedExamples||[]).map(y=>y.example).concat(df.examples||[])){const s=exOk(x,k);if(s)return{en:s,src:'Wiktionary'}}}return null}
+async function mkCustom(tok,sent){const k=tok.toLowerCase().replace(/’/g,"'");if(!/^[a-z][a-z'-]*$/.test(k))throw new Error('bad');
+ if(byId[k])return k;
+ const d=await jget('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(k)).catch(()=>null);
+ let pos='',ipa='';if(Array.isArray(d)&&d[0]){pos=((d[0].meanings||[])[0]||{}).partOfSpeech||'';ipa=d.map(e=>e.phonetic||((e.phonetics||[]).find(x=>x.text)||{}).text||'').find(Boolean)||''}
+ const tr=await mt(k);if(!tr)throw new Error('no tr');
+ let ex=await exTatoeba(k).catch(()=>null)||exDict(d,k)||await exWikt(k).catch(()=>null)||{en:sent,src:'Metin'};
+ const entr=ex.entr||await mt(ex.en).catch(()=>'')||'';
+ S.cw=S.cw||{};S.cw[k]={id:k,word:k,pos,tr:tr.toLowerCase(),en:ex.en,entr,ipa,tip:'',ctx:sent,src:ex.src,custom:1};save();reloadCustom();return k}
 function paintPicker(){const w=byId[pickW];if(!w)return;$('#sheet').innerHTML=`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:24px">Listeye ekle</b><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>
  <div class="mute" style="margin-top:4px">${esc(w.word)}</div>
  <div style="margin:14px 0">${lists().map(l=>`<button class="btn ${inList(l.id,pickW)?'primary':'ghost'}" data-act="pk" data-l="${esc(l.id)}" style="margin-bottom:8px;text-align:left">${inList(l.id,pickW)?'✓ ':'+ '}${esc(l.name)} <span class="mute">· ${l.ids.length}</span></button>`).join('')}</div>
@@ -304,7 +321,7 @@ function vLst(){const l=getList(curList);if(!l)return go('hard');const ids=l.ids
   <button class="btn" data-act="startl" data-m="fill" data-l="${esc(l.id)}">✏️ Boşluk</button>
   <button class="btn" data-act="startl" data-m="match" data-l="${esc(l.id)}">🔗 Eşleştir</button>
  </div>
- <div class="card list">${ids.length?ids.map(id=>{const w=byId[id],lr=P(id).status==='learned';return`<div class="it" data-act="detail" data-from="lst" data-id="${esc(id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w))}</span></span><button class="badge ${lr?'ok':'mute'}" data-act="rowlearn" data-id="${esc(id)}" style="border:0">${lr?'↺ öğrenildi':'✓ öğrendim'}</button><button class="badge mute" data-act="unlist" data-id="${esc(id)}" data-l="${esc(l.id)}" style="border:0;margin-left:4px">×</button></div>`}).join(''):'<div class="mute">Liste boş. Kelime kartından ya da metinden ekleyebilirsin.</div>'}</div>`}
+ <div class="card list">${ids.length?ids.map(id=>{const w=byId[id],lr=P(id).status==='learned';return`<div class="it" data-act="detail" data-from="lst" data-id="${esc(id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w))}</span></span>${hasData(w)?`<button class="badge ${lr?'ok':'mute'}" data-act="rowlearn" data-id="${esc(id)}" style="border:0">${lr?'↺ öğrenildi':'✓ öğrendim'}</button>`:'<span class="badge mute">kartı bekliyor</span>'}<button class="badge mute" data-act="unlist" data-id="${esc(id)}" data-l="${esc(l.id)}" style="border:0;margin-left:4px">×</button></div>`}).join(''):'<div class="mute">Liste boş. Kelime kartından ya da metinden ekleyebilirsin.</div>'}</div>`}
 function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <div class="card row" data-act="goprof" style="cursor:pointer">${avH(curP().av,48)}<b class="grow" style="font-size:19px">${esc(curP().name)}</b><span class="mute">Profil ›</span></div>
  <div class="card"><b>Sesler</b><select id="snd"><option value="1">Açık</option><option value="0" ${S.settings.sound===false?'selected':''}>Kapalı</option></select><div class="mute tiny">Doğru, yanlış ve dokunma sesleri.</div></div>
@@ -320,7 +337,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.13 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.15 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -386,19 +403,19 @@ function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap
  <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`;
  if(txTr)ensureTr(t)}
 function ctxSent(para,off){const re=/[^.!?]+[.!?]*["\u201d]?\s*/g;let m;while((m=re.exec(para))){if(off<m.index+m[0].length)return{s:m[0].trim(),i:off-m.index-(m[0].length-m[0].trimStart().length)}}return{s:para,i:off}}
-function sheetHtml(){const q=sheetSt,t=getText(curText);if(!q||!t)return'';const id=lk(q.tok),w=id&&byId[id],g=(t.gloss||{})[q.tok.toLowerCase()]||bg(q.tok.toLowerCase());
+function sheetHtml(){const q=sheetSt,t=getText(curText);if(!q||!t)return'';const _id=lk(q.tok),_w=_id&&byId[_id],addB=(_w&&hasData(_w))||!/^[A-Za-z]/.test(q.tok)?'':(_w?'<button class="btn primary" data-act="shpick" style="margin-top:14px;width:100%">＋ Listeme ekle</button>':'<button class="btn primary" data-act="shmk" style="margin-top:14px;width:100%">＋ Listeme ekle</button>');const id=lk(q.tok),w=id&&byId[id],g=(t.gloss||{})[q.tok.toLowerCase()]||bg(q.tok.toLowerCase());
  const para=visParas(t)[q.p]||'',cs=ctxSent(para,q.o),ctx=esc(cs.s);const ci=cs.s.toLowerCase().indexOf(q.tok.toLowerCase());
  const ctxH=ci>=0?esc(cs.s.slice(0,ci))+'<b>'+esc(cs.s.slice(ci,ci+q.tok.length))+'</b>'+esc(cs.s.slice(ci+q.tok.length)):ctx;
  let body;
  if(w&&hasData(w)){const p=P(w.id);body=`<h2 style="color:var(--red);margin:6px 0 2px;font-size:24px">${esc(w.tr)}</h2>
   <div class="mute">${esc(w.ipa)} · ${esc(w.pos)}${w.id!==q.tok.toLowerCase()?` · kök: <b>${esc(w.word)}</b>`:''}</div>
-  <div style="margin-top:10px">${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.tip?`<div class="tip" style="margin-top:10px;font-size:14px;background:var(--red-soft);padding:8px 10px;border-radius:10px">💡 ${esc(w.tip)}</div>`:''}
+  <div style="margin-top:10px">${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.src?`<div class="mute tiny">örnek: ${esc(w.src)}</div>`:''}${w.tip?`<div class="tip" style="margin-top:10px;font-size:14px;background:var(--red-soft);padding:8px 10px;border-radius:10px">💡 ${esc(w.tip)}</div>`:''}
   <div class="ctx">Metinde: ${ctxH}</div>
   <button class="btn" data-act="shlearn" style="margin-top:14px;width:100%">${p.status==='learned'?'✓ Öğrenildi':'✓ Öğrendim'}</button>
   <button class="btn primary" data-act="shpick" style="margin-top:10px;width:100%">＋ Listeme ekle</button>`}
  else if(g){q.needIpa=true;body=`<h2 style="color:var(--red);margin:8px 0 6px">${esc(g)}</h2><div id="ipaout" class="mute"></div><div class="mute tiny">Metin sözlüğünden${w?' · kartı henüz hazırlanmadı (kök: '+esc(w.word)+')':''}</div><div class="ctx">Metinde: ${ctxH}</div>`}
  else{q.needTr=true;q.needIpa=true;body=`<h2 id="trout" style="margin:8px 0 4px;color:var(--red)">…</h2><div id="ipaout" class="mute"></div><div class="mute tiny">otomatik çeviri${w?' · kartı henüz hazırlanmadı':' · kırmızı listede yok'}</div><div class="ctx">Metinde: ${ctxH}</div>`}
- return`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:26px">${esc(q.tok)}</b><button class="sp" data-act="shspeak" aria-label="Seslendir" style="margin:0">🔊</button><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>${body}</div>`}
+ return`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:26px">${esc(q.tok)}</b><button class="sp" data-act="shspeak" aria-label="Seslendir" style="margin:0">🔊</button><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>${body}${addB}</div>`}
 function paintSheet(){$('#sheet').innerHTML=sheetHtml();if(sheetSt&&sheetSt.needTr){sheetSt.needTr=false;doTr(sheetSt.tok)}if(sheetSt&&sheetSt.needIpa){sheetSt.needIpa=false;doIpa(sheetSt.tok)}}
 async function doIpa(tok){const k=tok.toLowerCase(),el=()=>(sheetSt&&sheetSt.tok===tok)?$('#ipaout'):null;S.ipa=S.ipa||{};if(S.ipa[k]){if(el())el().textContent=S.ipa[k];return}
  if(!navigator.onLine)return;try{const j=await jget('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(k));let ph='';if(Array.isArray(j))ph=j.map(e=>e.phonetic||((e.phonetics||[]).find(x=>x.text)||{}).text||'').find(Boolean)||'';if(ph){S.ipa[k]=ph;save();if(el())el().textContent=ph}}catch(e){}}
@@ -508,6 +525,8 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'shspeak':return speak(sheetSt.tok);
  case'shhard':{toggleIn('main',lk(sheetSt.tok));paintSheet();return}
  case'shpick':{const id=lk(sheetSt.tok);closeSheet();return openPicker(id)}
+ case'shmk':{const q=sheetSt,t=getText(curText);if(!q||!t)return;const cs=ctxSent(visParas(t)[q.p]||'',q.o).s;toast('Kart hazırlanıyor…');
+  (async()=>{try{const id=await mkCustom(q.tok,cs);closeSheet();sfx('ok');openPicker(id)}catch(e){toast('Kart oluşturulamadı (internet gerekir)')}})();return}
  case'shlearn':{const id=lk(sheetSt.tok);if(P(id).status!=='learned')learn(id);save();paintSheet();render();return}
  case'addtx':{try{const n=addTexts($('#txj').value);toast(n+' metin eklendi');return render()}catch(x){return toast('Geçersiz metin JSON')}}
  case'deltx':{if(!window._dt){window._dt=1;el.textContent='Emin misin?';setTimeout(()=>{window._dt=0;if(el.isConnected)el.textContent='Eklenenleri sil'},4000);return}window._dt=0;S.custom=[];save();toast('Silindi');return render()}
@@ -552,7 +571,7 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'loadbk':{try{const o=JSON.parse($('#bk').value);const st=o.state||o;if(!st||st.v!==1||typeof st.progress!=='object')throw 0;S=st;S.settings=S.settings||{activeSize:10};S.stats=S.stats||{last:'',streak:0,today:{d:'',n:0}};save();ensureActive();toast('Yedek yüklendi');return go('home')}catch(x){return toast('Geçersiz yedek metni')}}
  }});
 if('serviceWorker' in navigator&&/^https?:/.test(location.protocol)){navigator.serviceWorker.register('sw.js').catch(()=>{})}
-if(curP()){ensureActive();setTimeout(()=>refreshOnline(false),1500)}else view='welcome';
+reloadCustom();if(curP()){ensureActive();setTimeout(()=>refreshOnline(false),1500)}else view='welcome';
 render();
 </script>
 </body></html>
