@@ -108,7 +108,7 @@ function sfx(k){if(S.settings&&S.settings.sound===false)return;
 /* ===== helpers ===== */
 const IC={home:'<path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',list:'<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>',texts:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/>',star:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',cog:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/>',cards:'<rect x="3" y="6" width="14" height="14" rx="3"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',pen:'<path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/>',link:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',fire:'<path d="M12 22c4 0 7-3 7-7 0-3-2-5-3-7-1 2-2 3-3 3 0-3-1-6-4-8 0 4-4 6-4 12 0 4 3 7 7 7z"/>'};
 const ic=(n,c)=>`<svg class="ico ${c||''}" viewBox="0 0 24 24">${IC[n]}</svg>`;
-document.querySelector('nav .in').innerHTML=[['home','Ana'],['list','Kelimeler'],['texts','Metin'],['hard','Zor'],['settings','Ayarlar']].map(([k,l])=>`<button data-nav="${k}"><span class="pill">${ic(k==='hard'?'star':k==='settings'?'cog':k)}</span>${l}</button>`).join('');
+document.querySelector('nav .in').innerHTML=[['home','Ana'],['list','Kelimeler'],['texts','Metin'],['hard','Listeler'],['settings','Ayarlar']].map(([k,l])=>`<button data-nav="${k}"><span class="pill">${ic(k==='hard'?'star':k==='settings'?'cog':k)}</span>${l}</button>`).join('');
 
 const $=s=>document.querySelector(s);const esc=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const wre=w=>escRe(w).replace(/\\\(([^)]*?)\\\)/g,'(?:$1)?');
@@ -124,7 +124,7 @@ function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang='en-GB';u.r
 /* ===== logic ===== */
 const activeIds=()=>WORDS.filter(w=>hasData(w)&&P(w.id).status==='active').map(w=>w.id);
 const learnedIds=()=>WORDS.filter(w=>P(w.id).status==='learned').map(w=>w.id);
-const hardIds=()=>WORDS.filter(w=>hasData(w)&&P(w.id).isHard).map(w=>w.id);
+const hardIds=()=>(getList('main')?getList('main').ids:[]).filter(id=>byId[id]&&hasData(byId[id]));
 function orderIds(){const o=S.order||[],have=new Set(o);const add=WORDS.map(w=>w.id).filter(i=>!have.has(i));if(add.length||!S.order){S.order=o.concat(shuffle(add))}return S.order}
 function ensureActive(){let n=activeIds().length;for(const w of orderIds().map(i=>byId[i]).filter(Boolean)){if(n>=S.settings.activeSize)break;if(hasData(w)&&P(w.id).status==='unseen'){const p=PW(w.id);p.status='active';p.mastery=0;n++}}save()}
 function bumpDay(){const t=today(),st=S.stats;st.hist=st.hist||{};st.hist[t]=(st.hist[t]||0)+1;const hk=Object.keys(st.hist).sort();while(hk.length>40)delete st.hist[hk.shift()];if(st.today.d!==t)st.today={d:t,n:0};st.today.n++;
@@ -141,9 +141,9 @@ function grade(id,ok,hardMode){const p=PW(id);p.seen++;bumpDay();p.step=ok?Math.
 /* ===== views ===== */
 let view='home',detailFrom='list',session=null,detailId=null,filter='',navTab='home';
 const app=()=>$('#app');
-function go(v,extra){view=v;try{speechSynthesis.cancel()}catch(e){}if(['home','list','hard','settings','texts'].includes(v))navTab=v;if(['text','cats','twords'].includes(v))navTab='texts';if(['smenu','badges','profiles','welcome'].includes(v))navTab='home';if(v==='texts')setTimeout(()=>refreshOnline(false),60);Object.assign(window,extra||{});render();window.scrollTo(0,0)}
+function go(v,extra){view=v;try{speechSynthesis.cancel()}catch(e){}if(['home','list','hard','settings','texts'].includes(v))navTab=v;if(['text','cats','twords'].includes(v))navTab='texts';if(['smenu','badges','profiles','welcome'].includes(v))navTab='home';if(v==='lst')navTab='hard';if(v==='texts')setTimeout(()=>refreshOnline(false),60);Object.assign(window,extra||{});render();window.scrollTo(0,0)}
 function render(){const nv=document.querySelector('nav');if(nv)nv.style.display=view==='welcome'?'none':'';document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.nav===navTab));
- ({home:vHome,list:vList,hard:vHard,settings:vSettings,detail:vDetail,study:vStudy,end:vEnd,texts:vTexts,text:vText,smenu:vSMenu,badges:vBadges,welcome:vWelcome,profiles:vProfiles,cats:vCats,twords:vTWords})[view]();}
+ ({home:vHome,list:vList,hard:vHard,settings:vSettings,detail:vDetail,study:vStudy,end:vEnd,texts:vTexts,text:vText,smenu:vSMenu,badges:vBadges,welcome:vWelcome,profiles:vProfiles,cats:vCats,twords:vTWords,lst:vLst})[view]();}
 function bar(pct){return `<div class="bar"><i style="width:${pct}%"></i></div>`}
 const BADGES=[
  ['🌱','İlk adım','İlk kelimeni öğren',()=>learnedIds().length>=1],['🌿','10 kelime','10 kelime öğren',()=>learnedIds().length>=10],['🌳','50 kelime','50 kelime öğren',()=>learnedIds().length>=50],
@@ -188,7 +188,7 @@ function vHome(){ensureActive();const tot=WORDS.length,ready=WORDS.filter(hasDat
  ${(()=>{const w=wotd();return w?`<div class="card" data-act="detail" data-id="${esc(w.id)}" style="cursor:pointer"><div class="eyebrow">Günün kelimesi</div><div class="row"><div class="grow"><b style="font-size:30px;font-weight:800">${esc(w.word)}</b> <span class="mute">${esc(w.ipa)}</span><div style="color:var(--red);font-weight:800">${esc(w.tr)}</div></div><button class="sp" data-act="wspeak" data-w="${esc(w.word)}" aria-label="Seslendir" style="margin:0">🔊</button></div><div class="mute" style="margin-top:6px">${hl(w)}</div></div>`:''})()}
  <button class="tile feat t-red" data-act="gostudy"><span class="ib">${ic('cards')}</span><span><b>Kelime Çalış</b><span class="mute">${A.length} kelimelik set${dueN?` · ${dueN} tekrar bekliyor`:''}</span></span></button>
  <button class="tile feat t-ok" data-nav="texts"><span class="ib">${ic('texts')}</span><span><b>Metin Çalışması</b><span class="mute">${NT} kısa metin · dokun, anlamını gör</span></span></button>
- <div class="grid2"><button class="tile sm t-amber" data-nav="hard"><span class="ib">${ic('star')}</span><span><b>Zor Kelimeler</b><span class="mute">${H} kelime</span></span></button>
+ <div class="grid2"><button class="tile sm t-amber" data-nav="hard"><span class="ib">${ic('star')}</span><span><b>Çalışma listem</b><span class="mute">${H} kelime</span></span></button>
  <button class="tile sm t-blue" data-nav="list"><span class="ib">${ic('list')}</span><span><b>Tüm Kelimeler</b><span class="mute">${ready}/${tot} hazır</span></span></button></div>
  <div style="height:14px"></div>${weekChart()}
  <button class="btn ghost" data-act="gobadges">🏅 Rozetlerim (${badgeCount()}/${BADGES.length})</button>`}
@@ -202,11 +202,14 @@ function vSMenu(){ensureActive();const A=activeIds();
  <button class="tile t-ok" data-act="start" data-m="type" ${A.length?'':'disabled'}><span class="ib">${ic('pen')}</span><span><b>Yazarak Cevapla</b><span class="mute">Türkçesini gör, İngilizcesini yaz</span></span></button>
  <button class="tile t-blue" data-act="start" data-m="listen" ${A.length?'':'disabled'}><span class="ib">${ic('texts')}</span><span><b>Dinle ve Seç</b><span class="mute">Kelimeyi duy, doğru yazılışı bul</span></span></button>
  <button class="tile t-blue" data-act="start" data-m="match" ${A.length>=3?'':'disabled'}><span class="ib">${ic('link')}</span><span><b>Eşleştirme</b><span class="mute">Kelimeleri anlamlarıyla eşle</span></span></button>`}
-function startSession(m){let q;
- if(m==='hard'){q=shuffle(hardIds())}else if(m==='review'){q=shuffle(dueIds())}else{q=shuffle(activeIds())}
+function startSession(m,lid){let q;
+ if(lid){const L=getList(lid);q=shuffle(((L&&L.ids)||[]).filter(id=>byId[id]&&hasData(byId[id])&&P(id).status!=='learned'))}
+ else if(m==='hard'){q=shuffle(hardIds().filter(id=>P(id).status!=='learned'))}
+ else if(m==='review'){q=shuffle(dueIds())}
+ else{const pool=activeIds(),ex=shuffle(hardIds().filter(id=>P(id).status!=='learned'&&!pool.includes(id))).slice(0,2);q=shuffle(pool.concat(ex))}
  if(!q.length)return toast('Çalışılacak kelime yok');
  if(m==='match'){const seen={},pick=[];for(const id of q){const k=shortTr(byId[id]);if(!seen[k]){seen[k]=1;pick.push(id)}}q=pick;if(q.length<3)return toast('Eşleştirme için en az 3 farklı kelime gerekli')}
- session={m,hardMode:m==='hard',queue:q.slice(),idx:0,res:{ok:0,bad:0},flip:false,total:q.length,cur:null,answered:false,sel:null,pairs:null};
+ session={m,listId:lid||null,hardMode:m==='hard',queue:q.slice(),idx:0,res:{ok:0,bad:0},flip:false,total:q.length,cur:null,answered:false,sel:null,pairs:null};
  go('study')}
 const shortTr=w=>w.tr.split(',')[0].trim();
 function vStudy(){if(!session)return go('home');const s=session;
@@ -223,7 +226,7 @@ function vStudy(){if(!session)return go('home');const s=session;
   <div class="en">${hl(w)}</div><div class="sentr">${esc(w.entr)}</div>${w.tip?`<div class="tip">💡 ${esc(w.tip)}</div>`:''}`
   :`<div class="w">${esc(w.word)}</div><div class="ipa">${esc(w.ipa)}</div><button class="sp" data-act="speak" aria-label="Seslendir">🔊</button><div class="mute" style="margin-top:14px">Anlamı için dokun</div>`}</div>
   ${s.flip?`<div class="grid2"><button class="btn bad" data-act="ans" data-v="0">Bilemedim</button><button class="btn ok" data-act="ans" data-v="1">Bildim</button></div>
-  <div class="grid2" style="margin-top:10px"><button class="btn ghost" data-act="learnnow">✓ Öğrendim</button><button class="btn ghost" data-act="togglehard">${p.isHard?'★ Zor (kaldır)':'☆ Zor işaretle'}</button></div>`:''}`}
+  <div class="grid2" style="margin-top:10px"><button class="btn ghost" data-act="learnnow">✓ Öğrendim</button><button class="btn ghost" data-act="togglehard">${mainLbl(s.cur)}</button></div><button class="btn ghost" data-act="spick" style="margin-top:10px;width:100%">📚 Listelere ekle</button>`:''}`}
 function hl(w){const m=findIn(w);if(!m)return esc(w.en);return esc(w.en.slice(0,m.i))+'<b>'+esc(w.en.slice(m.i,m.i+m.len))+'</b>'+esc(w.en.slice(m.i+m.len))}
 function findIn(w){const re=new RegExp('(^|[^A-Za-z])('+wre(w.word)+')(?![A-Za-z])','i');const m=re.exec(w.en);if(!m)return null;return{i:m.index+m[1].length,len:m[2].length,txt:m[2]}}
 function blankInfo(w){return findIn(w)}
@@ -263,9 +266,9 @@ function vEnd(){setTimeout(()=>sfx('done'),120);const r=session?session.res:{ok:
  <button class="btn primary" data-act="home" style="margin-bottom:10px">Ana sayfa</button>
  <button class="btn" data-act="again">Tekrar çalış</button>`}
 function statusBadge(w){if(!hasData(w))return'<span class="badge mute">bekliyor</span>';const p=P(w.id);
- return(p.isHard?'<span class="badge hard">★</span> ':'')+(p.status==='learned'?'<span class="badge ok">öğrenildi</span>':p.status==='active'?'<span class="badge">çalışılıyor</span>':'<span class="badge mute">yeni</span>')}
-function vList(){const q=filter.trim().toLowerCase();let ws=WORDS.filter(w=>!q||w.word.toLowerCase().includes(q)||(w.tr||'').toLowerCase().includes(q));
- app().innerHTML=`<h1>Kelimeler</h1><input type="search" id="q" placeholder="Ara (İngilizce / Türkçe)" value="${esc(filter)}"><div class="card list">${ws.slice(0,300).map(w=>`<div class="it" data-act="detail" data-id="${esc(w.id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w.tr?w:{tr:''}))}</span></span>${statusBadge(w)}</div>`).join('')||'<div class="mute">Sonuç yok</div>'}</div>${ws.length>300?'<div class="mute center">İlk 300 sonuç gösteriliyor, aramayı daraltın.</div>':''}`;
+ return(inList('main',w.id)?'<span class="badge hard">★</span> ':'')+(p.status==='learned'?'<span class="badge ok">öğrenildi</span>':p.status==='active'?'<span class="badge">çalışılıyor</span>':'<span class="badge mute">yeni</span>')}
+function vList(){const q=filter.trim().toLowerCase(),hl2=!!S.settings.hideLearned;let ws=WORDS.filter(w=>(!q||w.word.toLowerCase().includes(q)||(w.tr||'').toLowerCase().includes(q))&&(!hl2||P(w.id).status!=='learned'));
+ app().innerHTML=`<h1>Kelimeler</h1><input type="search" id="q" placeholder="Ara (İngilizce / Türkçe)" value="${esc(filter)}"><div class="chs" style="margin-bottom:10px"><button class="ch ${hl2?'on':''}" data-act="hidel">${hl2?'✓ Öğrenilenler gizli':'Öğrenilenleri gizle'}</button></div><div class="card list">${ws.map(w=>{const lr=P(w.id).status==='learned';return`<div class="it" data-act="detail" data-id="${esc(w.id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w.tr?w:{tr:''}))}</span></span>${statusBadge(w)}${hasData(w)?`<button class="badge ${lr?'ok':'mute'}" data-act="rowlearn" data-id="${esc(w.id)}" style="border:0;margin-left:6px">${lr?'↺':'✓'}</button>`:''}</div>`}).join('')||'<div class="mute">Sonuç yok</div>'}</div><div class="mute tiny center">${ws.length} kelime</div>`;
  const i=$('#q');i.addEventListener('input',e=>{filter=e.target.value;const pos=e.target.selectionStart;vList();const n=$('#q');n.focus();n.setSelectionRange(pos,pos)})}
 function vDetail(){const w=byId[detailId];if(!w)return go('list');const p=P(w.id);
  app().innerHTML=`<div class="hdr"><button class="back" data-act="detailback">‹</button><b>Kelime</b></div><div class="card">
@@ -273,9 +276,35 @@ function vDetail(){const w=byId[detailId];if(!w)return go('list');const p=P(w.id
  ${hasData(w)?`<div class="mute">${esc(w.ipa)} · ${esc(w.pos)} <button class="sp" data-act="speakd" style="width:34px;height:34px;font-size:16px;margin:0 0 0 6px">🔊</button></div>
  <h2 style="color:var(--red)">${esc(w.tr)}</h2><div>${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.tip?`<div class="fc"><div class="tip" style="margin-top:10px;cursor:default">💡 ${esc(w.tip)}</div></div>`:''}
  <div class="mute tiny" style="margin-top:12px">Doğru: ${p.ok} · Yanlış: ${p.bad} · Seviye: ${p.mastery}/3</div>`:'<p class="mute">Bu kelimenin verisi henüz hazırlanmadı.</p>'}</div>
- ${hasData(w)?`<div class="grid2"><button class="btn" data-act="dhard">${p.isHard?'★ Zor (kaldır)':'☆ Zor işaretle'}</button><button class="btn" data-act="dlearn">${p.status==='learned'?'↺ Tekrar öğren':'✓ Öğrendim'}</button></div>`:''}`}
-function vHard(){const h=hardIds();
- app().innerHTML=`<h1>Zor Kelimeler</h1>${h.length?`<div class="card list">${h.map(id=>{const w=byId[id];return`<div class="it" data-act="detail" data-id="${esc(id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w))}</span></span><span class="badge hard">★</span></div>`}).join('')}</div><button class="btn primary" data-act="start" data-m="hard">Zor kelimeleri çalış</button><p class="mute">Bir kelimeyi bu modda 3 kez art arda bilirsen zor listesinden çıkar.</p>`:'<div class="card center mute">Henüz zor kelime yok. Sık yanlış yaptığın kelimeler burada toplanır.</div>'}`}
+ ${hasData(w)?`<div class="grid2"><button class="btn" data-act="dhard">${mainLbl(w.id)}</button><button class="btn" data-act="dlearn">${p.status==='learned'?'↺ Tekrar öğren':'✓ Öğrendim'}</button></div><button class="btn ghost" data-act="dpick" style="margin-top:12px">📚 Listelere ekle</button>`:''}`}
+/* ===== lists ===== */
+let curList='main',pickW=null;
+function lists(){if(!S.lists){S.lists=[{id:'main',name:'Çalışma listem',ids:Object.keys(S.progress).filter(k=>S.progress[k]&&S.progress[k].isHard)}]}return S.lists}
+const getList=id=>lists().find(l=>l.id===id)||null;
+const inList=(lid,id)=>{const L=getList(lid);return !!L&&L.ids.includes(id)};
+const mainLbl=id=>inList('main',id)?'★ Listemde (çıkar)':'+ Çalışma listeme';
+function toggleIn(lid,id){const L=getList(lid);if(!L)return;L.ids=L.ids.includes(id)?L.ids.filter(x=>x!==id):L.ids.concat(id);save()}
+function openPicker(id){const w=id&&byId[id];if(!w||!hasData(w))return toast('Bu kelimenin kartı henüz yok');pickW=id;paintPicker()}
+function paintPicker(){const w=byId[pickW];if(!w)return;$('#sheet').innerHTML=`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:24px">Listeye ekle</b><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>
+ <div class="mute" style="margin-top:4px">${esc(w.word)}</div>
+ <div style="margin:14px 0">${lists().map(l=>`<button class="btn ${inList(l.id,pickW)?'primary':'ghost'}" data-act="pk" data-l="${esc(l.id)}" style="margin-bottom:8px;text-align:left">${inList(l.id,pickW)?'✓ ':'+ '}${esc(l.name)} <span class="mute">· ${l.ids.length}</span></button>`).join('')}</div>
+ <div class="row"><input id="pknm" type="text" maxlength="30" placeholder="Yeni liste adı" style="margin:0"><button class="badge" data-act="pknew" style="border:0;padding:12px 14px;font-size:14px">Oluştur</button></div></div>`}
+function vHard(){const main=getList('main');
+ app().innerHTML=`<h1>Listelerim</h1>
+ <button class="tile t-amber" data-act="openl" data-l="main"><span class="ib">${ic('star')}</span><span><b>Çalışma listem</b><span class="mute">${main.ids.length} kelime · ★ işaretlediklerin</span></span></button>
+ ${lists().filter(l=>l.id!=='main').map(l=>`<button class="tile t-blue" data-act="openl" data-l="${esc(l.id)}"><span class="ib">${ic('list')}</span><span><b>${esc(l.name)}</b><span class="mute">${l.ids.length} kelime</span></span></button>`).join('')}
+ <div class="card row" style="margin-top:6px"><input id="nln" type="text" maxlength="30" placeholder="Yeni liste adı" style="margin:0;flex:1"><button class="badge" data-act="newlist" style="border:0;padding:12px 14px;font-size:14px">Oluştur</button></div>`}
+function vLst(){const l=getList(curList);if(!l)return go('hard');const ids=l.ids.filter(id=>byId[id]);const ready=ids.filter(id=>hasData(byId[id])).length;
+ app().innerHTML=`<div class="hdr"><button class="back" data-act="listback">‹</button><input id="rnm" type="text" maxlength="30" value="${esc(l.name)}" style="margin:0;flex:1;font-weight:800;font-size:19px;padding:8px 12px"><button class="badge" data-act="renlist" style="border:0;padding:9px 12px;font-size:14px">Kaydet</button>${l.id!=='main'?'<button class="badge hard" data-act="dellist" style="border:0;padding:9px 12px;font-size:14px">Sil</button>':''}</div>
+ <p class="mute" style="margin-top:-6px">${ids.length} kelime · ${ready} çalışılabilir</p>
+ <div class="grid2" style="margin-bottom:14px">
+  <button class="btn primary" data-act="startl" data-m="flash" data-l="${esc(l.id)}">🃏 Kartlar</button>
+  <button class="btn" data-act="startl" data-m="type" data-l="${esc(l.id)}">✍️ Yazarak</button>
+  <button class="btn" data-act="startl" data-m="listen" data-l="${esc(l.id)}">🔊 Dinle</button>
+  <button class="btn" data-act="startl" data-m="fill" data-l="${esc(l.id)}">✏️ Boşluk</button>
+  <button class="btn" data-act="startl" data-m="match" data-l="${esc(l.id)}">🔗 Eşleştir</button>
+ </div>
+ <div class="card list">${ids.length?ids.map(id=>{const w=byId[id],lr=P(id).status==='learned';return`<div class="it" data-act="detail" data-from="lst" data-id="${esc(id)}"><span class="n grow">${esc(w.word)}<span class="mute"> ${esc(shortTr(w))}</span></span><button class="badge ${lr?'ok':'mute'}" data-act="rowlearn" data-id="${esc(id)}" style="border:0">${lr?'↺ öğrenildi':'✓ öğrendim'}</button><button class="badge mute" data-act="unlist" data-id="${esc(id)}" data-l="${esc(l.id)}" style="border:0;margin-left:4px">×</button></div>`}).join(''):'<div class="mute">Liste boş. Kelime kartından ya da metinden ekleyebilirsin.</div>'}</div>`}
 function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <div class="card row" data-act="goprof" style="cursor:pointer">${avH(curP().av,48)}<b class="grow" style="font-size:19px">${esc(curP().name)}</b><span class="mute">Profil ›</span></div>
  <div class="card"><b>Sesler</b><select id="snd"><option value="1">Açık</option><option value="0" ${S.settings.sound===false?'selected':''}>Kapalı</option></select><div class="mute tiny">Doğru, yanlış ve dokunma sesleri.</div></div>
@@ -291,7 +320,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.8 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.13 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -322,15 +351,20 @@ const getText=id=>allTexts().find(t=>t.id===id);
 function trAt(t,i){const n=t.paragraphs.length;if(i<n)return(t.tr&&t.tr.length===n&&t.tr[i])||null;let j=i-n;for(let c=0;c<(t.more||[]).length;c++){const len=t.more[c].length;if(j<len)return(t.moretr&&t.moretr[c]&&t.moretr[c].length===len&&t.moretr[c][j])||null;j-=len}return null}
 const visParas=t=>(t.paragraphs||[]).concat(...((t.more||[]).slice(0,(S.ext||{})[t.id]||0)));
 function txStats(t){let n=0,l=0,a=0,p=0;for(const para of visParas(t)){for(const m of para.matchAll(TOKRE)){n++;const c=cls(lk(m[0]));if(c==='l')l++;else if(c==='a')a++;else if(c==='p')p++}}return{n,l,a,p}}
-let catF='all',twK='l';
+let catF='all',twK='l',diffF='all';
+const DCOL={Kolay:'#dcefe6',Orta:'#fbf1da',Zor:'#fbe3df'};
+function diffOf(t){const m=twMap(t),u=m.a.length+m.p.length,l=m.l.length;if(!u&&!l)return null;const cut=diffCuts();return{unk:u,known:l,lbl:u<=cut[0]?'Kolay':u<=cut[1]?'Orta':'Zor'}}
+function diffCuts(){const v=allTexts().map(x=>{const m=twMap(x);return m.a.length+m.p.length}).sort((a,b)=>a-b);if(!v.length)return[0,0];return[v[Math.floor((v.length-1)/3)],v[Math.floor((v.length-1)*2/3)]]}
+const dchip=t=>{const d=diffOf(t);return d?`<span class="badge" style="background:${DCOL[d.lbl]};color:var(--ink)">${d.lbl} · ${d.unk} yeni kelime</span>`:''};
 const onlineStatus=()=>fetching?'Güncelleniyor…':(onlErr?'Güncellenemedi: '+onlMsg:(onlMsg||(S.lastFetch?'Güncellendi '+new Date(S.lastFetch).toTimeString().slice(0,5):'Henüz güncellenmedi'))+(S.lastFetch?' · '+new Date(S.lastFetch).toTimeString().slice(0,5):''))+(navigator.onLine?'':' · çevrimdışı');
 function vTexts(){const L=allTexts(),rd=S.read||{},have=CATS.filter(c=>L.some(t=>t.cat===c[0]));
- const V=L.filter(t=>catF==='all'||t.cat===catF).sort((a,b)=>(rd[a.id]?1:0)-(rd[b.id]?1:0)||String(b.date||'').localeCompare(String(a.date||'')));
+ const V=L.filter(t=>(catF==='all'||t.cat===catF)&&(diffF==='all'||(diffOf(t)||{}).lbl===diffF)).sort((a,b)=>(rd[a.id]?1:0)-(rd[b.id]?1:0)||String(b.date||'').localeCompare(String(a.date||'')));
  app().innerHTML=`<h1>Metin Çalışması</h1>
  <div class="row" style="margin:-6px 0 12px"><span class="mute grow tiny">${onlineStatus()}</span><button class="badge" data-act="refresh" style="border:0">↻ Yenile</button><button class="badge" data-act="gocats" style="border:0;background:var(--blue-soft);color:var(--blue)">İlgi alanları</button></div>
  <div class="chs"><button class="ch ${catF==='all'?'on':''}" data-act="catf" data-c="all">Tümü</button>${have.map(c=>`<button class="ch ${catF===c[0]?'on':''}" data-act="catf" data-c="${c[0]}">${c[1]}</button>`).join('')}</div>
+ <div class="chs">${['all','Kolay','Orta','Zor'].map(d=>`<button class="ch ${diffF===d?'on':''}" data-act="difff" data-d="${d}">${d==='all'?'Her zorluk':d}</button>`).join('')}</div>
  ${V.length?V.map(t=>{const s=txStats(t),k=s.n?Math.round((s.l+s.a)/s.n*100):0;return`<div class="card" data-act="opentx" data-id="${esc(t.id)}" style="cursor:pointer"><div class="row"><b class="grow">${esc(t.title)}</b>${rd[t.id]?'<span class="badge ok">okundu</span>':''}</div>
- <div class="mute tiny" style="margin:4px 0 8px">${esc(CL[t.cat]||t.topic||'')} · ${esc(t.date||'')} · ${s.n} kelime${t.online?' · çevrimiçi':''}</div>${bar(k)}<div class="mute tiny" style="margin-top:4px">Çalıştığın/öğrendiğin: %${k}</div></div>`}).join(''):'<div class="card mute">Bu kategoride henüz metin yok. İnternete bağlıyken ↻ Yenile\'ye dokun.</div>'}`}
+ <div class="mute tiny" style="margin:4px 0 8px">${esc(CL[t.cat]||t.topic||'')} · ${esc(t.date||'')} · ${s.n} kelime${t.online?' · çevrimiçi':''} · ${dchip(t)}</div>${bar(k)}<div class="mute tiny" style="margin-top:4px">Çalıştığın/öğrendiğin: %${k}</div></div>`}).join(''):'<div class="card mute">Bu kategoride henüz metin yok. İnternete bağlıyken ↻ Yenile\'ye dokun.</div>'}`}
 function vCats(){const cs=S.cats||DEFCATS;
  app().innerHTML=`<div class="hdr"><button class="back" data-nav="texts">‹</button></div><h1>İlgi alanların</h1><p class="mute" style="margin-top:-8px">Seçtiğin konularda yeni metinler internetten otomatik gelir. Okuduklarının yerine yenileri eklenir.</p>
  <div class="chs" style="flex-wrap:wrap;overflow:visible">${CATS.map(c=>`<button class="ch ${cs.includes(c[0])?'on':''}" data-act="tgcat" data-c="${c[0]}">${c[1]}</button>`).join('')}</div>
@@ -342,11 +376,13 @@ function vTWords(){const t=getText(curText);if(!t)return go('texts');const ids=t
 function tokHtml(para,pi){let out='',last=0;for(const m of para.matchAll(TOKRE)){out+=esc(para.slice(last,m.index));out+=`<span class="tk ${cls(lk(m[0]))}" data-act="tk" data-t="${esc(m[0])}" data-p="${pi}" data-o="${m.index}">${esc(m[0])}</span>`;last=m.index+m[0].length}return out+esc(para.slice(last))}
 function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap(t);
  app().innerHTML=`<div class="hdr"><button class="back" data-nav="texts">‹</button><b class="grow" style="font-size:19px;line-height:1.25">${esc(t.title)}</b></div>
- <div class="row" style="margin-bottom:10px"><span class="badge">${esc(CL[t.cat]||t.topic||'')}</span><span class="grow"></span><button class="badge" data-act="txlisten" style="border:0">🔊 Dinle</button><button class="badge" data-act="txtr" style="border:0">${txTr?'TR gizle':'TR göster'}</button></div>
+ <div class="row" style="margin-bottom:10px"><span class="badge">${esc(CL[t.cat]||t.topic||'')}</span>${dchip(t)}<span class="grow"></span><button class="badge" data-act="txlisten" style="border:0">🔊 Dinle</button><button class="badge" data-act="txtr" style="border:0">${txTr?'TR gizle':'TR göster'}</button></div>
  <div class="lg"><button class="lgb" style="background:var(--ok-soft)" data-act="twl" data-k="l">öğrendin · ${m.l.length}</button><button class="lgb" style="background:var(--red-soft)" data-act="twl" data-k="a">çalışıyorsun · ${m.a.length}</button><button class="lgb" style="background:var(--blue-soft)" data-act="twl" data-k="p">listede yeni · ${m.p.length}</button></div>
+ ${(()=>{const d=diffOf(t);return d&&d.lbl==='Zor'?`<div class="card" style="background:var(--amber-soft)"><b>Bu metin senin için zor.</b><div class="mute" style="margin-top:4px">Bu metinde ${d.unk} kelime henüz senin için yeni. Önce “Kolay” bir metne geç ya da bilmediklerini listeye ekleyip sonra dön.</div></div>`:''})()}
  <div class="card tx">${visParas(t).map((p,i)=>`<p>${tokHtml(p,i)}</p>${txTr?`<p class="trp">${esc(trAt(t,i)||(S.ptr||{})[hash(p)]||(trFail[hash(p)]?'Çeviri alınamadı (internet gerekir)':'Çevriliyor…'))}</p>`:''}`).join('')}</div>
  ${t.online?`<div class="mute tiny" style="margin:-4px 0 12px">Kaynak: <a href="${esc(t.url||'#')}" target="_blank" rel="noopener" style="color:var(--blue)">${esc(t.src||'Wikipedia')}</a> · CC BY-SA. Türkçesi için “TR göster” (otomatik çeviri).</div>`:''}
- ${((t.more||[]).length>((S.ext||{})[t.id]||0)||(t.online&&/^w\d+$/.test(t.id)&&!(t.more||[]).length))?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat${(t.more||[]).length?` <span class="mute">(${(t.more||[]).length-((S.ext||{})[t.id]||0)} bölüm daha)</span>`:''}</button>`:''}
+ ${(()=>{const rem=(t.more||[]).length-((S.ext||{})[t.id]||0),canF=!!t.online&&/^w\d+$/.test(t.id)&&!(t.more||[]).length&&!((S.nomore||{})[t.id]);return rem>0||canF?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat${rem>0?` <span class="mute">(${rem} bölüm daha)</span>`:''}</button>`:`<button class="btn ghost" disabled style="margin-bottom:10px">Metin sonuna gelindi</button>`})()}
+ ${(()=>{const m=twMap(t),k=m.a.length+m.p.length;return k?`<button class="btn ghost" data-act="addunk" style="margin-bottom:10px">＋ Bilmediklerimi listeye ekle (${k})</button>`:''})()}
  <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`;
  if(txTr)ensureTr(t)}
 function ctxSent(para,off){const re=/[^.!?]+[.!?]*["\u201d]?\s*/g;let m;while((m=re.exec(para))){if(off<m.index+m[0].length)return{s:m[0].trim(),i:off-m.index-(m[0].length-m[0].trimStart().length)}}return{s:para,i:off}}
@@ -354,14 +390,18 @@ function sheetHtml(){const q=sheetSt,t=getText(curText);if(!q||!t)return'';const
  const para=visParas(t)[q.p]||'',cs=ctxSent(para,q.o),ctx=esc(cs.s);const ci=cs.s.toLowerCase().indexOf(q.tok.toLowerCase());
  const ctxH=ci>=0?esc(cs.s.slice(0,ci))+'<b>'+esc(cs.s.slice(ci,ci+q.tok.length))+'</b>'+esc(cs.s.slice(ci+q.tok.length)):ctx;
  let body;
- if(w&&hasData(w)){const p=P(w.id);body=`<div class="mute">${esc(w.ipa)} · ${esc(w.pos)}${w.id!==q.tok.toLowerCase()?` · kök: <b>${esc(w.word)}</b>`:''}</div>
-  <h2 style="color:var(--red);margin:8px 0 6px">${esc(w.tr)}</h2><div>${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.tip?`<div class="tip" style="margin-top:8px;font-size:14px;background:var(--red-soft);padding:8px 10px;border-radius:10px">💡 ${esc(w.tip)}</div>`:''}
+ if(w&&hasData(w)){const p=P(w.id);body=`<h2 style="color:var(--red);margin:6px 0 2px;font-size:24px">${esc(w.tr)}</h2>
+  <div class="mute">${esc(w.ipa)} · ${esc(w.pos)}${w.id!==q.tok.toLowerCase()?` · kök: <b>${esc(w.word)}</b>`:''}</div>
+  <div style="margin-top:10px">${hl(w)}</div><div class="mute">${esc(w.entr)}</div>${w.tip?`<div class="tip" style="margin-top:10px;font-size:14px;background:var(--red-soft);padding:8px 10px;border-radius:10px">💡 ${esc(w.tip)}</div>`:''}
   <div class="ctx">Metinde: ${ctxH}</div>
-  <div class="grid2" style="margin-top:12px"><button class="btn" data-act="shhard">${p.isHard?'★ Zor (kaldır)':'☆ Zor işaretle'}</button><button class="btn" data-act="shlearn">${p.status==='learned'?'✓ Öğrenildi':'✓ Öğrendim'}</button></div>`}
- else if(g){body=`<h2 style="color:var(--red);margin:8px 0 6px">${esc(g)}</h2><div class="mute tiny">Metin sözlüğünden${w?' · kartı henüz hazırlanmadı (kök: '+esc(w.word)+')':''}</div><div class="ctx">Metinde: ${ctxH}</div>`}
- else{q.needTr=true;body=`<h2 id="trout" style="margin:8px 0 4px;color:var(--red)">…</h2><div class="mute tiny">otomatik çeviri${w?' · kartı henüz hazırlanmadı':' · kırmızı listede yok'}</div><div class="ctx">Metinde: ${ctxH}</div>`}
+  <button class="btn" data-act="shlearn" style="margin-top:14px;width:100%">${p.status==='learned'?'✓ Öğrenildi':'✓ Öğrendim'}</button>
+  <button class="btn primary" data-act="shpick" style="margin-top:10px;width:100%">＋ Listeme ekle</button>`}
+ else if(g){q.needIpa=true;body=`<h2 style="color:var(--red);margin:8px 0 6px">${esc(g)}</h2><div id="ipaout" class="mute"></div><div class="mute tiny">Metin sözlüğünden${w?' · kartı henüz hazırlanmadı (kök: '+esc(w.word)+')':''}</div><div class="ctx">Metinde: ${ctxH}</div>`}
+ else{q.needTr=true;q.needIpa=true;body=`<h2 id="trout" style="margin:8px 0 4px;color:var(--red)">…</h2><div id="ipaout" class="mute"></div><div class="mute tiny">otomatik çeviri${w?' · kartı henüz hazırlanmadı':' · kırmızı listede yok'}</div><div class="ctx">Metinde: ${ctxH}</div>`}
  return`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:26px">${esc(q.tok)}</b><button class="sp" data-act="shspeak" aria-label="Seslendir" style="margin:0">🔊</button><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>${body}</div>`}
-function paintSheet(){$('#sheet').innerHTML=sheetHtml();if(sheetSt&&sheetSt.needTr){sheetSt.needTr=false;doTr(sheetSt.tok)}}
+function paintSheet(){$('#sheet').innerHTML=sheetHtml();if(sheetSt&&sheetSt.needTr){sheetSt.needTr=false;doTr(sheetSt.tok)}if(sheetSt&&sheetSt.needIpa){sheetSt.needIpa=false;doIpa(sheetSt.tok)}}
+async function doIpa(tok){const k=tok.toLowerCase(),el=()=>(sheetSt&&sheetSt.tok===tok)?$('#ipaout'):null;S.ipa=S.ipa||{};if(S.ipa[k]){if(el())el().textContent=S.ipa[k];return}
+ if(!navigator.onLine)return;try{const j=await jget('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(k));let ph='';if(Array.isArray(j))ph=j.map(e=>e.phonetic||((e.phonetics||[]).find(x=>x.text)||{}).text||'').find(Boolean)||'';if(ph){S.ipa[k]=ph;save();if(el())el().textContent=ph}}catch(e){}}
 function closeSheet(){sheetSt=null;const e=$('#sheet');if(e)e.innerHTML=''}
 function addTexts(raw){let o=JSON.parse(raw);if(!Array.isArray(o))o=[o];const ok=[];
  for(const t of o){if(!t||typeof t.id!=='string'||typeof t.title!=='string'||!Array.isArray(t.paragraphs)||!t.paragraphs.length||t.paragraphs.some(p=>typeof p!=='string'))throw 0;
@@ -445,7 +485,7 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'speakd':return speak(byId[detailId].word);
  case'ans':{const ok=el.dataset.v==='1';sfx(ok?'ok':'bad');grade(s.cur,ok,s.hardMode);ok?s.res.ok++:s.res.bad++;s.queue.shift();if(!ok&&!s.hardMode&&s.m!=='review')s.queue.push(s.cur);s.flip=false;return render()}
  case'learnnow':{sfx('ok');learn(s.cur);s.res.ok++;s.queue.shift();s.flip=false;toast('Öğrenildi ✓');return render()}
- case'togglehard':{const p=PW(s.cur);p.isHard=!p.isHard;p.hardOk=0;save();return render()}
+ case'togglehard':{toggleIn('main',s.cur);return render()}
  case'pick':{if(s.answered)return;const ok=el.dataset.id===s.cur;sfx(ok?'ok':'bad');s.picked=el.dataset.id;s.answered=true;grade(s.cur,ok,false);ok?s.res.ok++:s.res.bad++;s.lastOk=ok;return render()}
  case'next':{s.queue.shift();if(!s.lastOk&&P(s.cur).status==='active')s.queue.push(s.cur);s.opts=null;s.answered=false;s.typed='';s.flip=false;return render()}
  case'mL':{const pr=s.pairs;if(pr.done[el.dataset.id])return;pr.sel={side:'L',id:el.dataset.id};pr.shake=null;return render()}
@@ -457,21 +497,34 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'txmore':{const x=getText(curText);if(!x)return;S.ext=S.ext||{};
   const adv=()=>{const n=S.ext[x.id]||0;if(n<(x.more||[]).length){S.ext[x.id]=n+1;save();sfx('ok');toast('Metin uzatıldı')}render()};
   if((x.more||[]).length)return adv();
-  if(/^w\d+$/.test(x.id)){toast('Devamı getiriliyor…');(async()=>{try{const j=await jget('https://simple.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exchars=3800&pageids='+x.id.slice(1)+'&format=json&origin=*');const pg=Object.values(j.query.pages)[0],more=chunkS(pg.extract||'').slice(1,3).map(twoParas);if(!more.length)throw 0;x.more=more;(S.online||[]).forEach(o=>{if(o.id===x.id)o.more=more});save();adv()}catch(e){toast('Devamı alınamadı (internet gerekir)')}})()}
+  if(/^w\d+$/.test(x.id)){toast('Devamı getiriliyor…');(async()=>{try{const j=await jget('https://simple.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exchars=3800&pageids='+x.id.slice(1)+'&format=json&origin=*');const pg=Object.values(j.query.pages)[0],more=chunkS(pg.extract||'').slice(1,3).map(twoParas);if(!more.length){S.nomore=S.nomore||{};S.nomore[x.id]=1;save();toast('Metin sonuna gelindi');return render()}x.more=more;(S.online||[]).forEach(o=>{if(o.id===x.id)o.more=more});save();adv()}catch(e){toast('Devamı alınamadı (internet gerekir)')}})()}
   return}
  case'txtr':txTr=!txTr;trFail={};return render();
+ case'difff':diffF=el.dataset.d;return render();
+ case'addunk':{const t=getText(curText);if(!t)return;const m=twMap(t),L=getList('main');let n=0;m.a.concat(m.p).forEach(id=>{if(!L.ids.includes(id)){L.ids.push(id);n++}});save();toast(n?n+' kelime listeye eklendi':'Hepsi zaten listede');return render()}
  case'txdone':S.read=S.read||{};S.read[curText]=today();save();toast('Okundu ✓');sfx('ok');setTimeout(()=>refreshOnline(false),300);return render();
  case'tk':sheetSt={tok:el.dataset.t,p:+el.dataset.p,o:+el.dataset.o};return paintSheet();
  case'shclose':return closeSheet();
  case'shspeak':return speak(sheetSt.tok);
- case'shhard':{const id=lk(sheetSt.tok),p=PW(id);p.isHard=!p.isHard;p.hardOk=0;save();paintSheet();return}
+ case'shhard':{toggleIn('main',lk(sheetSt.tok));paintSheet();return}
+ case'shpick':{const id=lk(sheetSt.tok);closeSheet();return openPicker(id)}
  case'shlearn':{const id=lk(sheetSt.tok);if(P(id).status!=='learned')learn(id);save();paintSheet();render();return}
  case'addtx':{try{const n=addTexts($('#txj').value);toast(n+' metin eklendi');return render()}catch(x){return toast('Geçersiz metin JSON')}}
  case'deltx':{if(!window._dt){window._dt=1;el.textContent='Emin misin?';setTimeout(()=>{window._dt=0;if(el.isConnected)el.textContent='Eklenenleri sil'},4000);return}window._dt=0;S.custom=[];save();toast('Silindi');return render()}
+ case'openl':curList=el.dataset.l;return go('lst');
+ case'listback':return go('hard');
+ case'startl':return startSession(el.dataset.m,el.dataset.l);
+ case'newlist':{const n=($('#nln').value||'').trim().slice(0,30);if(!n)return toast('Bir ad yaz');lists().push({id:'l'+Date.now().toString(36),name:n,ids:[]});save();toast('Liste oluşturuldu');return render()}
+ case'dellist':{if(window._dl!==curList){window._dl=curList;el.textContent='Emin misin?';setTimeout(()=>{window._dl=null;if(el.isConnected)el.textContent='Sil'},4000);return}window._dl=null;S.lists=lists().filter(l=>l.id!==curList);save();toast('Liste silindi');return go('hard')}
+ case'unlist':toggleIn(el.dataset.l,el.dataset.id);return render();
+ case'rowlearn':{const id=el.dataset.id;if(P(id).status==='learned'){const p=PW(id);p.status='active';p.mastery=0;save();ensureActive()}else learn(id);save();return render()}
+ case'pk':toggleIn(el.dataset.l,pickW);return paintPicker();
+ case'pknew':{const n=($('#pknm').value||'').trim().slice(0,30);if(!n)return toast('Bir ad yaz');const L={id:'l'+Date.now().toString(36),name:n,ids:[pickW]};lists().push(L);save();toast('Eklendi');return paintPicker()}
+ case'hidel':S.settings.hideLearned=!S.settings.hideLearned;save();return render();
  case'home':session=null;return go('home');
- case'again':return startSession(session.m==='match'?'match':session.m);
+ case'again':return startSession(session.m,session.listId);
  case'detail':detailId=el.dataset.id;detailFrom=el.dataset.from||'list';return go('detail');
- case'detailback':return go(detailFrom==='twords'?'twords':'list');
+ case'detailback':return go(detailFrom==='twords'?'twords':detailFrom==='lst'?'lst':'list');
  case'twl':twK=el.dataset.k;return go('twords');
  case'backtext':return go('text');
  case'catf':catF=el.dataset.c;return render();
@@ -487,7 +540,10 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'pickav':wel.av={t:'e',v:el.dataset.e};return render();
  case'pickimg':return $('#pf').click();
  case'saveprof':{if(!wel.name.trim())return toast('Bir isim yaz');if(wel.mode==='edit'){const p=PS.m().list.find(x=>x.id===wel.id);p.name=wel.name.trim().slice(0,24);p.av=wel.av;PS.save();return go('profiles')}mkProfile(wel.name,wel.av);sfx('ok');return go('home')}
- case'dhard':{const p=PW(detailId);p.isHard=!p.isHard;p.hardOk=0;save();return render()}
+ case'dhard':{toggleIn('main',detailId);return render()}
+ case'dpick':return openPicker(detailId);
+ case'spick':return openPicker(s.cur);
+ case'renlist':{const n=($('#rnm').value||'').trim().slice(0,30);if(!n)return toast('Bir ad yaz');const L=getList(curList);if(L){L.name=n;save();toast('Ad değiştirildi')}return go('lst')}
  case'dlearn':{const p=PW(detailId);if(p.status==='learned'){p.status='active';p.mastery=0}else learn(detailId);save();ensureActive();return render()}
  case'export':{const blob=new Blob([JSON.stringify({app:'kelime-kartlari',exportedAt:new Date().toISOString(),state:S},null,1)],{type:'application/json'});const u=URL.createObjectURL(blob);const a=document.createElement('a');a.href=u;a.download='kelime-yedek-'+today()+'.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);return toast('Yedek indirildi')}
  case'import':return $('#file').click();

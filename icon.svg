@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" fill="#d94f4f"/><rect x="96" y="120" width="320" height="240" rx="28" fill="#fff"/><text x="256" y="276" font-family="Arial,sans-serif" font-weight="700" font-size="120" text-anchor="middle" fill="#d94f4f">ABC</text><rect x="136" y="392" width="240" height="14" rx="7" fill="#fff" opacity=".6"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#f3f0ea"/>
+  <!-- tall card stem, rounded corners, folded top-left corner -->
+  <path d="M146 124 H190 Q196 124 202 130 L220 148 Q226 154 226 160 V380 Q226 396 210 396 H158 Q142 396 142 380 V140 Q142 124 158 124 Z" fill="#e07a68"/>
+  <path d="M190 124 V140 Q190 150 200 150 H216" fill="none" stroke="#c9604f" stroke-width="0"/>
+  <path d="M192 124 Q196 124 202 130 L220 148 Q226 154 226 160 H208 Q196 160 196 148 Z" fill="#c9604f"/>
+  <!-- text lines -->
+  <!-- arms with rounded joins -->
+  <path d="M226 270 L330 166 Q342 154 360 154 L384 154 Q400 154 390 166 L292 266 L380 360 Q392 374 378 376 L354 376 Q340 376 330 364 L226 262 Z" fill="#e07a68" stroke="#e07a68" stroke-width="10" stroke-linejoin="round"/>
+</svg>
