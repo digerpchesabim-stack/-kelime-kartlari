@@ -206,7 +206,9 @@ function startSession(m,lid){let q;
  if(lid){const L=getList(lid);q=shuffle(((L&&L.ids)||[]).filter(id=>byId[id]&&hasData(byId[id])&&P(id).status!=='learned'))}
  else if(m==='hard'){q=shuffle(hardIds().filter(id=>P(id).status!=='learned'))}
  else if(m==='review'){q=shuffle(dueIds())}
- else{const pool=activeIds(),ex=shuffle(hardIds().filter(id=>P(id).status!=='learned'&&!pool.includes(id))).slice(0,2);q=shuffle(pool.concat(ex))}
+ else{const pool=activeIds(),now=Date.now(),cand=[...new Set(lists().flatMap(L=>L.ids))].filter(id=>byId[id]&&hasData(byId[id])&&P(id).status!=='learned'&&!pool.includes(id));
+  const due=shuffle(cand.filter(id=>P(id).status==='active'&&dueOf(P(id))<=now)),fresh=shuffle(cand.filter(id=>P(id).status!=='active'));
+  const ex=due.slice(0,2).concat(fresh).slice(0,3);if(ex.length<3)ex.push(...shuffle(cand.filter(id=>!ex.includes(id))).slice(0,3-ex.length));q=shuffle(pool.concat(ex))}
  if(!q.length)return toast('Çalışılacak kelime yok');
  if(m==='match'){const seen={},pick=[];for(const id of q){const k=shortTr(byId[id]);if(!seen[k]){seen[k]=1;pick.push(id)}}q=pick;if(q.length<3)return toast('Eşleştirme için en az 3 farklı kelime gerekli')}
  session={m,listId:lid||null,hardMode:m==='hard',queue:q.slice(),idx:0,res:{ok:0,bad:0},flip:false,total:q.length,cur:null,answered:false,sel:null,pairs:null};
@@ -283,10 +285,15 @@ function lists(){if(!S.lists){S.lists=[{id:'main',name:'Çalışma listem',ids:O
 const getList=id=>lists().find(l=>l.id===id)||null;
 const inList=(lid,id)=>{const L=getList(lid);return !!L&&L.ids.includes(id)};
 const mainLbl=id=>inList('main',id)?'★ Listemde (çıkar)':'+ Çalışma listeme';
-function toggleIn(lid,id){const L=getList(lid);if(!L)return;L.ids=L.ids.includes(id)?L.ids.filter(x=>x!==id):L.ids.concat(id);save()}
+function toggleIn(lid,id){const L=getList(lid);if(!L)return;const add=!L.ids.includes(id);L.ids=add?L.ids.concat(id):L.ids.filter(x=>x!==id);save();
+ if(add&&byId[id]&&!hasData(byId[id])){toast('Kartı hazırlanıyor…');fillWord(id,ctxFor(id)).then(ok=>{toast(ok?'Kart hazır: '+byId[id].word:'Kart şimdilik hazırlanamadı (internet gerekir)');if(ok&&!$('#sheet .sheet'))render()})}}
 function openPicker(id){const w=id&&byId[id];if(!w)return toast('Kelime bulunamadı');pickW=id;paintPicker()}
-function unloadCustom(){for(let i=WORDS.length-1;i>=0;i--){if(WORDS[i].custom){delete byId[WORDS[i].id];WORDS.splice(i,1)}}}
-function loadCustom(){Object.values((S&&S.cw)||{}).forEach(w=>{if(!byId[w.id]){WORDS.push(w);byId[w.id]=w}})}
+const ORIG={};
+function unloadCustom(){for(let i=WORDS.length-1;i>=0;i--){if(WORDS[i].custom){delete byId[WORDS[i].id];WORDS.splice(i,1)}}
+ for(const id in ORIG){const w=byId[id];if(w){Object.keys(w).forEach(k=>delete w[k]);Object.assign(w,ORIG[id])}delete ORIG[id]}}
+function loadCustom(){Object.values((S&&S.cw)||{}).forEach(w=>{const b=byId[w.id];
+ if(w.fill){if(b&&!hasData(b)){ORIG[w.id]=JSON.parse(JSON.stringify(b));Object.assign(b,{tr:w.tr,ipa:b.ipa||w.ipa,pos:b.pos||w.pos,en:w.en,entr:w.entr,src:w.src,ctx:w.ctx,filled:1})}}
+ else if(!b){WORDS.push(w);byId[w.id]=w}})}
 function reloadCustom(){unloadCustom();loadCustom()}
 const exOk=(s,k)=>{s=(s||'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();const n=s.split(' ').length;return n>=4&&n<=18&&new RegExp('(^|[^A-Za-z])'+k+'[a-z]{0,3}(?![A-Za-z])','i').test(s)?s:''};
 async function exTatoeba(k){const j=await jget('https://tatoeba.org/en/api_v0/search?from=eng&to=tur&orphans=no&unapproved=no&sort=relevance&query='+encodeURIComponent(k));
@@ -294,14 +301,22 @@ async function exTatoeba(k){const j=await jget('https://tatoeba.org/en/api_v0/se
 function exDict(d,k){for(const e of Array.isArray(d)?d:[])for(const m of e.meanings||[])for(const df of m.definitions||[]){const s=exOk(df.example,k);if(s)return{en:s,src:'Sözlük'}}return null}
 async function exWikt(k){const j=await jget('https://en.wiktionary.org/api/rest_v1/page/definition/'+encodeURIComponent(k));
  for(const m of (j&&j.en)||[])for(const df of m.definitions||[]){for(const x of (df.parsedExamples||[]).map(y=>y.example).concat(df.examples||[])){const s=exOk(x,k);if(s)return{en:s,src:'Wiktionary'}}}return null}
-async function mkCustom(tok,sent){const k=tok.toLowerCase().replace(/’/g,"'");if(!/^[a-z][a-z'-]*$/.test(k))throw new Error('bad');
- if(byId[k])return k;
- const d=await jget('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(k)).catch(()=>null);
+async function buildData(k,sent){const d=await jget('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(k)).catch(()=>null);
  let pos='',ipa='';if(Array.isArray(d)&&d[0]){pos=((d[0].meanings||[])[0]||{}).partOfSpeech||'';ipa=d.map(e=>e.phonetic||((e.phonetics||[]).find(x=>x.text)||{}).text||'').find(Boolean)||''}
  const tr=await mt(k);if(!tr)throw new Error('no tr');
- let ex=await exTatoeba(k).catch(()=>null)||exDict(d,k)||await exWikt(k).catch(()=>null)||{en:sent,src:'Metin'};
- const entr=ex.entr||await mt(ex.en).catch(()=>'')||'';
- S.cw=S.cw||{};S.cw[k]={id:k,word:k,pos,tr:tr.toLowerCase(),en:ex.en,entr,ipa,tip:'',ctx:sent,src:ex.src,custom:1};save();reloadCustom();return k}
+ const ex=await exTatoeba(k).catch(()=>null)||exDict(d,k)||await exWikt(k).catch(()=>null)||(sent?{en:sent,src:'Metin'}:{en:'',src:''});
+ const entr=ex.entr||(ex.en?await mt(ex.en).catch(()=>''):'')||'';
+ return{pos,ipa,tr:tr.toLowerCase(),en:ex.en,entr,src:ex.src,ctx:sent||''}}
+async function mkCustom(tok,sent){const k=tok.toLowerCase().replace(/’/g,"'");if(!/^[a-z][a-z'-]*$/.test(k))throw new Error('bad');
+ if(byId[k])return k;const D=await buildData(k,sent);
+ S.cw=S.cw||{};S.cw[k]=Object.assign({id:k,word:k,tip:'',custom:1},D);save();reloadCustom();return k}
+const fillQ=new Set();
+async function fillWord(id,sent){const w=byId[id];if(!w||hasData(w)||fillQ.has(id))return false;fillQ.add(id);
+ try{const k=w.word.replace(/\([^)]*\)/g,'').trim().toLowerCase();const D=await buildData(k,sent);
+  S.cw=S.cw||{};S.cw[id]=Object.assign({id,word:w.word,fill:1},D);save();reloadCustom();return true}catch(e){return false}finally{fillQ.delete(id)}}
+function ctxFor(id){for(const t of allTexts())for(const para of visParas(t))for(const x of para.matchAll(TOKRE))if(lk(x[0])===id)return ctxSent(para,x.index).s;return''}
+async function fillPending(){if(!navigator.onLine)return;const ids=[...new Set(lists().flatMap(L=>L.ids))].filter(id=>byId[id]&&!hasData(byId[id])).slice(0,25);let n=0;
+ for(const id of ids){if(await fillWord(id,ctxFor(id)))n++}if(n){toast(n+' kelimenin kartı hazırlandı');if(['lst','twords','list','hard'].includes(view))render()}}
 function paintPicker(){const w=byId[pickW];if(!w)return;$('#sheet').innerHTML=`<div class="sbg" data-act="shclose"></div><div class="sheet"><div class="row"><b class="grow" style="font-size:24px">Listeye ekle</b><button class="sp" data-act="shclose" aria-label="Kapat" style="margin:0;background:var(--line);color:var(--ink)">✕</button></div>
  <div class="mute" style="margin-top:4px">${esc(w.word)}</div>
  <div style="margin:14px 0">${lists().map(l=>`<button class="btn ${inList(l.id,pickW)?'primary':'ghost'}" data-act="pk" data-l="${esc(l.id)}" style="margin-bottom:8px;text-align:left">${inList(l.id,pickW)?'✓ ':'+ '}${esc(l.name)} <span class="mute">· ${l.ids.length}</span></button>`).join('')}</div>
@@ -337,7 +352,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.16 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.17 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -553,7 +568,7 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'unlist':toggleIn(el.dataset.l,el.dataset.id);return render();
  case'rowlearn':{const id=el.dataset.id;if(P(id).status==='learned'){const p=PW(id);p.status='active';p.mastery=0;save();ensureActive()}else learn(id);save();return render()}
  case'pk':toggleIn(el.dataset.l,pickW);return paintPicker();
- case'pknew':{const n=($('#pknm').value||'').trim().slice(0,30);if(!n)return toast('Bir ad yaz');const L={id:'l'+Date.now().toString(36),name:n,ids:[pickW]};lists().push(L);save();toast('Eklendi');return paintPicker()}
+ case'pknew':{const n=($('#pknm').value||'').trim().slice(0,30);if(!n)return toast('Bir ad yaz');const L={id:'l'+Date.now().toString(36),name:n,ids:[]};lists().push(L);toggleIn(L.id,pickW);toast('Eklendi');return paintPicker()}
  case'hidel':S.settings.hideLearned=!S.settings.hideLearned;save();return render();
  case'home':session=null;return go('home');
  case'again':return startSession(session.m,session.listId);
@@ -589,7 +604,7 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'loadbk':{try{const o=JSON.parse($('#bk').value);const st=o.state||o;if(!st||st.v!==1||typeof st.progress!=='object')throw 0;S=st;S.settings=S.settings||{activeSize:10};S.stats=S.stats||{last:'',streak:0,today:{d:'',n:0}};save();ensureActive();toast('Yedek yüklendi');return go('home')}catch(x){return toast('Geçersiz yedek metni')}}
  }});
 if('serviceWorker' in navigator&&/^https?:/.test(location.protocol)){navigator.serviceWorker.register('sw.js').catch(()=>{})}
-reloadCustom();if(curP()){ensureActive();setTimeout(()=>refreshOnline(false),1500)}else view='welcome';
+reloadCustom();if(curP()){ensureActive();setTimeout(()=>refreshOnline(false),1500);setTimeout(fillPending,4000)}else view='welcome';
 render();
 </script>
 </body></html>
