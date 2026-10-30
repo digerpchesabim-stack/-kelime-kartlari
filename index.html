@@ -337,7 +337,7 @@ function vSettings(){app().innerHTML=`<h1>Ayarlar</h1>
  <textarea id="txj" rows="3" placeholder="[ {&quot;id&quot;:&quot;...&quot;, &quot;title&quot;:&quot;...&quot;, &quot;paragraphs&quot;:[...]} ]" style="width:100%;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:12px monospace;margin-bottom:10px"></textarea>
  <div class="grid2"><button class="btn" data-act="addtx">Metinleri ekle</button><button class="btn ghost" data-act="deltx">Eklenenleri sil</button></div></div>
  <div class="card"><b>İlerlemeyi sıfırla</b><div class="mute tiny" style="margin:4px 0 10px">Tüm ilerleme silinir.</div><button class="btn bad" data-act="reset">Sıfırla</button></div>
- <div class="mute tiny center">Sürüm 1.15 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
+ <div class="mute tiny center">Sürüm 1.16 · ${WORDS.length} kırmızı kelime · ${WORDS.filter(hasData).length} hazır</div>`;
  $('#snd').onchange=e=>{S.settings.sound=e.target.value==='1';save();sfx('ok')};
  $('#gl').onchange=e=>{S.settings.goal=+e.target.value;save();toast('Kaydedildi')};
  $('#as').onchange=e=>{S.settings.activeSize=+e.target.value;ensureActive();toast('Kaydedildi')};
@@ -348,8 +348,8 @@ const tryId=x=>byId[x]?x:(ALIAS[x]||null);
 function lk(t){let l=t.toLowerCase().replace(/\u2019/g,"'"),r=tryId(l);if(r)return r;
  l=l.replace(/'s$/,'');if(r=tryId(l))return r;const c=[];
  if(/ies$/.test(l))c.push(l.slice(0,-3)+'y');
+ if(/[^su]s$/.test(l)||/ed$/.test(l))c.push(l.slice(0,-1));
  if(/(es|ed)$/.test(l))c.push(l.slice(0,-2));
- if(/[sd]$/.test(l))c.push(l.slice(0,-1));
  if(/ied$/.test(l))c.push(l.slice(0,-3)+'y');
  if(/ing$/.test(l)){const b=l.slice(0,-3);c.push(b,b+'e');if(/(.)\1$/.test(b))c.push(b.slice(0,-1))}
  if(/ed$/.test(l)){const b=l.slice(0,-2);if(/(.)\1$/.test(b))c.push(b.slice(0,-1))}
@@ -387,9 +387,25 @@ function vCats(){const cs=S.cats||DEFCATS;
  <div class="chs" style="flex-wrap:wrap;overflow:visible">${CATS.map(c=>`<button class="ch ${cs.includes(c[0])?'on':''}" data-act="tgcat" data-c="${c[0]}">${c[1]}</button>`).join('')}</div>
  <p class="mute tiny">Günlük hayat metinleri hazır gelir, internetten yenilenmez.</p><button class="btn primary" data-act="refresh" style="margin-top:12px">Şimdi güncelle</button>`}
 function twMap(t){const m={l:[],a:[],p:[]},seen={};for(const para of visParas(t))for(const x of para.matchAll(TOKRE)){const id=lk(x[0]);if(!id||seen[id])continue;seen[id]=1;const c=cls(id);if(c==='l')m.l.push(id);else if(c==='a')m.a.push(id);else m.p.push(id)}return m}
-function vTWords(){const t=getText(curText);if(!t)return go('texts');const ids=twMap(t)[twK]||[],ttl={l:'Öğrendiğin kelimeler',a:'Çalıştığın kelimeler',p:'Listede yeni kelimeler'}[twK];
- app().innerHTML=`<div class="hdr"><button class="back" data-act="backtext">‹</button></div><h1>${ttl}</h1><p class="mute" style="margin-top:-8px">“${esc(t.title)}” metninde ${ids.length} kelime</p>
- <div class="card list">${ids.length?ids.map(id=>{const w=byId[id];return`<div class="it" data-act="detail" data-from="twords" data-id="${esc(id)}"><span class="n grow">${esc(w.word)} <span class="mute">${esc(w.ipa||'')}</span><div style="font-weight:700;color:var(--red)">${hasData(w)?esc(w.tr):'<span class="mute">kartı bekliyor</span>'}</div></span></div>`}).join(''):'<div class="mute">Bu metinde yok.</div>'}</div>`}
+const STOPW=new Set('the a an and or but of to in on at by for with is are was were be been being it its this that these those he she they we you his her their our your my me him them us as from not no so if than then there here has have had do does did will would can could also which who whom what when where how all more most some any into out up about over after before such only other just very own same too may might must shall should one two'.split(' '));
+function twAll(t){const ids=[],ext=[],seen={};visParas(t).forEach((para,pi)=>{for(const x of para.matchAll(TOKRE)){const tok=x[0],id=lk(tok);
+  if(id){if(!seen[id]){seen[id]=1;ids.push(id)}continue}
+  const k=tok.toLowerCase().replace(/’/g,"'");if(seen['~'+k]||k.length<3||!/^[a-z][a-z'-]*$/.test(k)||STOPW.has(k))continue;
+  if(/^[A-Z]/.test(tok)&&!/(^|[.!?]["”]?\s+)$/.test(para.slice(0,x.index)))continue;
+  seen['~'+k]=1;ext.push({tok,p:pi,o:x.index})}});return{ids,ext}}
+const lstCnt=id=>lists().filter(L=>L.ids.includes(id)).length;
+function vTWords(){const t=getText(curText);if(!t)return go('texts');const A=twAll(t),K=twK||'all';
+ const ids=K==='all'?A.ids:A.ids.filter(id=>{const c=cls(id);return K==='p'?(c==='p'||c==='w'):c===K});
+ const cnt=k=>k==='all'?A.ids.length:A.ids.filter(id=>{const c=cls(id);return k==='p'?(c==='p'||c==='w'):c===k}).length;
+ const chip=(k,l)=>`<button class="ch${K===k?' on':''}" style="padding:7px 12px;font-size:13px" data-act="twl" data-k="${k}">${l} · ${cnt(k)}</button>`;
+ const stB=id=>{const c=cls(id);return c==='l'?'<span class="badge ok">öğrendin</span>':c==='a'?'<span class="badge">çalışıyorsun</span>':c==='w'?'<span class="badge mute">kartı bekliyor</span>':'<span class="badge mute">yeni</span>'};
+ const addB=id=>{const n=lstCnt(id);return`<button class="badge ${n?'ok':''}" data-act="twpick" data-id="${esc(id)}" style="border:0;padding:8px 11px;font-size:14px;white-space:nowrap">${n?'✓ '+n+' liste':'📚 Ekle'}</button>`};
+ const row=id=>{const w=byId[id];return`<div class="it"><span class="n grow" data-act="detail" data-from="twords" data-id="${esc(id)}">${esc(w.word)} <span class="mute">${esc(w.ipa||'')}</span><div style="font-weight:700;color:var(--red)">${hasData(w)?esc(w.tr):''}</div><div style="margin-top:4px">${stB(id)}</div></span>${addB(id)}</div>`};
+ const erow=(e,i)=>`<div class="it"><span class="n grow">${esc(e.tok.toLowerCase())}<div class="mute tiny">kırmızı listede yok · eklenince kart oluşturulur</div></span><button class="badge" data-act="twmk" data-i="${i}" style="border:0;padding:8px 11px;font-size:14px;white-space:nowrap">＋ Kart</button></div>`;
+ app().innerHTML=`<div class="hdr"><button class="back" data-act="backtext">‹</button></div><h1>Metindeki kelimeler</h1><p class="mute" style="margin-top:-8px">“${esc(t.title)}” · metindeki sırayla</p>
+ <div class="chs" style="margin-bottom:12px">${chip('all','Tümü')}${chip('p','Yeni')}${chip('a','Çalışılan')}${chip('l','Öğrenilen')}</div>
+ <div class="card list">${ids.length?ids.map(row).join(''):'<div class="mute">Bu grupta kelime yok.</div>'}</div>
+ ${K==='all'&&A.ext.length?`<h2 style="margin-top:22px">Kırmızı listede olmayanlar · ${A.ext.length}</h2><p class="mute" style="margin-top:-6px">Özel isimler ve çok yaygın kelimeler (the, is, and…) gösterilmez.</p><div class="card list">${A.ext.map(erow).join('')}</div>`:''}`}
 function tokHtml(para,pi){let out='',last=0;for(const m of para.matchAll(TOKRE)){out+=esc(para.slice(last,m.index));out+=`<span class="tk ${cls(lk(m[0]))}" data-act="tk" data-t="${esc(m[0])}" data-p="${pi}" data-o="${m.index}">${esc(m[0])}</span>`;last=m.index+m[0].length}return out+esc(para.slice(last))}
 function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap(t);
  app().innerHTML=`<div class="hdr"><button class="back" data-nav="texts">‹</button><b class="grow" style="font-size:19px;line-height:1.25">${esc(t.title)}</b></div>
@@ -399,7 +415,7 @@ function vText(){const t=getText(curText);if(!t)return go('texts');const m=twMap
  <div class="card tx">${visParas(t).map((p,i)=>`<p>${tokHtml(p,i)}</p>${txTr?`<p class="trp">${esc(trAt(t,i)||(S.ptr||{})[hash(p)]||(trFail[hash(p)]?'Çeviri alınamadı (internet gerekir)':'Çevriliyor…'))}</p>`:''}`).join('')}</div>
  ${t.online?`<div class="mute tiny" style="margin:-4px 0 12px">Kaynak: <a href="${esc(t.url||'#')}" target="_blank" rel="noopener" style="color:var(--blue)">${esc(t.src||'Wikipedia')}</a> · CC BY-SA. Türkçesi için “TR göster” (otomatik çeviri).</div>`:''}
  ${(()=>{const rem=(t.more||[]).length-((S.ext||{})[t.id]||0),canF=!!t.online&&/^w\d+$/.test(t.id)&&!(t.more||[]).length&&!((S.nomore||{})[t.id]);return rem>0||canF?`<button class="btn" data-act="txmore" style="margin-bottom:10px">＋ Metni uzat${rem>0?` <span class="mute">(${rem} bölüm daha)</span>`:''}</button>`:`<button class="btn ghost" disabled style="margin-bottom:10px">Metin sonuna gelindi</button>`})()}
- ${(()=>{const m=twMap(t),k=m.a.length+m.p.length;return k?`<button class="btn ghost" data-act="addunk" style="margin-bottom:10px">＋ Bilmediklerimi listeye ekle (${k})</button>`:''})()}
+ ${(()=>{const m=twMap(t),k=m.l.length+m.a.length+m.p.length;return k?`<button class="btn ghost" data-act="twl" data-k="all" style="margin-bottom:10px">📋 Metindeki kelimeleri listele (${k})</button>`:''})()}
  <button class="btn ${(S.read||{})[t.id]?'ghost':'primary'}" data-act="txdone">${(S.read||{})[t.id]?'✓ Okundu':'Okudum ✓'}</button>`;
  if(txTr)ensureTr(t)}
 function ctxSent(para,off){const re=/[^.!?]+[.!?]*["\u201d]?\s*/g;let m;while((m=re.exec(para))){if(off<m.index+m[0].length)return{s:m[0].trim(),i:off-m.index-(m[0].length-m[0].trimStart().length)}}return{s:para,i:off}}
@@ -518,10 +534,9 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
   return}
  case'txtr':txTr=!txTr;trFail={};return render();
  case'difff':diffF=el.dataset.d;return render();
- case'addunk':{const t=getText(curText);if(!t)return;const m=twMap(t),L=getList('main');let n=0;m.a.concat(m.p).forEach(id=>{if(!L.ids.includes(id)){L.ids.push(id);n++}});save();toast(n?n+' kelime listeye eklendi':'Hepsi zaten listede');return render()}
  case'txdone':S.read=S.read||{};S.read[curText]=today();save();toast('Okundu ✓');sfx('ok');setTimeout(()=>refreshOnline(false),300);return render();
  case'tk':sheetSt={tok:el.dataset.t,p:+el.dataset.p,o:+el.dataset.o};return paintSheet();
- case'shclose':return closeSheet();
+ case'shclose':closeSheet();if(view==='twords')render();return;
  case'shspeak':return speak(sheetSt.tok);
  case'shhard':{toggleIn('main',lk(sheetSt.tok));paintSheet();return}
  case'shpick':{const id=lk(sheetSt.tok);closeSheet();return openPicker(id)}
@@ -545,6 +560,9 @@ document.addEventListener('click',e=>{const q0=e.target.closest('button,[data-ac
  case'detail':detailId=el.dataset.id;detailFrom=el.dataset.from||'list';return go('detail');
  case'detailback':return go(detailFrom==='twords'?'twords':detailFrom==='lst'?'lst':'list');
  case'twl':twK=el.dataset.k;return go('twords');
+ case'twpick':return openPicker(el.dataset.id);
+ case'twmk':{const t=getText(curText);if(!t)return;const e=twAll(t).ext[+el.dataset.i];if(!e)return;const cs=ctxSent(visParas(t)[e.p]||'',e.o).s;toast('Kart hazırlanıyor…');
+  (async()=>{try{const id=await mkCustom(e.tok,cs);sfx('ok');render();openPicker(id)}catch(x){toast('Kart oluşturulamadı (internet gerekir)')}})();return}
  case'backtext':return go('text');
  case'catf':catF=el.dataset.c;return render();
  case'gocats':return go('cats');
