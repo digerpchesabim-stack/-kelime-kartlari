@@ -1,0 +1,902 @@
+[
+{
+"word": "sunrise",
+"partOfSpeech": "noun",
+"meaningTr": "gün doğumu",
+"sentenceEn": "We watched the sunrise on the beach.",
+"sentenceTr": "Plajda gün doğumunu izledik.",
+"phonetic": "/ˈsʌn.raɪz/",
+"memoryTip": "Sun (güneş) + rise (yükselmek) = gün doğumu. Zıttı 'sunset'."
+},
+{
+"word": "suppose",
+"partOfSpeech": "verb",
+"meaningTr": "sanmak, farz etmek",
+"sentenceEn": "I suppose you are right.",
+"sentenceTr": "Sanırım haklısın.",
+"phonetic": "/səˈpəʊz/",
+"memoryTip": "'Be supposed to' = ...yapması gerekmek: I'm supposed to be at home."
+},
+{
+"word": "sure",
+"partOfSpeech": "adjective",
+"meaningTr": "emin; tabii",
+"sentenceEn": "Are you sure about the answer?",
+"sentenceTr": "Cevaptan emin misin?",
+"phonetic": "/ʃɔːr/",
+"memoryTip": "'Sure!' tek başına 'Tabii!' demektir."
+},
+{
+"word": "swam",
+"partOfSpeech": "verb",
+"meaningTr": "yüzdü (swim fiilinin geçmiş hâli)",
+"sentenceEn": "We swam in the sea all afternoon.",
+"sentenceTr": "Bütün öğleden sonra denizde yüzdük.",
+"phonetic": "/swæm/",
+"memoryTip": "Swim → swam → swum."
+},
+{
+"word": "sweater",
+"partOfSpeech": "noun",
+"meaningTr": "kazak, süveter",
+"sentenceEn": "My grandmother knitted this sweater for me.",
+"sentenceTr": "Bu kazağı bana babaannem ördü.",
+"phonetic": "/ˈswet.ər/",
+"memoryTip": "Sweat (terlemek) kökünden: insanı terleten sıcak kazak."
+},
+{
+"word": "swim",
+"partOfSpeech": "verb",
+"meaningTr": "yüzmek",
+"sentenceEn": "Can you swim?",
+"sentenceTr": "Yüzebilir misin?",
+"phonetic": "/swɪm/",
+"memoryTip": "Swim → swam → swum. Swimming = yüzme."
+},
+{
+"word": "swimmer",
+"partOfSpeech": "noun",
+"meaningTr": "yüzücü",
+"sentenceEn": "She is a very fast swimmer.",
+"sentenceTr": "O çok hızlı bir yüzücü.",
+"phonetic": "/ˈswɪm.ər/",
+"memoryTip": "Swim + m + -er = yüzücü (m harfi ikiye katlanır)."
+},
+{
+"word": "swimming pool",
+"partOfSpeech": "noun",
+"meaningTr": "yüzme havuzu",
+"sentenceEn": "Our hotel has a swimming pool.",
+"sentenceTr": "Otelimizin yüzme havuzu var.",
+"phonetic": "/ˈswɪm.ɪŋ ˌpuːl/",
+"memoryTip": "Swimming (yüzme) + pool (havuz)."
+},
+{
+"word": "swum",
+"partOfSpeech": "verb",
+"meaningTr": "yüzmüş (swim fiilinin üçüncü hâli)",
+"sentenceEn": "Have you ever swum in a lake?",
+"sentenceTr": "Hiç gölde yüzdün mü?",
+"phonetic": "/swʌm/",
+"memoryTip": "Swim → swam → swum. 'Have/has' ile kullanılır."
+},
+{
+"word": "system",
+"partOfSpeech": "noun",
+"meaningTr": "sistem",
+"sentenceEn": "The school has a new computer system.",
+"sentenceTr": "Okulun yeni bir bilgisayar sistemi var.",
+"phonetic": "/ˈsɪs.təm/",
+"memoryTip": "Türkçedeki 'sistem' ile aynıdır."
+},
+{
+"word": "table",
+"partOfSpeech": "noun",
+"meaningTr": "masa; tablo",
+"sentenceEn": "Dinner is on the table.",
+"sentenceTr": "Yemek masada.",
+"phonetic": "/ˈteɪ.bəl/",
+"memoryTip": "İki anlamı var: masa ve tablo (çizelge)."
+},
+{
+"word": "table tennis",
+"partOfSpeech": "noun",
+"meaningTr": "masa tenisi",
+"sentenceEn": "We play table tennis at break time.",
+"sentenceTr": "Teneffüste masa tenisi oynarız.",
+"phonetic": "/ˈteɪ.bəl ˌten.ɪs/",
+"memoryTip": "Table (masa) + tennis = masa tenisi. 'Ping-pong' da denir."
+},
+{
+"word": "take",
+"partOfSpeech": "verb",
+"meaningTr": "almak, götürmek; sürmek (zaman)",
+"sentenceEn": "Take an umbrella with you.",
+"sentenceTr": "Yanına bir şemsiye al.",
+"phonetic": "/teɪk/",
+"memoryTip": "Take → took → taken. 'It takes 10 minutes' = 10 dakika sürer."
+},
+{
+"word": "talk",
+"partOfSpeech": "verb",
+"meaningTr": "konuşmak",
+"sentenceEn": "Can we talk after class?",
+"sentenceTr": "Dersten sonra konuşabilir miyiz?",
+"phonetic": "/tɔːk/",
+"memoryTip": "'l' okunmaz: /tɔːk/. 'Talk to someone' = biriyle konuşmak."
+},
+{
+"word": "tap",
+"partOfSpeech": "noun",
+"meaningTr": "musluk; hafifçe vurmak",
+"sentenceEn": "Turn off the tap while you brush your teeth.",
+"sentenceTr": "Dişlerini fırçalarken musluğu kapat.",
+"phonetic": "/tæp/",
+"memoryTip": "Telefonda 'tap' = ekrana dokunmak."
+},
+{
+"word": "taught",
+"partOfSpeech": "verb",
+"meaningTr": "öğretti (teach fiilinin geçmiş hâli)",
+"sentenceEn": "My mother taught me how to swim.",
+"sentenceTr": "Annem bana yüzmeyi öğretti.",
+"phonetic": "/tɔːt/",
+"memoryTip": "Teach → taught → taught. 'gh' okunmaz."
+},
+{
+"word": "tax",
+"partOfSpeech": "noun",
+"meaningTr": "vergi",
+"sentenceEn": "The price includes tax.",
+"sentenceTr": "Fiyata vergi dahildir.",
+"phonetic": "/tæks/",
+"memoryTip": "Türkiye'de KDV, İngilizcede 'VAT' olarak bilinir."
+},
+{
+"word": "taxi",
+"partOfSpeech": "noun",
+"meaningTr": "taksi",
+"sentenceEn": "Let's take a taxi to the airport.",
+"sentenceTr": "Havalimanına taksiyle gidelim.",
+"phonetic": "/ˈtæk.si/",
+"memoryTip": "Türkçedeki 'taksi' ile aynıdır."
+},
+{
+"word": "tea",
+"partOfSpeech": "noun",
+"meaningTr": "çay",
+"sentenceEn": "Turkish people drink a lot of tea.",
+"sentenceTr": "Türkler çok çay içer.",
+"phonetic": "/tiː/",
+"memoryTip": "Teapot = çaydanlık, teaspoon = çay kaşığı."
+},
+{
+"word": "teach",
+"partOfSpeech": "verb",
+"meaningTr": "öğretmek",
+"sentenceEn": "I teach English at a primary school.",
+"sentenceTr": "Bir ilkokulda İngilizce öğretiyorum.",
+"phonetic": "/tiːtʃ/",
+"memoryTip": "Teach → taught → taught. Learn (öğrenmek) ile karıştırma."
+},
+{
+"word": "teacher",
+"partOfSpeech": "noun",
+"meaningTr": "öğretmen",
+"sentenceEn": "Our teacher gives us homework every day.",
+"sentenceTr": "Öğretmenimiz bize her gün ödev verir.",
+"phonetic": "/ˈtiː.tʃər/",
+"memoryTip": "Teach (öğretmek) + -er = öğretmen."
+},
+{
+"word": "team",
+"partOfSpeech": "noun",
+"meaningTr": "takım, ekip",
+"sentenceEn": "Which team do you support?",
+"sentenceTr": "Hangi takımı tutuyorsun?",
+"phonetic": "/tiːm/",
+"memoryTip": "Türkçedeki 'tim' (ekip) bu kelimeden gelir."
+},
+{
+"word": "teapot",
+"partOfSpeech": "noun",
+"meaningTr": "demlik, çaydanlık",
+"sentenceEn": "Put the teapot on the stove.",
+"sentenceTr": "Demliği ocağa koy.",
+"phonetic": "/ˈtiː.pɒt/",
+"memoryTip": "Tea (çay) + pot (kap) = demlik."
+},
+{
+"word": "teeth",
+"partOfSpeech": "noun",
+"meaningTr": "dişler (tooth kelimesinin çoğulu)",
+"sentenceEn": "Brush your teeth twice a day.",
+"sentenceTr": "Dişlerini günde iki kez fırçala.",
+"phonetic": "/tiːθ/",
+"memoryTip": "Düzensiz çoğul: one tooth, two teeth."
+},
+{
+"word": "telegram",
+"partOfSpeech": "noun",
+"meaningTr": "telgraf (mesajı)",
+"sentenceEn": "In the past, people sent a telegram for important news.",
+"sentenceTr": "Eskiden insanlar önemli haberler için telgraf çekerdi.",
+"phonetic": "/ˈtel.ɪ.ɡræm/",
+"memoryTip": "Tele (uzak) + gram (yazı) = uzağa gönderilen yazı."
+},
+{
+"word": "telegraph",
+"partOfSpeech": "noun",
+"meaningTr": "telgraf (sistemi)",
+"sentenceEn": "The telegraph was invented in the 19th century.",
+"sentenceTr": "Telgraf 19. yüzyılda icat edildi.",
+"phonetic": "/ˈtel.ɪ.ɡrɑːf/",
+"memoryTip": "Telegram mesajdır, telegraph ise onu gönderen sistem."
+},
+{
+"word": "telephone",
+"partOfSpeech": "noun",
+"meaningTr": "telefon",
+"sentenceEn": "There is a telephone in the hall.",
+"sentenceTr": "Holde bir telefon var.",
+"phonetic": "/ˈtel.ɪ.fəʊn/",
+"memoryTip": "Tele (uzak) + phone (ses) = uzaktan ses."
+},
+{
+"word": "teletext",
+"partOfSpeech": "noun",
+"meaningTr": "teletekst (televizyonda yazılı bilgi)",
+"sentenceEn": "My grandfather checks the news on teletext.",
+"sentenceTr": "Dedem haberlere teletekstten bakar.",
+"phonetic": "/ˈtel.ɪ.tekst/",
+"memoryTip": "Tele (televizyon) + text (yazı): ekranda yazılı haber."
+},
+{
+"word": "television",
+"partOfSpeech": "noun",
+"meaningTr": "televizyon",
+"sentenceEn": "We watch television after dinner.",
+"sentenceTr": "Akşam yemeğinden sonra televizyon izleriz.",
+"phonetic": "/ˈtel.ɪ.vɪʒ.ən/",
+"memoryTip": "Tele (uzak) + vision (görüntü). Kısaltması 'TV'."
+},
+{
+"word": "tell",
+"partOfSpeech": "verb",
+"meaningTr": "söylemek, anlatmak",
+"sentenceEn": "Tell me about your holiday.",
+"sentenceTr": "Bana tatilini anlat.",
+"phonetic": "/tel/",
+"memoryTip": "Tell → told → told. Tell + kişi: tell me, tell her."
+},
+{
+"word": "temperature",
+"partOfSpeech": "noun",
+"meaningTr": "sıcaklık; ateş",
+"sentenceEn": "The temperature today is 30 degrees.",
+"sentenceTr": "Bugün sıcaklık 30 derece.",
+"phonetic": "/ˈtem.prə.tʃər/",
+"memoryTip": "'Have a temperature' = ateşi olmak."
+},
+{
+"word": "term",
+"partOfSpeech": "noun",
+"meaningTr": "dönem; terim",
+"sentenceEn": "The second term starts in February.",
+"sentenceTr": "İkinci dönem şubatta başlar.",
+"phonetic": "/tɜːm/",
+"memoryTip": "Okulda dönem; ders kitabında 'terim'."
+},
+{
+"word": "test",
+"partOfSpeech": "noun",
+"meaningTr": "sınav, test",
+"sentenceEn": "We have a maths test tomorrow.",
+"sentenceTr": "Yarın matematik sınavımız var.",
+"phonetic": "/test/",
+"memoryTip": "Türkçedeki 'test' ile aynıdır."
+},
+{
+"word": "textbook",
+"partOfSpeech": "noun",
+"meaningTr": "ders kitabı",
+"sentenceEn": "Open your textbook to page ten.",
+"sentenceTr": "Ders kitabınızı onuncu sayfada açın.",
+"phonetic": "/ˈtekst.bʊk/",
+"memoryTip": "Text (metin) + book (kitap) = ders kitabı."
+},
+{
+"word": "than",
+"partOfSpeech": "conjunction",
+"meaningTr": "-den, -dan (karşılaştırma)",
+"sentenceEn": "My brother is taller than me.",
+"sentenceTr": "Kardeşim benden uzun.",
+"phonetic": "/ðæn/",
+"memoryTip": "'Then' (sonra) ile karıştırma: than = karşılaştırma."
+},
+{
+"word": "thank",
+"partOfSpeech": "verb",
+"meaningTr": "teşekkür etmek",
+"sentenceEn": "Thank you for your help.",
+"sentenceTr": "Yardımın için teşekkür ederim.",
+"phonetic": "/θæŋk/",
+"memoryTip": "'Thank you' = teşekkür ederim."
+},
+{
+"word": "thanks",
+"partOfSpeech": "noun",
+"meaningTr": "teşekkürler, sağ ol",
+"sentenceEn": "Thanks for the lovely gift!",
+"sentenceTr": "Güzel hediye için teşekkürler!",
+"phonetic": "/θæŋks/",
+"memoryTip": "'Thank you'nun daha samimi kısa hâli."
+},
+{
+"word": "that",
+"partOfSpeech": "determiner",
+"meaningTr": "şu, o; ki",
+"sentenceEn": "Who is that man?",
+"sentenceTr": "Şu adam kim?",
+"phonetic": "/ðæt/",
+"memoryTip": "Yakındaki 'this', uzaktaki 'that'. Çoğulu 'those'."
+},
+{
+"word": "the",
+"partOfSpeech": "article",
+"meaningTr": "belirli tanımlık (o, bu belirli şey)",
+"sentenceEn": "The sun is shining.",
+"sentenceTr": "Güneş parlıyor.",
+"phonetic": "/ðə/",
+"memoryTip": "Herkesin bildiği, belirli şeyler için: the sun, the door."
+},
+{
+"word": "theatre",
+"partOfSpeech": "noun",
+"meaningTr": "tiyatro",
+"sentenceEn": "We went to the theatre last weekend.",
+"sentenceTr": "Geçen hafta sonu tiyatroya gittik.",
+"phonetic": "/ˈθɪə.tər/",
+"memoryTip": "İngiliz yazımı 'theatre', Amerikan yazımı 'theater'."
+},
+{
+"word": "their",
+"partOfSpeech": "determiner",
+"meaningTr": "onların",
+"sentenceEn": "The children are playing in their garden.",
+"sentenceTr": "Çocuklar bahçelerinde oynuyor.",
+"phonetic": "/ðeər/",
+"memoryTip": "'There' (orada) ile aynı okunur ama anlamı 'onların'."
+},
+{
+"word": "theirs",
+"partOfSpeech": "pronoun",
+"meaningTr": "onlarınki",
+"sentenceEn": "That house is theirs.",
+"sentenceTr": "O ev onlarınki.",
+"phonetic": "/ðeəz/",
+"memoryTip": "Their house = onların evi; the house is theirs = ev onlarınki."
+},
+{
+"word": "them",
+"partOfSpeech": "pronoun",
+"meaningTr": "onları, onlara",
+"sentenceEn": "I called them yesterday.",
+"sentenceTr": "Dün onları aradım.",
+"phonetic": "/ðem/",
+"memoryTip": "'They' öznedir, 'them' nesne: They see me, I see them."
+},
+{
+"word": "themselves",
+"partOfSpeech": "pronoun",
+"meaningTr": "kendileri, kendilerini",
+"sentenceEn": "The children made the cake themselves.",
+"sentenceTr": "Çocuklar keki kendileri yaptı.",
+"phonetic": "/ðəmˈselvz/",
+"memoryTip": "Them + selves = kendileri."
+},
+{
+"word": "then",
+"partOfSpeech": "adverb",
+"meaningTr": "sonra; o zaman",
+"sentenceEn": "First wash your hands, then sit down.",
+"sentenceTr": "Önce ellerini yıka, sonra otur.",
+"phonetic": "/ðen/",
+"memoryTip": "'Than' (karşılaştırma) ile karıştırma: then = sonra."
+},
+{
+"word": "there",
+"partOfSpeech": "adverb",
+"meaningTr": "orada, oraya; (there is) var",
+"sentenceEn": "There is a cat under the car.",
+"sentenceTr": "Arabanın altında bir kedi var.",
+"phonetic": "/ðeər/",
+"memoryTip": "'There is/are' = ...var. Here (burada) ile zıt."
+},
+{
+"word": "thing",
+"partOfSpeech": "noun",
+"meaningTr": "şey",
+"sentenceEn": "What is that thing on the table?",
+"sentenceTr": "Masadaki o şey ne?",
+"phonetic": "/θɪŋ/",
+"memoryTip": "Something, nothing, anything: hepsi 'thing' içerir."
+},
+{
+"word": "think",
+"partOfSpeech": "verb",
+"meaningTr": "düşünmek; sanmak",
+"sentenceEn": "I think it will rain.",
+"sentenceTr": "Bence yağmur yağacak.",
+"phonetic": "/θɪŋk/",
+"memoryTip": "Think → thought → thought. 'I think...' = bence."
+},
+{
+"word": "third",
+"partOfSpeech": "adjective",
+"meaningTr": "üçüncü",
+"sentenceEn": "I live on the third floor.",
+"sentenceTr": "Üçüncü katta oturuyorum.",
+"phonetic": "/θɜːd/",
+"memoryTip": "First, second, third: düzensiz sıra sayılarıdır."
+},
+{
+"word": "this",
+"partOfSpeech": "determiner",
+"meaningTr": "bu",
+"sentenceEn": "This is my friend Ali.",
+"sentenceTr": "Bu arkadaşım Ali.",
+"phonetic": "/ðɪs/",
+"memoryTip": "Yakındaki 'this', çoğulu 'these'."
+},
+{
+"word": "those",
+"partOfSpeech": "determiner",
+"meaningTr": "şunlar, onlar",
+"sentenceEn": "Are those your shoes?",
+"sentenceTr": "Şunlar senin ayakkabıların mı?",
+"phonetic": "/ðəʊz/",
+"memoryTip": "'That'in çoğulu: that book → those books."
+},
+{
+"word": "thought",
+"partOfSpeech": "verb",
+"meaningTr": "düşündü (think fiilinin geçmiş hâli); düşünce",
+"sentenceEn": "I thought you were at home.",
+"sentenceTr": "Evde olduğunu düşünmüştüm.",
+"phonetic": "/θɔːt/",
+"memoryTip": "Think → thought → thought. 'gh' okunmaz."
+},
+{
+"word": "threw",
+"partOfSpeech": "verb",
+"meaningTr": "attı, fırlattı (throw fiilinin geçmiş hâli)",
+"sentenceEn": "He threw the ball to his dog.",
+"sentenceTr": "Topu köpeğine attı.",
+"phonetic": "/θruː/",
+"memoryTip": "Throw → threw → thrown. 'Through' ile aynı okunur."
+},
+{
+"word": "through",
+"partOfSpeech": "preposition",
+"meaningTr": "içinden, -den geçerek",
+"sentenceEn": "The train goes through a long tunnel.",
+"sentenceTr": "Tren uzun bir tünelden geçiyor.",
+"phonetic": "/θruː/",
+"memoryTip": "'gh' okunmaz: /θruː/. Bir şeyin bir ucundan girip öbüründen çıkmak."
+},
+{
+"word": "throw",
+"partOfSpeech": "verb",
+"meaningTr": "atmak, fırlatmak",
+"sentenceEn": "Don't throw rubbish on the ground.",
+"sentenceTr": "Yere çöp atma.",
+"phonetic": "/θrəʊ/",
+"memoryTip": "Throw → threw → thrown. 'Throw away' = çöpe atmak."
+},
+{
+"word": "Thursday",
+"partOfSpeech": "noun",
+"meaningTr": "perşembe",
+"sentenceEn": "We have music lessons on Thursday.",
+"sentenceTr": "Perşembe günü müzik dersimiz var.",
+"phonetic": "/ˈθɜːz.deɪ/",
+"memoryTip": "Thor (gök gürültüsü tanrısı) + day = Thor'un günü."
+},
+{
+"word": "thus",
+"partOfSpeech": "adverb",
+"meaningTr": "böylece, bu yüzden",
+"sentenceEn": "He studied hard and thus passed the exam.",
+"sentenceTr": "Çok çalıştı ve böylece sınavı geçti.",
+"phonetic": "/ðʌs/",
+"memoryTip": "'So' ile benzer, daha resmi ve yazı dilinde kullanılır."
+},
+{
+"word": "ticket",
+"partOfSpeech": "noun",
+"meaningTr": "bilet",
+"sentenceEn": "I bought a ticket for the concert.",
+"sentenceTr": "Konser için bir bilet aldım.",
+"phonetic": "/ˈtɪk.ɪt/",
+"memoryTip": "Türkçedeki 'bilet'; 'etiket' kelimesiyle aynı kökten."
+},
+{
+"word": "till",
+"partOfSpeech": "preposition",
+"meaningTr": "-e kadar",
+"sentenceEn": "The shop is open till nine.",
+"sentenceTr": "Dükkân dokuza kadar açık.",
+"phonetic": "/tɪl/",
+"memoryTip": "'Until' ile aynı anlam; konuşma dilinde daha yaygın."
+},
+{
+"word": "time",
+"partOfSpeech": "noun",
+"meaningTr": "zaman; kez",
+"sentenceEn": "What time is it?",
+"sentenceTr": "Saat kaç?",
+"phonetic": "/taɪm/",
+"memoryTip": "'What time is it?' = Saat kaç? 'Three times' = üç kez."
+},
+{
+"word": "tire",
+"partOfSpeech": "verb",
+"meaningTr": "yorulmak, yormak",
+"sentenceEn": "Old people tire easily in hot weather.",
+"sentenceTr": "Yaşlılar sıcak havada çabuk yorulur.",
+"phonetic": "/taɪər/",
+"memoryTip": "Tired (yorgun) bu fiilden gelir. Amerikan yazımında 'lastik' anlamı da var."
+},
+{
+"word": "tired",
+"partOfSpeech": "adjective",
+"meaningTr": "yorgun",
+"sentenceEn": "I am very tired after the long walk.",
+"sentenceTr": "Uzun yürüyüşten sonra çok yorgunum.",
+"phonetic": "/taɪəd/",
+"memoryTip": "'Tired of' = ...dan bıkmış: I'm tired of waiting."
+},
+{
+"word": "today",
+"partOfSpeech": "adverb",
+"meaningTr": "bugün",
+"sentenceEn": "Today is Monday.",
+"sentenceTr": "Bugün pazartesi.",
+"phonetic": "/təˈdeɪ/",
+"memoryTip": "Yesterday (dün), today (bugün), tomorrow (yarın)."
+},
+{
+"word": "toe",
+"partOfSpeech": "noun",
+"meaningTr": "ayak parmağı",
+"sentenceEn": "I hurt my big toe.",
+"sentenceTr": "Ayak başparmağımı incittim.",
+"phonetic": "/təʊ/",
+"memoryTip": "El parmağı 'finger', ayak parmağı 'toe'."
+},
+{
+"word": "together",
+"partOfSpeech": "adverb",
+"meaningTr": "birlikte",
+"sentenceEn": "Let's do our homework together.",
+"sentenceTr": "Ödevimizi birlikte yapalım.",
+"phonetic": "/təˈɡeð.ər/",
+"memoryTip": "To + gather (toplanmak) = bir araya gelmek, birlikte."
+},
+{
+"word": "tomorrow",
+"partOfSpeech": "adverb",
+"meaningTr": "yarın",
+"sentenceEn": "See you tomorrow!",
+"sentenceTr": "Yarın görüşürüz!",
+"phonetic": "/təˈmɒr.əʊ/",
+"memoryTip": "Yazımı: bir 'm', iki 'r' (to-m-o-rr-ow)."
+},
+{
+"word": "tonight",
+"partOfSpeech": "adverb",
+"meaningTr": "bu gece, bu akşam",
+"sentenceEn": "What are you doing tonight?",
+"sentenceTr": "Bu akşam ne yapıyorsun?",
+"phonetic": "/təˈnaɪt/",
+"memoryTip": "To + night (gece) = bu gece."
+},
+{
+"word": "too",
+"partOfSpeech": "adverb",
+"meaningTr": "de, da; fazla, çok",
+"sentenceEn": "This tea is too hot to drink.",
+"sentenceTr": "Bu çay içilemeyecek kadar sıcak.",
+"phonetic": "/tuː/",
+"memoryTip": "İki anlamı: 'me too' (ben de) ve 'too hot' (fazla sıcak)."
+},
+{
+"word": "took",
+"partOfSpeech": "verb",
+"meaningTr": "aldı, götürdü (take fiilinin geçmiş hâli)",
+"sentenceEn": "I took the bus to school this morning.",
+"sentenceTr": "Bu sabah okula otobüsle gittim.",
+"phonetic": "/tʊk/",
+"memoryTip": "Take → took → taken."
+},
+{
+"word": "tooth",
+"partOfSpeech": "noun",
+"meaningTr": "diş",
+"sentenceEn": "The dentist pulled out my tooth.",
+"sentenceTr": "Diş hekimi dişimi çekti.",
+"phonetic": "/tuːθ/",
+"memoryTip": "Düzensiz çoğul: one tooth, two teeth."
+},
+{
+"word": "toothache",
+"partOfSpeech": "noun",
+"meaningTr": "diş ağrısı",
+"sentenceEn": "I have a terrible toothache.",
+"sentenceTr": "Korkunç bir diş ağrım var.",
+"phonetic": "/ˈtuːθ.eɪk/",
+"memoryTip": "Tooth (diş) + ache (ağrı). Headache = baş ağrısı."
+},
+{
+"word": "toothbrush",
+"partOfSpeech": "noun",
+"meaningTr": "diş fırçası",
+"sentenceEn": "Don't forget your toothbrush.",
+"sentenceTr": "Diş fırçanı unutma.",
+"phonetic": "/ˈtuːθ.brʌʃ/",
+"memoryTip": "Tooth (diş) + brush (fırça)."
+},
+{
+"word": "toothpaste",
+"partOfSpeech": "noun",
+"meaningTr": "diş macunu",
+"sentenceEn": "We need to buy toothpaste.",
+"sentenceTr": "Diş macunu almamız gerek.",
+"phonetic": "/ˈtuːθ.peɪst/",
+"memoryTip": "Tooth (diş) + paste (macun)."
+},
+{
+"word": "top",
+"partOfSpeech": "noun",
+"meaningTr": "tepe, üst",
+"sentenceEn": "We climbed to the top of the hill.",
+"sentenceTr": "Tepenin zirvesine tırmandık.",
+"phonetic": "/tɒp/",
+"memoryTip": "Zıttı 'bottom' (dip, alt). 'On top of' = ...nın üstünde."
+},
+{
+"word": "total",
+"partOfSpeech": "noun",
+"meaningTr": "toplam",
+"sentenceEn": "The total is 150 lira.",
+"sentenceTr": "Toplam 150 lira.",
+"phonetic": "/ˈtəʊ.təl/",
+"memoryTip": "Türkçedeki 'total' ile aynıdır."
+},
+{
+"word": "towards",
+"partOfSpeech": "preposition",
+"meaningTr": "-e doğru",
+"sentenceEn": "The dog ran towards me.",
+"sentenceTr": "Köpek bana doğru koştu.",
+"phonetic": "/təˈwɔːdz/",
+"memoryTip": "To (-e) + wards (yön) = ...ya doğru."
+},
+{
+"word": "town",
+"partOfSpeech": "noun",
+"meaningTr": "kasaba, şehir",
+"sentenceEn": "I live in a small town near the sea.",
+"sentenceTr": "Denize yakın küçük bir kasabada yaşıyorum.",
+"phonetic": "/taʊn/",
+"memoryTip": "Village (köy) < town (kasaba) < city (şehir)."
+},
+{
+"word": "toy",
+"partOfSpeech": "noun",
+"meaningTr": "oyuncak",
+"sentenceEn": "The baby is playing with a toy car.",
+"sentenceTr": "Bebek oyuncak bir arabayla oynuyor.",
+"phonetic": "/tɔɪ/",
+"memoryTip": "Toy shop = oyuncakçı."
+},
+{
+"word": "traffic",
+"partOfSpeech": "noun",
+"meaningTr": "trafik",
+"sentenceEn": "There is a lot of traffic in the morning.",
+"sentenceTr": "Sabahları çok trafik oluyor.",
+"phonetic": "/ˈtræf.ɪk/",
+"memoryTip": "Traffic lights = trafik ışıkları."
+},
+{
+"word": "train",
+"partOfSpeech": "noun",
+"meaningTr": "tren; antrenman yapmak",
+"sentenceEn": "We went to Konya by train.",
+"sentenceTr": "Konya'ya trenle gittik.",
+"phonetic": "/treɪn/",
+"memoryTip": "Fiil olarak 'eğitmek, antrenman yapmak'; antrenör bu kelimeden."
+},
+{
+"word": "tray",
+"partOfSpeech": "noun",
+"meaningTr": "tepsi",
+"sentenceEn": "She brought the tea glasses on a tray.",
+"sentenceTr": "Çay bardaklarını bir tepsiyle getirdi.",
+"phonetic": "/treɪ/",
+"memoryTip": "Çay servisinde kullanılan tepsi."
+},
+{
+"word": "tree",
+"partOfSpeech": "noun",
+"meaningTr": "ağaç",
+"sentenceEn": "There is an old tree in our garden.",
+"sentenceTr": "Bahçemizde yaşlı bir ağaç var.",
+"phonetic": "/triː/",
+"memoryTip": "'Three' (üç) ile karıştırma: tree'de 'h' yok."
+},
+{
+"word": "trouble",
+"partOfSpeech": "noun",
+"meaningTr": "sorun, dert, bela",
+"sentenceEn": "I'm in trouble; I lost my keys.",
+"sentenceTr": "Başım dertte, anahtarlarımı kaybettim.",
+"phonetic": "/ˈtrʌb.əl/",
+"memoryTip": "'In trouble' = başı dertte."
+},
+{
+"word": "true",
+"partOfSpeech": "adjective",
+"meaningTr": "doğru, gerçek",
+"sentenceEn": "Is it true that you are moving?",
+"sentenceTr": "Taşınacağın doğru mu?",
+"phonetic": "/truː/",
+"memoryTip": "Testlerde 'True / False' = Doğru / Yanlış."
+},
+{
+"word": "truth",
+"partOfSpeech": "noun",
+"meaningTr": "gerçek, doğruluk",
+"sentenceEn": "Always tell the truth.",
+"sentenceTr": "Her zaman doğruyu söyle.",
+"phonetic": "/truːθ/",
+"memoryTip": "True (doğru) + -th = gerçek."
+},
+{
+"word": "try",
+"partOfSpeech": "verb",
+"meaningTr": "denemek, çalışmak",
+"sentenceEn": "Try this soup; it's delicious.",
+"sentenceTr": "Bu çorbayı dene, çok lezzetli.",
+"phonetic": "/traɪ/",
+"memoryTip": "'Try on' = giyip denemek (kıyafet)."
+},
+{
+"word": "Tuesday",
+"partOfSpeech": "noun",
+"meaningTr": "salı",
+"sentenceEn": "We have a test on Tuesday.",
+"sentenceTr": "Salı günü sınavımız var.",
+"phonetic": "/ˈtʃuːz.deɪ/",
+"memoryTip": "Haftanın ikinci günü; yazımında 'ue' var: T-ue-sday."
+},
+{
+"word": "turn",
+"partOfSpeech": "verb",
+"meaningTr": "dönmek, çevirmek; sıra",
+"sentenceEn": "Turn left at the bank.",
+"sentenceTr": "Bankadan sola dön.",
+"phonetic": "/tɜːn/",
+"memoryTip": "'It's your turn' = sıra sende. 'Turn on/off' = açmak/kapatmak."
+},
+{
+"word": "TV",
+"partOfSpeech": "noun",
+"meaningTr": "televizyon",
+"sentenceEn": "Turn off the TV, please.",
+"sentenceTr": "Televizyonu kapat, lütfen.",
+"phonetic": "/ˌtiːˈviː/",
+"memoryTip": "Television kelimesinin kısaltması; harf harf okunur."
+},
+{
+"word": "twice",
+"partOfSpeech": "adverb",
+"meaningTr": "iki kez",
+"sentenceEn": "I brush my teeth twice a day.",
+"sentenceTr": "Dişlerimi günde iki kez fırçalarım.",
+"phonetic": "/twaɪs/",
+"memoryTip": "Once (bir kez), twice (iki kez), three times."
+},
+{
+"word": "type",
+"partOfSpeech": "noun",
+"meaningTr": "tip, tür; yazmak (klavye)",
+"sentenceEn": "What type of films do you like?",
+"sentenceTr": "Ne tür filmlerden hoşlanırsın?",
+"phonetic": "/taɪp/",
+"memoryTip": "Fiil olarak klavyede yazmak demektir: type a message."
+},
+{
+"word": "ugly",
+"partOfSpeech": "adjective",
+"meaningTr": "çirkin",
+"sentenceEn": "The Ugly Duckling is a famous story.",
+"sentenceTr": "Çirkin Ördek Yavrusu ünlü bir masaldır.",
+"phonetic": "/ˈʌɡ.li/",
+"memoryTip": "Zıttı 'beautiful' ya da 'pretty'."
+},
+{
+"word": "umbrella",
+"partOfSpeech": "noun",
+"meaningTr": "şemsiye",
+"sentenceEn": "Take your umbrella; it's raining.",
+"sentenceTr": "Şemsiyeni al, yağmur yağıyor.",
+"phonetic": "/ʌmˈbrel.ə/",
+"memoryTip": "Latince 'umbra' (gölge) kökünden."
+},
+{
+"word": "under",
+"partOfSpeech": "preposition",
+"meaningTr": "altında",
+"sentenceEn": "The cat is under the table.",
+"sentenceTr": "Kedi masanın altında.",
+"phonetic": "/ˈʌn.dər/",
+"memoryTip": "Zıttı 'on' ya da 'over' (üstünde)."
+},
+{
+"word": "underground",
+"partOfSpeech": "noun",
+"meaningTr": "metro; yeraltı",
+"sentenceEn": "We took the underground in London.",
+"sentenceTr": "Londra'da metroya bindik.",
+"phonetic": "/ˈʌn.də.ɡraʊnd/",
+"memoryTip": "Under (altında) + ground (zemin) = yeraltı treni, metro."
+},
+{
+"word": "understand",
+"partOfSpeech": "verb",
+"meaningTr": "anlamak",
+"sentenceEn": "I don't understand this question.",
+"sentenceTr": "Bu soruyu anlamıyorum.",
+"phonetic": "/ˌʌn.dəˈstænd/",
+"memoryTip": "Understand → understood → understood."
+},
+{
+"word": "understanding",
+"partOfSpeech": "noun",
+"meaningTr": "anlayış; kavrayış",
+"sentenceEn": "Thank you for your understanding.",
+"sentenceTr": "Anlayışınız için teşekkür ederiz.",
+"phonetic": "/ˌʌn.dəˈstæn.dɪŋ/",
+"memoryTip": "Understand + -ing = anlayış. Sıfat olarak 'anlayışlı'."
+},
+{
+"word": "union",
+"partOfSpeech": "noun",
+"meaningTr": "birlik; sendika",
+"sentenceEn": "The European Union has many member countries.",
+"sentenceTr": "Avrupa Birliği'nin birçok üye ülkesi var.",
+"phonetic": "/ˈjuː.ni.ən/",
+"memoryTip": "Uni (bir) kökünden: bir araya gelme, birlik."
+},
+{
+"word": "unless",
+"partOfSpeech": "conjunction",
+"meaningTr": "-medikçe, -mezse",
+"sentenceEn": "You will be late unless you hurry.",
+"sentenceTr": "Acele etmezsen geç kalacaksın.",
+"phonetic": "/ənˈles/",
+"memoryTip": "Unless = if not (eğer ... değilse)."
+},
+{
+"word": "until",
+"partOfSpeech": "preposition",
+"meaningTr": "-e kadar",
+"sentenceEn": "Wait here until I come back.",
+"sentenceTr": "Ben dönene kadar burada bekle.",
+"phonetic": "/ənˈtɪl/",
+"memoryTip": "'Till' ile aynı anlam; yazımında tek 'l' var."
+}
+]

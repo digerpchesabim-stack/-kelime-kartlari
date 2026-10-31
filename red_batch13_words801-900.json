@@ -1,0 +1,902 @@
+[
+{
+"word": "of",
+"partOfSpeech": "preposition",
+"meaningTr": "-nın, -nin; -den (aitlik, parça)",
+"sentenceEn": "I'd like a glass of water, please.",
+"sentenceTr": "Bir bardak su istiyorum, lütfen.",
+"phonetic": "/ɒv/",
+"memoryTip": "A cup of tea = bir fincan çay. 'Of' ölçüyle şeyi bağlar."
+},
+{
+"word": "of course",
+"partOfSpeech": "adverb",
+"meaningTr": "tabii ki, elbette",
+"sentenceEn": "Can I borrow your pen? Of course!",
+"sentenceTr": "Kalemini ödünç alabilir miyim? Tabii ki!",
+"phonetic": "/əv ˈkɔːs/",
+"memoryTip": "Bir isteğe 'evet' demenin kibar ve sıcak yolu."
+},
+{
+"word": "offer",
+"partOfSpeech": "verb",
+"meaningTr": "teklif etmek, sunmak",
+"sentenceEn": "Can I offer you a cup of tea?",
+"sentenceTr": "Size bir fincan çay ikram edebilir miyim?",
+"phonetic": "/ˈɒf.ər/",
+"memoryTip": "Mağazada 'special offer' = özel teklif, kampanya."
+},
+{
+"word": "office",
+"partOfSpeech": "noun",
+"meaningTr": "ofis, büro",
+"sentenceEn": "My father works in an office in the city centre.",
+"sentenceTr": "Babam şehir merkezinde bir ofiste çalışıyor.",
+"phonetic": "/ˈɒf.ɪs/",
+"memoryTip": "Türkçedeki 'ofis' ile aynıdır. Post office = postane."
+},
+{
+"word": "officer",
+"partOfSpeech": "noun",
+"meaningTr": "memur, subay, polis memuru",
+"sentenceEn": "The police officer helped the lost child.",
+"sentenceTr": "Polis memuru kaybolan çocuğa yardım etti.",
+"phonetic": "/ˈɒf.ɪ.sər/",
+"memoryTip": "Office (büro) + -er = büroda görevli kişi, memur."
+},
+{
+"word": "often",
+"partOfSpeech": "adverb",
+"meaningTr": "sık sık",
+"sentenceEn": "I often visit my grandparents at weekends.",
+"sentenceTr": "Hafta sonları sık sık büyükannemle büyükbabamı ziyaret ederim.",
+"phonetic": "/ˈɒf.ən/",
+"memoryTip": "'t' genelde okunmaz: /ˈɒf.ən/. Always > usually > often > sometimes."
+},
+{
+"word": "OK",
+"partOfSpeech": "adjective",
+"meaningTr": "tamam, iyi",
+"sentenceEn": "Are you OK? You look tired.",
+"sentenceTr": "İyi misin? Yorgun görünüyorsun.",
+"phonetic": "/ˌəʊˈkeɪ/",
+"memoryTip": "'Okay' ile aynıdır; harf harf okunur: o-key."
+},
+{
+"word": "okay",
+"partOfSpeech": "adjective",
+"meaningTr": "tamam, peki, iyi",
+"sentenceEn": "The food was okay, but not great.",
+"sentenceTr": "Yemek fena değildi ama harika da değildi.",
+"phonetic": "/ˌəʊˈkeɪ/",
+"memoryTip": "'OK' kelimesinin uzun yazılışı; anlamları aynı."
+},
+{
+"word": "old",
+"partOfSpeech": "adjective",
+"meaningTr": "yaşlı, eski",
+"sentenceEn": "How old are you?",
+"sentenceTr": "Kaç yaşındasın?",
+"phonetic": "/əʊld/",
+"memoryTip": "'How old...?' = Kaç yaşında? Zıttı: young (genç), new (yeni)."
+},
+{
+"word": "olive",
+"partOfSpeech": "noun",
+"meaningTr": "zeytin",
+"sentenceEn": "I eat cheese and an olive or two for breakfast.",
+"sentenceTr": "Kahvaltıda peynir ve bir iki zeytin yerim.",
+"phonetic": "/ˈɒl.ɪv/",
+"memoryTip": "Olive oil = zeytinyağı."
+},
+{
+"word": "on",
+"partOfSpeech": "preposition",
+"meaningTr": "üstünde; -de (gün)",
+"sentenceEn": "Your keys are on the table.",
+"sentenceTr": "Anahtarların masanın üstünde.",
+"phonetic": "/ɒn/",
+"memoryTip": "Günlerle de kullanılır: on Monday (pazartesi günü)."
+},
+{
+"word": "once",
+"partOfSpeech": "adverb",
+"meaningTr": "bir kez; bir zamanlar",
+"sentenceEn": "I go swimming once a week.",
+"sentenceTr": "Haftada bir kez yüzmeye giderim.",
+"phonetic": "/wʌns/",
+"memoryTip": "Once (bir kez), twice (iki kez), three times (üç kez)."
+},
+{
+"word": "one",
+"partOfSpeech": "number",
+"meaningTr": "bir (sayı)",
+"sentenceEn": "I have one brother and two sisters.",
+"sentenceTr": "Bir erkek kardeşim ve iki kız kardeşim var.",
+"phonetic": "/wʌn/",
+"memoryTip": "'Won' (kazandı) ile aynı okunur: /wʌn/."
+},
+{
+"word": "only",
+"partOfSpeech": "adverb",
+"meaningTr": "sadece, yalnızca",
+"sentenceEn": "I only have ten lira.",
+"sentenceTr": "Sadece on liram var.",
+"phonetic": "/ˈəʊn.li/",
+"memoryTip": "'Only child' = tek çocuk."
+},
+{
+"word": "open",
+"partOfSpeech": "verb",
+"meaningTr": "açmak; açık",
+"sentenceEn": "Please open your books to page twenty.",
+"sentenceTr": "Lütfen kitaplarınızı yirminci sayfada açın.",
+"phonetic": "/ˈəʊ.pən/",
+"memoryTip": "Zıttı 'close' (kapatmak). Dükkân kapısında 'OPEN' = açık."
+},
+{
+"word": "operation",
+"partOfSpeech": "noun",
+"meaningTr": "ameliyat; işlem",
+"sentenceEn": "My uncle had an operation on his knee.",
+"sentenceTr": "Amcam dizinden ameliyat oldu.",
+"phonetic": "/ˌɒp.ərˈeɪ.ʃən/",
+"memoryTip": "Türkçedeki 'operasyon' ile aynı kökten; hastanede ameliyat demek."
+},
+{
+"word": "opinion",
+"partOfSpeech": "noun",
+"meaningTr": "fikir, görüş",
+"sentenceEn": "In my opinion, this book is very good.",
+"sentenceTr": "Bence bu kitap çok iyi.",
+"phonetic": "/əˈpɪn.jən/",
+"memoryTip": "'In my opinion' = bence, bana göre."
+},
+{
+"word": "opportunity",
+"partOfSpeech": "noun",
+"meaningTr": "fırsat",
+"sentenceEn": "This job is a great opportunity for you.",
+"sentenceTr": "Bu iş senin için harika bir fırsat.",
+"phonetic": "/ˌɒp.əˈtʃuː.nə.ti/",
+"memoryTip": "Kapı açılması gibi düşün: 'opportunity knocks' = fırsat kapıyı çalar."
+},
+{
+"word": "or",
+"partOfSpeech": "conjunction",
+"meaningTr": "veya, ya da",
+"sentenceEn": "Would you like tea or coffee?",
+"sentenceTr": "Çay mı yoksa kahve mi istersin?",
+"phonetic": "/ɔːr/",
+"memoryTip": "Sorularda 'mı ... yoksa ... mı' anlamı verir."
+},
+{
+"word": "orange",
+"partOfSpeech": "noun",
+"meaningTr": "portakal; turuncu",
+"sentenceEn": "I drink a glass of orange juice every morning.",
+"sentenceTr": "Her sabah bir bardak portakal suyu içerim.",
+"phonetic": "/ˈɒr.ɪndʒ/",
+"memoryTip": "Hem meyvenin hem rengin adı: portakal ve turuncu."
+},
+{
+"word": "order",
+"partOfSpeech": "verb",
+"meaningTr": "sipariş vermek; emretmek",
+"sentenceEn": "Let's order pizza for dinner.",
+"sentenceTr": "Akşam yemeği için pizza sipariş edelim.",
+"phonetic": "/ˈɔː.dər/",
+"memoryTip": "İsim olarak 'sıra, düzen' de demektir: in alphabetical order."
+},
+{
+"word": "organize",
+"partOfSpeech": "verb",
+"meaningTr": "düzenlemek, organize etmek",
+"sentenceEn": "Our class will organize a trip to the museum.",
+"sentenceTr": "Sınıfımız müzeye bir gezi düzenleyecek.",
+"phonetic": "/ˈɔː.ɡən.aɪz/",
+"memoryTip": "Türkçedeki 'organize etmek' ile aynıdır. İngiliz yazımında 'organise' de görülür."
+},
+{
+"word": "original",
+"partOfSpeech": "adjective",
+"meaningTr": "orijinal, asıl, özgün",
+"sentenceEn": "This is the original painting, not a copy.",
+"sentenceTr": "Bu bir kopya değil, orijinal tablo.",
+"phonetic": "/əˈrɪdʒ.ən.əl/",
+"memoryTip": "Türkçedeki 'orijinal' ile aynıdır."
+},
+{
+"word": "other",
+"partOfSpeech": "determiner",
+"meaningTr": "diğer, başka",
+"sentenceEn": "Where are the other students?",
+"sentenceTr": "Diğer öğrenciler nerede?",
+"phonetic": "/ˈʌð.ər/",
+"memoryTip": "'Each other' = birbirini: They help each other."
+},
+{
+"word": "our",
+"partOfSpeech": "determiner",
+"meaningTr": "bizim",
+"sentenceEn": "Our teacher is very kind.",
+"sentenceTr": "Öğretmenimiz çok nazik.",
+"phonetic": "/aʊər/",
+"memoryTip": "Our + isim: our house (bizim evimiz). 'Hour' (saat) ile aynı okunur."
+},
+{
+"word": "ours",
+"partOfSpeech": "pronoun",
+"meaningTr": "bizimki",
+"sentenceEn": "That red car is ours.",
+"sentenceTr": "O kırmızı araba bizimki.",
+"phonetic": "/aʊəz/",
+"memoryTip": "Our car = bizim arabamız; the car is ours = araba bizimki."
+},
+{
+"word": "ourselves",
+"partOfSpeech": "pronoun",
+"meaningTr": "kendimiz, kendimizi",
+"sentenceEn": "We painted the room ourselves.",
+"sentenceTr": "Odayı kendimiz boyadık.",
+"phonetic": "/ˌaʊəˈselvz/",
+"memoryTip": "Our + selves (kendiler) = kendimiz."
+},
+{
+"word": "out",
+"partOfSpeech": "adverb",
+"meaningTr": "dışarı, dışarıda",
+"sentenceEn": "My mother is out at the moment.",
+"sentenceTr": "Annem şu an dışarıda.",
+"phonetic": "/aʊt/",
+"memoryTip": "Zıttı 'in'. 'Go out' = dışarı çıkmak."
+},
+{
+"word": "outdoors",
+"partOfSpeech": "adverb",
+"meaningTr": "dışarıda, açık havada",
+"sentenceEn": "Children love playing outdoors in summer.",
+"sentenceTr": "Çocuklar yazın açık havada oynamayı sever.",
+"phonetic": "/ˌaʊtˈdɔːz/",
+"memoryTip": "Out (dış) + doors (kapılar) = kapıların dışında."
+},
+{
+"word": "outside",
+"partOfSpeech": "adverb",
+"meaningTr": "dışarıda, dışında",
+"sentenceEn": "It's cold outside; wear your coat.",
+"sentenceTr": "Dışarısı soğuk, montunu giy.",
+"phonetic": "/ˌaʊtˈsaɪd/",
+"memoryTip": "Out (dış) + side (taraf) = dış taraf. Zıttı 'inside'."
+},
+{
+"word": "over",
+"partOfSpeech": "preposition",
+"meaningTr": "üzerinde, üstünden; bitmiş",
+"sentenceEn": "The plane flew over our house.",
+"sentenceTr": "Uçak evimizin üstünden geçti.",
+"phonetic": "/ˈəʊ.vər/",
+"memoryTip": "'The game is over' = oyun bitti."
+},
+{
+"word": "own",
+"partOfSpeech": "adjective",
+"meaningTr": "kendi, kendine ait",
+"sentenceEn": "I have my own room now.",
+"sentenceTr": "Artık kendi odam var.",
+"phonetic": "/əʊn/",
+"memoryTip": "Hep 'my/your/his own' şeklinde kullanılır."
+},
+{
+"word": "p.m.",
+"partOfSpeech": "abbreviation",
+"meaningTr": "öğleden sonra (saat)",
+"sentenceEn": "The film starts at 8 p.m.",
+"sentenceTr": "Film akşam 8'de başlıyor.",
+"phonetic": "/ˌpiːˈem/",
+"memoryTip": "a.m. = öğleden önce, p.m. = öğleden sonra. 8 p.m. = 20.00."
+},
+{
+"word": "page",
+"partOfSpeech": "noun",
+"meaningTr": "sayfa",
+"sentenceEn": "Please turn to the next page.",
+"sentenceTr": "Lütfen bir sonraki sayfaya geçin.",
+"phonetic": "/peɪdʒ/",
+"memoryTip": "Web sayfası da 'web page'dir."
+},
+{
+"word": "painter",
+"partOfSpeech": "noun",
+"meaningTr": "ressam; boyacı",
+"sentenceEn": "Osman Hamdi Bey was a famous painter.",
+"sentenceTr": "Osman Hamdi Bey ünlü bir ressamdı.",
+"phonetic": "/ˈpeɪn.tər/",
+"memoryTip": "Paint (boyamak) + -er = boyayan kişi, ressam."
+},
+{
+"word": "paper",
+"partOfSpeech": "noun",
+"meaningTr": "kâğıt; gazete",
+"sentenceEn": "Can you give me a piece of paper?",
+"sentenceTr": "Bana bir parça kâğıt verebilir misin?",
+"phonetic": "/ˈpeɪ.pər/",
+"memoryTip": "Sayılamaz: a piece of paper (bir parça kâğıt)."
+},
+{
+"word": "paragraph",
+"partOfSpeech": "noun",
+"meaningTr": "paragraf",
+"sentenceEn": "Read the first paragraph aloud.",
+"sentenceTr": "İlk paragrafı yüksek sesle oku.",
+"phonetic": "/ˈpær.ə.ɡrɑːf/",
+"memoryTip": "Türkçedeki 'paragraf' ile aynıdır; 'ph' /f/ okunur."
+},
+{
+"word": "parent",
+"partOfSpeech": "noun",
+"meaningTr": "ebeveyn, anne ya da baba",
+"sentenceEn": "Every parent wants the best for their child.",
+"sentenceTr": "Her ebeveyn çocuğu için en iyisini ister.",
+"phonetic": "/ˈpeə.rənt/",
+"memoryTip": "Anne ya da babadan biri: a parent."
+},
+{
+"word": "parents",
+"partOfSpeech": "noun",
+"meaningTr": "anne baba, ebeveynler",
+"sentenceEn": "My parents are teachers.",
+"sentenceTr": "Annem ve babam öğretmen.",
+"phonetic": "/ˈpeə.rənts/",
+"memoryTip": "Parent'ın çoğulu: anne ile baba birlikte."
+},
+{
+"word": "park",
+"partOfSpeech": "noun",
+"meaningTr": "park",
+"sentenceEn": "We had a picnic in the park.",
+"sentenceTr": "Parkta piknik yaptık.",
+"phonetic": "/pɑːk/",
+"memoryTip": "Fiil olarak 'park etmek' demektir: park the car."
+},
+{
+"word": "part",
+"partOfSpeech": "noun",
+"meaningTr": "parça, bölüm",
+"sentenceEn": "The first part of the film was boring.",
+"sentenceTr": "Filmin ilk bölümü sıkıcıydı.",
+"phonetic": "/pɑːt/",
+"memoryTip": "'Take part in' = katılmak: take part in a race."
+},
+{
+"word": "particular",
+"partOfSpeech": "adjective",
+"meaningTr": "belirli, özel",
+"sentenceEn": "Is there a particular book you want?",
+"sentenceTr": "İstediğin belirli bir kitap var mı?",
+"phonetic": "/pəˈtɪk.jə.lər/",
+"memoryTip": "'In particular' = özellikle."
+},
+{
+"word": "particularly",
+"partOfSpeech": "adverb",
+"meaningTr": "özellikle",
+"sentenceEn": "I like fruit, particularly cherries.",
+"sentenceTr": "Meyveyi severim, özellikle kirazı.",
+"phonetic": "/pəˈtɪk.jə.lə.li/",
+"memoryTip": "Particular + -ly = özellikle. 'Especially' ile benzer."
+},
+{
+"word": "party",
+"partOfSpeech": "noun",
+"meaningTr": "parti, eğlence",
+"sentenceEn": "We are having a birthday party on Saturday.",
+"sentenceTr": "Cumartesi doğum günü partisi veriyoruz.",
+"phonetic": "/ˈpɑː.ti/",
+"memoryTip": "Siyasi parti de 'party'dir."
+},
+{
+"word": "pass",
+"partOfSpeech": "verb",
+"meaningTr": "geçmek; uzatmak",
+"sentenceEn": "I hope I pass the exam.",
+"sentenceTr": "Umarım sınavı geçerim.",
+"phonetic": "/pɑːs/",
+"memoryTip": "'Pass the salt, please' = tuzu uzatır mısın?"
+},
+{
+"word": "past",
+"partOfSpeech": "noun",
+"meaningTr": "geçmiş; geçe (saat)",
+"sentenceEn": "It's ten past three.",
+"sentenceTr": "Saat üçü on geçiyor.",
+"phonetic": "/pɑːst/",
+"memoryTip": "Saatte 'past' = geçe, 'to' = kala."
+},
+{
+"word": "path",
+"partOfSpeech": "noun",
+"meaningTr": "patika, yol",
+"sentenceEn": "Follow this path to the lake.",
+"sentenceTr": "Göle gitmek için bu patikayı takip et.",
+"phonetic": "/pɑːθ/",
+"memoryTip": "Türkçedeki 'patika' kelimesine benzer."
+},
+{
+"word": "pay",
+"partOfSpeech": "verb",
+"meaningTr": "ödemek",
+"sentenceEn": "Can I pay by card?",
+"sentenceTr": "Kartla ödeyebilir miyim?",
+"phonetic": "/peɪ/",
+"memoryTip": "Pay → paid → paid. 'Pay attention' = dikkat etmek."
+},
+{
+"word": "payment",
+"partOfSpeech": "noun",
+"meaningTr": "ödeme",
+"sentenceEn": "The payment is due on Friday.",
+"sentenceTr": "Ödemenin son günü cuma.",
+"phonetic": "/ˈpeɪ.mənt/",
+"memoryTip": "Pay (ödemek) + -ment = ödeme."
+},
+{
+"word": "peanut",
+"partOfSpeech": "noun",
+"meaningTr": "yer fıstığı",
+"sentenceEn": "My little brother is allergic to peanut butter.",
+"sentenceTr": "Küçük kardeşimin fıstık ezmesine alerjisi var.",
+"phonetic": "/ˈpiː.nʌt/",
+"memoryTip": "Pea (bezelye) + nut (yemiş): bezelye gibi kabukta büyüyen fıstık."
+},
+{
+"word": "pen",
+"partOfSpeech": "noun",
+"meaningTr": "tükenmez kalem, dolma kalem",
+"sentenceEn": "Can I borrow your pen?",
+"sentenceTr": "Kalemini ödünç alabilir miyim?",
+"phonetic": "/pen/",
+"memoryTip": "Mürekkepli kalem 'pen', kurşun kalem 'pencil'."
+},
+{
+"word": "pencil",
+"partOfSpeech": "noun",
+"meaningTr": "kurşun kalem",
+"sentenceEn": "Write your name with a pencil.",
+"sentenceTr": "Adını kurşun kalemle yaz.",
+"phonetic": "/ˈpen.səl/",
+"memoryTip": "Pencil case = kalem kutusu."
+},
+{
+"word": "penguin",
+"partOfSpeech": "noun",
+"meaningTr": "penguen",
+"sentenceEn": "A penguin can swim but it cannot fly.",
+"sentenceTr": "Penguen yüzebilir ama uçamaz.",
+"phonetic": "/ˈpeŋ.ɡwɪn/",
+"memoryTip": "Türkçedeki 'penguen' ile neredeyse aynı."
+},
+{
+"word": "penny",
+"partOfSpeech": "noun",
+"meaningTr": "peni (İngiliz bozuk parası)",
+"sentenceEn": "This sweet costs only one penny.",
+"sentenceTr": "Bu şeker sadece bir peni.",
+"phonetic": "/ˈpen.i/",
+"memoryTip": "100 pence = 1 pound (sterlin). Çoğulu 'pence'."
+},
+{
+"word": "people",
+"partOfSpeech": "noun",
+"meaningTr": "insanlar",
+"sentenceEn": "Many people live in Istanbul.",
+"sentenceTr": "İstanbul'da çok insan yaşıyor.",
+"phonetic": "/ˈpiː.pəl/",
+"memoryTip": "Person'ın çoğulu gibi kullanılır ve fiil çoğul olur: People are..."
+},
+{
+"word": "perhaps",
+"partOfSpeech": "adverb",
+"meaningTr": "belki",
+"sentenceEn": "Perhaps we can meet tomorrow.",
+"sentenceTr": "Belki yarın buluşabiliriz.",
+"phonetic": "/pəˈhæps/",
+"memoryTip": "'Maybe' ile aynı anlam, biraz daha resmi."
+},
+{
+"word": "person",
+"partOfSpeech": "noun",
+"meaningTr": "kişi, insan",
+"sentenceEn": "She is a very kind person.",
+"sentenceTr": "O çok nazik bir insan.",
+"phonetic": "/ˈpɜː.sən/",
+"memoryTip": "Tekil: one person; çoğul: two people."
+},
+{
+"word": "personal",
+"partOfSpeech": "adjective",
+"meaningTr": "kişisel, özel",
+"sentenceEn": "Please don't read my personal letters.",
+"sentenceTr": "Lütfen kişisel mektuplarımı okuma.",
+"phonetic": "/ˈpɜː.sən.əl/",
+"memoryTip": "Person (kişi) + -al = kişisel."
+},
+{
+"word": "pharmacy",
+"partOfSpeech": "noun",
+"meaningTr": "eczane",
+"sentenceEn": "I bought some medicine at the pharmacy.",
+"sentenceTr": "Eczaneden biraz ilaç aldım.",
+"phonetic": "/ˈfɑː.mə.si/",
+"memoryTip": "'ph' /f/ okunur. Farmasi, farmakoloji ile aynı kökten."
+},
+{
+"word": "phone",
+"partOfSpeech": "noun",
+"meaningTr": "telefon",
+"sentenceEn": "My phone is on the table.",
+"sentenceTr": "Telefonum masanın üstünde.",
+"phonetic": "/fəʊn/",
+"memoryTip": "Telephone kelimesinin kısa hâli."
+},
+{
+"word": "phonecard",
+"partOfSpeech": "noun",
+"meaningTr": "telefon kartı",
+"sentenceEn": "In the past, people used a phonecard to call from the street.",
+"sentenceTr": "Eskiden insanlar sokaktan aramak için telefon kartı kullanırdı.",
+"phonetic": "/ˈfəʊn.kɑːd/",
+"memoryTip": "Phone (telefon) + card (kart) = telefon kartı."
+},
+{
+"word": "photographer",
+"partOfSpeech": "noun",
+"meaningTr": "fotoğrafçı",
+"sentenceEn": "The photographer took a picture of our class.",
+"sentenceTr": "Fotoğrafçı sınıfımızın fotoğrafını çekti.",
+"phonetic": "/fəˈtɒɡ.rə.fər/",
+"memoryTip": "Vurgu ikinci hecede: pho-TO-grapher."
+},
+{
+"word": "piano",
+"partOfSpeech": "noun",
+"meaningTr": "piyano",
+"sentenceEn": "My sister plays the piano very well.",
+"sentenceTr": "Kız kardeşim çok iyi piyano çalar.",
+"phonetic": "/piˈæn.əʊ/",
+"memoryTip": "Çalgılarla 'the' kullanılır: play the piano."
+},
+{
+"word": "pick",
+"partOfSpeech": "verb",
+"meaningTr": "seçmek, toplamak",
+"sentenceEn": "Pick a card, any card.",
+"sentenceTr": "Bir kart seç, herhangi birini.",
+"phonetic": "/pɪk/",
+"memoryTip": "'Pick up' = yerden almak ya da birini arabayla almak."
+},
+{
+"word": "picnic",
+"partOfSpeech": "noun",
+"meaningTr": "piknik",
+"sentenceEn": "Let's have a picnic by the river.",
+"sentenceTr": "Nehrin kenarında piknik yapalım.",
+"phonetic": "/ˈpɪk.nɪk/",
+"memoryTip": "Türkçedeki 'piknik' ile aynıdır."
+},
+{
+"word": "picture",
+"partOfSpeech": "noun",
+"meaningTr": "resim, fotoğraf",
+"sentenceEn": "She drew a picture of her cat.",
+"sentenceTr": "Kedisinin resmini çizdi.",
+"phonetic": "/ˈpɪk.tʃər/",
+"memoryTip": "'Take a picture' = fotoğraf çekmek."
+},
+{
+"word": "piece",
+"partOfSpeech": "noun",
+"meaningTr": "parça, dilim",
+"sentenceEn": "Would you like a piece of cake?",
+"sentenceTr": "Bir dilim kek ister misin?",
+"phonetic": "/piːs/",
+"memoryTip": "'Peace' (barış) ile aynı okunur: /piːs/."
+},
+{
+"word": "pig",
+"partOfSpeech": "noun",
+"meaningTr": "domuz",
+"sentenceEn": "There is a pig on the farm.",
+"sentenceTr": "Çiftlikte bir domuz var.",
+"phonetic": "/pɪɡ/",
+"memoryTip": "Domuz eti 'pork' olarak adlandırılır."
+},
+{
+"word": "pin",
+"partOfSpeech": "noun",
+"meaningTr": "toplu iğne; şifre (PIN)",
+"sentenceEn": "She fixed the paper to the board with a pin.",
+"sentenceTr": "Kâğıdı panoya bir raptiyeyle tutturdu.",
+"phonetic": "/pɪn/",
+"memoryTip": "Kart şifresi 'PIN number' olarak da geçer."
+},
+{
+"word": "ping-pong",
+"partOfSpeech": "noun",
+"meaningTr": "masa tenisi, pinpon",
+"sentenceEn": "We play ping-pong in the school hall.",
+"sentenceTr": "Okul salonunda pinpon oynarız.",
+"phonetic": "/ˈpɪŋ.pɒŋ/",
+"memoryTip": "Topun çıkardığı sesten gelir. 'Table tennis' ile aynı."
+},
+{
+"word": "place",
+"partOfSpeech": "noun",
+"meaningTr": "yer, mekân",
+"sentenceEn": "This is a beautiful place for a holiday.",
+"sentenceTr": "Burası tatil için güzel bir yer.",
+"phonetic": "/pleɪs/",
+"memoryTip": "'Take place' = gerçekleşmek, olmak."
+},
+{
+"word": "plan",
+"partOfSpeech": "noun",
+"meaningTr": "plan",
+"sentenceEn": "What is your plan for the weekend?",
+"sentenceTr": "Hafta sonu için planın ne?",
+"phonetic": "/plæn/",
+"memoryTip": "Türkçedeki 'plan' ile aynıdır. Fiil: plan → planned."
+},
+{
+"word": "play",
+"partOfSpeech": "verb",
+"meaningTr": "oynamak; çalmak (çalgı)",
+"sentenceEn": "The children play football after school.",
+"sentenceTr": "Çocuklar okuldan sonra futbol oynar.",
+"phonetic": "/pleɪ/",
+"memoryTip": "Hem oyun oynamak hem çalgı çalmak: play the guitar."
+},
+{
+"word": "player",
+"partOfSpeech": "noun",
+"meaningTr": "oyuncu",
+"sentenceEn": "He is the best player in our team.",
+"sentenceTr": "O, takımımızın en iyi oyuncusu.",
+"phonetic": "/ˈpleɪ.ər/",
+"memoryTip": "Play (oynamak) + -er = oyuncu."
+},
+{
+"word": "please",
+"partOfSpeech": "adverb",
+"meaningTr": "lütfen",
+"sentenceEn": "Close the door, please.",
+"sentenceTr": "Kapıyı kapat, lütfen.",
+"phonetic": "/pliːz/",
+"memoryTip": "Kibar ricaların sihirli kelimesi; cümlenin başında ya da sonunda olabilir."
+},
+{
+"word": "pleased",
+"partOfSpeech": "adjective",
+"meaningTr": "memnun",
+"sentenceEn": "I'm pleased to meet you.",
+"sentenceTr": "Tanıştığıma memnun oldum.",
+"phonetic": "/pliːzd/",
+"memoryTip": "'Pleased to meet you' = 'Nice to meet you' ile aynı."
+},
+{
+"word": "plenty",
+"partOfSpeech": "pronoun",
+"meaningTr": "bol, çok, yeterince",
+"sentenceEn": "Don't hurry; we have plenty of time.",
+"sentenceTr": "Acele etme, bol vaktimiz var.",
+"phonetic": "/ˈplen.ti/",
+"memoryTip": "'Plenty of' = bol bol, gereğinden fazla."
+},
+{
+"word": "plural",
+"partOfSpeech": "noun",
+"meaningTr": "çoğul",
+"sentenceEn": "The plural of 'child' is 'children'.",
+"sentenceTr": "'Child' kelimesinin çoğulu 'children'dır.",
+"phonetic": "/ˈplʊə.rəl/",
+"memoryTip": "Zıttı 'singular' (tekil)."
+},
+{
+"word": "plus",
+"partOfSpeech": "preposition",
+"meaningTr": "artı",
+"sentenceEn": "Two plus three equals five.",
+"sentenceTr": "İki artı üç beş eder.",
+"phonetic": "/plʌs/",
+"memoryTip": "Matematikte '+' işareti; zıttı 'minus'."
+},
+{
+"word": "point",
+"partOfSpeech": "noun",
+"meaningTr": "nokta; puan; amaç",
+"sentenceEn": "Our team won by one point.",
+"sentenceTr": "Takımımız bir sayı farkla kazandı.",
+"phonetic": "/pɔɪnt/",
+"memoryTip": "Fiil olarak 'işaret etmek': point at the board."
+},
+{
+"word": "police",
+"partOfSpeech": "noun",
+"meaningTr": "polis",
+"sentenceEn": "Call the police!",
+"sentenceTr": "Polisi ara!",
+"phonetic": "/pəˈliːs/",
+"memoryTip": "Türkiye'de polis numarası 155, acil çağrı ise 112."
+},
+{
+"word": "policeman",
+"partOfSpeech": "noun",
+"meaningTr": "polis memuru (erkek)",
+"sentenceEn": "A policeman showed us the way.",
+"sentenceTr": "Bir polis memuru bize yolu gösterdi.",
+"phonetic": "/pəˈliːs.mən/",
+"memoryTip": "Police + man (adam) = erkek polis. Kadın için 'policewoman'."
+},
+{
+"word": "policewoman",
+"partOfSpeech": "noun",
+"meaningTr": "kadın polis memuru",
+"sentenceEn": "The policewoman stopped the traffic.",
+"sentenceTr": "Kadın polis trafiği durdurdu.",
+"phonetic": "/pəˈliːsˌwʊm.ən/",
+"memoryTip": "Police + woman (kadın) = kadın polis."
+},
+{
+"word": "pool",
+"partOfSpeech": "noun",
+"meaningTr": "havuz",
+"sentenceEn": "The hotel has a big pool.",
+"sentenceTr": "Otelin büyük bir havuzu var.",
+"phonetic": "/puːl/",
+"memoryTip": "Swimming pool = yüzme havuzu."
+},
+{
+"word": "poor",
+"partOfSpeech": "adjective",
+"meaningTr": "fakir, yoksul; zavallı",
+"sentenceEn": "We collected clothes for poor families.",
+"sentenceTr": "Yoksul aileler için kıyafet topladık.",
+"phonetic": "/pɔːr/",
+"memoryTip": "Zıttı 'rich' (zengin). 'Poor thing!' = zavallıcık!"
+},
+{
+"word": "popcorn",
+"partOfSpeech": "noun",
+"meaningTr": "patlamış mısır",
+"sentenceEn": "We always eat popcorn at the cinema.",
+"sentenceTr": "Sinemada hep patlamış mısır yeriz.",
+"phonetic": "/ˈpɒp.kɔːn/",
+"memoryTip": "Pop (patlamak) + corn (mısır) = patlamış mısır."
+},
+{
+"word": "pork",
+"partOfSpeech": "noun",
+"meaningTr": "domuz eti",
+"sentenceEn": "This sausage has no pork in it.",
+"sentenceTr": "Bu sosiste domuz eti yok.",
+"phonetic": "/pɔːk/",
+"memoryTip": "Hayvan 'pig', eti 'pork'. Beef (sığır eti) gibi."
+},
+{
+"word": "possible",
+"partOfSpeech": "adjective",
+"meaningTr": "mümkün, olası",
+"sentenceEn": "Is it possible to finish today?",
+"sentenceTr": "Bugün bitirmek mümkün mü?",
+"phonetic": "/ˈpɒs.ə.bəl/",
+"memoryTip": "Zıttı 'impossible' (imkânsız). 'As soon as possible' = en kısa sürede."
+},
+{
+"word": "possibly",
+"partOfSpeech": "adverb",
+"meaningTr": "muhtemelen, belki",
+"sentenceEn": "He will possibly come later.",
+"sentenceTr": "Muhtemelen daha sonra gelecek.",
+"phonetic": "/ˈpɒs.ə.bli/",
+"memoryTip": "Possible + -ly = muhtemelen."
+},
+{
+"word": "post office",
+"partOfSpeech": "noun",
+"meaningTr": "postane",
+"sentenceEn": "I sent the letter from the post office.",
+"sentenceTr": "Mektubu postaneden gönderdim.",
+"phonetic": "/ˈpəʊst ˌɒf.ɪs/",
+"memoryTip": "Post (posta) + office (büro) = postane, Türkiye'de PTT."
+},
+{
+"word": "postcard",
+"partOfSpeech": "noun",
+"meaningTr": "kartpostal",
+"sentenceEn": "She sent me a postcard from Antalya.",
+"sentenceTr": "Bana Antalya'dan bir kartpostal gönderdi.",
+"phonetic": "/ˈpəʊst.kɑːd/",
+"memoryTip": "Post (posta) + card (kart) = kartpostal."
+},
+{
+"word": "pot",
+"partOfSpeech": "noun",
+"meaningTr": "tencere, çömlek, saksı",
+"sentenceEn": "Put the rice in a pot of water.",
+"sentenceTr": "Pirinci su dolu bir tencereye koy.",
+"phonetic": "/pɒt/",
+"memoryTip": "Teapot = çaydanlık, flowerpot = saksı."
+},
+{
+"word": "potato",
+"partOfSpeech": "noun",
+"meaningTr": "patates",
+"sentenceEn": "I'd like a baked potato with cheese.",
+"sentenceTr": "Peynirli fırın patates istiyorum.",
+"phonetic": "/pəˈteɪ.təʊ/",
+"memoryTip": "Çoğulu -es alır: potatoes."
+},
+{
+"word": "pound",
+"partOfSpeech": "noun",
+"meaningTr": "sterlin; libre (yaklaşık 450 gram)",
+"sentenceEn": "A loaf of bread costs about one pound in London.",
+"sentenceTr": "Londra'da bir somun ekmek yaklaşık bir sterlin.",
+"phonetic": "/paʊnd/",
+"memoryTip": "İngiliz parası £ işaretiyle gösterilir."
+},
+{
+"word": "power",
+"partOfSpeech": "noun",
+"meaningTr": "güç, enerji, elektrik",
+"sentenceEn": "There was no power during the storm.",
+"sentenceTr": "Fırtına sırasında elektrik yoktu.",
+"phonetic": "/ˈpaʊ.ər/",
+"memoryTip": "Powerbank = taşınabilir şarj aleti, güç deposu."
+},
+{
+"word": "practice",
+"partOfSpeech": "noun",
+"meaningTr": "alıştırma, pratik, antrenman",
+"sentenceEn": "Football practice is on Tuesday.",
+"sentenceTr": "Futbol antrenmanı salı günü.",
+"phonetic": "/ˈpræk.tɪs/",
+"memoryTip": "İngiliz yazımında isim 'practice' (c ile), fiil 'practise' (s ile)."
+},
+{
+"word": "practise",
+"partOfSpeech": "verb",
+"meaningTr": "pratik yapmak, alıştırma yapmak",
+"sentenceEn": "I practise English every day.",
+"sentenceTr": "Her gün İngilizce pratik yapıyorum.",
+"phonetic": "/ˈpræk.tɪs/",
+"memoryTip": "Fiil s ile: practise. İsim c ile: practice. Okunuşları aynı."
+},
+{
+"word": "prepare",
+"partOfSpeech": "verb",
+"meaningTr": "hazırlamak, hazırlanmak",
+"sentenceEn": "My mother is preparing dinner; I want to prepare the salad.",
+"sentenceTr": "Annem akşam yemeğini hazırlıyor; ben salatayı hazırlamak istiyorum.",
+"phonetic": "/prɪˈpeər/",
+"memoryTip": "Pre (önce) + pare (hazırlamak) = önceden hazırlamak."
+},
+{
+"word": "preposition",
+"partOfSpeech": "noun",
+"meaningTr": "edat, ilgeç",
+"sentenceEn": "'In' and 'on' are prepositions; 'under' is a preposition too.",
+"sentenceTr": "'In' ve 'on' edattır; 'under' da bir edattır.",
+"phonetic": "/ˌprep.əˈzɪʃ.ən/",
+"memoryTip": "Pre (önce) + position (konum): ismin önüne gelip yer bildiren kelime."
+},
+{
+"word": "press",
+"partOfSpeech": "verb",
+"meaningTr": "basmak, bastırmak",
+"sentenceEn": "Press the green button to start.",
+"sentenceTr": "Başlamak için yeşil düğmeye bas.",
+"phonetic": "/pres/",
+"memoryTip": "İsim olarak 'basın' demektir: the press (gazeteciler)."
+}
+]

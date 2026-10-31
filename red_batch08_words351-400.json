@@ -1,452 +1,452 @@
 [
- {
-  "word": "dog",
-  "partOfSpeech": "noun",
-  "meaningTr": "köpek",
-  "sentenceEn": "Our dog sleeps in the garden house.",
-  "sentenceTr": "Köpeğimiz bahçedeki kulübede uyur.",
-  "phonetic": "/dɒɡ/",
-  "memoryTip": ""
- },
- {
-  "word": "dollar",
-  "partOfSpeech": "noun",
-  "meaningTr": "dolar",
-  "sentenceEn": "A bus ticket costs one dollar.",
-  "sentenceTr": "Otobüs bileti bir dolar.",
-  "phonetic": "/ˈdɒl.ər/",
-  "memoryTip": "Türkçedeki 'dolar' para birimiyle aynıdır."
- },
- {
-  "word": "donkey",
-  "partOfSpeech": "noun",
-  "meaningTr": "eşek",
-  "sentenceEn": "The grey donkey carried wood to the village.",
-  "sentenceTr": "Boz eşek köye odun taşıdı.",
-  "phonetic": "/ˈdɒŋ.ki/",
-  "memoryTip": ""
- },
- {
-  "word": "door",
-  "partOfSpeech": "noun",
-  "meaningTr": "kapı",
-  "sentenceEn": "Please close the front door quietly.",
-  "sentenceTr": "Lütfen ön kapıyı sessizce kapat.",
-  "phonetic": "/dɔːr/",
-  "memoryTip": ""
- },
- {
-  "word": "double",
-  "partOfSpeech": "adjective",
-  "meaningTr": "çift, iki kat, iki kişilik",
-  "sentenceEn": "We booked a double room at the hotel.",
-  "sentenceTr": "Otelde iki kişilik bir oda ayırttık.",
-  "phonetic": "/ˈdʌb.əl/",
-  "memoryTip": "Türkçede 'duble yol' veya 'duble çay' (çift/iki kat) olarak kullanılır."
- },
- {
-  "word": "doubt",
-  "partOfSpeech": "noun",
-  "meaningTr": "şüphe, kuşku",
-  "sentenceEn": "There is no doubt about his honesty.",
-  "sentenceTr": "Onun dürüstlüğü hakkında hiçbir şüphe yok.",
-  "phonetic": "/daʊt/",
-  "memoryTip": ""
- },
- {
-  "word": "down",
-  "partOfSpeech": "adverb",
-  "meaningTr": "aşağı, aşağıya",
-  "sentenceEn": "Sit down on this comfortable sofa.",
-  "sentenceTr": "Bu rahat koltuğa otur.",
-  "phonetic": "/daʊn/",
-  "memoryTip": "İnternetten dosya indirmek 'download' (aşağı yüklemek) demektir."
- },
- {
-  "word": "drank",
-  "partOfSpeech": "verb",
-  "meaningTr": "içti (drink fiilinin geçmiş zamanı)",
-  "sentenceEn": "He drank a glass of cold milk.",
-  "sentenceTr": "Bir bardak soğuk süt içti.",
-  "phonetic": "/dræŋk/",
-  "memoryTip": ""
- },
- {
-  "word": "draw",
-  "partOfSpeech": "verb",
-  "meaningTr": "çizmek, çekmek",
-  "sentenceEn": "Can you draw a map of the street?",
-  "sentenceTr": "Sokağın bir haritasını çizebilir misin?",
-  "phonetic": "/drɔː/",
-  "memoryTip": ""
- },
- {
-  "word": "drawn",
-  "partOfSpeech": "verb",
-  "meaningTr": "çizilmiş, çekilmiş (draw fiilinin 3. hali)",
-  "sentenceEn": "This picture was drawn by a young artist.",
-  "sentenceTr": "Bu resim genç bir ressam tarafından çizildi.",
-  "phonetic": "/drɔːn/",
-  "memoryTip": ""
- },
- {
-  "word": "drink",
-  "partOfSpeech": "verb",
-  "meaningTr": "içmek, içecek",
-  "sentenceEn": "I drink two litres of water every day.",
-  "sentenceTr": "Her gün iki litre su içerim.",
-  "phonetic": "/drɪŋk/",
-  "memoryTip": ""
- },
- {
-  "word": "drive",
-  "partOfSpeech": "verb",
-  "meaningTr": "sürmek, araba kullanmak",
-  "sentenceEn": "Do not drive fast on rainy roads.",
-  "sentenceTr": "Yağmurlu yollarda hızlı araba sürme.",
-  "phonetic": "/draɪv/",
-  "memoryTip": "Bilgisayardaki 'sürücü' (Google Drive, flash drive) buradan gelir."
- },
- {
-  "word": "driver",
-  "partOfSpeech": "noun",
-  "meaningTr": "şoför, sürücü",
-  "sentenceEn": "The bus driver waited for the old man.",
-  "sentenceTr": "Otobüs şoförü yaşlı adamı bekledi.",
-  "phonetic": "/ˈdraɪ.vər/",
-  "memoryTip": "Drive (sürmek) + -er (yapan kişi eki) = sürücü, şoför."
- },
- {
-  "word": "drove",
-  "partOfSpeech": "verb",
-  "meaningTr": "sürdü (drive fiilinin geçmiş zamanı)",
-  "sentenceEn": "She drove her car to Izmir yesterday.",
-  "sentenceTr": "Dün arabasını İzmir'e sürdü.",
-  "phonetic": "/drəʊv/",
-  "memoryTip": ""
- },
- {
-  "word": "drunk",
-  "partOfSpeech": "verb",
-  "meaningTr": "içilmiş (drink fiilinin 3. hali), sarhoş",
-  "sentenceEn": "Who has drunk all the orange juice?",
-  "sentenceTr": "Bütün portakal suyunu kim içmiş?",
-  "phonetic": "/drʌŋk/",
-  "memoryTip": ""
- },
- {
-  "word": "due to",
-  "partOfSpeech": "preposition",
-  "meaningTr": "-den dolayı, nedeniyle",
-  "sentenceEn": "The train was late due to heavy snow.",
-  "sentenceTr": "Tren yoğun kar yağışı nedeniyle gecikti.",
-  "phonetic": "/ˈdjuː tuː/",
-  "memoryTip": ""
- },
- {
-  "word": "during",
-  "partOfSpeech": "preposition",
-  "meaningTr": "sırasında, boyunca",
-  "sentenceEn": "Turn off your phone during the film.",
-  "sentenceTr": "Film sırasında telefonunu kapat.",
-  "phonetic": "/ˈdjʊə.rɪŋ/",
-  "memoryTip": ""
- },
- {
-  "word": "duty",
-  "partOfSpeech": "noun",
-  "meaningTr": "görev, vazife, gümrük vergisi",
-  "sentenceEn": "Helping patients is a nurse's main duty.",
-  "sentenceTr": "Hastalara yardım etmek hemşirenin ana görevidir.",
-  "phonetic": "/ˈdjuː.ti/",
-  "memoryTip": "Havalimanlarındaki 'Duty Free' (gümrük vergisinden muaf) mağazalar."
- },
- {
-  "word": "e-mail",
-  "partOfSpeech": "noun",
-  "meaningTr": "e-posta, elektronik posta",
-  "sentenceEn": "Send me the meeting details by e-mail.",
-  "sentenceTr": "Toplantı detaylarını bana e-posta ile gönder.",
-  "phonetic": "/ˈiː.meɪl/",
-  "memoryTip": "Türkçede de günlük hayatta 'e-mail' veya 'e-posta' olarak kullanılır."
- },
- {
-  "word": "each",
-  "partOfSpeech": "determiner",
-  "meaningTr": "her bir, her",
-  "sentenceEn": "Each student has a separate desk here.",
-  "sentenceTr": "Burada her bir öğrencinin ayrı bir sırası var.",
-  "phonetic": "/iːtʃ/",
-  "memoryTip": ""
- },
- {
-  "word": "ear",
-  "partOfSpeech": "noun",
-  "meaningTr": "kulak",
-  "sentenceEn": "She whispered the secret into my ear.",
-  "sentenceTr": "Sırrı kulağıma fısıldadı.",
-  "phonetic": "/ɪər/",
-  "memoryTip": ""
- },
- {
-  "word": "early",
-  "partOfSpeech": "adverb",
-  "meaningTr": "erken",
-  "sentenceEn": "My mother wakes up early every morning.",
-  "sentenceTr": "Annem her sabah erken uyanır.",
-  "phonetic": "/ˈɜː.li/",
-  "memoryTip": ""
- },
- {
-  "word": "earring",
-  "partOfSpeech": "noun",
-  "meaningTr": "küpe",
-  "sentenceEn": "She lost her silver earring at the party.",
-  "sentenceTr": "Partide gümüş küpesini kaybetti.",
-  "phonetic": "/ˈɪə.rɪŋ/",
-  "memoryTip": "Ear (kulak) + ring (halka/yüzük) = kulak halkası, küpe."
- },
- {
-  "word": "easily",
-  "partOfSpeech": "adverb",
-  "meaningTr": "kolayca, rahatlıkla",
-  "sentenceEn": "You can find the station easily on foot.",
-  "sentenceTr": "İstasyonu yürüyerek kolayca bulabilirsin.",
-  "phonetic": "/ˈiː.zɪ.li/",
-  "memoryTip": "Easy (kolay) + -ly (zarf eki) = kolayca."
- },
- {
-  "word": "easy",
-  "partOfSpeech": "adjective",
-  "meaningTr": "kolay, rahat",
-  "sentenceEn": "This soup recipe is very easy.",
-  "sentenceTr": "Bu çorba tarifi çok kolaydır.",
-  "phonetic": "/ˈiː.zi/",
-  "memoryTip": ""
- },
- {
-  "word": "eat",
-  "partOfSpeech": "verb",
-  "meaningTr": "yemek (eylem)",
-  "sentenceEn": "We eat fresh fruit after dinner.",
-  "sentenceTr": "Akşam yemeğinden sonra taze meyve yeriz.",
-  "phonetic": "/iːt/",
-  "memoryTip": ""
- },
- {
-  "word": "education",
-  "partOfSpeech": "noun",
-  "meaningTr": "eğitim, öğrenim",
-  "sentenceEn": "Good education opens many doors in life.",
-  "sentenceTr": "İyi bir eğitim hayatta birçok kapı açar.",
-  "phonetic": "/ˌedʒ.uˈkeɪ.ʃən/",
-  "memoryTip": ""
- },
- {
-  "word": "effect",
-  "partOfSpeech": "noun",
-  "meaningTr": "etki, sonuç",
-  "sentenceEn": "Hot tea has a calming effect.",
-  "sentenceTr": "Sıcak çayın sakinleştirici bir etkisi vardır.",
-  "phonetic": "/ɪˈfekt/",
-  "memoryTip": "Türkçedeki 'efekt' (ses veya görüntü etkisi) kelimesidir."
- },
- {
-  "word": "effort",
-  "partOfSpeech": "noun",
-  "meaningTr": "çaba, gayret, efor",
-  "sentenceEn": "Learning a language takes time and effort.",
-  "sentenceTr": "Bir dil öğrenmek zaman ve çaba gerektirir.",
-  "phonetic": "/ˈef.ət/",
-  "memoryTip": "Türkçedeki 'efor' (efor sarf etmek, efor testi) kelimesiyle aynıdır."
- },
- {
-  "word": "egg",
-  "partOfSpeech": "noun",
-  "meaningTr": "yumurta",
-  "sentenceEn": "Boil the egg for five minutes.",
-  "sentenceTr": "Yumurtayı beş dakika haşla.",
-  "phonetic": "/eɡ/",
-  "memoryTip": ""
- },
- {
-  "word": "either",
-  "partOfSpeech": "determiner",
-  "meaningTr": "her iki, ya ... ya da, de/da (olumsuz)",
-  "sentenceEn": "You can park on either side of the road.",
-  "sentenceTr": "Yolun her iki tarafına da park edebilirsin.",
-  "phonetic": "/ˈaɪ.ðər/",
-  "memoryTip": ""
- },
- {
-  "word": "else",
-  "partOfSpeech": "adverb",
-  "meaningTr": "başka, diğer",
-  "sentenceEn": "Would you like anything else from the market?",
-  "sentenceTr": "Marketten başka bir şey ister misin?",
-  "phonetic": "/els/",
-  "memoryTip": ""
- },
- {
-  "word": "employer",
-  "partOfSpeech": "noun",
-  "meaningTr": "işveren, patron",
-  "sentenceEn": "Her employer pays salaries on the first day.",
-  "sentenceTr": "Onun işvereni maaşları ilk gün öder.",
-  "phonetic": "/ɪmˈplɔɪ.ər/",
-  "memoryTip": ""
- },
- {
-  "word": "employment",
-  "partOfSpeech": "noun",
-  "meaningTr": "iş, istihdam, çalışma",
-  "sentenceEn": "He found full-time employment at a factory.",
-  "sentenceTr": "Bir fabrikada tam zamanlı iş buldu.",
-  "phonetic": "/ɪmˈplɔɪ.mənt/",
-  "memoryTip": ""
- },
- {
-  "word": "empty",
-  "partOfSpeech": "adjective",
-  "meaningTr": "boş",
-  "sentenceEn": "Put the empty bottle into the bin.",
-  "sentenceTr": "Boş şişeyi çöp kutusuna at.",
-  "phonetic": "/ˈemp.ti/",
-  "memoryTip": ""
- },
- {
-  "word": "end",
-  "partOfSpeech": "noun",
-  "meaningTr": "son, uç, bitmek",
-  "sentenceEn": "Wait until the end of the song.",
-  "sentenceTr": "Şarkının sonuna kadar bekle.",
-  "phonetic": "/end/",
-  "memoryTip": "Filmlerin sonunda çıkan 'The End' (Son) yazısı."
- },
- {
-  "word": "energy",
-  "partOfSpeech": "noun",
-  "meaningTr": "enerji, güç",
-  "sentenceEn": "A good breakfast gives you energy.",
-  "sentenceTr": "İyi bir kahvaltı size enerji verir.",
-  "phonetic": "/ˈen.ə.dʒi/",
-  "memoryTip": "Türkçedeki 'enerji' kelimesiyle aynıdır."
- },
- {
-  "word": "engine",
-  "partOfSpeech": "noun",
-  "meaningTr": "motor",
-  "sentenceEn": "The mechanic checked the car engine carefully.",
-  "sentenceTr": "Tamirci arabanın motorunu dikkatlice kontrol etti.",
-  "phonetic": "/ˈen.dʒɪn/",
-  "memoryTip": ""
- },
- {
-  "word": "English",
-  "partOfSpeech": "noun",
-  "meaningTr": "İngilizce, İngiliz",
-  "sentenceEn": "She practices English for twenty minutes daily.",
-  "sentenceTr": "Her gün yirmi dakika İngilizce pratik yapıyor.",
-  "phonetic": "/ˈɪŋ.ɡlɪʃ/",
-  "memoryTip": ""
- },
- {
-  "word": "enjoy",
-  "partOfSpeech": "verb",
-  "meaningTr": "keyif almak, tadını çıkarmak, sevmek",
-  "sentenceEn": "We enjoy walking by the sea.",
-  "sentenceTr": "Deniz kenarında yürümekten keyif alırız.",
-  "phonetic": "/ɪnˈdʒɔɪ/",
-  "memoryTip": ""
- },
- {
-  "word": "enough",
-  "partOfSpeech": "determiner",
-  "meaningTr": "yeterli, yeterince",
-  "sentenceEn": "There is enough bread for everyone.",
-  "sentenceTr": "Herkes için yeterli ekmek var.",
-  "phonetic": "/ɪˈnʌf/",
-  "memoryTip": ""
- },
- {
-  "word": "enter",
-  "partOfSpeech": "verb",
-  "meaningTr": "girmek, giriş yapmak",
-  "sentenceEn": "Knock on the door before you enter.",
-  "sentenceTr": "İçeri girmeden önce kapıyı çal.",
-  "phonetic": "/ˈen.tər/",
-  "memoryTip": "Bilgisayar klavyesindeki 'Enter' (giriş/onay) tuşu."
- },
- {
-  "word": "environment",
-  "partOfSpeech": "noun",
-  "meaningTr": "çevre, ortam",
-  "sentenceEn": "Keep the natural environment clean and green.",
-  "sentenceTr": "Doğal çevreyi temiz ve yeşil tutun.",
-  "phonetic": "/ɪnˈvaɪ.rən.mənt/",
-  "memoryTip": ""
- },
- {
-  "word": "equal",
-  "partOfSpeech": "adjective",
-  "meaningTr": "eşit, denk",
-  "sentenceEn": "Cut the pizza into six equal slices.",
-  "sentenceTr": "Pizzayı altı eşit dilime kes.",
-  "phonetic": "/ˈiː.kwəl/",
-  "memoryTip": ""
- },
- {
-  "word": "especially",
-  "partOfSpeech": "adverb",
-  "meaningTr": "özellikle, bilhassa",
-  "sentenceEn": "I love fruit, especially sweet strawberries.",
-  "sentenceTr": "Meyveyi, özellikle tatlı çileği çok severim.",
-  "phonetic": "/ɪˈspeʃ.əl.i/",
-  "memoryTip": "Special (özel) kelimesinden türemiştir; especially = özellikle."
- },
- {
-  "word": "even",
-  "partOfSpeech": "adverb",
-  "meaningTr": "bile, hatta",
-  "sentenceEn": "Even a child can solve this puzzle.",
-  "sentenceTr": "Bir çocuk bile bu bulmacayı çözebilir.",
-  "phonetic": "/ˈiː.vən/",
-  "memoryTip": ""
- },
- {
-  "word": "evening",
-  "partOfSpeech": "noun",
-  "meaningTr": "akşam",
-  "sentenceEn": "We watch television together in the evening.",
-  "sentenceTr": "Akşamları birlikte televizyon izleriz.",
-  "phonetic": "/ˈiːv.nɪŋ/",
-  "memoryTip": ""
- },
- {
-  "word": "event",
-  "partOfSpeech": "noun",
-  "meaningTr": "olay, etkinlik, organizasyon",
-  "sentenceEn": "The music festival is a popular summer event.",
-  "sentenceTr": "Müzik festivali popüler bir yaz etkinliğidir.",
-  "phonetic": "/ɪˈvent/",
-  "memoryTip": ""
- },
- {
-  "word": "eventually",
-  "partOfSpeech": "adverb",
-  "meaningTr": "sonunda, nihayetinde",
-  "sentenceEn": "He looked everywhere and eventually found his keys.",
-  "sentenceTr": "Her yere baktı ve sonunda anahtarlarını buldu.",
-  "phonetic": "/ɪˈven.tʃu.ə.li/",
-  "memoryTip": ""
- },
- {
-  "word": "ever",
-  "partOfSpeech": "adverb",
-  "meaningTr": "hiç, şimdiye kadar, her zaman",
-  "sentenceEn": "Have you ever eaten sushi before?",
-  "sentenceTr": "Daha önce hiç suşi yedin mi?",
-  "phonetic": "/ˈev.ər/",
-  "memoryTip": ""
- }
+{
+"word": "dog",
+"partOfSpeech": "noun",
+"meaningTr": "köpek",
+"sentenceEn": "Our dog sleeps in the garden house.",
+"sentenceTr": "Köpeğimiz bahçedeki kulübede uyur.",
+"phonetic": "/dɒɡ/",
+"memoryTip": "Köpek yavrusu 'puppy'."
+},
+{
+"word": "dollar",
+"partOfSpeech": "noun",
+"meaningTr": "dolar",
+"sentenceEn": "A bus ticket costs one dollar.",
+"sentenceTr": "Otobüs bileti bir dolar.",
+"phonetic": "/ˈdɒl.ər/",
+"memoryTip": "Türkçedeki 'dolar' para birimiyle aynıdır."
+},
+{
+"word": "donkey",
+"partOfSpeech": "noun",
+"meaningTr": "eşek",
+"sentenceEn": "The grey donkey carried wood to the village.",
+"sentenceTr": "Boz eşek köye odun taşıdı.",
+"phonetic": "/ˈdɒŋ.ki/",
+"memoryTip": "Nasreddin Hoca'nın eşeği: Nasreddin Hodja's donkey."
+},
+{
+"word": "door",
+"partOfSpeech": "noun",
+"meaningTr": "kapı",
+"sentenceEn": "Please close the front door quietly.",
+"sentenceTr": "Lütfen ön kapıyı sessizce kapat.",
+"phonetic": "/dɔːr/",
+"memoryTip": "'Knock on the door' = kapıyı çalmak."
+},
+{
+"word": "double",
+"partOfSpeech": "adjective",
+"meaningTr": "çift, iki kat, iki kişilik",
+"sentenceEn": "We booked a double room at the hotel.",
+"sentenceTr": "Otelde iki kişilik bir oda ayırttık.",
+"phonetic": "/ˈdʌb.əl/",
+"memoryTip": "Türkçede 'duble yol' veya 'duble çay' (çift/iki kat) olarak kullanılır."
+},
+{
+"word": "doubt",
+"partOfSpeech": "noun",
+"meaningTr": "şüphe, kuşku",
+"sentenceEn": "There is no doubt about his honesty.",
+"sentenceTr": "Onun dürüstlüğü hakkında hiçbir şüphe yok.",
+"phonetic": "/daʊt/",
+"memoryTip": "'b' okunmaz: /daʊt/."
+},
+{
+"word": "down",
+"partOfSpeech": "adverb",
+"meaningTr": "aşağı, aşağıya",
+"sentenceEn": "Sit down on this comfortable sofa.",
+"sentenceTr": "Bu rahat koltuğa otur.",
+"phonetic": "/daʊn/",
+"memoryTip": "İnternetten dosya indirmek 'download' (aşağı yüklemek) demektir."
+},
+{
+"word": "drank",
+"partOfSpeech": "verb",
+"meaningTr": "içti (drink fiilinin geçmiş zamanı)",
+"sentenceEn": "He drank a glass of cold milk.",
+"sentenceTr": "Bir bardak soğuk süt içti.",
+"phonetic": "/dræŋk/",
+"memoryTip": "Drink → drank → drunk."
+},
+{
+"word": "draw",
+"partOfSpeech": "verb",
+"meaningTr": "çizmek, çekmek",
+"sentenceEn": "Can you draw a map of the street?",
+"sentenceTr": "Sokağın bir haritasını çizebilir misin?",
+"phonetic": "/drɔː/",
+"memoryTip": "Draw → drew → drawn. Kalemle resim çizmek."
+},
+{
+"word": "drawn",
+"partOfSpeech": "verb",
+"meaningTr": "çizilmiş, çekilmiş (draw fiilinin 3. hali)",
+"sentenceEn": "This picture was drawn by a young artist.",
+"sentenceTr": "Bu resim genç bir ressam tarafından çizildi.",
+"phonetic": "/drɔːn/",
+"memoryTip": "Draw → drew → drawn."
+},
+{
+"word": "drink",
+"partOfSpeech": "verb",
+"meaningTr": "içmek, içecek",
+"sentenceEn": "I drink two litres of water every day.",
+"sentenceTr": "Her gün iki litre su içerim.",
+"phonetic": "/drɪŋk/",
+"memoryTip": "Drink → drank → drunk."
+},
+{
+"word": "drive",
+"partOfSpeech": "verb",
+"meaningTr": "sürmek, araba kullanmak",
+"sentenceEn": "Do not drive fast on rainy roads.",
+"sentenceTr": "Yağmurlu yollarda hızlı araba sürme.",
+"phonetic": "/draɪv/",
+"memoryTip": "Bilgisayardaki 'sürücü' (Google Drive, flash drive) buradan gelir."
+},
+{
+"word": "driver",
+"partOfSpeech": "noun",
+"meaningTr": "şoför, sürücü",
+"sentenceEn": "The bus driver waited for the old man.",
+"sentenceTr": "Otobüs şoförü yaşlı adamı bekledi.",
+"phonetic": "/ˈdraɪ.vər/",
+"memoryTip": "Drive (sürmek) + -er (yapan kişi eki) = sürücü, şoför."
+},
+{
+"word": "drove",
+"partOfSpeech": "verb",
+"meaningTr": "sürdü (drive fiilinin geçmiş zamanı)",
+"sentenceEn": "She drove her car to Izmir yesterday.",
+"sentenceTr": "Dün arabasını İzmir'e sürdü.",
+"phonetic": "/drəʊv/",
+"memoryTip": "Drive → drove → driven."
+},
+{
+"word": "drunk",
+"partOfSpeech": "verb",
+"meaningTr": "içilmiş (drink fiilinin 3. hali), sarhoş",
+"sentenceEn": "Who has drunk all the orange juice?",
+"sentenceTr": "Bütün portakal suyunu kim içmiş?",
+"phonetic": "/drʌŋk/",
+"memoryTip": "Drink → drank → drunk."
+},
+{
+"word": "due to",
+"partOfSpeech": "preposition",
+"meaningTr": "-den dolayı, nedeniyle",
+"sentenceEn": "The train was late due to heavy snow.",
+"sentenceTr": "Tren yoğun kar yağışı nedeniyle gecikti.",
+"phonetic": "/ˈdjuː tuː/",
+"memoryTip": "'Because of' ile aynı: due to the rain = yağmur yüzünden."
+},
+{
+"word": "during",
+"partOfSpeech": "preposition",
+"meaningTr": "sırasında, boyunca",
+"sentenceEn": "Turn off your phone during the film.",
+"sentenceTr": "Film sırasında telefonunu kapat.",
+"phonetic": "/ˈdjʊə.rɪŋ/",
+"memoryTip": "During the lesson = ders sırasında."
+},
+{
+"word": "duty",
+"partOfSpeech": "noun",
+"meaningTr": "görev, vazife, gümrük vergisi",
+"sentenceEn": "Helping patients is a nurse's main duty.",
+"sentenceTr": "Hastalara yardım etmek hemşirenin ana görevidir.",
+"phonetic": "/ˈdjuː.ti/",
+"memoryTip": "Havalimanlarındaki 'Duty Free' (gümrük vergisinden muaf) mağazalar."
+},
+{
+"word": "e-mail",
+"partOfSpeech": "noun",
+"meaningTr": "e-posta, elektronik posta",
+"sentenceEn": "Send me the meeting details by e-mail.",
+"sentenceTr": "Toplantı detaylarını bana e-posta ile gönder.",
+"phonetic": "/ˈiː.meɪl/",
+"memoryTip": "Türkçede de günlük hayatta 'e-mail' veya 'e-posta' olarak kullanılır."
+},
+{
+"word": "each",
+"partOfSpeech": "determiner",
+"meaningTr": "her bir, her",
+"sentenceEn": "Each student has a separate desk here.",
+"sentenceTr": "Burada her bir öğrencinin ayrı bir sırası var.",
+"phonetic": "/iːtʃ/",
+"memoryTip": "Her biri ayrı ayrı: each student has a book."
+},
+{
+"word": "ear",
+"partOfSpeech": "noun",
+"meaningTr": "kulak",
+"sentenceEn": "She whispered the secret into my ear.",
+"sentenceTr": "Sırrı kulağıma fısıldadı.",
+"phonetic": "/ɪər/",
+"memoryTip": "Earring = küpe (kulak halkası)."
+},
+{
+"word": "early",
+"partOfSpeech": "adverb",
+"meaningTr": "erken",
+"sentenceEn": "My mother wakes up early every morning.",
+"sentenceTr": "Annem her sabah erken uyanır.",
+"phonetic": "/ˈɜː.li/",
+"memoryTip": "Zıttı 'late' (geç)."
+},
+{
+"word": "earring",
+"partOfSpeech": "noun",
+"meaningTr": "küpe",
+"sentenceEn": "She lost her silver earring at the party.",
+"sentenceTr": "Partide gümüş küpesini kaybetti.",
+"phonetic": "/ˈɪə.rɪŋ/",
+"memoryTip": "Ear (kulak) + ring (halka/yüzük) = kulak halkası, küpe."
+},
+{
+"word": "easily",
+"partOfSpeech": "adverb",
+"meaningTr": "kolayca, rahatlıkla",
+"sentenceEn": "You can find the station easily on foot.",
+"sentenceTr": "İstasyonu yürüyerek kolayca bulabilirsin.",
+"phonetic": "/ˈiː.zɪ.li/",
+"memoryTip": "Easy (kolay) + -ly (zarf eki) = kolayca."
+},
+{
+"word": "easy",
+"partOfSpeech": "adjective",
+"meaningTr": "kolay, rahat",
+"sentenceEn": "This soup recipe is very easy.",
+"sentenceTr": "Bu çorba tarifi çok kolaydır.",
+"phonetic": "/ˈiː.zi/",
+"memoryTip": "Easy → easier → easiest. Zıttı 'difficult'."
+},
+{
+"word": "eat",
+"partOfSpeech": "verb",
+"meaningTr": "yemek (eylem)",
+"sentenceEn": "We eat fresh fruit after dinner.",
+"sentenceTr": "Akşam yemeğinden sonra taze meyve yeriz.",
+"phonetic": "/iːt/",
+"memoryTip": "Eat → ate → eaten."
+},
+{
+"word": "education",
+"partOfSpeech": "noun",
+"meaningTr": "eğitim, öğrenim",
+"sentenceEn": "Good education opens many doors in life.",
+"sentenceTr": "İyi bir eğitim hayatta birçok kapı açar.",
+"phonetic": "/ˌedʒ.uˈkeɪ.ʃən/",
+"memoryTip": "Special education = özel eğitim."
+},
+{
+"word": "effect",
+"partOfSpeech": "noun",
+"meaningTr": "etki, sonuç",
+"sentenceEn": "Hot tea has a calming effect.",
+"sentenceTr": "Sıcak çayın sakinleştirici bir etkisi vardır.",
+"phonetic": "/ɪˈfekt/",
+"memoryTip": "Türkçedeki 'efekt' (ses veya görüntü etkisi) kelimesidir."
+},
+{
+"word": "effort",
+"partOfSpeech": "noun",
+"meaningTr": "çaba, gayret, efor",
+"sentenceEn": "Learning a language takes time and effort.",
+"sentenceTr": "Bir dil öğrenmek zaman ve çaba gerektirir.",
+"phonetic": "/ˈef.ət/",
+"memoryTip": "Türkçedeki 'efor' (efor sarf etmek, efor testi) kelimesiyle aynıdır."
+},
+{
+"word": "egg",
+"partOfSpeech": "noun",
+"meaningTr": "yumurta",
+"sentenceEn": "Boil the egg for five minutes.",
+"sentenceTr": "Yumurtayı beş dakika haşla.",
+"phonetic": "/eɡ/",
+"memoryTip": "Boiled egg = haşlanmış yumurta."
+},
+{
+"word": "either",
+"partOfSpeech": "determiner",
+"meaningTr": "her iki, ya ... ya da, de/da (olumsuz)",
+"sentenceEn": "You can park on either side of the road.",
+"sentenceTr": "Yolun her iki tarafına da park edebilirsin.",
+"phonetic": "/ˈaɪ.ðər/",
+"memoryTip": "'Either ... or' = ya ... ya da."
+},
+{
+"word": "else",
+"partOfSpeech": "adverb",
+"meaningTr": "başka, diğer",
+"sentenceEn": "Would you like anything else from the market?",
+"sentenceTr": "Marketten başka bir şey ister misin?",
+"phonetic": "/els/",
+"memoryTip": "'Anything else?' = Başka bir şey?"
+},
+{
+"word": "employer",
+"partOfSpeech": "noun",
+"meaningTr": "işveren, patron",
+"sentenceEn": "Her employer pays salaries on the first day.",
+"sentenceTr": "Onun işvereni maaşları ilk gün öder.",
+"phonetic": "/ɪmˈplɔɪ.ər/",
+"memoryTip": "Employ (işe almak) + -er = işveren. Çalışan 'employee'."
+},
+{
+"word": "employment",
+"partOfSpeech": "noun",
+"meaningTr": "iş, istihdam, çalışma",
+"sentenceEn": "He found full-time employment at a factory.",
+"sentenceTr": "Bir fabrikada tam zamanlı iş buldu.",
+"phonetic": "/ɪmˈplɔɪ.mənt/",
+"memoryTip": "Employ + -ment = istihdam, iş."
+},
+{
+"word": "empty",
+"partOfSpeech": "adjective",
+"meaningTr": "boş",
+"sentenceEn": "Put the empty bottle into the bin.",
+"sentenceTr": "Boş şişeyi çöp kutusuna at.",
+"phonetic": "/ˈemp.ti/",
+"memoryTip": "Zıttı 'full' (dolu)."
+},
+{
+"word": "end",
+"partOfSpeech": "noun",
+"meaningTr": "son, uç, bitmek",
+"sentenceEn": "Wait until the end of the song.",
+"sentenceTr": "Şarkının sonuna kadar bekle.",
+"phonetic": "/end/",
+"memoryTip": "Filmlerin sonunda çıkan 'The End' (Son) yazısı."
+},
+{
+"word": "energy",
+"partOfSpeech": "noun",
+"meaningTr": "enerji, güç",
+"sentenceEn": "A good breakfast gives you energy.",
+"sentenceTr": "İyi bir kahvaltı size enerji verir.",
+"phonetic": "/ˈen.ə.dʒi/",
+"memoryTip": "Türkçedeki 'enerji' kelimesiyle aynıdır."
+},
+{
+"word": "engine",
+"partOfSpeech": "noun",
+"meaningTr": "motor",
+"sentenceEn": "The mechanic checked the car engine carefully.",
+"sentenceTr": "Tamirci arabanın motorunu dikkatlice kontrol etti.",
+"phonetic": "/ˈen.dʒɪn/",
+"memoryTip": "Türkçedeki 'motor' anlamı; engineer = mühendis."
+},
+{
+"word": "English",
+"partOfSpeech": "noun",
+"meaningTr": "İngilizce, İngiliz",
+"sentenceEn": "She practices English for twenty minutes daily.",
+"sentenceTr": "Her gün yirmi dakika İngilizce pratik yapıyor.",
+"phonetic": "/ˈɪŋ.ɡlɪʃ/",
+"memoryTip": "Dil ve millet adları büyük harfle yazılır."
+},
+{
+"word": "enjoy",
+"partOfSpeech": "verb",
+"meaningTr": "keyif almak, tadını çıkarmak, sevmek",
+"sentenceEn": "We enjoy walking by the sea.",
+"sentenceTr": "Deniz kenarında yürümekten keyif alırız.",
+"phonetic": "/ɪnˈdʒɔɪ/",
+"memoryTip": "'Enjoy your meal' = afiyet olsun."
+},
+{
+"word": "enough",
+"partOfSpeech": "determiner",
+"meaningTr": "yeterli, yeterince",
+"sentenceEn": "There is enough bread for everyone.",
+"sentenceTr": "Herkes için yeterli ekmek var.",
+"phonetic": "/ɪˈnʌf/",
+"memoryTip": "'gh' /f/ okunur: /ɪˈnʌf/."
+},
+{
+"word": "enter",
+"partOfSpeech": "verb",
+"meaningTr": "girmek, giriş yapmak",
+"sentenceEn": "Knock on the door before you enter.",
+"sentenceTr": "İçeri girmeden önce kapıyı çal.",
+"phonetic": "/ˈen.tər/",
+"memoryTip": "Bilgisayar klavyesindeki 'Enter' (giriş/onay) tuşu."
+},
+{
+"word": "environment",
+"partOfSpeech": "noun",
+"meaningTr": "çevre, ortam",
+"sentenceEn": "Keep the natural environment clean and green.",
+"sentenceTr": "Doğal çevreyi temiz ve yeşil tutun.",
+"phonetic": "/ɪnˈvaɪ.rən.mənt/",
+"memoryTip": "Çevreyi koru: protect the environment."
+},
+{
+"word": "equal",
+"partOfSpeech": "adjective",
+"meaningTr": "eşit, denk",
+"sentenceEn": "Cut the pizza into six equal slices.",
+"sentenceTr": "Pizzayı altı eşit dilime kes.",
+"phonetic": "/ˈiː.kwəl/",
+"memoryTip": "Matematikte '=' işareti 'equals'."
+},
+{
+"word": "especially",
+"partOfSpeech": "adverb",
+"meaningTr": "özellikle, bilhassa",
+"sentenceEn": "I love fruit, especially sweet strawberries.",
+"sentenceTr": "Meyveyi, özellikle tatlı çileği çok severim.",
+"phonetic": "/ɪˈspeʃ.əl.i/",
+"memoryTip": "Special (özel) kelimesinden türemiştir; especially = özellikle."
+},
+{
+"word": "even",
+"partOfSpeech": "adverb",
+"meaningTr": "bile, hatta",
+"sentenceEn": "Even a child can solve this puzzle.",
+"sentenceTr": "Bir çocuk bile bu bulmacayı çözebilir.",
+"phonetic": "/ˈiː.vən/",
+"memoryTip": "Even numbers = çift sayılar."
+},
+{
+"word": "evening",
+"partOfSpeech": "noun",
+"meaningTr": "akşam",
+"sentenceEn": "We watch television together in the evening.",
+"sentenceTr": "Akşamları birlikte televizyon izleriz.",
+"phonetic": "/ˈiːv.nɪŋ/",
+"memoryTip": "'Good evening' = iyi akşamlar."
+},
+{
+"word": "event",
+"partOfSpeech": "noun",
+"meaningTr": "olay, etkinlik, organizasyon",
+"sentenceEn": "The music festival is a popular summer event.",
+"sentenceTr": "Müzik festivali popüler bir yaz etkinliğidir.",
+"phonetic": "/ɪˈvent/",
+"memoryTip": "Türkçedeki 'etkinlik' anlamında: school event."
+},
+{
+"word": "eventually",
+"partOfSpeech": "adverb",
+"meaningTr": "sonunda, nihayetinde",
+"sentenceEn": "He looked everywhere and eventually found his keys.",
+"sentenceTr": "Her yere baktı ve sonunda anahtarlarını buldu.",
+"phonetic": "/ɪˈven.tʃu.ə.li/",
+"memoryTip": "Event kökünden: sonunda, nihayet."
+},
+{
+"word": "ever",
+"partOfSpeech": "adverb",
+"meaningTr": "hiç, şimdiye kadar, her zaman",
+"sentenceEn": "Have you ever eaten sushi before?",
+"sentenceTr": "Daha önce hiç suşi yedin mi?",
+"phonetic": "/ˈev.ər/",
+"memoryTip": "'Have you ever...?' = Hiç ... yaptın mı?"
+}
 ]

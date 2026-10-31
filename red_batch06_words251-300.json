@@ -1,452 +1,452 @@
 [
- {
-  "word": "cinema",
-  "partOfSpeech": "noun",
-  "meaningTr": "sinema",
-  "sentenceEn": "We watch a film at the cinema.",
-  "sentenceTr": "Sinemada bir film izliyoruz.",
-  "phonetic": "/ˈsɪn.ə.mə/",
-  "memoryTip": "Türkçedeki 'sinema' ile aynıdır."
- },
- {
-  "word": "city",
-  "partOfSpeech": "noun",
-  "meaningTr": "şehir, kent",
-  "sentenceEn": "Istanbul is a very big city.",
-  "sentenceTr": "İstanbul çok büyük bir şehirdir.",
-  "phonetic": "/ˈsɪt.i/",
-  "memoryTip": ""
- },
- {
-  "word": "claim",
-  "partOfSpeech": "verb",
-  "meaningTr": "talep etmek, iddia etmek",
-  "sentenceEn": "Can I claim my lost bag here?",
-  "sentenceTr": "Kayıp çantamı buradan talep edebilir miyim?",
-  "phonetic": "/kleɪm/",
-  "memoryTip": ""
- },
- {
-  "word": "class",
-  "partOfSpeech": "noun",
-  "meaningTr": "sınıf, ders",
-  "sentenceEn": "Our English class starts at nine.",
-  "sentenceTr": "İngilizce dersimiz dokuzda başlıyor.",
-  "phonetic": "/klɑːs/",
-  "memoryTip": ""
- },
- {
-  "word": "classroom",
-  "partOfSpeech": "noun",
-  "meaningTr": "sınıf (oda)",
-  "sentenceEn": "The classroom is warm and bright.",
-  "sentenceTr": "Sınıf sıcak ve aydınlık.",
-  "phonetic": "/ˈklɑːs.ruːm/",
-  "memoryTip": "Class (sınıf) + room (oda) = sınıf odası."
- },
- {
-  "word": "clean",
-  "partOfSpeech": "adjective",
-  "meaningTr": "temiz",
-  "sentenceEn": "Please keep your room clean.",
-  "sentenceTr": "Lütfen odanı temiz tut.",
-  "phonetic": "/kliːn/",
-  "memoryTip": ""
- },
- {
-  "word": "clear",
-  "partOfSpeech": "adjective",
-  "meaningTr": "açık, net, berrak",
-  "sentenceEn": "The water in the lake is clear.",
-  "sentenceTr": "Gölün suyu berrak.",
-  "phonetic": "/klɪər/",
-  "memoryTip": ""
- },
- {
-  "word": "clearly",
-  "partOfSpeech": "adverb",
-  "meaningTr": "açıkça, net olarak",
-  "sentenceEn": "Please speak slowly and clearly.",
-  "sentenceTr": "Lütfen yavaş ve net konuş.",
-  "phonetic": "/ˈklɪə.li/",
-  "memoryTip": "Clear (net) + -ly = net bir şekilde."
- },
- {
-  "word": "close",
-  "partOfSpeech": "verb",
-  "meaningTr": "kapatmak",
-  "sentenceEn": "Please close the door quietly.",
-  "sentenceTr": "Lütfen kapıyı sessizce kapat.",
-  "phonetic": "/kləʊz/",
-  "memoryTip": ""
- },
- {
-  "word": "closed",
-  "partOfSpeech": "adjective",
-  "meaningTr": "kapalı",
-  "sentenceEn": "The bank is closed on Sundays.",
-  "sentenceTr": "Banka pazar günleri kapalıdır.",
-  "phonetic": "/kləʊzd/",
-  "memoryTip": ""
- },
- {
-  "word": "cloud",
-  "partOfSpeech": "noun",
-  "meaningTr": "bulut",
-  "sentenceEn": "A dark cloud covered the sun.",
-  "sentenceTr": "Koyu bir bulut güneşi kapattı.",
-  "phonetic": "/klaʊd/",
-  "memoryTip": ""
- },
- {
-  "word": "cloudy",
-  "partOfSpeech": "adjective",
-  "meaningTr": "bulutlu",
-  "sentenceEn": "It is cloudy and cold today.",
-  "sentenceTr": "Bugün hava bulutlu ve soğuk.",
-  "phonetic": "/ˈklaʊ.di/",
-  "memoryTip": "Cloud (bulut) + -y = bulutlu."
- },
- {
-  "word": "club",
-  "partOfSpeech": "noun",
-  "meaningTr": "kulüp",
-  "sentenceEn": "My brother joined a football club.",
-  "sentenceTr": "Erkek kardeşim bir futbol kulübüne katıldı.",
-  "phonetic": "/klʌb/",
-  "memoryTip": "Türkçedeki 'kulüp' ile aynıdır."
- },
- {
-  "word": "coffee",
-  "partOfSpeech": "noun",
-  "meaningTr": "kahve",
-  "sentenceEn": "I drink coffee every morning.",
-  "sentenceTr": "Her sabah kahve içerim.",
-  "phonetic": "/ˈkɒf.i/",
-  "memoryTip": "'Kahve' ve 'coffee' aynı kökten gelir."
- },
- {
-  "word": "coke",
-  "partOfSpeech": "noun",
-  "meaningTr": "kola",
-  "sentenceEn": "He ordered a coke with his pizza.",
-  "sentenceTr": "Pizzasının yanında bir kola sipariş etti.",
-  "phonetic": "/kəʊk/",
-  "memoryTip": ""
- },
- {
-  "word": "cola",
-  "partOfSpeech": "noun",
-  "meaningTr": "kola",
-  "sentenceEn": "She poured cold cola into a glass.",
-  "sentenceTr": "Bardağa soğuk kola doldurdu.",
-  "phonetic": "/ˈkəʊ.lə/",
-  "memoryTip": ""
- },
- {
-  "word": "cold",
-  "partOfSpeech": "adjective",
-  "meaningTr": "soğuk",
-  "sentenceEn": "The soup is cold now.",
-  "sentenceTr": "Çorba şimdi soğuk.",
-  "phonetic": "/kəʊld/",
-  "memoryTip": ""
- },
- {
-  "word": "collect",
-  "partOfSpeech": "verb",
-  "meaningTr": "toplamak, biriktirmek",
-  "sentenceEn": "My son likes to collect old stamps.",
-  "sentenceTr": "Oğlum eski pulları biriktirmeyi sever.",
-  "phonetic": "/kəˈlekt/",
-  "memoryTip": "Türkçedeki 'koleksiyon' kelimesi buradandır."
- },
- {
-  "word": "college",
-  "partOfSpeech": "noun",
-  "meaningTr": "kolej, yüksekokul",
-  "sentenceEn": "She studies art at college.",
-  "sentenceTr": "Yüksekokulda sanat okuyor.",
-  "phonetic": "/ˈkɒl.ɪdʒ/",
-  "memoryTip": ""
- },
- {
-  "word": "colour",
-  "partOfSpeech": "noun",
-  "meaningTr": "renk",
-  "sentenceEn": "Red is my favourite colour.",
-  "sentenceTr": "Kırmızı benim en sevdiğim renk.",
-  "phonetic": "/ˈkʌl.ər/",
-  "memoryTip": ""
- },
- {
-  "word": "comb",
-  "partOfSpeech": "noun",
-  "meaningTr": "tarak",
-  "sentenceEn": "Use a comb for your hair.",
-  "sentenceTr": "Saçın için bir tarak kullan.",
-  "phonetic": "/kəʊm/",
-  "memoryTip": "Sondaki 'b' harfi okunmaz."
- },
- {
-  "word": "come",
-  "partOfSpeech": "verb",
-  "meaningTr": "gelmek",
-  "sentenceEn": "Please come to my house tomorrow.",
-  "sentenceTr": "Lütfen yarın evime gel.",
-  "phonetic": "/kʌm/",
-  "memoryTip": ""
- },
- {
-  "word": "commission",
-  "partOfSpeech": "noun",
-  "meaningTr": "komisyon, kurul",
-  "sentenceEn": "The salesman gets a small commission.",
-  "sentenceTr": "Satıcı küçük bir komisyon alır.",
-  "phonetic": "/kəˈmɪʃ.ən/",
-  "memoryTip": "Türkçedeki 'komisyon' ile aynıdır."
- },
- {
-  "word": "community",
-  "partOfSpeech": "noun",
-  "meaningTr": "topluluk, toplum",
-  "sentenceEn": "Our community helps old people.",
-  "sentenceTr": "Topluluğumuz yaşlı insanlara yardım eder.",
-  "phonetic": "/kəˈmjuː.nə.ti/",
-  "memoryTip": ""
- },
- {
-  "word": "company",
-  "partOfSpeech": "noun",
-  "meaningTr": "şirket",
-  "sentenceEn": "He works for a large company.",
-  "sentenceTr": "Büyük bir şirkette çalışıyor.",
-  "phonetic": "/ˈkʌm.pə.ni/",
-  "memoryTip": ""
- },
- {
-  "word": "compare",
-  "partOfSpeech": "verb",
-  "meaningTr": "karşılaştırmak",
-  "sentenceEn": "Compare the prices before you buy.",
-  "sentenceTr": "Almadan önce fiyatları karşılaştır.",
-  "phonetic": "/kəmˈpeər/",
-  "memoryTip": ""
- },
- {
-  "word": "competition",
-  "partOfSpeech": "noun",
-  "meaningTr": "yarışma, rekabet",
-  "sentenceEn": "She won the swimming competition.",
-  "sentenceTr": "Yüzme yarışmasını o kazandı.",
-  "phonetic": "/ˌkɒm.pəˈtɪʃ.ən/",
-  "memoryTip": ""
- },
- {
-  "word": "completely",
-  "partOfSpeech": "adverb",
-  "meaningTr": "tamamen",
-  "sentenceEn": "The room was completely empty.",
-  "sentenceTr": "Oda tamamen boştu.",
-  "phonetic": "/kəmˈpliːt.li/",
-  "memoryTip": "Complete (tam) + -ly = tamamen."
- },
- {
-  "word": "computer",
-  "partOfSpeech": "noun",
-  "meaningTr": "bilgisayar",
-  "sentenceEn": "I use a computer at work.",
-  "sentenceTr": "İşte bir bilgisayar kullanırım.",
-  "phonetic": "/kəmˈpjuː.tər/",
-  "memoryTip": ""
- },
- {
-  "word": "concern",
-  "partOfSpeech": "noun",
-  "meaningTr": "endişe, kaygı",
-  "sentenceEn": "Her health is a big concern.",
-  "sentenceTr": "Onun sağlığı büyük bir endişe.",
-  "phonetic": "/kənˈsɜːn/",
-  "memoryTip": ""
- },
- {
-  "word": "concerned",
-  "partOfSpeech": "adjective",
-  "meaningTr": "endişeli, ilgili",
-  "sentenceEn": "We are concerned about the weather.",
-  "sentenceTr": "Hava durumu konusunda endişeliyiz.",
-  "phonetic": "/kənˈsɜːnd/",
-  "memoryTip": ""
- },
- {
-  "word": "condition",
-  "partOfSpeech": "noun",
-  "meaningTr": "durum, koşul",
-  "sentenceEn": "The car is in good condition.",
-  "sentenceTr": "Araba iyi durumda.",
-  "phonetic": "/kənˈdɪʃ.ən/",
-  "memoryTip": ""
- },
- {
-  "word": "consider",
-  "partOfSpeech": "verb",
-  "meaningTr": "düşünmek, göz önünde bulundurmak",
-  "sentenceEn": "Consider all the choices before you decide.",
-  "sentenceTr": "Karar vermeden önce tüm seçenekleri düşün.",
-  "phonetic": "/kənˈsɪd.ər/",
-  "memoryTip": ""
- },
- {
-  "word": "continue",
-  "partOfSpeech": "verb",
-  "meaningTr": "devam etmek",
-  "sentenceEn": "Please continue reading the story.",
-  "sentenceTr": "Lütfen hikayeyi okumaya devam et.",
-  "phonetic": "/kənˈtɪn.juː/",
-  "memoryTip": ""
- },
- {
-  "word": "control",
-  "partOfSpeech": "noun",
-  "meaningTr": "kontrol, kumanda",
-  "sentenceEn": "Use the remote control for the television.",
-  "sentenceTr": "Televizyon için uzaktan kumandayı kullan.",
-  "phonetic": "/kənˈtrəʊl/",
-  "memoryTip": "Türkçedeki 'kontrol' ile aynıdır."
- },
- {
-  "word": "conversation",
-  "partOfSpeech": "noun",
-  "meaningTr": "konuşma, sohbet",
-  "sentenceEn": "We had a long conversation yesterday.",
-  "sentenceTr": "Dün uzun bir sohbet ettik.",
-  "phonetic": "/ˌkɒn.vəˈseɪ.ʃən/",
-  "memoryTip": ""
- },
- {
-  "word": "copy",
-  "partOfSpeech": "noun",
-  "meaningTr": "kopya, nüsha",
-  "sentenceEn": "Make a copy of this page.",
-  "sentenceTr": "Bu sayfanın bir kopyasını çıkar.",
-  "phonetic": "/ˈkɒp.i/",
-  "memoryTip": "Türkçedeki 'kopya' ile aynıdır."
- },
- {
-  "word": "corner",
-  "partOfSpeech": "noun",
-  "meaningTr": "köşe",
-  "sentenceEn": "The shop is on the corner.",
-  "sentenceTr": "Dükkan köşede.",
-  "phonetic": "/ˈkɔː.nər/",
-  "memoryTip": ""
- },
- {
-  "word": "cornflakes",
-  "partOfSpeech": "noun",
-  "meaningTr": "mısır gevreği",
-  "sentenceEn": "I eat cornflakes with milk.",
-  "sentenceTr": "Sütle mısır gevreği yerim.",
-  "phonetic": "/ˈkɔːn.fleɪks/",
-  "memoryTip": "Corn (mısır) + flakes (gevrek) = mısır gevreği."
- },
- {
-  "word": "cost",
-  "partOfSpeech": "noun",
-  "meaningTr": "fiyat, maliyet",
-  "sentenceEn": "What is the cost of this bag?",
-  "sentenceTr": "Bu çantanın fiyatı nedir?",
-  "phonetic": "/kɒst/",
-  "memoryTip": ""
- },
- {
-  "word": "cottage",
-  "partOfSpeech": "noun",
-  "meaningTr": "kır evi, küçük ev",
-  "sentenceEn": "They have a small cottage by the sea.",
-  "sentenceTr": "Deniz kenarında küçük bir kır evleri var.",
-  "phonetic": "/ˈkɒt.ɪdʒ/",
-  "memoryTip": ""
- },
- {
-  "word": "cotton",
-  "partOfSpeech": "noun",
-  "meaningTr": "pamuk",
-  "sentenceEn": "This shirt is made of cotton.",
-  "sentenceTr": "Bu gömlek pamuktandır.",
-  "phonetic": "/ˈkɒt.ən/",
-  "memoryTip": ""
- },
- {
-  "word": "cough",
-  "partOfSpeech": "verb",
-  "meaningTr": "öksürmek",
-  "sentenceEn": "I cough a lot at night.",
-  "sentenceTr": "Geceleri çok öksürürüm.",
-  "phonetic": "/kɒf/",
-  "memoryTip": ""
- },
- {
-  "word": "could",
-  "partOfSpeech": "verb",
-  "meaningTr": "-ebilirdi, -ebilir miyim (rica)",
-  "sentenceEn": "Could you open the window, please?",
-  "sentenceTr": "Pencereyi açabilir misiniz lütfen?",
-  "phonetic": "/kʊd/",
-  "memoryTip": ""
- },
- {
-  "word": "count",
-  "partOfSpeech": "verb",
-  "meaningTr": "saymak",
-  "sentenceEn": "Count the apples on the table.",
-  "sentenceTr": "Masadaki elmaları say.",
-  "phonetic": "/kaʊnt/",
-  "memoryTip": ""
- },
- {
-  "word": "country",
-  "partOfSpeech": "noun",
-  "meaningTr": "ülke, kır",
-  "sentenceEn": "Turkey is a beautiful country.",
-  "sentenceTr": "Türkiye güzel bir ülkedir.",
-  "phonetic": "/ˈkʌn.tri/",
-  "memoryTip": ""
- },
- {
-  "word": "couple",
-  "partOfSpeech": "noun",
-  "meaningTr": "çift, birkaç",
-  "sentenceEn": "The old couple walks every morning.",
-  "sentenceTr": "Yaşlı çift her sabah yürür.",
-  "phonetic": "/ˈkʌp.əl/",
-  "memoryTip": ""
- },
- {
-  "word": "coupon",
-  "partOfSpeech": "noun",
-  "meaningTr": "kupon",
-  "sentenceEn": "I have a coupon for the cafe.",
-  "sentenceTr": "Kafe için bir kuponum var.",
-  "phonetic": "/ˈkuː.pɒn/",
-  "memoryTip": "Türkçedeki 'kupon' ile aynıdır."
- },
- {
-  "word": "course",
-  "partOfSpeech": "noun",
-  "meaningTr": "kurs, ders",
-  "sentenceEn": "She is taking a cooking course.",
-  "sentenceTr": "O bir yemek kursuna gidiyor.",
-  "phonetic": "/kɔːs/",
-  "memoryTip": ""
- },
- {
-  "word": "court",
-  "partOfSpeech": "noun",
-  "meaningTr": "kort, mahkeme",
-  "sentenceEn": "They play tennis on the court.",
-  "sentenceTr": "Kortta tenis oynuyorlar.",
-  "phonetic": "/kɔːt/",
-  "memoryTip": ""
- }
+{
+"word": "cinema",
+"partOfSpeech": "noun",
+"meaningTr": "sinema",
+"sentenceEn": "We watch a film at the cinema.",
+"sentenceTr": "Sinemada bir film izliyoruz.",
+"phonetic": "/ˈsɪn.ə.mə/",
+"memoryTip": "Türkçedeki 'sinema' ile aynıdır."
+},
+{
+"word": "city",
+"partOfSpeech": "noun",
+"meaningTr": "şehir, kent",
+"sentenceEn": "Istanbul is a very big city.",
+"sentenceTr": "İstanbul çok büyük bir şehirdir.",
+"phonetic": "/ˈsɪt.i/",
+"memoryTip": "Village < town < city. Kısaltması değil: city centre = şehir merkezi."
+},
+{
+"word": "claim",
+"partOfSpeech": "verb",
+"meaningTr": "talep etmek, iddia etmek",
+"sentenceEn": "Can I claim my lost bag here?",
+"sentenceTr": "Kayıp çantamı buradan talep edebilir miyim?",
+"phonetic": "/kleɪm/",
+"memoryTip": "Bir şeyin doğru ya da senin olduğunu söylemek: claim your bag."
+},
+{
+"word": "class",
+"partOfSpeech": "noun",
+"meaningTr": "sınıf, ders",
+"sentenceEn": "Our English class starts at nine.",
+"sentenceTr": "İngilizce dersimiz dokuzda başlıyor.",
+"phonetic": "/klɑːs/",
+"memoryTip": "Hem sınıf (oda/öğrenciler) hem ders: English class."
+},
+{
+"word": "classroom",
+"partOfSpeech": "noun",
+"meaningTr": "sınıf (oda)",
+"sentenceEn": "The classroom is warm and bright.",
+"sentenceTr": "Sınıf sıcak ve aydınlık.",
+"phonetic": "/ˈklɑːs.ruːm/",
+"memoryTip": "Class (sınıf) + room (oda) = sınıf odası."
+},
+{
+"word": "clean",
+"partOfSpeech": "adjective",
+"meaningTr": "temiz",
+"sentenceEn": "Please keep your room clean.",
+"sentenceTr": "Lütfen odanı temiz tut.",
+"phonetic": "/kliːn/",
+"memoryTip": "Zıttı 'dirty' (kirli)."
+},
+{
+"word": "clear",
+"partOfSpeech": "adjective",
+"meaningTr": "açık, net, berrak",
+"sentenceEn": "The water in the lake is clear.",
+"sentenceTr": "Gölün suyu berrak.",
+"phonetic": "/klɪər/",
+"memoryTip": "Clear sky = açık gökyüzü. 'Is that clear?' = Anlaşıldı mı?"
+},
+{
+"word": "clearly",
+"partOfSpeech": "adverb",
+"meaningTr": "açıkça, net olarak",
+"sentenceEn": "Please speak slowly and clearly.",
+"sentenceTr": "Lütfen yavaş ve net konuş.",
+"phonetic": "/ˈklɪə.li/",
+"memoryTip": "Clear (net) + -ly = net bir şekilde."
+},
+{
+"word": "close",
+"partOfSpeech": "verb",
+"meaningTr": "kapatmak",
+"sentenceEn": "Please close the door quietly.",
+"sentenceTr": "Lütfen kapıyı sessizce kapat.",
+"phonetic": "/kləʊz/",
+"memoryTip": "Fiil /kləʊz/ (kapatmak); sıfat /kləʊs/ (yakın)."
+},
+{
+"word": "closed",
+"partOfSpeech": "adjective",
+"meaningTr": "kapalı",
+"sentenceEn": "The bank is closed on Sundays.",
+"sentenceTr": "Banka pazar günleri kapalıdır.",
+"phonetic": "/kləʊzd/",
+"memoryTip": "Dükkân kapısında 'CLOSED' = kapalı. Zıttı 'open'."
+},
+{
+"word": "cloud",
+"partOfSpeech": "noun",
+"meaningTr": "bulut",
+"sentenceEn": "A dark cloud covered the sun.",
+"sentenceTr": "Koyu bir bulut güneşi kapattı.",
+"phonetic": "/klaʊd/",
+"memoryTip": "Cloudy = bulutlu."
+},
+{
+"word": "cloudy",
+"partOfSpeech": "adjective",
+"meaningTr": "bulutlu",
+"sentenceEn": "It is cloudy and cold today.",
+"sentenceTr": "Bugün hava bulutlu ve soğuk.",
+"phonetic": "/ˈklaʊ.di/",
+"memoryTip": "Cloud (bulut) + -y = bulutlu."
+},
+{
+"word": "club",
+"partOfSpeech": "noun",
+"meaningTr": "kulüp",
+"sentenceEn": "My brother joined a football club.",
+"sentenceTr": "Erkek kardeşim bir futbol kulübüne katıldı.",
+"phonetic": "/klʌb/",
+"memoryTip": "Türkçedeki 'kulüp' ile aynıdır."
+},
+{
+"word": "coffee",
+"partOfSpeech": "noun",
+"meaningTr": "kahve",
+"sentenceEn": "I drink coffee every morning.",
+"sentenceTr": "Her sabah kahve içerim.",
+"phonetic": "/ˈkɒf.i/",
+"memoryTip": "'Kahve' ve 'coffee' aynı kökten gelir."
+},
+{
+"word": "coke",
+"partOfSpeech": "noun",
+"meaningTr": "kola",
+"sentenceEn": "He ordered a coke with his pizza.",
+"sentenceTr": "Pizzasının yanında bir kola sipariş etti.",
+"phonetic": "/kəʊk/",
+"memoryTip": "Coca-Cola'nın kısa adı; günlük konuşmada kola."
+},
+{
+"word": "cola",
+"partOfSpeech": "noun",
+"meaningTr": "kola",
+"sentenceEn": "She poured cold cola into a glass.",
+"sentenceTr": "Bardağa soğuk kola doldurdu.",
+"phonetic": "/ˈkəʊ.lə/",
+"memoryTip": "Kola içeceğinin genel adı."
+},
+{
+"word": "cold",
+"partOfSpeech": "adjective",
+"meaningTr": "soğuk",
+"sentenceEn": "The soup is cold now.",
+"sentenceTr": "Çorba şimdi soğuk.",
+"phonetic": "/kəʊld/",
+"memoryTip": "Hem 'soğuk' hem 'soğuk algınlığı': I have a cold."
+},
+{
+"word": "collect",
+"partOfSpeech": "verb",
+"meaningTr": "toplamak, biriktirmek",
+"sentenceEn": "My son likes to collect old stamps.",
+"sentenceTr": "Oğlum eski pulları biriktirmeyi sever.",
+"phonetic": "/kəˈlekt/",
+"memoryTip": "Türkçedeki 'koleksiyon' kelimesi buradandır."
+},
+{
+"word": "college",
+"partOfSpeech": "noun",
+"meaningTr": "kolej, yüksekokul",
+"sentenceEn": "She studies art at college.",
+"sentenceTr": "Yüksekokulda sanat okuyor.",
+"phonetic": "/ˈkɒl.ɪdʒ/",
+"memoryTip": "Türkçedeki 'kolej' ile aynı kökten; İngiltere'de lise sonrası okul."
+},
+{
+"word": "colour",
+"partOfSpeech": "noun",
+"meaningTr": "renk",
+"sentenceEn": "Red is my favourite colour.",
+"sentenceTr": "Kırmızı benim en sevdiğim renk.",
+"phonetic": "/ˈkʌl.ər/",
+"memoryTip": "İngiliz yazımı 'colour', Amerikan yazımı 'color'."
+},
+{
+"word": "comb",
+"partOfSpeech": "noun",
+"meaningTr": "tarak",
+"sentenceEn": "Use a comb for your hair.",
+"sentenceTr": "Saçın için bir tarak kullan.",
+"phonetic": "/kəʊm/",
+"memoryTip": "Sondaki 'b' harfi okunmaz."
+},
+{
+"word": "come",
+"partOfSpeech": "verb",
+"meaningTr": "gelmek",
+"sentenceEn": "Please come to my house tomorrow.",
+"sentenceTr": "Lütfen yarın evime gel.",
+"phonetic": "/kʌm/",
+"memoryTip": "Come → came → come. Zıttı 'go'."
+},
+{
+"word": "commission",
+"partOfSpeech": "noun",
+"meaningTr": "komisyon, kurul",
+"sentenceEn": "The salesman gets a small commission.",
+"sentenceTr": "Satıcı küçük bir komisyon alır.",
+"phonetic": "/kəˈmɪʃ.ən/",
+"memoryTip": "Türkçedeki 'komisyon' ile aynıdır."
+},
+{
+"word": "community",
+"partOfSpeech": "noun",
+"meaningTr": "topluluk, toplum",
+"sentenceEn": "Our community helps old people.",
+"sentenceTr": "Topluluğumuz yaşlı insanlara yardım eder.",
+"phonetic": "/kəˈmjuː.nə.ti/",
+"memoryTip": "Common (ortak) kökünden: ortak şeyleri paylaşan topluluk."
+},
+{
+"word": "company",
+"partOfSpeech": "noun",
+"meaningTr": "şirket",
+"sentenceEn": "He works for a large company.",
+"sentenceTr": "Büyük bir şirkette çalışıyor.",
+"phonetic": "/ˈkʌm.pə.ni/",
+"memoryTip": "Türkçedeki 'kumpanya' ile aynı kökten: şirket."
+},
+{
+"word": "compare",
+"partOfSpeech": "verb",
+"meaningTr": "karşılaştırmak",
+"sentenceEn": "Compare the prices before you buy.",
+"sentenceTr": "Almadan önce fiyatları karşılaştır.",
+"phonetic": "/kəmˈpeər/",
+"memoryTip": "'Compare A with B' = A'yı B ile karşılaştırmak."
+},
+{
+"word": "competition",
+"partOfSpeech": "noun",
+"meaningTr": "yarışma, rekabet",
+"sentenceEn": "She won the swimming competition.",
+"sentenceTr": "Yüzme yarışmasını o kazandı.",
+"phonetic": "/ˌkɒm.pəˈtɪʃ.ən/",
+"memoryTip": "Compete (yarışmak) + -ition = yarışma."
+},
+{
+"word": "completely",
+"partOfSpeech": "adverb",
+"meaningTr": "tamamen",
+"sentenceEn": "The room was completely empty.",
+"sentenceTr": "Oda tamamen boştu.",
+"phonetic": "/kəmˈpliːt.li/",
+"memoryTip": "Complete (tam) + -ly = tamamen."
+},
+{
+"word": "computer",
+"partOfSpeech": "noun",
+"meaningTr": "bilgisayar",
+"sentenceEn": "I use a computer at work.",
+"sentenceTr": "İşte bir bilgisayar kullanırım.",
+"phonetic": "/kəmˈpjuː.tər/",
+"memoryTip": "Compute (hesaplamak) + -er: hesap yapan makine."
+},
+{
+"word": "concern",
+"partOfSpeech": "noun",
+"meaningTr": "endişe, kaygı",
+"sentenceEn": "Her health is a big concern.",
+"sentenceTr": "Onun sağlığı büyük bir endişe.",
+"phonetic": "/kənˈsɜːn/",
+"memoryTip": "'It's not your concern' = seni ilgilendirmez."
+},
+{
+"word": "concerned",
+"partOfSpeech": "adjective",
+"meaningTr": "endişeli, ilgili",
+"sentenceEn": "We are concerned about the weather.",
+"sentenceTr": "Hava durumu konusunda endişeliyiz.",
+"phonetic": "/kənˈsɜːnd/",
+"memoryTip": "'Concerned about' = ...dan endişeli."
+},
+{
+"word": "condition",
+"partOfSpeech": "noun",
+"meaningTr": "durum, koşul",
+"sentenceEn": "The car is in good condition.",
+"sentenceTr": "Araba iyi durumda.",
+"phonetic": "/kənˈdɪʃ.ən/",
+"memoryTip": "Türkçedeki 'kondisyon' ile aynı kökten: durum."
+},
+{
+"word": "consider",
+"partOfSpeech": "verb",
+"meaningTr": "düşünmek, göz önünde bulundurmak",
+"sentenceEn": "Consider all the choices before you decide.",
+"sentenceTr": "Karar vermeden önce tüm seçenekleri düşün.",
+"phonetic": "/kənˈsɪd.ər/",
+"memoryTip": "Bir şeyi dikkatlice düşünmek: consider your options."
+},
+{
+"word": "continue",
+"partOfSpeech": "verb",
+"meaningTr": "devam etmek",
+"sentenceEn": "Please continue reading the story.",
+"sentenceTr": "Lütfen hikayeyi okumaya devam et.",
+"phonetic": "/kənˈtɪn.juː/",
+"memoryTip": "Continue → continued. 'To be continued' = devam edecek."
+},
+{
+"word": "control",
+"partOfSpeech": "noun",
+"meaningTr": "kontrol, kumanda",
+"sentenceEn": "Use the remote control for the television.",
+"sentenceTr": "Televizyon için uzaktan kumandayı kullan.",
+"phonetic": "/kənˈtrəʊl/",
+"memoryTip": "Türkçedeki 'kontrol' ile aynıdır."
+},
+{
+"word": "conversation",
+"partOfSpeech": "noun",
+"meaningTr": "konuşma, sohbet",
+"sentenceEn": "We had a long conversation yesterday.",
+"sentenceTr": "Dün uzun bir sohbet ettik.",
+"phonetic": "/ˌkɒn.vəˈseɪ.ʃən/",
+"memoryTip": "Converse (sohbet etmek) + -ation = sohbet, konuşma."
+},
+{
+"word": "copy",
+"partOfSpeech": "noun",
+"meaningTr": "kopya, nüsha",
+"sentenceEn": "Make a copy of this page.",
+"sentenceTr": "Bu sayfanın bir kopyasını çıkar.",
+"phonetic": "/ˈkɒp.i/",
+"memoryTip": "Türkçedeki 'kopya' ile aynıdır."
+},
+{
+"word": "corner",
+"partOfSpeech": "noun",
+"meaningTr": "köşe",
+"sentenceEn": "The shop is on the corner.",
+"sentenceTr": "Dükkan köşede.",
+"phonetic": "/ˈkɔː.nər/",
+"memoryTip": "'On the corner' = köşede (sokakta)."
+},
+{
+"word": "cornflakes",
+"partOfSpeech": "noun",
+"meaningTr": "mısır gevreği",
+"sentenceEn": "I eat cornflakes with milk.",
+"sentenceTr": "Sütle mısır gevreği yerim.",
+"phonetic": "/ˈkɔːn.fleɪks/",
+"memoryTip": "Corn (mısır) + flakes (gevrek) = mısır gevreği."
+},
+{
+"word": "cost",
+"partOfSpeech": "noun",
+"meaningTr": "fiyat, maliyet",
+"sentenceEn": "What is the cost of this bag?",
+"sentenceTr": "Bu çantanın fiyatı nedir?",
+"phonetic": "/kɒst/",
+"memoryTip": "Cost → cost → cost. 'How much does it cost?' = Ne kadar?"
+},
+{
+"word": "cottage",
+"partOfSpeech": "noun",
+"meaningTr": "kır evi, küçük ev",
+"sentenceEn": "They have a small cottage by the sea.",
+"sentenceTr": "Deniz kenarında küçük bir kır evleri var.",
+"phonetic": "/ˈkɒt.ɪdʒ/",
+"memoryTip": "Kırsalda küçük, şirin ev."
+},
+{
+"word": "cotton",
+"partOfSpeech": "noun",
+"meaningTr": "pamuk",
+"sentenceEn": "This shirt is made of cotton.",
+"sentenceTr": "Bu gömlek pamuktandır.",
+"phonetic": "/ˈkɒt.ən/",
+"memoryTip": "Pamuktan yapılan kıyafetler: cotton T-shirt."
+},
+{
+"word": "cough",
+"partOfSpeech": "verb",
+"meaningTr": "öksürmek",
+"sentenceEn": "I cough a lot at night.",
+"sentenceTr": "Geceleri çok öksürürüm.",
+"phonetic": "/kɒf/",
+"memoryTip": "'gh' burada /f/ okunur: /kɒf/."
+},
+{
+"word": "could",
+"partOfSpeech": "verb",
+"meaningTr": "-ebilirdi, -ebilir miyim (rica)",
+"sentenceEn": "Could you open the window, please?",
+"sentenceTr": "Pencereyi açabilir misiniz lütfen?",
+"phonetic": "/kʊd/",
+"memoryTip": "Can'in geçmiş hâli; kibar istek: Could you help me?"
+},
+{
+"word": "count",
+"partOfSpeech": "verb",
+"meaningTr": "saymak",
+"sentenceEn": "Count the apples on the table.",
+"sentenceTr": "Masadaki elmaları say.",
+"phonetic": "/kaʊnt/",
+"memoryTip": "Sayı saymak: count from one to ten."
+},
+{
+"word": "country",
+"partOfSpeech": "noun",
+"meaningTr": "ülke, kır",
+"sentenceEn": "Turkey is a beautiful country.",
+"sentenceTr": "Türkiye güzel bir ülkedir.",
+"phonetic": "/ˈkʌn.tri/",
+"memoryTip": "Hem ülke hem kırsal bölge: live in the country."
+},
+{
+"word": "couple",
+"partOfSpeech": "noun",
+"meaningTr": "çift, birkaç",
+"sentenceEn": "The old couple walks every morning.",
+"sentenceTr": "Yaşlı çift her sabah yürür.",
+"phonetic": "/ˈkʌp.əl/",
+"memoryTip": "Bir çift: a couple of days = birkaç gün."
+},
+{
+"word": "coupon",
+"partOfSpeech": "noun",
+"meaningTr": "kupon",
+"sentenceEn": "I have a coupon for the cafe.",
+"sentenceTr": "Kafe için bir kuponum var.",
+"phonetic": "/ˈkuː.pɒn/",
+"memoryTip": "Türkçedeki 'kupon' ile aynıdır."
+},
+{
+"word": "course",
+"partOfSpeech": "noun",
+"meaningTr": "kurs, ders",
+"sentenceEn": "She is taking a cooking course.",
+"sentenceTr": "O bir yemek kursuna gidiyor.",
+"phonetic": "/kɔːs/",
+"memoryTip": "Türkçedeki 'kurs' ile aynıdır. 'Of course' = tabii ki."
+},
+{
+"word": "court",
+"partOfSpeech": "noun",
+"meaningTr": "kort, mahkeme",
+"sentenceEn": "They play tennis on the court.",
+"sentenceTr": "Kortta tenis oynuyorlar.",
+"phonetic": "/kɔːt/",
+"memoryTip": "Tenis kortu da mahkeme de 'court'tur."
+}
 ]

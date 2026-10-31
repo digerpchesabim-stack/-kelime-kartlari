@@ -1,0 +1,902 @@
+[
+{
+"word": "pressure",
+"partOfSpeech": "noun",
+"meaningTr": "basınç, baskı",
+"sentenceEn": "Students feel a lot of pressure before exams.",
+"sentenceTr": "Öğrenciler sınavlardan önce çok baskı hisseder.",
+"phonetic": "/ˈpreʃ.ər/",
+"memoryTip": "Press (bastırmak) + -ure = baskı, basınç. Blood pressure = tansiyon."
+},
+{
+"word": "previous",
+"partOfSpeech": "adjective",
+"meaningTr": "önceki",
+"sentenceEn": "I met her on the previous day.",
+"sentenceTr": "Onunla bir önceki gün tanıştım.",
+"phonetic": "/ˈpriː.vi.əs/",
+"memoryTip": "Pre (önce) kökünden: bir önceki."
+},
+{
+"word": "price",
+"partOfSpeech": "noun",
+"meaningTr": "fiyat",
+"sentenceEn": "What is the price of this jacket?",
+"sentenceTr": "Bu ceketin fiyatı ne?",
+"phonetic": "/praɪs/",
+"memoryTip": "Prize (ödül) ile karıştırma: price = fiyat."
+},
+{
+"word": "priest",
+"partOfSpeech": "noun",
+"meaningTr": "rahip, papaz",
+"sentenceEn": "The priest spoke in the old church.",
+"sentenceTr": "Rahip eski kilisede konuştu.",
+"phonetic": "/priːst/",
+"memoryTip": "Kilisede görev yapan din adamı."
+},
+{
+"word": "private",
+"partOfSpeech": "adjective",
+"meaningTr": "özel, kişiye ait",
+"sentenceEn": "This is a private beach.",
+"sentenceTr": "Burası özel bir plaj.",
+"phonetic": "/ˈpraɪ.vət/",
+"memoryTip": "Türkçedeki 'privat/özel' anlamı; zıttı 'public' (kamuya açık)."
+},
+{
+"word": "probably",
+"partOfSpeech": "adverb",
+"meaningTr": "muhtemelen",
+"sentenceEn": "It will probably snow tonight.",
+"sentenceTr": "Bu gece muhtemelen kar yağacak.",
+"phonetic": "/ˈprɒb.ə.bli/",
+"memoryTip": "Probable (olası) + -ly. 'Maybe'den daha güçlü bir ihtimal."
+},
+{
+"word": "problem",
+"partOfSpeech": "noun",
+"meaningTr": "sorun, problem",
+"sentenceEn": "No problem, I can help you.",
+"sentenceTr": "Sorun değil, sana yardım edebilirim.",
+"phonetic": "/ˈprɒb.ləm/",
+"memoryTip": "'No problem' = sorun değil, rica ederim."
+},
+{
+"word": "produce",
+"partOfSpeech": "verb",
+"meaningTr": "üretmek",
+"sentenceEn": "Bees produce honey.",
+"sentenceTr": "Arılar bal üretir.",
+"phonetic": "/prəˈdjuːs/",
+"memoryTip": "Product (ürün) ve production (üretim) aynı aileden."
+},
+{
+"word": "product",
+"partOfSpeech": "noun",
+"meaningTr": "ürün",
+"sentenceEn": "This product is made in Türkiye.",
+"sentenceTr": "Bu ürün Türkiye'de üretilmiştir.",
+"phonetic": "/ˈprɒd.ʌkt/",
+"memoryTip": "Produce (üretmek) fiilinden: üretilen şey, ürün."
+},
+{
+"word": "production",
+"partOfSpeech": "noun",
+"meaningTr": "üretim, yapım",
+"sentenceEn": "Car production is high in Bursa.",
+"sentenceTr": "Bursa'da otomobil üretimi yüksektir.",
+"phonetic": "/prəˈdʌk.ʃən/",
+"memoryTip": "Türkçedeki 'prodüksiyon' ile aynı kökten."
+},
+{
+"word": "profit",
+"partOfSpeech": "noun",
+"meaningTr": "kâr, kazanç",
+"sentenceEn": "The shop made a good profit this year.",
+"sentenceTr": "Dükkân bu yıl iyi kâr etti.",
+"phonetic": "/ˈprɒf.ɪt/",
+"memoryTip": "Zıttı 'loss' (zarar)."
+},
+{
+"word": "programme",
+"partOfSpeech": "noun",
+"meaningTr": "program",
+"sentenceEn": "My favourite TV programme starts at eight.",
+"sentenceTr": "En sevdiğim TV programı sekizde başlıyor.",
+"phonetic": "/ˈprəʊ.ɡræm/",
+"memoryTip": "İngiliz yazımı 'programme'; bilgisayar programı ise 'program' yazılır."
+},
+{
+"word": "project",
+"partOfSpeech": "noun",
+"meaningTr": "proje",
+"sentenceEn": "We are working on a science project.",
+"sentenceTr": "Bir fen projesi üzerinde çalışıyoruz.",
+"phonetic": "/ˈprɒdʒ.ekt/",
+"memoryTip": "Türkçedeki 'proje' ile aynıdır."
+},
+{
+"word": "pronounce",
+"partOfSpeech": "verb",
+"meaningTr": "telaffuz etmek, söylemek",
+"sentenceEn": "How do you pronounce this word?",
+"sentenceTr": "Bu kelimeyi nasıl telaffuz edersin?",
+"phonetic": "/prəˈnaʊns/",
+"memoryTip": "Bu uygulamadaki /.../ işaretleri kelimenin nasıl 'pronounce' edildiğini gösterir."
+},
+{
+"word": "proud",
+"partOfSpeech": "adjective",
+"meaningTr": "gururlu, gurur duyan",
+"sentenceEn": "My parents are proud of me.",
+"sentenceTr": "Annemle babam benimle gurur duyuyor.",
+"phonetic": "/praʊd/",
+"memoryTip": "'Be proud of' = ...ile gurur duymak."
+},
+{
+"word": "provide",
+"partOfSpeech": "verb",
+"meaningTr": "sağlamak, temin etmek",
+"sentenceEn": "The school will provide lunch for all students.",
+"sentenceTr": "Okul tüm öğrencilere öğle yemeği sağlayacak.",
+"phonetic": "/prəˈvaɪd/",
+"memoryTip": "'Provide something for someone' = birine bir şey sağlamak."
+},
+{
+"word": "public",
+"partOfSpeech": "adjective",
+"meaningTr": "kamu, halka açık",
+"sentenceEn": "You can't smoke in a public place.",
+"sentenceTr": "Halka açık bir yerde sigara içemezsin.",
+"phonetic": "/ˈpʌb.lɪk/",
+"memoryTip": "Public transport = toplu taşıma. Zıttı 'private'."
+},
+{
+"word": "pull",
+"partOfSpeech": "verb",
+"meaningTr": "çekmek",
+"sentenceEn": "Pull the door to open it.",
+"sentenceTr": "Açmak için kapıyı çek.",
+"phonetic": "/pʊl/",
+"memoryTip": "Kapılarda PULL = çekiniz, PUSH = itiniz."
+},
+{
+"word": "pullover",
+"partOfSpeech": "noun",
+"meaningTr": "kazak, süveter",
+"sentenceEn": "Wear a pullover; it's cold today.",
+"sentenceTr": "Kazak giy, bugün hava soğuk.",
+"phonetic": "/ˈpʊlˌəʊ.vər/",
+"memoryTip": "Pull (çekmek) + over (üstünden): başın üstünden çekilerek giyilen kazak."
+},
+{
+"word": "puppet",
+"partOfSpeech": "noun",
+"meaningTr": "kukla",
+"sentenceEn": "The children watched a puppet show.",
+"sentenceTr": "Çocuklar kukla gösterisi izledi.",
+"phonetic": "/ˈpʌp.ɪt/",
+"memoryTip": "Karagöz ile Hacivat da birer gölge kuklasıdır."
+},
+{
+"word": "puppy",
+"partOfSpeech": "noun",
+"meaningTr": "köpek yavrusu",
+"sentenceEn": "Our dog had a cute puppy.",
+"sentenceTr": "Köpeğimizin sevimli bir yavrusu oldu.",
+"phonetic": "/ˈpʌp.i/",
+"memoryTip": "Kedi yavrusu 'kitten', köpek yavrusu 'puppy'."
+},
+{
+"word": "purpose",
+"partOfSpeech": "noun",
+"meaningTr": "amaç, maksat",
+"sentenceEn": "What is the purpose of your visit?",
+"sentenceTr": "Ziyaretinizin amacı nedir?",
+"phonetic": "/ˈpɜː.pəs/",
+"memoryTip": "'On purpose' = bilerek, kasten."
+},
+{
+"word": "push",
+"partOfSpeech": "verb",
+"meaningTr": "itmek",
+"sentenceEn": "Push the button to call the lift.",
+"sentenceTr": "Asansörü çağırmak için düğmeye bas.",
+"phonetic": "/pʊʃ/",
+"memoryTip": "Zıttı 'pull' (çekmek)."
+},
+{
+"word": "put",
+"partOfSpeech": "verb",
+"meaningTr": "koymak",
+"sentenceEn": "Put your bag under the desk.",
+"sentenceTr": "Çantanı sıranın altına koy.",
+"phonetic": "/pʊt/",
+"memoryTip": "Put → put → put; üç hâli de aynı. 'Put on' = giymek."
+},
+{
+"word": "quality",
+"partOfSpeech": "noun",
+"meaningTr": "kalite, nitelik",
+"sentenceEn": "These shoes are of good quality.",
+"sentenceTr": "Bu ayakkabılar kaliteli.",
+"phonetic": "/ˈkwɒl.ə.ti/",
+"memoryTip": "Türkçedeki 'kalite' ile aynı kökten."
+},
+{
+"word": "quarter",
+"partOfSpeech": "noun",
+"meaningTr": "çeyrek",
+"sentenceEn": "It's a quarter past five.",
+"sentenceTr": "Saat beşi çeyrek geçiyor.",
+"phonetic": "/ˈkwɔː.tər/",
+"memoryTip": "Saatte 'quarter past' = çeyrek geçe, 'quarter to' = çeyrek kala."
+},
+{
+"word": "question",
+"partOfSpeech": "noun",
+"meaningTr": "soru",
+"sentenceEn": "Can I ask a question?",
+"sentenceTr": "Bir soru sorabilir miyim?",
+"phonetic": "/ˈkwes.tʃən/",
+"memoryTip": "Soru işareti 'question mark' (?)."
+},
+{
+"word": "queue",
+"partOfSpeech": "noun",
+"meaningTr": "kuyruk, sıra",
+"sentenceEn": "There is a long queue at the bank.",
+"sentenceTr": "Bankada uzun bir kuyruk var.",
+"phonetic": "/kjuː/",
+"memoryTip": "Yalnızca ilk harf okunur gibi: /kjuː/ (Q harfiyle aynı ses)."
+},
+{
+"word": "quick",
+"partOfSpeech": "adjective",
+"meaningTr": "hızlı, çabuk",
+"sentenceEn": "Let's have a quick lunch.",
+"sentenceTr": "Hızlıca bir öğle yemeği yiyelim.",
+"phonetic": "/kwɪk/",
+"memoryTip": "Zıttı 'slow' (yavaş). Zarf hâli 'quickly'."
+},
+{
+"word": "quickly",
+"partOfSpeech": "adverb",
+"meaningTr": "hızlıca, çabucak",
+"sentenceEn": "Come quickly; the bus is here!",
+"sentenceTr": "Çabuk gel, otobüs geldi!",
+"phonetic": "/ˈkwɪk.li/",
+"memoryTip": "Quick (hızlı) + -ly = hızlıca."
+},
+{
+"word": "quite",
+"partOfSpeech": "adverb",
+"meaningTr": "oldukça, epey",
+"sentenceEn": "The test was quite easy.",
+"sentenceTr": "Sınav oldukça kolaydı.",
+"phonetic": "/kwaɪt/",
+"memoryTip": "'Quiet' (sessiz) ile karıştırma: quite = oldukça."
+},
+{
+"word": "radio",
+"partOfSpeech": "noun",
+"meaningTr": "radyo",
+"sentenceEn": "I listen to the radio in the car.",
+"sentenceTr": "Arabada radyo dinlerim.",
+"phonetic": "/ˈreɪ.di.əʊ/",
+"memoryTip": "İngilizcede /ˈreɪ.di.əʊ/ diye 'rey' ile başlar."
+},
+{
+"word": "rain",
+"partOfSpeech": "noun",
+"meaningTr": "yağmur",
+"sentenceEn": "We stayed at home because of the rain.",
+"sentenceTr": "Yağmur yüzünden evde kaldık.",
+"phonetic": "/reɪn/",
+"memoryTip": "Fiil olarak da kullanılır: It's raining (yağmur yağıyor)."
+},
+{
+"word": "raincoat",
+"partOfSpeech": "noun",
+"meaningTr": "yağmurluk",
+"sentenceEn": "Take your raincoat with you.",
+"sentenceTr": "Yağmurluğunu yanına al.",
+"phonetic": "/ˈreɪŋ.kəʊt/",
+"memoryTip": "Rain (yağmur) + coat (palto) = yağmurluk."
+},
+{
+"word": "rainy",
+"partOfSpeech": "adjective",
+"meaningTr": "yağmurlu",
+"sentenceEn": "It was a cold and rainy day.",
+"sentenceTr": "Soğuk ve yağmurlu bir gündü.",
+"phonetic": "/ˈreɪ.ni/",
+"memoryTip": "Rain + -y = yağmurlu. Sunny, windy, cloudy gibi."
+},
+{
+"word": "ran",
+"partOfSpeech": "verb",
+"meaningTr": "koştu (run fiilinin geçmiş hâli)",
+"sentenceEn": "The boy ran to the bus stop.",
+"sentenceTr": "Çocuk otobüs durağına koştu.",
+"phonetic": "/ræn/",
+"memoryTip": "Run → ran → run."
+},
+{
+"word": "range",
+"partOfSpeech": "noun",
+"meaningTr": "çeşit, yelpaze; aralık",
+"sentenceEn": "The shop has a wide range of toys.",
+"sentenceTr": "Dükkânda çok çeşitli oyuncak var.",
+"phonetic": "/reɪndʒ/",
+"memoryTip": "'A wide range of' = geniş bir yelpaze, çok çeşitli."
+},
+{
+"word": "rat",
+"partOfSpeech": "noun",
+"meaningTr": "sıçan, iri fare",
+"sentenceEn": "We saw a rat near the rubbish bin.",
+"sentenceTr": "Çöp kutusunun yanında bir sıçan gördük.",
+"phonetic": "/ræt/",
+"memoryTip": "Mouse küçük fare, rat iri sıçan."
+},
+{
+"word": "rate",
+"partOfSpeech": "noun",
+"meaningTr": "oran, hız, ücret",
+"sentenceEn": "The exchange rate changes every day.",
+"sentenceTr": "Döviz kuru her gün değişir.",
+"phonetic": "/reɪt/",
+"memoryTip": "Exchange rate = döviz kuru. Heart rate = nabız."
+},
+{
+"word": "rather",
+"partOfSpeech": "adverb",
+"meaningTr": "oldukça; tercihen",
+"sentenceEn": "I'd rather stay at home tonight.",
+"sentenceTr": "Bu akşam evde kalmayı tercih ederim.",
+"phonetic": "/ˈrɑː.ðər/",
+"memoryTip": "'I'd rather...' = ...yı tercih ederim."
+},
+{
+"word": "reach",
+"partOfSpeech": "verb",
+"meaningTr": "ulaşmak, yetişmek",
+"sentenceEn": "I can't reach the top shelf.",
+"sentenceTr": "En üst rafa uzanamıyorum.",
+"phonetic": "/riːtʃ/",
+"memoryTip": "Hem bir yere varmak hem de elle uzanmak anlamında."
+},
+{
+"word": "read",
+"partOfSpeech": "verb",
+"meaningTr": "okumak",
+"sentenceEn": "I read a book before bed.",
+"sentenceTr": "Yatmadan önce kitap okurum.",
+"phonetic": "/riːd/",
+"memoryTip": "Read → read → read; yazılışı aynı ama geçmiş hâli /red/ okunur."
+},
+{
+"word": "reader",
+"partOfSpeech": "noun",
+"meaningTr": "okur, okuyucu",
+"sentenceEn": "My sister is a fast reader.",
+"sentenceTr": "Kız kardeşim hızlı okur.",
+"phonetic": "/ˈriː.dər/",
+"memoryTip": "Read (okumak) + -er = okuyan kişi."
+},
+{
+"word": "ready",
+"partOfSpeech": "adjective",
+"meaningTr": "hazır",
+"sentenceEn": "Dinner is ready!",
+"sentenceTr": "Yemek hazır!",
+"phonetic": "/ˈred.i/",
+"memoryTip": "'Are you ready?' = Hazır mısın?"
+},
+{
+"word": "real",
+"partOfSpeech": "adjective",
+"meaningTr": "gerçek",
+"sentenceEn": "Is this a real diamond?",
+"sentenceTr": "Bu gerçek bir elmas mı?",
+"phonetic": "/rɪəl/",
+"memoryTip": "Türkçedeki 'reel' ile aynı kökten."
+},
+{
+"word": "realize",
+"partOfSpeech": "verb",
+"meaningTr": "farkına varmak, anlamak",
+"sentenceEn": "I didn't realize it was so late.",
+"sentenceTr": "Bu kadar geç olduğunu fark etmedim.",
+"phonetic": "/ˈrɪə.laɪz/",
+"memoryTip": "Real (gerçek) + -ize: bir şeyin gerçek olduğunu kavramak."
+},
+{
+"word": "really",
+"partOfSpeech": "adverb",
+"meaningTr": "gerçekten, çok",
+"sentenceEn": "I really like this song.",
+"sentenceTr": "Bu şarkıyı gerçekten seviyorum.",
+"phonetic": "/ˈrɪə.li/",
+"memoryTip": "'Really?' tek başına 'Sahi mi?' demektir."
+},
+{
+"word": "reason",
+"partOfSpeech": "noun",
+"meaningTr": "sebep, neden",
+"sentenceEn": "What is the reason for your absence?",
+"sentenceTr": "Devamsızlığının sebebi ne?",
+"phonetic": "/ˈriː.zən/",
+"memoryTip": "'The reason why...' = ...nın nedeni."
+},
+{
+"word": "reasonable",
+"partOfSpeech": "adjective",
+"meaningTr": "makul, mantıklı, uygun (fiyat)",
+"sentenceEn": "The prices in this café are reasonable.",
+"sentenceTr": "Bu kafedeki fiyatlar makul.",
+"phonetic": "/ˈriː.zən.ə.bəl/",
+"memoryTip": "Reason (neden, akıl) + -able = akla uygun, makul."
+},
+{
+"word": "receive",
+"partOfSpeech": "verb",
+"meaningTr": "almak, teslim almak",
+"sentenceEn": "Did you receive my email?",
+"sentenceTr": "E-postamı aldın mı?",
+"phonetic": "/rɪˈsiːv/",
+"memoryTip": "Yazım kuralı: c'den sonra 'ei' gelir (rec-ei-ve)."
+},
+{
+"word": "recently",
+"partOfSpeech": "adverb",
+"meaningTr": "son zamanlarda, yakın zamanda",
+"sentenceEn": "Have you seen any good films recently?",
+"sentenceTr": "Son zamanlarda iyi bir film izledin mi?",
+"phonetic": "/ˈriː.sənt.li/",
+"memoryTip": "Recent (yakın zamanda olan) + -ly."
+},
+{
+"word": "reception",
+"partOfSpeech": "noun",
+"meaningTr": "resepsiyon, karşılama",
+"sentenceEn": "Please leave your key at reception.",
+"sentenceTr": "Lütfen anahtarınızı resepsiyona bırakın.",
+"phonetic": "/rɪˈsep.ʃən/",
+"memoryTip": "Türkçedeki 'resepsiyon' ile aynıdır."
+},
+{
+"word": "recognize",
+"partOfSpeech": "verb",
+"meaningTr": "tanımak",
+"sentenceEn": "I didn't recognize you with your new glasses.",
+"sentenceTr": "Yeni gözlüklerinle seni tanıyamadım.",
+"phonetic": "/ˈrek.əɡ.naɪz/",
+"memoryTip": "Re (yeniden) + cognize (bilmek): daha önce bildiğini yeniden tanımak."
+},
+{
+"word": "record",
+"partOfSpeech": "noun",
+"meaningTr": "kayıt; rekor",
+"sentenceEn": "She broke the school record in running.",
+"sentenceTr": "Koşuda okul rekorunu kırdı.",
+"phonetic": "/ˈrek.ɔːd/",
+"memoryTip": "Fiil olarak vurgu değişir: re-CORD (kaydetmek)."
+},
+{
+"word": "red",
+"partOfSpeech": "adjective",
+"meaningTr": "kırmızı",
+"sentenceEn": "Stop when the traffic light is red.",
+"sentenceTr": "Trafik ışığı kırmızıyken dur.",
+"phonetic": "/red/",
+"memoryTip": "Bu uygulamadaki kelimeler kitabın 'red' (kırmızı) listesinden!"
+},
+{
+"word": "reduce",
+"partOfSpeech": "verb",
+"meaningTr": "azaltmak, düşürmek",
+"sentenceEn": "We should reduce plastic waste.",
+"sentenceTr": "Plastik atığı azaltmalıyız.",
+"phonetic": "/rɪˈdjuːs/",
+"memoryTip": "Geri dönüşümün 3 kuralı: reduce, reuse, recycle."
+},
+{
+"word": "refer",
+"partOfSpeech": "verb",
+"meaningTr": "değinmek, başvurmak",
+"sentenceEn": "Please refer to the dictionary for help.",
+"sentenceTr": "Yardım için lütfen sözlüğe başvurun.",
+"phonetic": "/rɪˈfɜːr/",
+"memoryTip": "Türkçedeki 'referans' bu kelimeden gelir."
+},
+{
+"word": "referee",
+"partOfSpeech": "noun",
+"meaningTr": "hakem",
+"sentenceEn": "The referee showed him a yellow card.",
+"sentenceTr": "Hakem ona sarı kart gösterdi.",
+"phonetic": "/ˌref.əˈriː/",
+"memoryTip": "Vurgu son hecede: refe-REE."
+},
+{
+"word": "refuse",
+"partOfSpeech": "verb",
+"meaningTr": "reddetmek, geri çevirmek",
+"sentenceEn": "I can't refuse your kind offer.",
+"sentenceTr": "Nazik teklifini geri çeviremem.",
+"phonetic": "/rɪˈfjuːz/",
+"memoryTip": "Zıttı 'accept' (kabul etmek)."
+},
+{
+"word": "region",
+"partOfSpeech": "noun",
+"meaningTr": "bölge",
+"sentenceEn": "The Black Sea region gets a lot of rain.",
+"sentenceTr": "Karadeniz bölgesi çok yağmur alır.",
+"phonetic": "/ˈriː.dʒən/",
+"memoryTip": "Türkiye'nin 7 bölgesi: seven regions."
+},
+{
+"word": "relationship",
+"partOfSpeech": "noun",
+"meaningTr": "ilişki",
+"sentenceEn": "I have a good relationship with my brother.",
+"sentenceTr": "Kardeşimle iyi bir ilişkim var.",
+"phonetic": "/rɪˈleɪ.ʃən.ʃɪp/",
+"memoryTip": "Relation (bağ) + -ship (durum) = ilişki."
+},
+{
+"word": "remain",
+"partOfSpeech": "verb",
+"meaningTr": "kalmak, durmak",
+"sentenceEn": "Please remain in your seats.",
+"sentenceTr": "Lütfen yerlerinizde kalın.",
+"phonetic": "/rɪˈmeɪn/",
+"memoryTip": "'Stay' ile benzer, daha resmi."
+},
+{
+"word": "remember",
+"partOfSpeech": "verb",
+"meaningTr": "hatırlamak",
+"sentenceEn": "I can't remember his name.",
+"sentenceTr": "Adını hatırlayamıyorum.",
+"phonetic": "/rɪˈmem.bər/",
+"memoryTip": "Re (yeniden) + member: aklına yeniden getirmek. Zıttı 'forget'."
+},
+{
+"word": "remind",
+"partOfSpeech": "verb",
+"meaningTr": "hatırlatmak",
+"sentenceEn": "Please remind me to call my mother.",
+"sentenceTr": "Lütfen annemi aramamı bana hatırlat.",
+"phonetic": "/rɪˈmaɪnd/",
+"memoryTip": "Re (yeniden) + mind (akıl): birinin aklına getirmek."
+},
+{
+"word": "report",
+"partOfSpeech": "noun",
+"meaningTr": "rapor, haber; karne",
+"sentenceEn": "I got a good school report this year.",
+"sentenceTr": "Bu yıl iyi bir karne aldım.",
+"phonetic": "/rɪˈpɔːt/",
+"memoryTip": "Türkçedeki 'rapor' ile aynı kökten. Reporter = muhabir."
+},
+{
+"word": "require",
+"partOfSpeech": "verb",
+"meaningTr": "gerektirmek, istemek",
+"sentenceEn": "This job may require some experience.",
+"sentenceTr": "Bu iş biraz deneyim gerektirebilir.",
+"phonetic": "/rɪˈkwaɪər/",
+"memoryTip": "'Need' ile benzer ama daha resmi."
+},
+{
+"word": "respect",
+"partOfSpeech": "noun",
+"meaningTr": "saygı",
+"sentenceEn": "We should show respect to older people.",
+"sentenceTr": "Yaşlılara saygı göstermeliyiz.",
+"phonetic": "/rɪˈspekt/",
+"memoryTip": "Türkçedeki 'respekt'e benzer; fiil olarak 'saygı duymak'."
+},
+{
+"word": "response",
+"partOfSpeech": "noun",
+"meaningTr": "cevap, tepki",
+"sentenceEn": "I am still waiting for a response.",
+"sentenceTr": "Hâlâ bir cevap bekliyorum.",
+"phonetic": "/rɪˈspɒns/",
+"memoryTip": "'Answer' ile benzer; daha resmi."
+},
+{
+"word": "rest",
+"partOfSpeech": "noun",
+"meaningTr": "dinlenme; geri kalan",
+"sentenceEn": "You look tired; take a rest.",
+"sentenceTr": "Yorgun görünüyorsun, biraz dinlen.",
+"phonetic": "/rest/",
+"memoryTip": "'The rest' = geri kalanı: the rest of the day."
+},
+{
+"word": "result",
+"partOfSpeech": "noun",
+"meaningTr": "sonuç",
+"sentenceEn": "The exam result will be ready next week.",
+"sentenceTr": "Sınav sonucu gelecek hafta hazır olacak.",
+"phonetic": "/rɪˈzʌlt/",
+"memoryTip": "\"As a result\" = sonuç olarak. Sınav sonucu: exam result."
+},
+{
+"word": "rich",
+"partOfSpeech": "adjective",
+"meaningTr": "zengin",
+"sentenceEn": "He is rich, but he is not happy.",
+"sentenceTr": "Zengin ama mutlu değil.",
+"phonetic": "/rɪtʃ/",
+"memoryTip": "Zıttı 'poor' (fakir)."
+},
+{
+"word": "right",
+"partOfSpeech": "adjective",
+"meaningTr": "doğru; sağ",
+"sentenceEn": "Turn right at the traffic lights.",
+"sentenceTr": "Trafik ışıklarından sağa dön.",
+"phonetic": "/raɪt/",
+"memoryTip": "İki anlamı var: sağ (right hand) ve doğru (the right answer)."
+},
+{
+"word": "ring",
+"partOfSpeech": "noun",
+"meaningTr": "yüzük; zil sesi",
+"sentenceEn": "She wears a gold ring.",
+"sentenceTr": "Altın bir yüzük takıyor.",
+"phonetic": "/rɪŋ/",
+"memoryTip": "Fiil olarak 'çalmak, telefon etmek': ring → rang → rung."
+},
+{
+"word": "risk",
+"partOfSpeech": "noun",
+"meaningTr": "risk, tehlike",
+"sentenceEn": "Driving fast is a big risk.",
+"sentenceTr": "Hızlı araba sürmek büyük bir risktir.",
+"phonetic": "/rɪsk/",
+"memoryTip": "Türkçedeki 'risk' ile aynıdır."
+},
+{
+"word": "road",
+"partOfSpeech": "noun",
+"meaningTr": "yol",
+"sentenceEn": "Look both ways before you cross the road.",
+"sentenceTr": "Yolu geçmeden önce iki tarafa da bak.",
+"phonetic": "/rəʊd/",
+"memoryTip": "Şehir içindeki ana yol 'street', şehirler arası 'road'."
+},
+{
+"word": "room",
+"partOfSpeech": "noun",
+"meaningTr": "oda; yer",
+"sentenceEn": "My room is on the second floor.",
+"sentenceTr": "Odam ikinci katta.",
+"phonetic": "/ruːm/",
+"memoryTip": "Bathroom, bedroom, classroom: hepsi 'room' içerir."
+},
+{
+"word": "ruler",
+"partOfSpeech": "noun",
+"meaningTr": "cetvel; hükümdar",
+"sentenceEn": "Draw a line with your ruler.",
+"sentenceTr": "Cetvelinle bir çizgi çiz.",
+"phonetic": "/ˈruː.lər/",
+"memoryTip": "Rule (kural, yönetmek) + -er: çizgiyi 'yöneten' cetvel ya da ülkeyi yöneten hükümdar."
+},
+{
+"word": "run",
+"partOfSpeech": "verb",
+"meaningTr": "koşmak; işletmek",
+"sentenceEn": "I run in the park every morning.",
+"sentenceTr": "Her sabah parkta koşarım.",
+"phonetic": "/rʌn/",
+"memoryTip": "Run → ran → run. 'Run a shop' = dükkân işletmek."
+},
+{
+"word": "rung",
+"partOfSpeech": "verb",
+"meaningTr": "çalmış (ring fiilinin üçüncü hâli)",
+"sentenceEn": "Has the bell rung yet?",
+"sentenceTr": "Zil çaldı mı?",
+"phonetic": "/rʌŋ/",
+"memoryTip": "Ring → rang → rung. 'Has/have' ile kullanılır."
+},
+{
+"word": "sad",
+"partOfSpeech": "adjective",
+"meaningTr": "üzgün",
+"sentenceEn": "Why are you sad today?",
+"sentenceTr": "Bugün neden üzgünsün?",
+"phonetic": "/sæd/",
+"memoryTip": "Zıttı 'happy' (mutlu)."
+},
+{
+"word": "said",
+"partOfSpeech": "verb",
+"meaningTr": "dedi, söyledi (say fiilinin geçmiş hâli)",
+"sentenceEn": "The teacher said, 'Open your books.'",
+"sentenceTr": "Öğretmen 'Kitaplarınızı açın' dedi.",
+"phonetic": "/sed/",
+"memoryTip": "Say → said → said. Yazılışına rağmen /sed/ okunur."
+},
+{
+"word": "salad",
+"partOfSpeech": "noun",
+"meaningTr": "salata",
+"sentenceEn": "I'd like a green salad, please.",
+"sentenceTr": "Yeşil salata istiyorum, lütfen.",
+"phonetic": "/ˈsæl.əd/",
+"memoryTip": "Türkçedeki 'salata' ile aynı kökten."
+},
+{
+"word": "salary",
+"partOfSpeech": "noun",
+"meaningTr": "maaş",
+"sentenceEn": "She gets her salary at the end of the month.",
+"sentenceTr": "Maaşını ay sonunda alıyor.",
+"phonetic": "/ˈsæl.ər.i/",
+"memoryTip": "Latince 'sal' (tuz) kökünden: eski Roma'da askerlere tuz parası verilirdi."
+},
+{
+"word": "same",
+"partOfSpeech": "adjective",
+"meaningTr": "aynı",
+"sentenceEn": "We are in the same class.",
+"sentenceTr": "Aynı sınıftayız.",
+"phonetic": "/seɪm/",
+"memoryTip": "Her zaman 'the same' şeklinde kullanılır. Zıttı 'different'."
+},
+{
+"word": "sang",
+"partOfSpeech": "verb",
+"meaningTr": "şarkı söyledi (sing fiilinin geçmiş hâli)",
+"sentenceEn": "We sang the national anthem together.",
+"sentenceTr": "İstiklal Marşı'nı hep birlikte söyledik.",
+"phonetic": "/sæŋ/",
+"memoryTip": "Sing → sang → sung."
+},
+{
+"word": "sat",
+"partOfSpeech": "verb",
+"meaningTr": "oturdu (sit fiilinin geçmiş hâli)",
+"sentenceEn": "She sat next to me on the bus.",
+"sentenceTr": "Otobüste yanıma oturdu.",
+"phonetic": "/sæt/",
+"memoryTip": "Sit → sat → sat."
+},
+{
+"word": "Saturday",
+"partOfSpeech": "noun",
+"meaningTr": "cumartesi",
+"sentenceEn": "We go to the market on Saturday.",
+"sentenceTr": "Cumartesi günü pazara gideriz.",
+"phonetic": "/ˈsæt.ə.deɪ/",
+"memoryTip": "Saturn (Satürn) + day: Satürn'ün günü."
+},
+{
+"word": "save",
+"partOfSpeech": "verb",
+"meaningTr": "kurtarmak; biriktirmek; kaydetmek",
+"sentenceEn": "I want to save money for a new bike.",
+"sentenceTr": "Yeni bir bisiklet için para biriktirmek istiyorum.",
+"phonetic": "/seɪv/",
+"memoryTip": "Bilgisayarda 'save' = kaydet. Hayat kurtarmak da 'save a life'."
+},
+{
+"word": "say",
+"partOfSpeech": "verb",
+"meaningTr": "söylemek, demek",
+"sentenceEn": "What did you say?",
+"sentenceTr": "Ne dedin?",
+"phonetic": "/seɪ/",
+"memoryTip": "Say ne söylendiğine, tell kime söylendiğine odaklanır: tell me."
+},
+{
+"word": "scheme",
+"partOfSpeech": "noun",
+"meaningTr": "plan, program, proje",
+"sentenceEn": "The city has a new recycling scheme.",
+"sentenceTr": "Şehrin yeni bir geri dönüşüm programı var.",
+"phonetic": "/skiːm/",
+"memoryTip": "'ch' burada /k/ okunur: /skiːm/. Şema kelimesine benzer."
+},
+{
+"word": "school",
+"partOfSpeech": "noun",
+"meaningTr": "okul",
+"sentenceEn": "I walk to school with my friends.",
+"sentenceTr": "Okula arkadaşlarımla yürüyerek giderim.",
+"phonetic": "/skuːl/",
+"memoryTip": "'ch' /k/ okunur. 'Go to school' derken 'the' gelmez."
+},
+{
+"word": "science",
+"partOfSpeech": "noun",
+"meaningTr": "bilim, fen",
+"sentenceEn": "Science is my favourite lesson.",
+"sentenceTr": "Fen en sevdiğim ders.",
+"phonetic": "/ˈsaɪ.əns/",
+"memoryTip": "Scientist = bilim insanı."
+},
+{
+"word": "sea",
+"partOfSpeech": "noun",
+"meaningTr": "deniz",
+"sentenceEn": "Türkiye is surrounded by sea on three sides.",
+"sentenceTr": "Türkiye üç tarafı denizlerle çevrili bir ülkedir.",
+"phonetic": "/siː/",
+"memoryTip": "'See' (görmek) ile aynı okunur: /siː/."
+},
+{
+"word": "season",
+"partOfSpeech": "noun",
+"meaningTr": "mevsim; sezon",
+"sentenceEn": "Spring is my favourite season.",
+"sentenceTr": "İlkbahar en sevdiğim mevsim.",
+"phonetic": "/ˈsiː.zən/",
+"memoryTip": "Türkçedeki 'sezon' ile aynı kökten."
+},
+{
+"word": "seat",
+"partOfSpeech": "noun",
+"meaningTr": "koltuk, oturacak yer",
+"sentenceEn": "Is this seat free?",
+"sentenceTr": "Bu koltuk boş mu?",
+"phonetic": "/siːt/",
+"memoryTip": "Sit (oturmak) ile akraba: oturulan yer. Seat belt = emniyet kemeri."
+},
+{
+"word": "second",
+"partOfSpeech": "noun",
+"meaningTr": "saniye; ikinci",
+"sentenceEn": "Wait a second, please.",
+"sentenceTr": "Bir saniye bekleyin, lütfen.",
+"phonetic": "/ˈsek.ənd/",
+"memoryTip": "İki anlamı var: saniye ve ikinci (first, second, third)."
+},
+{
+"word": "secret",
+"partOfSpeech": "noun",
+"meaningTr": "sır",
+"sentenceEn": "Can you keep a secret?",
+"sentenceTr": "Sır tutabilir misin?",
+"phonetic": "/ˈsiː.krət/",
+"memoryTip": "'Keep a secret' = sır tutmak."
+},
+{
+"word": "section",
+"partOfSpeech": "noun",
+"meaningTr": "bölüm, kısım",
+"sentenceEn": "The sports section is at the back of the newspaper.",
+"sentenceTr": "Spor bölümü gazetenin arkasındadır.",
+"phonetic": "/ˈsek.ʃən/",
+"memoryTip": "Türkçedeki 'seksiyon' ile aynı kökten: bölüm."
+},
+{
+"word": "sector",
+"partOfSpeech": "noun",
+"meaningTr": "sektör, alan",
+"sentenceEn": "Tourism is an important sector in Antalya.",
+"sentenceTr": "Turizm Antalya'da önemli bir sektördür.",
+"phonetic": "/ˈsek.tər/",
+"memoryTip": "Türkçedeki 'sektör' ile aynıdır."
+},
+{
+"word": "security",
+"partOfSpeech": "noun",
+"meaningTr": "güvenlik",
+"sentenceEn": "There is a security check at the airport.",
+"sentenceTr": "Havalimanında güvenlik kontrolü var.",
+"phonetic": "/sɪˈkjʊə.rə.ti/",
+"memoryTip": "Secure (güvenli) + -ity = güvenlik."
+}
+]

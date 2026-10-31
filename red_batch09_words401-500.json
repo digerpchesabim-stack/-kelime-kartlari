@@ -1,902 +1,902 @@
 [
- {
-  "word": "every",
-  "partOfSpeech": "determiner",
-  "meaningTr": "her",
-  "sentenceEn": "I brush my teeth every morning.",
-  "sentenceTr": "Her sabah dişlerimi fırçalarım.",
-  "phonetic": "/ˈev.ri/",
-  "memoryTip": ""
- },
- {
-  "word": "everybody",
-  "partOfSpeech": "pronoun",
-  "meaningTr": "herkes",
-  "sentenceEn": "Everybody enjoyed the warm soup at dinner.",
-  "sentenceTr": "Akşam yemeğinde herkes sıcak çorbayı beğendi.",
-  "phonetic": "/ˈev.riˌbɒd.i/",
-  "memoryTip": "Every (her) + body (beden/kişi) = herkes."
- },
- {
-  "word": "everyone",
-  "partOfSpeech": "pronoun",
-  "meaningTr": "herkes",
-  "sentenceEn": "Everyone in the office arrived on time.",
-  "sentenceTr": "Ofisteki herkes zamanında geldi.",
-  "phonetic": "/ˈev.ri.wʌn/",
-  "memoryTip": "Every (her) + one (bir/kişi) = herkes."
- },
- {
-  "word": "everything",
-  "partOfSpeech": "pronoun",
-  "meaningTr": "her şey",
-  "sentenceEn": "Everything in this small shop is fresh.",
-  "sentenceTr": "Bu küçük dükkandaki her şey taze.",
-  "phonetic": "/ˈev.ri.θɪŋ/",
-  "memoryTip": "Every (her) + thing (şey) = her şey."
- },
- {
-  "word": "everywhere",
-  "partOfSpeech": "adverb",
-  "meaningTr": "her yer, her yerde",
-  "sentenceEn": "We saw green trees everywhere in the village.",
-  "sentenceTr": "Köyde her yerde yeşil ağaçlar gördük.",
-  "phonetic": "/ˈev.ri.weər/",
-  "memoryTip": "Every (her) + where (yer) = her yer."
- },
- {
-  "word": "exactly",
-  "partOfSpeech": "adverb",
-  "meaningTr": "tam olarak, kesinlikle",
-  "sentenceEn": "The train left at exactly nine o'clock.",
-  "sentenceTr": "Tren tam olarak saat dokuzda kalktı.",
-  "phonetic": "/ɪɡˈzækt.li/",
-  "memoryTip": ""
- },
- {
-  "word": "exam",
-  "partOfSpeech": "noun",
-  "meaningTr": "sınav, imtihan",
-  "sentenceEn": "She studied hard for her English exam.",
-  "sentenceTr": "İngilizce sınavı için sıkı çalıştı.",
-  "phonetic": "/ɪɡˈzæm/",
-  "memoryTip": ""
- },
- {
-  "word": "example",
-  "partOfSpeech": "noun",
-  "meaningTr": "örnek, misal",
-  "sentenceEn": "Can you give me a simple example?",
-  "sentenceTr": "Bana basit bir örnek verebilir misin?",
-  "phonetic": "/ɪɡˈzɑːm.pəl/",
-  "memoryTip": ""
- },
- {
-  "word": "excellent",
-  "partOfSpeech": "adjective",
-  "meaningTr": "mükemmel, harika",
-  "sentenceEn": "The restaurant serves excellent fish soup.",
-  "sentenceTr": "Restoran mükemmel balık çorbası servis ediyor.",
-  "phonetic": "/ˈek.səl.ənt/",
-  "memoryTip": ""
- },
- {
-  "word": "exercise",
-  "partOfSpeech": "noun",
-  "meaningTr": "egzersiz, alıştırma",
-  "sentenceEn": "Morning exercise is good for your heart.",
-  "sentenceTr": "Sabah egzersizi kalbiniz için iyidir.",
-  "phonetic": "/ˈek.sə.saɪz/",
-  "memoryTip": "Türkçedeki 'egzersiz' kelimesiyle aynıdır."
- },
- {
-  "word": "expect",
-  "partOfSpeech": "verb",
-  "meaningTr": "beklemek, ummak",
-  "sentenceEn": "We expect rain this afternoon.",
-  "sentenceTr": "Bu öğleden sonra yağmur bekliyoruz.",
-  "phonetic": "/ɪkˈspekt/",
-  "memoryTip": ""
- },
- {
-  "word": "experience",
-  "partOfSpeech": "noun",
-  "meaningTr": "deneyim, tecrübe",
-  "sentenceEn": "He has ten years of teaching experience.",
-  "sentenceTr": "Onun on yıllık öğretmenlik deneyimi var.",
-  "phonetic": "/ɪkˈspɪə.ri.əns/",
-  "memoryTip": ""
- },
- {
-  "word": "explain",
-  "partOfSpeech": "verb",
-  "meaningTr": "açıklamak, izah etmek",
-  "sentenceEn": "The teacher will explain the new rule.",
-  "sentenceTr": "Öğretmen yeni kuralı açıklayacak.",
-  "phonetic": "/ɪkˈspleɪn/",
-  "memoryTip": ""
- },
- {
-  "word": "extra",
-  "partOfSpeech": "adjective",
-  "meaningTr": "ekstra, fazladan, ilave",
-  "sentenceEn": "Bring an extra blanket for the guest.",
-  "sentenceTr": "Misafir için fazladan bir battaniye getir.",
-  "phonetic": "/ˈek.strə/",
-  "memoryTip": "Türkçedeki 'ekstra' kelimesiyle aynıdır."
- },
- {
-  "word": "extremely",
-  "partOfSpeech": "adverb",
-  "meaningTr": "son derece, aşırı",
-  "sentenceEn": "The weather is extremely hot today.",
-  "sentenceTr": "Hava bugün son derece sıcak.",
-  "phonetic": "/ɪkˈstriːm.li/",
-  "memoryTip": "Türkçedeki 'ekstrem' (aşırı/uç) kelimesinden türemiştir."
- },
- {
-  "word": "eye",
-  "partOfSpeech": "noun",
-  "meaningTr": "göz",
-  "sentenceEn": "Close your left eye and read this.",
-  "sentenceTr": "Sol gözünü kapat ve bunu oku.",
-  "phonetic": "/aɪ/",
-  "memoryTip": ""
- },
- {
-  "word": "eyebrow",
-  "partOfSpeech": "noun",
-  "meaningTr": "kaş",
-  "sentenceEn": "He raised one eyebrow in surprise.",
-  "sentenceTr": "Şaşkınlıkla tek kaşını kaldırdı.",
-  "phonetic": "/ˈaɪ.braʊ/",
-  "memoryTip": "Eye (göz) + brow (kaş/alın) = göz kaşı."
- },
- {
-  "word": "eyelash",
-  "partOfSpeech": "noun",
-  "meaningTr": "kirpik",
-  "sentenceEn": "There is an eyelash on your cheek.",
-  "sentenceTr": "Yanağında bir kirpik var.",
-  "phonetic": "/ˈaɪ.læʃ/",
-  "memoryTip": "Eye (göz) kelimesiyle başlayan kirpik."
- },
- {
-  "word": "eyelid",
-  "partOfSpeech": "noun",
-  "meaningTr": "göz kapağı",
-  "sentenceEn": "Her right eyelid felt heavy and tired.",
-  "sentenceTr": "Sağ göz kapağı ağır ve yorgun hissetti.",
-  "phonetic": "/ˈaɪ.lɪd/",
-  "memoryTip": "Eye (göz) + lid (kapak) = göz kapağı."
- },
- {
-  "word": "face",
-  "partOfSpeech": "noun",
-  "meaningTr": "yüz, surat",
-  "sentenceEn": "Wash your face with cold water.",
-  "sentenceTr": "Yüzünü soğuk suyla yıka.",
-  "phonetic": "/feɪs/",
-  "memoryTip": "Facebook (yüz kitabı) kelimesindeki 'face' (yüz)."
- },
- {
-  "word": "fact",
-  "partOfSpeech": "noun",
-  "meaningTr": "gerçek, olgu",
-  "sentenceEn": "It is a known fact to everyone.",
-  "sentenceTr": "Bu herkes tarafından bilinen bir gerçektir.",
-  "phonetic": "/fækt/",
-  "memoryTip": ""
- },
- {
-  "word": "fair",
-  "partOfSpeech": "adjective",
-  "meaningTr": "adil, dürüst, açık renkli, fuar",
-  "sentenceEn": "The referee made a fair decision.",
-  "sentenceTr": "Hakem adil bir karar verdi.",
-  "phonetic": "/feər/",
-  "memoryTip": "Spordaki 'Fair Play' (adil ve dürüst oyun) kavramından hatırlanabilir."
- },
- {
-  "word": "fairly",
-  "partOfSpeech": "adverb",
-  "meaningTr": "oldukça, adilce",
-  "sentenceEn": "The exam questions were fairly easy.",
-  "sentenceTr": "Sınav soruları oldukça kolaydı.",
-  "phonetic": "/ˈfeə.li/",
-  "memoryTip": ""
- },
- {
-  "word": "fall",
-  "partOfSpeech": "verb",
-  "meaningTr": "düşmek, sonbahar",
-  "sentenceEn": "Dry leaves fall from the trees.",
-  "sentenceTr": "Kuru yapraklar ağaçlardan düşer.",
-  "phonetic": "/fɔːl/",
-  "memoryTip": ""
- },
- {
-  "word": "family",
-  "partOfSpeech": "noun",
-  "meaningTr": "aile",
-  "sentenceEn": "We visit our family every weekend.",
-  "sentenceTr": "Her hafta sonu ailemizi ziyaret ederiz.",
-  "phonetic": "/ˈfæm.əl.i/",
-  "memoryTip": "Türkçede de eskiden kullanılan 'familya' (aile/soy) kelimesidir."
- },
- {
-  "word": "far",
-  "partOfSpeech": "adverb",
-  "meaningTr": "uzak, uzakta",
-  "sentenceEn": "Is the airport far from the hotel?",
-  "sentenceTr": "Havalimanı otelden uzak mı?",
-  "phonetic": "/fɑːr/",
-  "memoryTip": "Araba 'far'ı uzağı aydınlatır."
- },
- {
-  "word": "father",
-  "partOfSpeech": "noun",
-  "meaningTr": "baba",
-  "sentenceEn": "My father reads the newspaper after breakfast.",
-  "sentenceTr": "Babam kahvaltıdan sonra gazete okur.",
-  "phonetic": "/ˈfɑː.ðər/",
-  "memoryTip": ""
- },
- {
-  "word": "father-in-law",
-  "partOfSpeech": "noun",
-  "meaningTr": "kayınpeder",
-  "sentenceEn": "His father-in-law lives in a coastal town.",
-  "sentenceTr": "Onun kayınpederi bir sahil kasabasında yaşıyor.",
-  "phonetic": "/ˈfɑː.ðər.ɪn.lɔː/",
-  "memoryTip": "Father (baba) + in-law (evlilik yoluyla akraba) = kayınpeder."
- },
- {
-  "word": "fault",
-  "partOfSpeech": "noun",
-  "meaningTr": "hata, kusur, suç",
-  "sentenceEn": "The late arrival was not your fault.",
-  "sentenceTr": "Geç varış senin hatan değildi.",
-  "phonetic": "/fɔːlt/",
-  "memoryTip": ""
- },
- {
-  "word": "favour",
-  "partOfSpeech": "noun",
-  "meaningTr": "iyilik, rica",
-  "sentenceEn": "Can you do me a small favour?",
-  "sentenceTr": "Bana küçük bir iyilik yapabilir misin?",
-  "phonetic": "/ˈfeɪ.vər/",
-  "memoryTip": "Türkçedeki 'favori' kelimesiyle aynı kökten gelir."
- },
- {
-  "word": "February",
-  "partOfSpeech": "noun",
-  "meaningTr": "Şubat",
-  "sentenceEn": "February is the shortest month of the year.",
-  "sentenceTr": "Şubat yılın en kısa ayıdır.",
-  "phonetic": "/ˈfeb.ru.ər.i/",
-  "memoryTip": ""
- },
- {
-  "word": "feed",
-  "partOfSpeech": "verb",
-  "meaningTr": "beslemek",
-  "sentenceEn": "We feed the street cats every morning.",
-  "sentenceTr": "Her sabah sokak kedilerini besleriz.",
-  "phonetic": "/fiːd/",
-  "memoryTip": ""
- },
- {
-  "word": "feel",
-  "partOfSpeech": "verb",
-  "meaningTr": "hissetmek",
-  "sentenceEn": "I feel much better after a rest.",
-  "sentenceTr": "Dinlendikten sonra çok daha iyi hissediyorum.",
-  "phonetic": "/fiːl/",
-  "memoryTip": ""
- },
- {
-  "word": "feeling",
-  "partOfSpeech": "noun",
-  "meaningTr": "his, duygu",
-  "sentenceEn": "Happiness is a wonderful feeling.",
-  "sentenceTr": "Mutluluk harika bir duygudur.",
-  "phonetic": "/ˈfiː.lɪŋ/",
-  "memoryTip": "Feel (hissetmek) fiilinden türeyen 'his, duygu' ismi."
- },
- {
-  "word": "feet",
-  "partOfSpeech": "noun",
-  "meaningTr": "ayaklar",
-  "sentenceEn": "Put warm socks on your cold feet.",
-  "sentenceTr": "Soğuk ayaklarına sıcak çoraplar giy.",
-  "phonetic": "/fiːt/",
-  "memoryTip": "Foot (ayak) kelimesinin çoğul halidir."
- },
- {
-  "word": "felt",
-  "partOfSpeech": "verb",
-  "meaningTr": "hissetti (feel fiilinin geçmiş zamanı)",
-  "sentenceEn": "She felt tired after the long trip.",
-  "sentenceTr": "Uzun yolculuktan sonra yorgun hissetti.",
-  "phonetic": "/felt/",
-  "memoryTip": ""
- },
- {
-  "word": "ferry",
-  "partOfSpeech": "noun",
-  "meaningTr": "feribot, arabalı vapur",
-  "sentenceEn": "We took the morning ferry across the sea.",
-  "sentenceTr": "Denizin karşısına sabah feribotuyla geçtik.",
-  "phonetic": "/ˈfer.i/",
-  "memoryTip": "Türkçedeki 'feribot' (ferryboat) kelimesinin ilk kısmıdır."
- },
- {
-  "word": "few",
-  "partOfSpeech": "determiner",
-  "meaningTr": "az, birkaç",
-  "sentenceEn": "Only a few people waited at the stop.",
-  "sentenceTr": "Durakta sadece birkaç kişi bekledi.",
-  "phonetic": "/fjuː/",
-  "memoryTip": ""
- },
- {
-  "word": "field",
-  "partOfSpeech": "noun",
-  "meaningTr": "tarla, alan, saha",
-  "sentenceEn": "Farmers planted wheat in the large field.",
-  "sentenceTr": "Çiftçiler geniş tarlaya buğday ekti.",
-  "phonetic": "/fiːld/",
-  "memoryTip": ""
- },
- {
-  "word": "fig",
-  "partOfSpeech": "noun",
-  "meaningTr": "incir",
-  "sentenceEn": "My grandmother picked a sweet fig from the tree.",
-  "sentenceTr": "Anneannem ağaçtan tatlı bir incir kopardı.",
-  "phonetic": "/fɪɡ/",
-  "memoryTip": ""
- },
- {
-  "word": "fight",
-  "partOfSpeech": "verb",
-  "meaningTr": "kavga etmek, dövüşmek, mücadele etmek",
-  "sentenceEn": "The two cats did not fight in the garden.",
-  "sentenceTr": "İki kedi bahçede kavga etmedi.",
-  "phonetic": "/faɪt/",
-  "memoryTip": ""
- },
- {
-  "word": "figure",
-  "partOfSpeech": "noun",
-  "meaningTr": "rakam, sayı, şekil, figür",
-  "sentenceEn": "Write the total figure in the box.",
-  "sentenceTr": "Toplam rakamı kutunun içine yaz.",
-  "phonetic": "/ˈfɪɡ.ər/",
-  "memoryTip": "Türkçedeki 'figür' (şekil) kelimesiyle aynıdır."
- },
- {
-  "word": "file",
-  "partOfSpeech": "noun",
-  "meaningTr": "dosya, klasör",
-  "sentenceEn": "Put these papers into the blue file.",
-  "sentenceTr": "Bu kağıtları mavi dosyaya koy.",
-  "phonetic": "/faɪl/",
-  "memoryTip": ""
- },
- {
-  "word": "fill",
-  "partOfSpeech": "verb",
-  "meaningTr": "doldurmak",
-  "sentenceEn": "Please fill the glass with cold water.",
-  "sentenceTr": "Lütfen bardağı soğuk suyla doldur.",
-  "phonetic": "/fɪl/",
-  "memoryTip": "Full (dolu) kelimesiyle aynı kökten gelir."
- },
- {
-  "word": "film",
-  "partOfSpeech": "noun",
-  "meaningTr": "film",
-  "sentenceEn": "We watched an old comedy film tonight.",
-  "sentenceTr": "Bu akşam eski bir komedi filmi izledik.",
-  "phonetic": "/fɪlm/",
-  "memoryTip": "Türkçedeki 'film' kelimesiyle tamamen aynıdır."
- },
- {
-  "word": "final",
-  "partOfSpeech": "adjective",
-  "meaningTr": "son, final",
-  "sentenceEn": "Tomorrow is the final day of the course.",
-  "sentenceTr": "Yarın kursun son günüdür.",
-  "phonetic": "/ˈfaɪ.nəl/",
-  "memoryTip": "Türkçedeki 'final' (son maç, son sınav) kelimesiyle aynıdır."
- },
- {
-  "word": "find",
-  "partOfSpeech": "verb",
-  "meaningTr": "bulmak",
-  "sentenceEn": "Did you find your lost wallet?",
-  "sentenceTr": "Kayıp cüzdanını buldun mu?",
-  "phonetic": "/faɪnd/",
-  "memoryTip": ""
- },
- {
-  "word": "fine",
-  "partOfSpeech": "adjective",
-  "meaningTr": "iyi, güzel, para cezası",
-  "sentenceEn": "The weather is fine for a walk.",
-  "sentenceTr": "Hava yürüyüş için güzel.",
-  "phonetic": "/faɪn/",
-  "memoryTip": "'I am fine' (İyiyim) cümlesinden hatırlanabilir."
- },
- {
-  "word": "finger",
-  "partOfSpeech": "noun",
-  "meaningTr": "parmak (el parmağı)",
-  "sentenceEn": "She wore a gold ring on her finger.",
-  "sentenceTr": "Parmağına altın bir yüzük taktı.",
-  "phonetic": "/ˈfɪŋ.ɡər/",
-  "memoryTip": ""
- },
- {
-  "word": "finish",
-  "partOfSpeech": "verb",
-  "meaningTr": "bitirmek, bitmek, bitiş",
-  "sentenceEn": "I will finish my work before six.",
-  "sentenceTr": "İşimi saat altıdan önce bitireceğim.",
-  "phonetic": "/ˈfɪn.ɪʃ/",
-  "memoryTip": "Yarışlardaki 'finiş' (bitiş çizgisi) kelimesiyle aynıdır."
- },
- {
-  "word": "fire",
-  "partOfSpeech": "noun",
-  "meaningTr": "ateş, yangın",
-  "sentenceEn": "We sat around the warm camp fire.",
-  "sentenceTr": "Sıcak kamp ateşinin etrafında oturduk.",
-  "phonetic": "/faɪər/",
-  "memoryTip": ""
- },
- {
-  "word": "firm",
-  "partOfSpeech": "noun",
-  "meaningTr": "firma, şirket, sıkı, sert",
-  "sentenceEn": "He works for an engineering firm.",
-  "sentenceTr": "Bir mühendislik firmasında çalışıyor.",
-  "phonetic": "/fɜːm/",
-  "memoryTip": "Türkçedeki 'firma' (şirket) kelimesiyle aynıdır."
- },
- {
-  "word": "first",
-  "partOfSpeech": "determiner",
-  "meaningTr": "ilk, birinci",
-  "sentenceEn": "Take the first street on the left.",
-  "sentenceTr": "Soldaki ilk sokağa sap.",
-  "phonetic": "/fɜːst/",
-  "memoryTip": "'First Class' (birinci sınıf) ifadesinden hatırlanabilir."
- },
- {
-  "word": "firstly",
-  "partOfSpeech": "adverb",
-  "meaningTr": "ilk olarak, öncelikle",
-  "sentenceEn": "Firstly, wash the vegetables in clean water.",
-  "sentenceTr": "İlk olarak sebzeleri temiz suda yıkayın.",
-  "phonetic": "/ˈfɜːst.li/",
-  "memoryTip": "First (ilk/birinci) + -ly = ilk olarak."
- },
- {
-  "word": "fish",
-  "partOfSpeech": "noun",
-  "meaningTr": "balık",
-  "sentenceEn": "My uncle caught a big fish today.",
-  "sentenceTr": "Amcam bugün büyük bir balık tuttu.",
-  "phonetic": "/fɪʃ/",
-  "memoryTip": ""
- },
- {
-  "word": "fit",
-  "partOfSpeech": "adjective",
-  "meaningTr": "zinde, formda, uymak (beden)",
-  "sentenceEn": "This blue jacket does not fit me.",
-  "sentenceTr": "Bu mavi ceket bana uymuyor.",
-  "phonetic": "/fɪt/",
-  "memoryTip": "Türkçede de 'fit olmak' (formda olmak) şeklinde kullanılır."
- },
- {
-  "word": "flag",
-  "partOfSpeech": "noun",
-  "meaningTr": "bayrak, flama",
-  "sentenceEn": "The Turkish flag is red and white.",
-  "sentenceTr": "Türk bayrağı kırmızı ve beyazdır.",
-  "phonetic": "/flæɡ/",
-  "memoryTip": "Türkçedeki 'flama' kelimesiyle benzerdir."
- },
- {
-  "word": "floor",
-  "partOfSpeech": "noun",
-  "meaningTr": "yer, zemin, kat",
-  "sentenceEn": "Our office is on the third floor.",
-  "sentenceTr": "Ofisimiz üçüncü kattadır.",
-  "phonetic": "/flɔːr/",
-  "memoryTip": ""
- },
- {
-  "word": "flower",
-  "partOfSpeech": "noun",
-  "meaningTr": "çiçek",
-  "sentenceEn": "She put a red flower in the vase.",
-  "sentenceTr": "Vazoya kırmızı bir çiçek koydu.",
-  "phonetic": "/ˈflaʊ.ər/",
-  "memoryTip": ""
- },
- {
-  "word": "follow",
-  "partOfSpeech": "verb",
-  "meaningTr": "takip etmek, izlemek, uymak",
-  "sentenceEn": "Follow the signs to the city hospital.",
-  "sentenceTr": "Şehir hastanesine giden tabelaları takip et.",
-  "phonetic": "/ˈfɒl.əʊ/",
-  "memoryTip": "Sosyal medyadaki 'Follow' (Takip et) ve 'Follower' (Takipçi) kelimesi."
- },
- {
-  "word": "food",
-  "partOfSpeech": "noun",
-  "meaningTr": "yiyecek, yemek, gıda",
-  "sentenceEn": "The hotel serves delicious local food.",
-  "sentenceTr": "Otel lezzetli yerel yemekler sunuyor.",
-  "phonetic": "/fuːd/",
-  "memoryTip": "'Fast food' (hızlı yiyecek) ifadesinden hatırlanabilir."
- },
- {
-  "word": "foot",
-  "partOfSpeech": "noun",
-  "meaningTr": "ayak",
-  "sentenceEn": "I go to the bakery on foot.",
-  "sentenceTr": "Fırına yürüyerek (ayakla) giderim.",
-  "phonetic": "/fʊt/",
-  "memoryTip": "Futbol (football = ayak topu) kelimesindeki 'foot' (ayak)."
- },
- {
-  "word": "football",
-  "partOfSpeech": "noun",
-  "meaningTr": "futbol",
-  "sentenceEn": "We watched a football match on Saturday.",
-  "sentenceTr": "Cumartesi günü bir futbol maçı izledik.",
-  "phonetic": "/ˈfʊt.bɔːl/",
-  "memoryTip": "Türkçedeki 'futbol' kelimesiyle aynıdır."
- },
- {
-  "word": "for",
-  "partOfSpeech": "preposition",
-  "meaningTr": "için, süresince",
-  "sentenceEn": "I bought these flowers for my mother.",
-  "sentenceTr": "Bu çiçekleri annem için aldım.",
-  "phonetic": "/fɔːr/",
-  "memoryTip": ""
- },
- {
-  "word": "forget",
-  "partOfSpeech": "verb",
-  "meaningTr": "unutmak",
-  "sentenceEn": "Do not forget your umbrella at home.",
-  "sentenceTr": "Şemsiyeni evde unutma.",
-  "phonetic": "/fəˈɡet/",
-  "memoryTip": ""
- },
- {
-  "word": "forgot(ten)",
-  "partOfSpeech": "verb",
-  "meaningTr": "unuttu, unutulmuş (forget fiilinin 2. ve 3. hali)",
-  "sentenceEn": "I forgot my house key at the office.",
-  "sentenceTr": "Ev anahtarımı ofiste unuttum.",
-  "phonetic": "/fəˈɡɒt/",
-  "memoryTip": ""
- },
- {
-  "word": "fork",
-  "partOfSpeech": "noun",
-  "meaningTr": "çatal",
-  "sentenceEn": "Put a knife and fork on the table.",
-  "sentenceTr": "Masaya bir bıçak ve çatal koy.",
-  "phonetic": "/fɔːk/",
-  "memoryTip": "Yük kaldıran çatallı iş makinesi 'forklift' buradan gelir."
- },
- {
-  "word": "form",
-  "partOfSpeech": "noun",
-  "meaningTr": "form, şekil, biçim",
-  "sentenceEn": "Please fill in this application form.",
-  "sentenceTr": "Lütfen bu başvuru formunu doldurun.",
-  "phonetic": "/fɔːm/",
-  "memoryTip": "Türkçedeki 'form' (başvuru formu, şekil) kelimesiyle aynıdır."
- },
- {
-  "word": "forward(s)",
-  "partOfSpeech": "adverb",
-  "meaningTr": "ileri, ileriye doğru",
-  "sentenceEn": "Take two steps forward and wait there.",
-  "sentenceTr": "İki adım ileri at ve orada bekle.",
-  "phonetic": "/ˈfɔː.wəd/",
-  "memoryTip": "Futboldaki 'forvet' (ileri uç oyuncusu) kelimesi buradan gelir."
- },
- {
-  "word": "fought",
-  "partOfSpeech": "verb",
-  "meaningTr": "savaştı, mücadele etti (fight fiilinin geçmiş zamanı)",
-  "sentenceEn": "The firefighters fought the forest fire all night.",
-  "sentenceTr": "İtfaiyeciler bütün gece orman yangınıyla mücadele etti.",
-  "phonetic": "/fɔːt/",
-  "memoryTip": ""
- },
- {
-  "word": "found",
-  "partOfSpeech": "verb",
-  "meaningTr": "buldu (find fiilinin geçmiş zamanı), kurmak",
-  "sentenceEn": "She found her glasses under the sofa.",
-  "sentenceTr": "Gözlüğünü kanepenin altında buldu.",
-  "phonetic": "/faʊnd/",
-  "memoryTip": ""
- },
- {
-  "word": "free",
-  "partOfSpeech": "adjective",
-  "meaningTr": "ücretsiz, bedava, boş, özgür",
-  "sentenceEn": "Museum entry is free for students today.",
-  "sentenceTr": "Müze girişi bugün öğrenciler için ücretsizdir.",
-  "phonetic": "/friː/",
-  "memoryTip": ""
- },
- {
-  "word": "Friday",
-  "partOfSpeech": "noun",
-  "meaningTr": "Cuma",
-  "sentenceEn": "We finish work early on Friday afternoon.",
-  "sentenceTr": "Cuma öğleden sonra işi erken bitiririz.",
-  "phonetic": "/ˈfraɪ.deɪ/",
-  "memoryTip": ""
- },
- {
-  "word": "friend",
-  "partOfSpeech": "noun",
-  "meaningTr": "arkadaş, dost",
-  "sentenceEn": "I met an old friend at the cafe.",
-  "sentenceTr": "Kafede eski bir arkadaşımla buluştum.",
-  "phonetic": "/frend/",
-  "memoryTip": ""
- },
- {
-  "word": "friendship",
-  "partOfSpeech": "noun",
-  "meaningTr": "arkadaşlık, dostluk",
-  "sentenceEn": "Their close friendship lasted for many years.",
-  "sentenceTr": "Onların yakın dostluğu uzun yıllar sürdü.",
-  "phonetic": "/ˈfrend.ʃɪp/",
-  "memoryTip": "Friend (arkadaş) + -ship (lık/lik eki) = arkadaşlık."
- },
- {
-  "word": "from",
-  "partOfSpeech": "preposition",
-  "meaningTr": "-den, -dan",
-  "sentenceEn": "The bus comes from the city center.",
-  "sentenceTr": "Otobüs şehir merkezinden geliyor.",
-  "phonetic": "/frɒm/",
-  "memoryTip": ""
- },
- {
-  "word": "front",
-  "partOfSpeech": "noun",
-  "meaningTr": "ön, ön taraf",
-  "sentenceEn": "Wait for me in front of the bank.",
-  "sentenceTr": "Bankanın önünde beni bekle.",
-  "phonetic": "/frʌnt/",
-  "memoryTip": ""
- },
- {
-  "word": "full",
-  "partOfSpeech": "adjective",
-  "meaningTr": "dolu, tok",
-  "sentenceEn": "The bus is full of passengers this morning.",
-  "sentenceTr": "Bu sabah otobüs yolcularla dolu.",
-  "phonetic": "/fʊl/",
-  "memoryTip": ""
- },
- {
-  "word": "fun",
-  "partOfSpeech": "noun",
-  "meaningTr": "eğlence, keyif",
-  "sentenceEn": "The children had great fun at the beach.",
-  "sentenceTr": "Çocuklar plajda çok eğlendi.",
-  "phonetic": "/fʌn/",
-  "memoryTip": ""
- },
- {
-  "word": "funny",
-  "partOfSpeech": "adjective",
-  "meaningTr": "komik, eğlenceli, tuhaf",
-  "sentenceEn": "My uncle told us a funny story.",
-  "sentenceTr": "Amcam bize komik bir hikaye anlattı.",
-  "phonetic": "/ˈfʌn.i/",
-  "memoryTip": "Fun (eğlence) kelimesinden türemiştir; funny = komik, eğlenceli."
- },
- {
-  "word": "further",
-  "partOfSpeech": "adverb",
-  "meaningTr": "daha uzak, daha ileri, ek",
-  "sentenceEn": "Call the office for further information.",
-  "sentenceTr": "Daha fazla bilgi için ofisi arayın.",
-  "phonetic": "/ˈfɜː.ðər/",
-  "memoryTip": "Far (uzak) kelimesinin 'daha uzak / daha ileri' derecesidir."
- },
- {
-  "word": "future",
-  "partOfSpeech": "noun",
-  "meaningTr": "gelecek, istikbal",
-  "sentenceEn": "They are saving money for the future.",
-  "sentenceTr": "Gelecek için para biriktiriyorlar.",
-  "phonetic": "/ˈfjuː.tʃər/",
-  "memoryTip": ""
- },
- {
-  "word": "game",
-  "partOfSpeech": "noun",
-  "meaningTr": "oyun, maç",
-  "sentenceEn": "Let us play a board game together.",
-  "sentenceTr": "Birlikte bir kutu oyunu oynayalım.",
-  "phonetic": "/ɡeɪm/",
-  "memoryTip": "Oyunlardaki 'Game Over' (Oyun Bitti) yazısından hatırlanabilir."
- },
- {
-  "word": "garden",
-  "partOfSpeech": "noun",
-  "meaningTr": "bahçe",
-  "sentenceEn": "My mother grows tomatoes in our garden.",
-  "sentenceTr": "Annem bahçemizde domates yetiştirir.",
-  "phonetic": "/ˈɡɑː.dən/",
-  "memoryTip": ""
- },
- {
-  "word": "gardener",
-  "partOfSpeech": "noun",
-  "meaningTr": "bahçıvan",
-  "sentenceEn": "The gardener watered the trees this morning.",
-  "sentenceTr": "Bahçıvan bu sabah ağaçları suladı.",
-  "phonetic": "/ˈɡɑː.dən.ər/",
-  "memoryTip": "Garden (bahçe) + -er (yapan kişi) = bahçıvan."
- },
- {
-  "word": "garlic",
-  "partOfSpeech": "noun",
-  "meaningTr": "sarımsak",
-  "sentenceEn": "Add one clove of garlic to the sauce.",
-  "sentenceTr": "Sosa bir diş sarımsak ekle.",
-  "phonetic": "/ˈɡɑː.lɪk/",
-  "memoryTip": ""
- },
- {
-  "word": "gas",
-  "partOfSpeech": "noun",
-  "meaningTr": "gaz, doğal gaz, benzin",
-  "sentenceEn": "Turn off the kitchen gas after cooking.",
-  "sentenceTr": "Yemek pişirdikten sonra mutfak gazını kapat.",
-  "phonetic": "/ɡæs/",
-  "memoryTip": "Türkçedeki 'gaz' kelimesiyle aynıdır."
- },
- {
-  "word": "gasoline",
-  "partOfSpeech": "noun",
-  "meaningTr": "benzin",
-  "sentenceEn": "We stopped to buy gasoline for the car.",
-  "sentenceTr": "Arabaya benzin almak için durduk.",
-  "phonetic": "/ˈɡæs.ə.liːn/",
-  "memoryTip": "Gas (gaz/yakıt) kelimesinden türeyen 'benzin'."
- },
- {
-  "word": "gave",
-  "partOfSpeech": "verb",
-  "meaningTr": "verdi (give fiilinin geçmiş zamanı)",
-  "sentenceEn": "She gave me a nice birthday present.",
-  "sentenceTr": "Bana güzel bir doğum günü hediyesi verdi.",
-  "phonetic": "/ɡeɪv/",
-  "memoryTip": ""
- },
- {
-  "word": "geese",
-  "partOfSpeech": "noun",
-  "meaningTr": "kazlar (goose kelimesinin çoğulu)",
-  "sentenceEn": "White geese swam across the village pond.",
-  "sentenceTr": "Beyaz kazlar köy göletinde karşıya yüzdü.",
-  "phonetic": "/ɡiːs/",
-  "memoryTip": ""
- },
- {
-  "word": "general",
-  "partOfSpeech": "adjective",
-  "meaningTr": "genel, yaygın, general",
-  "sentenceEn": "We talked about general health rules.",
-  "sentenceTr": "Genel sağlık kuralları hakkında konuştuk.",
-  "phonetic": "/ˈdʒen.ər.əl/",
-  "memoryTip": "Türkçedeki 'genel' ve 'general' kelimeleriyle aynı köktendir."
- },
- {
-  "word": "generally",
-  "partOfSpeech": "adverb",
-  "meaningTr": "genellikle, genel olarak",
-  "sentenceEn": "I generally drink tea without sugar.",
-  "sentenceTr": "Çayı genellikle şekersiz içerim.",
-  "phonetic": "/ˈdʒen.ər.əl.i/",
-  "memoryTip": "General (genel) + -ly = genellikle."
- },
- {
-  "word": "get",
-  "partOfSpeech": "verb",
-  "meaningTr": "almak, elde etmek, ulaşmak, olmak",
-  "sentenceEn": "Did you get my message this morning?",
-  "sentenceTr": "Bu sabah mesajımı aldın mı?",
-  "phonetic": "/ɡet/",
-  "memoryTip": ""
- },
- {
-  "word": "giant",
-  "partOfSpeech": "adjective",
-  "meaningTr": "dev, devasa, çok büyük",
-  "sentenceEn": "There is a giant tree in the park.",
-  "sentenceTr": "Parkta devasa bir ağaç var.",
-  "phonetic": "/ˈdʒaɪ.ənt/",
-  "memoryTip": ""
- },
- {
-  "word": "gift",
-  "partOfSpeech": "noun",
-  "meaningTr": "hediye, armağan",
-  "sentenceEn": "He wrapped the gift in colourful paper.",
-  "sentenceTr": "Hediyeyi renkli kağıda sardı.",
-  "phonetic": "/ɡɪft/",
-  "memoryTip": "Mağazalardaki 'Gift Card' (hediye kartı) ifadesinden hatırlanabilir."
- },
- {
-  "word": "girl",
-  "partOfSpeech": "noun",
-  "meaningTr": "kız, kız çocuk",
-  "sentenceEn": "The little girl rode her new bicycle.",
-  "sentenceTr": "Küçük kız yeni bisikletine bindi.",
-  "phonetic": "/ɡɜːl/",
-  "memoryTip": ""
- },
- {
-  "word": "give",
-  "partOfSpeech": "verb",
-  "meaningTr": "vermek",
-  "sentenceEn": "Please give this book to your brother.",
-  "sentenceTr": "Lütfen bu kitabı erkek kardeşine ver.",
-  "phonetic": "/ɡɪv/",
-  "memoryTip": ""
- },
- {
-  "word": "glass",
-  "partOfSpeech": "noun",
-  "meaningTr": "bardak, cam",
-  "sentenceEn": "He drank a glass of fresh water.",
-  "sentenceTr": "Bir bardak taze su içti.",
-  "phonetic": "/ɡlɑːs/",
-  "memoryTip": ""
- },
- {
-  "word": "glasses",
-  "partOfSpeech": "noun",
-  "meaningTr": "gözlük, bardaklar",
-  "sentenceEn": "I need my reading glasses for this book.",
-  "sentenceTr": "Bu kitap için okuma gözlüğüme ihtiyacım var.",
-  "phonetic": "/ˈɡlɑː.sɪz/",
-  "memoryTip": "İki camdan (glass) oluştuğu için çoğul ekiyle 'gözlük' demektir."
- },
- {
-  "word": "glove",
-  "partOfSpeech": "noun",
-  "meaningTr": "eldiven",
-  "sentenceEn": "I dropped one winter glove on the stairs.",
-  "sentenceTr": "Merdivende kışlık eldivenimin tekini düşürdüm.",
-  "phonetic": "/ɡlʌv/",
-  "memoryTip": ""
- }
+{
+"word": "every",
+"partOfSpeech": "determiner",
+"meaningTr": "her",
+"sentenceEn": "I brush my teeth every morning.",
+"sentenceTr": "Her sabah dişlerimi fırçalarım.",
+"phonetic": "/ˈev.ri/",
+"memoryTip": "Every day = her gün."
+},
+{
+"word": "everybody",
+"partOfSpeech": "pronoun",
+"meaningTr": "herkes",
+"sentenceEn": "Everybody enjoyed the warm soup at dinner.",
+"sentenceTr": "Akşam yemeğinde herkes sıcak çorbayı beğendi.",
+"phonetic": "/ˈev.riˌbɒd.i/",
+"memoryTip": "Every (her) + body (beden/kişi) = herkes."
+},
+{
+"word": "everyone",
+"partOfSpeech": "pronoun",
+"meaningTr": "herkes",
+"sentenceEn": "Everyone in the office arrived on time.",
+"sentenceTr": "Ofisteki herkes zamanında geldi.",
+"phonetic": "/ˈev.ri.wʌn/",
+"memoryTip": "Every (her) + one (bir/kişi) = herkes."
+},
+{
+"word": "everything",
+"partOfSpeech": "pronoun",
+"meaningTr": "her şey",
+"sentenceEn": "Everything in this small shop is fresh.",
+"sentenceTr": "Bu küçük dükkandaki her şey taze.",
+"phonetic": "/ˈev.ri.θɪŋ/",
+"memoryTip": "Every (her) + thing (şey) = her şey."
+},
+{
+"word": "everywhere",
+"partOfSpeech": "adverb",
+"meaningTr": "her yer, her yerde",
+"sentenceEn": "We saw green trees everywhere in the village.",
+"sentenceTr": "Köyde her yerde yeşil ağaçlar gördük.",
+"phonetic": "/ˈev.ri.weər/",
+"memoryTip": "Every (her) + where (yer) = her yer."
+},
+{
+"word": "exactly",
+"partOfSpeech": "adverb",
+"meaningTr": "tam olarak, kesinlikle",
+"sentenceEn": "The train left at exactly nine o'clock.",
+"sentenceTr": "Tren tam olarak saat dokuzda kalktı.",
+"phonetic": "/ɪɡˈzækt.li/",
+"memoryTip": "Exact (tam) + -ly. 'Exactly!' = Aynen öyle!"
+},
+{
+"word": "exam",
+"partOfSpeech": "noun",
+"meaningTr": "sınav, imtihan",
+"sentenceEn": "She studied hard for her English exam.",
+"sentenceTr": "İngilizce sınavı için sıkı çalıştı.",
+"phonetic": "/ɪɡˈzæm/",
+"memoryTip": "Examination kelimesinin kısaltması."
+},
+{
+"word": "example",
+"partOfSpeech": "noun",
+"meaningTr": "örnek, misal",
+"sentenceEn": "Can you give me a simple example?",
+"sentenceTr": "Bana basit bir örnek verebilir misin?",
+"phonetic": "/ɪɡˈzɑːm.pəl/",
+"memoryTip": "'For example' = örneğin. Kısaltması 'e.g.'."
+},
+{
+"word": "excellent",
+"partOfSpeech": "adjective",
+"meaningTr": "mükemmel, harika",
+"sentenceEn": "The restaurant serves excellent fish soup.",
+"sentenceTr": "Restoran mükemmel balık çorbası servis ediyor.",
+"phonetic": "/ˈek.səl.ənt/",
+"memoryTip": "Okulda en iyi not: excellent (pekiyi)."
+},
+{
+"word": "exercise",
+"partOfSpeech": "noun",
+"meaningTr": "egzersiz, alıştırma",
+"sentenceEn": "Morning exercise is good for your heart.",
+"sentenceTr": "Sabah egzersizi kalbiniz için iyidir.",
+"phonetic": "/ˈek.sə.saɪz/",
+"memoryTip": "Türkçedeki 'egzersiz' kelimesiyle aynıdır."
+},
+{
+"word": "expect",
+"partOfSpeech": "verb",
+"meaningTr": "beklemek, ummak",
+"sentenceEn": "We expect rain this afternoon.",
+"sentenceTr": "Bu öğleden sonra yağmur bekliyoruz.",
+"phonetic": "/ɪkˈspekt/",
+"memoryTip": "Beklemek, ummak: I expect good results."
+},
+{
+"word": "experience",
+"partOfSpeech": "noun",
+"meaningTr": "deneyim, tecrübe",
+"sentenceEn": "He has ten years of teaching experience.",
+"sentenceTr": "Onun on yıllık öğretmenlik deneyimi var.",
+"phonetic": "/ɪkˈspɪə.ri.əns/",
+"memoryTip": "Deneyim; work experience = iş deneyimi."
+},
+{
+"word": "explain",
+"partOfSpeech": "verb",
+"meaningTr": "açıklamak, izah etmek",
+"sentenceEn": "The teacher will explain the new rule.",
+"sentenceTr": "Öğretmen yeni kuralı açıklayacak.",
+"phonetic": "/ɪkˈspleɪn/",
+"memoryTip": "Explanation = açıklama."
+},
+{
+"word": "extra",
+"partOfSpeech": "adjective",
+"meaningTr": "ekstra, fazladan, ilave",
+"sentenceEn": "Bring an extra blanket for the guest.",
+"sentenceTr": "Misafir için fazladan bir battaniye getir.",
+"phonetic": "/ˈek.strə/",
+"memoryTip": "Türkçedeki 'ekstra' kelimesiyle aynıdır."
+},
+{
+"word": "extremely",
+"partOfSpeech": "adverb",
+"meaningTr": "son derece, aşırı",
+"sentenceEn": "The weather is extremely hot today.",
+"sentenceTr": "Hava bugün son derece sıcak.",
+"phonetic": "/ɪkˈstriːm.li/",
+"memoryTip": "Türkçedeki 'ekstrem' (aşırı/uç) kelimesinden türemiştir."
+},
+{
+"word": "eye",
+"partOfSpeech": "noun",
+"meaningTr": "göz",
+"sentenceEn": "Close your left eye and read this.",
+"sentenceTr": "Sol gözünü kapat ve bunu oku.",
+"phonetic": "/aɪ/",
+"memoryTip": "Eyebrow = kaş, eyelash = kirpik."
+},
+{
+"word": "eyebrow",
+"partOfSpeech": "noun",
+"meaningTr": "kaş",
+"sentenceEn": "He raised one eyebrow in surprise.",
+"sentenceTr": "Şaşkınlıkla tek kaşını kaldırdı.",
+"phonetic": "/ˈaɪ.braʊ/",
+"memoryTip": "Eye (göz) + brow (kaş/alın) = göz kaşı."
+},
+{
+"word": "eyelash",
+"partOfSpeech": "noun",
+"meaningTr": "kirpik",
+"sentenceEn": "There is an eyelash on your cheek.",
+"sentenceTr": "Yanağında bir kirpik var.",
+"phonetic": "/ˈaɪ.læʃ/",
+"memoryTip": "Eye (göz) kelimesiyle başlayan kirpik."
+},
+{
+"word": "eyelid",
+"partOfSpeech": "noun",
+"meaningTr": "göz kapağı",
+"sentenceEn": "Her right eyelid felt heavy and tired.",
+"sentenceTr": "Sağ göz kapağı ağır ve yorgun hissetti.",
+"phonetic": "/ˈaɪ.lɪd/",
+"memoryTip": "Eye (göz) + lid (kapak) = göz kapağı."
+},
+{
+"word": "face",
+"partOfSpeech": "noun",
+"meaningTr": "yüz, surat",
+"sentenceEn": "Wash your face with cold water.",
+"sentenceTr": "Yüzünü soğuk suyla yıka.",
+"phonetic": "/feɪs/",
+"memoryTip": "Facebook (yüz kitabı) kelimesindeki 'face' (yüz)."
+},
+{
+"word": "fact",
+"partOfSpeech": "noun",
+"meaningTr": "gerçek, olgu",
+"sentenceEn": "It is a known fact to everyone.",
+"sentenceTr": "Bu herkes tarafından bilinen bir gerçektir.",
+"phonetic": "/fækt/",
+"memoryTip": "'In fact' = aslında."
+},
+{
+"word": "fair",
+"partOfSpeech": "adjective",
+"meaningTr": "adil, dürüst, açık renkli, fuar",
+"sentenceEn": "The referee made a fair decision.",
+"sentenceTr": "Hakem adil bir karar verdi.",
+"phonetic": "/feər/",
+"memoryTip": "Spordaki 'Fair Play' (adil ve dürüst oyun) kavramından hatırlanabilir."
+},
+{
+"word": "fairly",
+"partOfSpeech": "adverb",
+"meaningTr": "oldukça, adilce",
+"sentenceEn": "The exam questions were fairly easy.",
+"sentenceTr": "Sınav soruları oldukça kolaydı.",
+"phonetic": "/ˈfeə.li/",
+"memoryTip": "'Quite' ile benzer: fairly easy = oldukça kolay."
+},
+{
+"word": "fall",
+"partOfSpeech": "verb",
+"meaningTr": "düşmek, sonbahar",
+"sentenceEn": "Dry leaves fall from the trees.",
+"sentenceTr": "Kuru yapraklar ağaçlardan düşer.",
+"phonetic": "/fɔːl/",
+"memoryTip": "Fall → fell → fallen. Amerikan İngilizcesinde 'sonbahar'."
+},
+{
+"word": "family",
+"partOfSpeech": "noun",
+"meaningTr": "aile",
+"sentenceEn": "We visit our family every weekend.",
+"sentenceTr": "Her hafta sonu ailemizi ziyaret ederiz.",
+"phonetic": "/ˈfæm.əl.i/",
+"memoryTip": "Türkçede de eskiden kullanılan 'familya' (aile/soy) kelimesidir."
+},
+{
+"word": "far",
+"partOfSpeech": "adverb",
+"meaningTr": "uzak, uzakta",
+"sentenceEn": "Is the airport far from the hotel?",
+"sentenceTr": "Havalimanı otelden uzak mı?",
+"phonetic": "/fɑːr/",
+"memoryTip": "Araba 'far'ı uzağı aydınlatır."
+},
+{
+"word": "father",
+"partOfSpeech": "noun",
+"meaningTr": "baba",
+"sentenceEn": "My father reads the newspaper after breakfast.",
+"sentenceTr": "Babam kahvaltıdan sonra gazete okur.",
+"phonetic": "/ˈfɑː.ðər/",
+"memoryTip": "Dad, daddy daha samimi hâlleridir."
+},
+{
+"word": "father-in-law",
+"partOfSpeech": "noun",
+"meaningTr": "kayınpeder",
+"sentenceEn": "His father-in-law lives in a coastal town.",
+"sentenceTr": "Onun kayınpederi bir sahil kasabasında yaşıyor.",
+"phonetic": "/ˈfɑː.ðər.ɪn.lɔː/",
+"memoryTip": "Father (baba) + in-law (evlilik yoluyla akraba) = kayınpeder."
+},
+{
+"word": "fault",
+"partOfSpeech": "noun",
+"meaningTr": "hata, kusur, suç",
+"sentenceEn": "The late arrival was not your fault.",
+"sentenceTr": "Geç varış senin hatan değildi.",
+"phonetic": "/fɔːlt/",
+"memoryTip": "'It's my fault' = benim hatam."
+},
+{
+"word": "favour",
+"partOfSpeech": "noun",
+"meaningTr": "iyilik, rica",
+"sentenceEn": "Can you do me a small favour?",
+"sentenceTr": "Bana küçük bir iyilik yapabilir misin?",
+"phonetic": "/ˈfeɪ.vər/",
+"memoryTip": "Türkçedeki 'favori' kelimesiyle aynı kökten gelir."
+},
+{
+"word": "February",
+"partOfSpeech": "noun",
+"meaningTr": "Şubat",
+"sentenceEn": "February is the shortest month of the year.",
+"sentenceTr": "Şubat yılın en kısa ayıdır.",
+"phonetic": "/ˈfeb.ru.ər.i/",
+"memoryTip": "İlk 'r' çoğu zaman okunmaz: /ˈfeb.ru.ər.i/."
+},
+{
+"word": "feed",
+"partOfSpeech": "verb",
+"meaningTr": "beslemek",
+"sentenceEn": "We feed the street cats every morning.",
+"sentenceTr": "Her sabah sokak kedilerini besleriz.",
+"phonetic": "/fiːd/",
+"memoryTip": "Feed → fed → fed. 'Feed the cat' = kediyi besle."
+},
+{
+"word": "feel",
+"partOfSpeech": "verb",
+"meaningTr": "hissetmek",
+"sentenceEn": "I feel much better after a rest.",
+"sentenceTr": "Dinlendikten sonra çok daha iyi hissediyorum.",
+"phonetic": "/fiːl/",
+"memoryTip": "Feel → felt → felt. 'How do you feel?' = Nasıl hissediyorsun?"
+},
+{
+"word": "feeling",
+"partOfSpeech": "noun",
+"meaningTr": "his, duygu",
+"sentenceEn": "Happiness is a wonderful feeling.",
+"sentenceTr": "Mutluluk harika bir duygudur.",
+"phonetic": "/ˈfiː.lɪŋ/",
+"memoryTip": "Feel (hissetmek) fiilinden türeyen 'his, duygu' ismi."
+},
+{
+"word": "feet",
+"partOfSpeech": "noun",
+"meaningTr": "ayaklar",
+"sentenceEn": "Put warm socks on your cold feet.",
+"sentenceTr": "Soğuk ayaklarına sıcak çoraplar giy.",
+"phonetic": "/fiːt/",
+"memoryTip": "Foot (ayak) kelimesinin çoğul halidir."
+},
+{
+"word": "felt",
+"partOfSpeech": "verb",
+"meaningTr": "hissetti (feel fiilinin geçmiş zamanı)",
+"sentenceEn": "She felt tired after the long trip.",
+"sentenceTr": "Uzun yolculuktan sonra yorgun hissetti.",
+"phonetic": "/felt/",
+"memoryTip": "Feel → felt → felt."
+},
+{
+"word": "ferry",
+"partOfSpeech": "noun",
+"meaningTr": "feribot, arabalı vapur",
+"sentenceEn": "We took the morning ferry across the sea.",
+"sentenceTr": "Denizin karşısına sabah feribotuyla geçtik.",
+"phonetic": "/ˈfer.i/",
+"memoryTip": "Türkçedeki 'feribot' (ferryboat) kelimesinin ilk kısmıdır."
+},
+{
+"word": "few",
+"partOfSpeech": "determiner",
+"meaningTr": "az, birkaç",
+"sentenceEn": "Only a few people waited at the stop.",
+"sentenceTr": "Durakta sadece birkaç kişi bekledi.",
+"phonetic": "/fjuː/",
+"memoryTip": "'A few' = birkaç; 'few' = çok az."
+},
+{
+"word": "field",
+"partOfSpeech": "noun",
+"meaningTr": "tarla, alan, saha",
+"sentenceEn": "Farmers planted wheat in the large field.",
+"sentenceTr": "Çiftçiler geniş tarlaya buğday ekti.",
+"phonetic": "/fiːld/",
+"memoryTip": "Football field = futbol sahası."
+},
+{
+"word": "fig",
+"partOfSpeech": "noun",
+"meaningTr": "incir",
+"sentenceEn": "My grandmother picked a sweet fig from the tree.",
+"sentenceTr": "Anneannem ağaçtan tatlı bir incir kopardı.",
+"phonetic": "/fɪɡ/",
+"memoryTip": "Aydın inciri ünlüdür."
+},
+{
+"word": "fight",
+"partOfSpeech": "verb",
+"meaningTr": "kavga etmek, dövüşmek, mücadele etmek",
+"sentenceEn": "The two cats did not fight in the garden.",
+"sentenceTr": "İki kedi bahçede kavga etmedi.",
+"phonetic": "/faɪt/",
+"memoryTip": "Fight → fought → fought. 'gh' okunmaz."
+},
+{
+"word": "figure",
+"partOfSpeech": "noun",
+"meaningTr": "rakam, sayı, şekil, figür",
+"sentenceEn": "Write the total figure in the box.",
+"sentenceTr": "Toplam rakamı kutunun içine yaz.",
+"phonetic": "/ˈfɪɡ.ər/",
+"memoryTip": "Türkçedeki 'figür' (şekil) kelimesiyle aynıdır."
+},
+{
+"word": "file",
+"partOfSpeech": "noun",
+"meaningTr": "dosya, klasör",
+"sentenceEn": "Put these papers into the blue file.",
+"sentenceTr": "Bu kağıtları mavi dosyaya koy.",
+"phonetic": "/faɪl/",
+"memoryTip": "Bilgisayarda dosya da 'file'dır."
+},
+{
+"word": "fill",
+"partOfSpeech": "verb",
+"meaningTr": "doldurmak",
+"sentenceEn": "Please fill the glass with cold water.",
+"sentenceTr": "Lütfen bardağı soğuk suyla doldur.",
+"phonetic": "/fɪl/",
+"memoryTip": "Full (dolu) kelimesiyle aynı kökten gelir."
+},
+{
+"word": "film",
+"partOfSpeech": "noun",
+"meaningTr": "film",
+"sentenceEn": "We watched an old comedy film tonight.",
+"sentenceTr": "Bu akşam eski bir komedi filmi izledik.",
+"phonetic": "/fɪlm/",
+"memoryTip": "Türkçedeki 'film' kelimesiyle tamamen aynıdır."
+},
+{
+"word": "final",
+"partOfSpeech": "adjective",
+"meaningTr": "son, final",
+"sentenceEn": "Tomorrow is the final day of the course.",
+"sentenceTr": "Yarın kursun son günüdür.",
+"phonetic": "/ˈfaɪ.nəl/",
+"memoryTip": "Türkçedeki 'final' (son maç, son sınav) kelimesiyle aynıdır."
+},
+{
+"word": "find",
+"partOfSpeech": "verb",
+"meaningTr": "bulmak",
+"sentenceEn": "Did you find your lost wallet?",
+"sentenceTr": "Kayıp cüzdanını buldun mu?",
+"phonetic": "/faɪnd/",
+"memoryTip": "Find → found → found."
+},
+{
+"word": "fine",
+"partOfSpeech": "adjective",
+"meaningTr": "iyi, güzel, para cezası",
+"sentenceEn": "The weather is fine for a walk.",
+"sentenceTr": "Hava yürüyüş için güzel.",
+"phonetic": "/faɪn/",
+"memoryTip": "'I am fine' (İyiyim) cümlesinden hatırlanabilir."
+},
+{
+"word": "finger",
+"partOfSpeech": "noun",
+"meaningTr": "parmak (el parmağı)",
+"sentenceEn": "She wore a gold ring on her finger.",
+"sentenceTr": "Parmağına altın bir yüzük taktı.",
+"phonetic": "/ˈfɪŋ.ɡər/",
+"memoryTip": "Ayak parmağı 'toe'."
+},
+{
+"word": "finish",
+"partOfSpeech": "verb",
+"meaningTr": "bitirmek, bitmek, bitiş",
+"sentenceEn": "I will finish my work before six.",
+"sentenceTr": "İşimi saat altıdan önce bitireceğim.",
+"phonetic": "/ˈfɪn.ɪʃ/",
+"memoryTip": "Yarışlardaki 'finiş' (bitiş çizgisi) kelimesiyle aynıdır."
+},
+{
+"word": "fire",
+"partOfSpeech": "noun",
+"meaningTr": "ateş, yangın",
+"sentenceEn": "We sat around the warm camp fire.",
+"sentenceTr": "Sıcak kamp ateşinin etrafında oturduk.",
+"phonetic": "/faɪər/",
+"memoryTip": "Fire brigade = itfaiye."
+},
+{
+"word": "firm",
+"partOfSpeech": "noun",
+"meaningTr": "firma, şirket, sıkı, sert",
+"sentenceEn": "He works for an engineering firm.",
+"sentenceTr": "Bir mühendislik firmasında çalışıyor.",
+"phonetic": "/fɜːm/",
+"memoryTip": "Türkçedeki 'firma' (şirket) kelimesiyle aynıdır."
+},
+{
+"word": "first",
+"partOfSpeech": "determiner",
+"meaningTr": "ilk, birinci",
+"sentenceEn": "Take the first street on the left.",
+"sentenceTr": "Soldaki ilk sokağa sap.",
+"phonetic": "/fɜːst/",
+"memoryTip": "'First Class' (birinci sınıf) ifadesinden hatırlanabilir."
+},
+{
+"word": "firstly",
+"partOfSpeech": "adverb",
+"meaningTr": "ilk olarak, öncelikle",
+"sentenceEn": "Firstly, wash the vegetables in clean water.",
+"sentenceTr": "İlk olarak sebzeleri temiz suda yıkayın.",
+"phonetic": "/ˈfɜːst.li/",
+"memoryTip": "First (ilk/birinci) + -ly = ilk olarak."
+},
+{
+"word": "fish",
+"partOfSpeech": "noun",
+"meaningTr": "balık",
+"sentenceEn": "My uncle caught a big fish today.",
+"sentenceTr": "Amcam bugün büyük bir balık tuttu.",
+"phonetic": "/fɪʃ/",
+"memoryTip": "Çoğulu genelde yine 'fish'."
+},
+{
+"word": "fit",
+"partOfSpeech": "adjective",
+"meaningTr": "zinde, formda, uymak (beden)",
+"sentenceEn": "This blue jacket does not fit me.",
+"sentenceTr": "Bu mavi ceket bana uymuyor.",
+"phonetic": "/fɪt/",
+"memoryTip": "Türkçede de 'fit olmak' (formda olmak) şeklinde kullanılır."
+},
+{
+"word": "flag",
+"partOfSpeech": "noun",
+"meaningTr": "bayrak, flama",
+"sentenceEn": "The Turkish flag is red and white.",
+"sentenceTr": "Türk bayrağı kırmızı ve beyazdır.",
+"phonetic": "/flæɡ/",
+"memoryTip": "Türkçedeki 'flama' kelimesiyle benzerdir."
+},
+{
+"word": "floor",
+"partOfSpeech": "noun",
+"meaningTr": "yer, zemin, kat",
+"sentenceEn": "Our office is on the third floor.",
+"sentenceTr": "Ofisimiz üçüncü kattadır.",
+"phonetic": "/flɔːr/",
+"memoryTip": "Hem yer (zemin) hem kat: the second floor."
+},
+{
+"word": "flower",
+"partOfSpeech": "noun",
+"meaningTr": "çiçek",
+"sentenceEn": "She put a red flower in the vase.",
+"sentenceTr": "Vazoya kırmızı bir çiçek koydu.",
+"phonetic": "/ˈflaʊ.ər/",
+"memoryTip": "Flour (un) ile aynı okunur ama farklı anlam."
+},
+{
+"word": "follow",
+"partOfSpeech": "verb",
+"meaningTr": "takip etmek, izlemek, uymak",
+"sentenceEn": "Follow the signs to the city hospital.",
+"sentenceTr": "Şehir hastanesine giden tabelaları takip et.",
+"phonetic": "/ˈfɒl.əʊ/",
+"memoryTip": "Sosyal medyadaki 'Follow' (Takip et) ve 'Follower' (Takipçi) kelimesi."
+},
+{
+"word": "food",
+"partOfSpeech": "noun",
+"meaningTr": "yiyecek, yemek, gıda",
+"sentenceEn": "The hotel serves delicious local food.",
+"sentenceTr": "Otel lezzetli yerel yemekler sunuyor.",
+"phonetic": "/fuːd/",
+"memoryTip": "'Fast food' (hızlı yiyecek) ifadesinden hatırlanabilir."
+},
+{
+"word": "foot",
+"partOfSpeech": "noun",
+"meaningTr": "ayak",
+"sentenceEn": "I go to the bakery on foot.",
+"sentenceTr": "Fırına yürüyerek (ayakla) giderim.",
+"phonetic": "/fʊt/",
+"memoryTip": "Futbol (football = ayak topu) kelimesindeki 'foot' (ayak)."
+},
+{
+"word": "football",
+"partOfSpeech": "noun",
+"meaningTr": "futbol",
+"sentenceEn": "We watched a football match on Saturday.",
+"sentenceTr": "Cumartesi günü bir futbol maçı izledik.",
+"phonetic": "/ˈfʊt.bɔːl/",
+"memoryTip": "Türkçedeki 'futbol' kelimesiyle aynıdır."
+},
+{
+"word": "for",
+"partOfSpeech": "preposition",
+"meaningTr": "için, süresince",
+"sentenceEn": "I bought these flowers for my mother.",
+"sentenceTr": "Bu çiçekleri annem için aldım.",
+"phonetic": "/fɔːr/",
+"memoryTip": "For two hours = iki saat boyunca."
+},
+{
+"word": "forget",
+"partOfSpeech": "verb",
+"meaningTr": "unutmak",
+"sentenceEn": "Do not forget your umbrella at home.",
+"sentenceTr": "Şemsiyeni evde unutma.",
+"phonetic": "/fəˈɡet/",
+"memoryTip": "Forget → forgot → forgotten. Zıttı 'remember'."
+},
+{
+"word": "forgot(ten)",
+"partOfSpeech": "verb",
+"meaningTr": "unuttu, unutulmuş (forget fiilinin 2. ve 3. hali)",
+"sentenceEn": "I forgot my house key at the office.",
+"sentenceTr": "Ev anahtarımı ofiste unuttum.",
+"phonetic": "/fəˈɡɒt/",
+"memoryTip": "Forget → forgot → forgotten."
+},
+{
+"word": "fork",
+"partOfSpeech": "noun",
+"meaningTr": "çatal",
+"sentenceEn": "Put a knife and fork on the table.",
+"sentenceTr": "Masaya bir bıçak ve çatal koy.",
+"phonetic": "/fɔːk/",
+"memoryTip": "Yük kaldıran çatallı iş makinesi 'forklift' buradan gelir."
+},
+{
+"word": "form",
+"partOfSpeech": "noun",
+"meaningTr": "form, şekil, biçim",
+"sentenceEn": "Please fill in this application form.",
+"sentenceTr": "Lütfen bu başvuru formunu doldurun.",
+"phonetic": "/fɔːm/",
+"memoryTip": "Türkçedeki 'form' (başvuru formu, şekil) kelimesiyle aynıdır."
+},
+{
+"word": "forward(s)",
+"partOfSpeech": "adverb",
+"meaningTr": "ileri, ileriye doğru",
+"sentenceEn": "Take two steps forward and wait there.",
+"sentenceTr": "İki adım ileri at ve orada bekle.",
+"phonetic": "/ˈfɔː.wəd/",
+"memoryTip": "Futboldaki 'forvet' (ileri uç oyuncusu) kelimesi buradan gelir."
+},
+{
+"word": "fought",
+"partOfSpeech": "verb",
+"meaningTr": "savaştı, mücadele etti (fight fiilinin geçmiş zamanı)",
+"sentenceEn": "The firefighters fought the forest fire all night.",
+"sentenceTr": "İtfaiyeciler bütün gece orman yangınıyla mücadele etti.",
+"phonetic": "/fɔːt/",
+"memoryTip": "Fight → fought → fought."
+},
+{
+"word": "found",
+"partOfSpeech": "verb",
+"meaningTr": "buldu (find fiilinin geçmiş zamanı), kurmak",
+"sentenceEn": "She found her glasses under the sofa.",
+"sentenceTr": "Gözlüğünü kanepenin altında buldu.",
+"phonetic": "/faʊnd/",
+"memoryTip": "Find → found → found."
+},
+{
+"word": "free",
+"partOfSpeech": "adjective",
+"meaningTr": "ücretsiz, bedava, boş, özgür",
+"sentenceEn": "Museum entry is free for students today.",
+"sentenceTr": "Müze girişi bugün öğrenciler için ücretsizdir.",
+"phonetic": "/friː/",
+"memoryTip": "Hem ücretsiz hem özgür hem de boş (zaman)."
+},
+{
+"word": "Friday",
+"partOfSpeech": "noun",
+"meaningTr": "Cuma",
+"sentenceEn": "We finish work early on Friday afternoon.",
+"sentenceTr": "Cuma öğleden sonra işi erken bitiririz.",
+"phonetic": "/ˈfraɪ.deɪ/",
+"memoryTip": "Haftanın son iş günü."
+},
+{
+"word": "friend",
+"partOfSpeech": "noun",
+"meaningTr": "arkadaş, dost",
+"sentenceEn": "I met an old friend at the cafe.",
+"sentenceTr": "Kafede eski bir arkadaşımla buluştum.",
+"phonetic": "/frend/",
+"memoryTip": "Best friend = en iyi arkadaş."
+},
+{
+"word": "friendship",
+"partOfSpeech": "noun",
+"meaningTr": "arkadaşlık, dostluk",
+"sentenceEn": "Their close friendship lasted for many years.",
+"sentenceTr": "Onların yakın dostluğu uzun yıllar sürdü.",
+"phonetic": "/ˈfrend.ʃɪp/",
+"memoryTip": "Friend (arkadaş) + -ship (lık/lik eki) = arkadaşlık."
+},
+{
+"word": "from",
+"partOfSpeech": "preposition",
+"meaningTr": "-den, -dan",
+"sentenceEn": "The bus comes from the city center.",
+"sentenceTr": "Otobüs şehir merkezinden geliyor.",
+"phonetic": "/frɒm/",
+"memoryTip": "'Where are you from?' = Nerelisin?"
+},
+{
+"word": "front",
+"partOfSpeech": "noun",
+"meaningTr": "ön, ön taraf",
+"sentenceEn": "Wait for me in front of the bank.",
+"sentenceTr": "Bankanın önünde beni bekle.",
+"phonetic": "/frʌnt/",
+"memoryTip": "'In front of' = önünde."
+},
+{
+"word": "full",
+"partOfSpeech": "adjective",
+"meaningTr": "dolu, tok",
+"sentenceEn": "The bus is full of passengers this morning.",
+"sentenceTr": "Bu sabah otobüs yolcularla dolu.",
+"phonetic": "/fʊl/",
+"memoryTip": "Zıttı 'empty' (boş). 'I'm full' = doydum."
+},
+{
+"word": "fun",
+"partOfSpeech": "noun",
+"meaningTr": "eğlence, keyif",
+"sentenceEn": "The children had great fun at the beach.",
+"sentenceTr": "Çocuklar plajda çok eğlendi.",
+"phonetic": "/fʌn/",
+"memoryTip": "'Have fun!' = İyi eğlenceler!"
+},
+{
+"word": "funny",
+"partOfSpeech": "adjective",
+"meaningTr": "komik, eğlenceli, tuhaf",
+"sentenceEn": "My uncle told us a funny story.",
+"sentenceTr": "Amcam bize komik bir hikaye anlattı.",
+"phonetic": "/ˈfʌn.i/",
+"memoryTip": "Fun (eğlence) kelimesinden türemiştir; funny = komik, eğlenceli."
+},
+{
+"word": "further",
+"partOfSpeech": "adverb",
+"meaningTr": "daha uzak, daha ileri, ek",
+"sentenceEn": "Call the office for further information.",
+"sentenceTr": "Daha fazla bilgi için ofisi arayın.",
+"phonetic": "/ˈfɜː.ðər/",
+"memoryTip": "Far (uzak) kelimesinin 'daha uzak / daha ileri' derecesidir."
+},
+{
+"word": "future",
+"partOfSpeech": "noun",
+"meaningTr": "gelecek, istikbal",
+"sentenceEn": "They are saving money for the future.",
+"sentenceTr": "Gelecek için para biriktiriyorlar.",
+"phonetic": "/ˈfjuː.tʃər/",
+"memoryTip": "Zıttı 'past' (geçmiş)."
+},
+{
+"word": "game",
+"partOfSpeech": "noun",
+"meaningTr": "oyun, maç",
+"sentenceEn": "Let us play a board game together.",
+"sentenceTr": "Birlikte bir kutu oyunu oynayalım.",
+"phonetic": "/ɡeɪm/",
+"memoryTip": "Oyunlardaki 'Game Over' (Oyun Bitti) yazısından hatırlanabilir."
+},
+{
+"word": "garden",
+"partOfSpeech": "noun",
+"meaningTr": "bahçe",
+"sentenceEn": "My mother grows tomatoes in our garden.",
+"sentenceTr": "Annem bahçemizde domates yetiştirir.",
+"phonetic": "/ˈɡɑː.dən/",
+"memoryTip": "Gardener = bahçıvan."
+},
+{
+"word": "gardener",
+"partOfSpeech": "noun",
+"meaningTr": "bahçıvan",
+"sentenceEn": "The gardener watered the trees this morning.",
+"sentenceTr": "Bahçıvan bu sabah ağaçları suladı.",
+"phonetic": "/ˈɡɑː.dən.ər/",
+"memoryTip": "Garden (bahçe) + -er (yapan kişi) = bahçıvan."
+},
+{
+"word": "garlic",
+"partOfSpeech": "noun",
+"meaningTr": "sarımsak",
+"sentenceEn": "Add one clove of garlic to the sauce.",
+"sentenceTr": "Sosa bir diş sarımsak ekle.",
+"phonetic": "/ˈɡɑː.lɪk/",
+"memoryTip": "Kastamonu sarımsağı ünlüdür."
+},
+{
+"word": "gas",
+"partOfSpeech": "noun",
+"meaningTr": "gaz, doğal gaz, benzin",
+"sentenceEn": "Turn off the kitchen gas after cooking.",
+"sentenceTr": "Yemek pişirdikten sonra mutfak gazını kapat.",
+"phonetic": "/ɡæs/",
+"memoryTip": "Türkçedeki 'gaz' kelimesiyle aynıdır."
+},
+{
+"word": "gasoline",
+"partOfSpeech": "noun",
+"meaningTr": "benzin",
+"sentenceEn": "We stopped to buy gasoline for the car.",
+"sentenceTr": "Arabaya benzin almak için durduk.",
+"phonetic": "/ˈɡæs.ə.liːn/",
+"memoryTip": "Gas (gaz/yakıt) kelimesinden türeyen 'benzin'."
+},
+{
+"word": "gave",
+"partOfSpeech": "verb",
+"meaningTr": "verdi (give fiilinin geçmiş zamanı)",
+"sentenceEn": "She gave me a nice birthday present.",
+"sentenceTr": "Bana güzel bir doğum günü hediyesi verdi.",
+"phonetic": "/ɡeɪv/",
+"memoryTip": "Give → gave → given."
+},
+{
+"word": "geese",
+"partOfSpeech": "noun",
+"meaningTr": "kazlar (goose kelimesinin çoğulu)",
+"sentenceEn": "White geese swam across the village pond.",
+"sentenceTr": "Beyaz kazlar köy göletinde karşıya yüzdü.",
+"phonetic": "/ɡiːs/",
+"memoryTip": "Düzensiz çoğul: one goose, two geese."
+},
+{
+"word": "general",
+"partOfSpeech": "adjective",
+"meaningTr": "genel, yaygın, general",
+"sentenceEn": "We talked about general health rules.",
+"sentenceTr": "Genel sağlık kuralları hakkında konuştuk.",
+"phonetic": "/ˈdʒen.ər.əl/",
+"memoryTip": "Türkçedeki 'genel' ve 'general' kelimeleriyle aynı köktendir."
+},
+{
+"word": "generally",
+"partOfSpeech": "adverb",
+"meaningTr": "genellikle, genel olarak",
+"sentenceEn": "I generally drink tea without sugar.",
+"sentenceTr": "Çayı genellikle şekersiz içerim.",
+"phonetic": "/ˈdʒen.ər.əl.i/",
+"memoryTip": "General (genel) + -ly = genellikle."
+},
+{
+"word": "get",
+"partOfSpeech": "verb",
+"meaningTr": "almak, elde etmek, ulaşmak, olmak",
+"sentenceEn": "Did you get my message this morning?",
+"sentenceTr": "Bu sabah mesajımı aldın mı?",
+"phonetic": "/ɡet/",
+"memoryTip": "Get → got → got. Çok anlamlı: almak, olmak, varmak."
+},
+{
+"word": "giant",
+"partOfSpeech": "adjective",
+"meaningTr": "dev, devasa, çok büyük",
+"sentenceEn": "There is a giant tree in the park.",
+"sentenceTr": "Parkta devasa bir ağaç var.",
+"phonetic": "/ˈdʒaɪ.ənt/",
+"memoryTip": "Türkçedeki 'dev' anlamı; giant panda = dev panda."
+},
+{
+"word": "gift",
+"partOfSpeech": "noun",
+"meaningTr": "hediye, armağan",
+"sentenceEn": "He wrapped the gift in colourful paper.",
+"sentenceTr": "Hediyeyi renkli kağıda sardı.",
+"phonetic": "/ɡɪft/",
+"memoryTip": "Mağazalardaki 'Gift Card' (hediye kartı) ifadesinden hatırlanabilir."
+},
+{
+"word": "girl",
+"partOfSpeech": "noun",
+"meaningTr": "kız, kız çocuk",
+"sentenceEn": "The little girl rode her new bicycle.",
+"sentenceTr": "Küçük kız yeni bisikletine bindi.",
+"phonetic": "/ɡɜːl/",
+"memoryTip": "Erkek çocuk 'boy'."
+},
+{
+"word": "give",
+"partOfSpeech": "verb",
+"meaningTr": "vermek",
+"sentenceEn": "Please give this book to your brother.",
+"sentenceTr": "Lütfen bu kitabı erkek kardeşine ver.",
+"phonetic": "/ɡɪv/",
+"memoryTip": "Give → gave → given."
+},
+{
+"word": "glass",
+"partOfSpeech": "noun",
+"meaningTr": "bardak, cam",
+"sentenceEn": "He drank a glass of fresh water.",
+"sentenceTr": "Bir bardak taze su içti.",
+"phonetic": "/ɡlɑːs/",
+"memoryTip": "Hem cam hem bardak. Glasses = gözlük."
+},
+{
+"word": "glasses",
+"partOfSpeech": "noun",
+"meaningTr": "gözlük, bardaklar",
+"sentenceEn": "I need my reading glasses for this book.",
+"sentenceTr": "Bu kitap için okuma gözlüğüme ihtiyacım var.",
+"phonetic": "/ˈɡlɑː.sɪz/",
+"memoryTip": "İki camdan (glass) oluştuğu için çoğul ekiyle 'gözlük' demektir."
+},
+{
+"word": "glove",
+"partOfSpeech": "noun",
+"meaningTr": "eldiven",
+"sentenceEn": "I dropped one winter glove on the stairs.",
+"sentenceTr": "Merdivende kışlık eldivenimin tekini düşürdüm.",
+"phonetic": "/ɡlʌv/",
+"memoryTip": "Genelde çift: a pair of gloves."
+}
 ]

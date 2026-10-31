@@ -1,0 +1,794 @@
+[
+{
+"word": "up",
+"partOfSpeech": "adverb",
+"meaningTr": "yukarı, yukarıda",
+"sentenceEn": "The cat climbed up the tree.",
+"sentenceTr": "Kedi ağaca tırmandı.",
+"phonetic": "/ʌp/",
+"memoryTip": "Zıttı 'down'. 'Get up' = kalkmak, 'stand up' = ayağa kalkmak."
+},
+{
+"word": "us",
+"partOfSpeech": "pronoun",
+"meaningTr": "bizi, bize",
+"sentenceEn": "Can you help us, please?",
+"sentenceTr": "Bize yardım edebilir misiniz, lütfen?",
+"phonetic": "/ʌs/",
+"memoryTip": "'We' öznedir, 'us' nesne: We like him, he likes us."
+},
+{
+"word": "use",
+"partOfSpeech": "verb",
+"meaningTr": "kullanmak",
+"sentenceEn": "Can I use your phone?",
+"sentenceTr": "Telefonunu kullanabilir miyim?",
+"phonetic": "/juːz/",
+"memoryTip": "Fiil /juːz/, isim /juːs/ okunur: the use of computers."
+},
+{
+"word": "useful",
+"partOfSpeech": "adjective",
+"meaningTr": "faydalı, kullanışlı",
+"sentenceEn": "This dictionary is very useful.",
+"sentenceTr": "Bu sözlük çok kullanışlı.",
+"phonetic": "/ˈjuːs.fəl/",
+"memoryTip": "Use (kullanım) + -ful (dolu) = kullanışlı. Zıttı 'useless'."
+},
+{
+"word": "usually",
+"partOfSpeech": "adverb",
+"meaningTr": "genellikle",
+"sentenceEn": "I usually get up at seven.",
+"sentenceTr": "Genellikle yedide kalkarım.",
+"phonetic": "/ˈjuː.ʒu.ə.li/",
+"memoryTip": "Always > usually > often > sometimes > never."
+},
+{
+"word": "various",
+"partOfSpeech": "adjective",
+"meaningTr": "çeşitli, farklı",
+"sentenceEn": "The shop sells various kinds of cheese.",
+"sentenceTr": "Dükkân çeşitli türlerde peynir satıyor.",
+"phonetic": "/ˈveə.ri.əs/",
+"memoryTip": "Vary (değişmek) ve variety (çeşit) ile aynı aileden."
+},
+{
+"word": "vase",
+"partOfSpeech": "noun",
+"meaningTr": "vazo",
+"sentenceEn": "Put the flowers in a vase.",
+"sentenceTr": "Çiçekleri bir vazoya koy.",
+"phonetic": "/vɑːz/",
+"memoryTip": "Türkçedeki 'vazo' ile aynı kökten."
+},
+{
+"word": "verb",
+"partOfSpeech": "noun",
+"meaningTr": "fiil, eylem",
+"sentenceEn": "'Run' is a verb.",
+"sentenceTr": "'Run' bir fiildir.",
+"phonetic": "/vɜːb/",
+"memoryTip": "Eylem bildiren kelime: eat, go, read."
+},
+{
+"word": "very",
+"partOfSpeech": "adverb",
+"meaningTr": "çok",
+"sentenceEn": "The film was very good.",
+"sentenceTr": "Film çok iyiydi.",
+"phonetic": "/ˈver.i/",
+"memoryTip": "Sıfattan önce gelir: very big, very happy."
+},
+{
+"word": "video",
+"partOfSpeech": "noun",
+"meaningTr": "video",
+"sentenceEn": "We watched a video about animals.",
+"sentenceTr": "Hayvanlar hakkında bir video izledik.",
+"phonetic": "/ˈvɪd.i.əʊ/",
+"memoryTip": "Türkçedeki 'video' ile aynıdır."
+},
+{
+"word": "view",
+"partOfSpeech": "noun",
+"meaningTr": "manzara; görüş",
+"sentenceEn": "The view from the hotel is amazing.",
+"sentenceTr": "Otelden manzara harika.",
+"phonetic": "/vjuː/",
+"memoryTip": "'Point of view' = bakış açısı."
+},
+{
+"word": "village",
+"partOfSpeech": "noun",
+"meaningTr": "köy",
+"sentenceEn": "My grandparents live in a village.",
+"sentenceTr": "Büyükannemle büyükbabam bir köyde yaşıyor.",
+"phonetic": "/ˈvɪl.ɪdʒ/",
+"memoryTip": "Villa kelimesiyle aynı kökten."
+},
+{
+"word": "wait",
+"partOfSpeech": "verb",
+"meaningTr": "beklemek",
+"sentenceEn": "Please wait for me at the door.",
+"sentenceTr": "Lütfen beni kapıda bekle.",
+"phonetic": "/weɪt/",
+"memoryTip": "'Wait for someone' = birini beklemek."
+},
+{
+"word": "waiter",
+"partOfSpeech": "noun",
+"meaningTr": "garson (erkek)",
+"sentenceEn": "The waiter brought our food.",
+"sentenceTr": "Garson yemeğimizi getirdi.",
+"phonetic": "/ˈweɪ.tər/",
+"memoryTip": "Wait (beklemek) + -er: masada bekleyip hizmet eden kişi."
+},
+{
+"word": "waitress",
+"partOfSpeech": "noun",
+"meaningTr": "garson (kadın)",
+"sentenceEn": "The waitress gave us the menu.",
+"sentenceTr": "Kadın garson bize menüyü verdi.",
+"phonetic": "/ˈweɪ.trəs/",
+"memoryTip": "Waiter + -ess (kadın eki). Actor → actress gibi."
+},
+{
+"word": "walk",
+"partOfSpeech": "verb",
+"meaningTr": "yürümek",
+"sentenceEn": "I walk to school every day.",
+"sentenceTr": "Her gün okula yürürüm.",
+"phonetic": "/wɔːk/",
+"memoryTip": "'l' okunmaz: /wɔːk/. 'Go for a walk' = yürüyüşe çıkmak."
+},
+{
+"word": "wall",
+"partOfSpeech": "noun",
+"meaningTr": "duvar",
+"sentenceEn": "There is a clock on the wall.",
+"sentenceTr": "Duvarda bir saat var.",
+"phonetic": "/wɔːl/",
+"memoryTip": "Great Wall of China = Çin Seddi."
+},
+{
+"word": "want",
+"partOfSpeech": "verb",
+"meaningTr": "istemek",
+"sentenceEn": "I want an ice cream.",
+"sentenceTr": "Dondurma istiyorum.",
+"phonetic": "/wɒnt/",
+"memoryTip": "'Want to + fiil' = ...mak istemek: I want to go."
+},
+{
+"word": "warm",
+"partOfSpeech": "adjective",
+"meaningTr": "ılık, sıcak",
+"sentenceEn": "It's warm today; we don't need coats.",
+"sentenceTr": "Bugün hava ılık, monta gerek yok.",
+"phonetic": "/wɔːm/",
+"memoryTip": "Hot (sıcak) ile cold (soğuk) arası: ılık."
+},
+{
+"word": "was",
+"partOfSpeech": "verb",
+"meaningTr": "idi (be fiilinin geçmiş hâli, tekil)",
+"sentenceEn": "I was at home yesterday.",
+"sentenceTr": "Dün evdeydim.",
+"phonetic": "/wɒz/",
+"memoryTip": "I/he/she/it → was; you/we/they → were."
+},
+{
+"word": "wash",
+"partOfSpeech": "verb",
+"meaningTr": "yıkamak",
+"sentenceEn": "Wash your hands before eating.",
+"sentenceTr": "Yemekten önce ellerini yıka.",
+"phonetic": "/wɒʃ/",
+"memoryTip": "'Wash the dishes' = bulaşık yıkamak."
+},
+{
+"word": "washing machine",
+"partOfSpeech": "noun",
+"meaningTr": "çamaşır makinesi",
+"sentenceEn": "Put your clothes in the washing machine.",
+"sentenceTr": "Kıyafetlerini çamaşır makinesine koy.",
+"phonetic": "/ˈwɒʃ.ɪŋ məˌʃiːn/",
+"memoryTip": "Washing (yıkama) + machine (makine)."
+},
+{
+"word": "watch",
+"partOfSpeech": "verb",
+"meaningTr": "izlemek, seyretmek; kol saati",
+"sentenceEn": "We watch cartoons on Saturday mornings.",
+"sentenceTr": "Cumartesi sabahları çizgi film izleriz.",
+"phonetic": "/wɒtʃ/",
+"memoryTip": "İsim olarak 'kol saati': a new watch."
+},
+{
+"word": "water",
+"partOfSpeech": "noun",
+"meaningTr": "su",
+"sentenceEn": "Drink more water in summer.",
+"sentenceTr": "Yazın daha çok su iç.",
+"phonetic": "/ˈwɔː.tər/",
+"memoryTip": "Sayılamaz: a glass of water, much water."
+},
+{
+"word": "watermelon",
+"partOfSpeech": "noun",
+"meaningTr": "karpuz",
+"sentenceEn": "Diyarbakır is famous for its big watermelon.",
+"sentenceTr": "Diyarbakır büyük karpuzuyla ünlüdür.",
+"phonetic": "/ˈwɔː.təˌmel.ən/",
+"memoryTip": "Water (su) + melon (kavun) = sulu kavun, karpuz."
+},
+{
+"word": "way",
+"partOfSpeech": "noun",
+"meaningTr": "yol; yöntem",
+"sentenceEn": "Can you tell me the way to the museum?",
+"sentenceTr": "Bana müzenin yolunu söyleyebilir misin?",
+"phonetic": "/weɪ/",
+"memoryTip": "'By the way' = bu arada."
+},
+{
+"word": "we",
+"partOfSpeech": "pronoun",
+"meaningTr": "biz",
+"sentenceEn": "We usually have dinner at seven.",
+"sentenceTr": "Genellikle yedide akşam yemeği yeriz.",
+"phonetic": "/wiː/",
+"memoryTip": "Nesne hâli 'us', iyelik hâli 'our'."
+},
+{
+"word": "wear",
+"partOfSpeech": "verb",
+"meaningTr": "giymek, takmak",
+"sentenceEn": "I wear a uniform at school.",
+"sentenceTr": "Okulda üniforma giyerim.",
+"phonetic": "/weər/",
+"memoryTip": "Wear → wore → worn. Gözlük de takı da 'wear' edilir."
+},
+{
+"word": "weather",
+"partOfSpeech": "noun",
+"meaningTr": "hava, hava durumu",
+"sentenceEn": "The weather is lovely today.",
+"sentenceTr": "Bugün hava çok güzel.",
+"phonetic": "/ˈweð.ər/",
+"memoryTip": "'Whether' (-ip -mediği) ile aynı okunur ama anlamı farklı."
+},
+{
+"word": "Wednesday",
+"partOfSpeech": "noun",
+"meaningTr": "çarşamba",
+"sentenceEn": "We have PE on Wednesday.",
+"sentenceTr": "Çarşamba günü beden eğitimi dersimiz var.",
+"phonetic": "/ˈwenz.deɪ/",
+"memoryTip": "İlk 'd' okunmaz: /ˈwenz.deɪ/. Yazarken 'Wed-nes-day' diye hecele."
+},
+{
+"word": "week",
+"partOfSpeech": "noun",
+"meaningTr": "hafta",
+"sentenceEn": "I go swimming twice a week.",
+"sentenceTr": "Haftada iki kez yüzmeye giderim.",
+"phonetic": "/wiːk/",
+"memoryTip": "'Weak' (zayıf) ile aynı okunur: /wiːk/."
+},
+{
+"word": "weekend",
+"partOfSpeech": "noun",
+"meaningTr": "hafta sonu",
+"sentenceEn": "What did you do at the weekend?",
+"sentenceTr": "Hafta sonu ne yaptın?",
+"phonetic": "/ˌwiːkˈend/",
+"memoryTip": "Week (hafta) + end (son) = hafta sonu."
+},
+{
+"word": "weight",
+"partOfSpeech": "noun",
+"meaningTr": "ağırlık, kilo",
+"sentenceEn": "What is the weight of this box?",
+"sentenceTr": "Bu kutunun ağırlığı ne kadar?",
+"phonetic": "/weɪt/",
+"memoryTip": "'gh' okunmaz; 'wait' ile aynı okunur."
+},
+{
+"word": "well",
+"partOfSpeech": "adverb",
+"meaningTr": "iyi; peki",
+"sentenceEn": "She speaks English very well.",
+"sentenceTr": "Çok iyi İngilizce konuşuyor.",
+"phonetic": "/wel/",
+"memoryTip": "'Good' sıfattır, 'well' zarf: a good singer, she sings well."
+},
+{
+"word": "went",
+"partOfSpeech": "verb",
+"meaningTr": "gitti (go fiilinin geçmiş hâli)",
+"sentenceEn": "We went to the cinema last night.",
+"sentenceTr": "Dün akşam sinemaya gittik.",
+"phonetic": "/went/",
+"memoryTip": "Go → went → gone. Tamamen düzensiz bir fiil."
+},
+{
+"word": "were",
+"partOfSpeech": "verb",
+"meaningTr": "idiler, idik (be fiilinin geçmiş hâli, çoğul)",
+"sentenceEn": "We were at the park yesterday.",
+"sentenceTr": "Dün parktaydık.",
+"phonetic": "/wɜːr/",
+"memoryTip": "You/we/they → were; I/he/she/it → was."
+},
+{
+"word": "what",
+"partOfSpeech": "pronoun",
+"meaningTr": "ne",
+"sentenceEn": "What is your favourite food?",
+"sentenceTr": "En sevdiğin yemek ne?",
+"phonetic": "/wɒt/",
+"memoryTip": "'What?' tek başına 'Ne?' demek; kibar hâli 'Pardon?'."
+},
+{
+"word": "whatever",
+"partOfSpeech": "pronoun",
+"meaningTr": "her ne, ne olursa",
+"sentenceEn": "You can eat whatever you want.",
+"sentenceTr": "Ne istersen yiyebilirsin.",
+"phonetic": "/wɒtˈev.ər/",
+"memoryTip": "What (ne) + ever (her) = her ne."
+},
+{
+"word": "when",
+"partOfSpeech": "adverb",
+"meaningTr": "ne zaman; -dığında",
+"sentenceEn": "When is your birthday?",
+"sentenceTr": "Doğum günün ne zaman?",
+"phonetic": "/wen/",
+"memoryTip": "Soru kelimesi ve bağlaç: I was happy when I saw her."
+},
+{
+"word": "where",
+"partOfSpeech": "adverb",
+"meaningTr": "nerede, nereye",
+"sentenceEn": "Where do you live?",
+"sentenceTr": "Nerede yaşıyorsun?",
+"phonetic": "/weər/",
+"memoryTip": "'Where are you from?' = Nerelisin?"
+},
+{
+"word": "whether",
+"partOfSpeech": "conjunction",
+"meaningTr": "-ip -mediği, olup olmadığı",
+"sentenceEn": "I don't know whether he is coming.",
+"sentenceTr": "Gelip gelmeyeceğini bilmiyorum.",
+"phonetic": "/ˈweð.ər/",
+"memoryTip": "'If' gibi düşün: whether or not = ...sa da ...masa da."
+},
+{
+"word": "which",
+"partOfSpeech": "pronoun",
+"meaningTr": "hangi, hangisi",
+"sentenceEn": "Which bag is yours?",
+"sentenceTr": "Hangi çanta senin?",
+"phonetic": "/wɪtʃ/",
+"memoryTip": "Seçenekler arasından seçim yaparken: which one?"
+},
+{
+"word": "while",
+"partOfSpeech": "conjunction",
+"meaningTr": "-iken, sırasında",
+"sentenceEn": "I listen to music while I study.",
+"sentenceTr": "Ders çalışırken müzik dinlerim.",
+"phonetic": "/waɪl/",
+"memoryTip": "İsim olarak 'bir süre': wait a while."
+},
+{
+"word": "whistle",
+"partOfSpeech": "noun",
+"meaningTr": "düdük; ıslık",
+"sentenceEn": "The referee blew the whistle.",
+"sentenceTr": "Hakem düdüğü çaldı.",
+"phonetic": "/ˈwɪs.əl/",
+"memoryTip": "'t' okunmaz: /ˈwɪs.əl/."
+},
+{
+"word": "white",
+"partOfSpeech": "adjective",
+"meaningTr": "beyaz",
+"sentenceEn": "Snow is white.",
+"sentenceTr": "Kar beyazdır.",
+"phonetic": "/waɪt/",
+"memoryTip": "'h' okunmaz: /waɪt/. Zıttı 'black'."
+},
+{
+"word": "who",
+"partOfSpeech": "pronoun",
+"meaningTr": "kim",
+"sentenceEn": "Who is your English teacher?",
+"sentenceTr": "İngilizce öğretmenin kim?",
+"phonetic": "/huː/",
+"memoryTip": "'w' okunmaz: /huː/."
+},
+{
+"word": "whole",
+"partOfSpeech": "adjective",
+"meaningTr": "bütün, tüm",
+"sentenceEn": "He ate the whole pizza.",
+"sentenceTr": "Bütün pizzayı yedi.",
+"phonetic": "/həʊl/",
+"memoryTip": "'Hole' (delik) ile aynı okunur; 'w' okunmaz."
+},
+{
+"word": "whom",
+"partOfSpeech": "pronoun",
+"meaningTr": "kimi, kime",
+"sentenceEn": "To whom did you give the letter?",
+"sentenceTr": "Mektubu kime verdin?",
+"phonetic": "/huːm/",
+"memoryTip": "'Who'nun resmi nesne hâli; günlük konuşmada genelde 'who' kullanılır."
+},
+{
+"word": "whose",
+"partOfSpeech": "pronoun",
+"meaningTr": "kimin",
+"sentenceEn": "Whose phone is this?",
+"sentenceTr": "Bu kimin telefonu?",
+"phonetic": "/huːz/",
+"memoryTip": "'Who's' (who is) ile aynı okunur ama anlamı 'kimin'."
+},
+{
+"word": "why",
+"partOfSpeech": "adverb",
+"meaningTr": "neden, niçin",
+"sentenceEn": "Why are you late?",
+"sentenceTr": "Neden geç kaldın?",
+"phonetic": "/waɪ/",
+"memoryTip": "Cevabı genelde 'because' ile başlar."
+},
+{
+"word": "wide",
+"partOfSpeech": "adjective",
+"meaningTr": "geniş",
+"sentenceEn": "The river is very wide here.",
+"sentenceTr": "Nehir burada çok geniş.",
+"phonetic": "/waɪd/",
+"memoryTip": "Zıttı 'narrow' (dar). Worldwide = dünya çapında."
+},
+{
+"word": "wife",
+"partOfSpeech": "noun",
+"meaningTr": "eş (kadın), karı",
+"sentenceEn": "This is my wife, Ayşe.",
+"sentenceTr": "Bu eşim Ayşe.",
+"phonetic": "/waɪf/",
+"memoryTip": "Düzensiz çoğul: one wife, two wives. Erkek eş 'husband'."
+},
+{
+"word": "will",
+"partOfSpeech": "verb",
+"meaningTr": "-ecek, -acak (gelecek zaman)",
+"sentenceEn": "I will call you tomorrow.",
+"sentenceTr": "Seni yarın arayacağım.",
+"phonetic": "/wɪl/",
+"memoryTip": "Kısaltması 'll: I will = I'll."
+},
+{
+"word": "win",
+"partOfSpeech": "verb",
+"meaningTr": "kazanmak",
+"sentenceEn": "I hope our team will win the match.",
+"sentenceTr": "Umarım takımımız maçı kazanır.",
+"phonetic": "/wɪn/",
+"memoryTip": "Win → won → won. Zıttı 'lose'."
+},
+{
+"word": "window",
+"partOfSpeech": "noun",
+"meaningTr": "pencere",
+"sentenceEn": "Can you open the window?",
+"sentenceTr": "Pencereyi açabilir misin?",
+"phonetic": "/ˈwɪn.dəʊ/",
+"memoryTip": "Wind (rüzgâr) kökünden: rüzgârın girdiği delik."
+},
+{
+"word": "windy",
+"partOfSpeech": "adjective",
+"meaningTr": "rüzgârlı",
+"sentenceEn": "It's very windy at the seaside today.",
+"sentenceTr": "Bugün sahilde çok rüzgâr var.",
+"phonetic": "/ˈwɪn.di/",
+"memoryTip": "Wind (rüzgâr) + -y = rüzgârlı."
+},
+{
+"word": "wish",
+"partOfSpeech": "verb",
+"meaningTr": "dilemek",
+"sentenceEn": "I wish you a happy birthday.",
+"sentenceTr": "Sana mutlu bir doğum günü dilerim.",
+"phonetic": "/wɪʃ/",
+"memoryTip": "'Best wishes' = en iyi dileklerimle."
+},
+{
+"word": "with",
+"partOfSpeech": "preposition",
+"meaningTr": "ile, birlikte",
+"sentenceEn": "I go to school with my sister.",
+"sentenceTr": "Okula kız kardeşimle giderim.",
+"phonetic": "/wɪð/",
+"memoryTip": "Zıttı 'without' (-sız)."
+},
+{
+"word": "without",
+"partOfSpeech": "preposition",
+"meaningTr": "-sız, -meden",
+"sentenceEn": "I drink my tea without sugar.",
+"sentenceTr": "Çayımı şekersiz içerim.",
+"phonetic": "/wɪˈðaʊt/",
+"memoryTip": "With (ile) + out (dışarı) = ...sız."
+},
+{
+"word": "wives",
+"partOfSpeech": "noun",
+"meaningTr": "eşler, karılar (wife kelimesinin çoğulu)",
+"sentenceEn": "The players and their wives came to the dinner.",
+"sentenceTr": "Oyuncular ve eşleri yemeğe geldi.",
+"phonetic": "/waɪvz/",
+"memoryTip": "Wife → wives: -f, çoğulda -ves olur (knife → knives gibi)."
+},
+{
+"word": "woman",
+"partOfSpeech": "noun",
+"meaningTr": "kadın",
+"sentenceEn": "The woman in the red coat is my aunt.",
+"sentenceTr": "Kırmızı paltolu kadın teyzem.",
+"phonetic": "/ˈwʊm.ən/",
+"memoryTip": "Çoğulu 'women' ve /ˈwɪm.ɪn/ okunur."
+},
+{
+"word": "won",
+"partOfSpeech": "verb",
+"meaningTr": "kazandı (win fiilinin geçmiş hâli)",
+"sentenceEn": "Our class won the competition.",
+"sentenceTr": "Sınıfımız yarışmayı kazandı.",
+"phonetic": "/wʌn/",
+"memoryTip": "Win → won → won. 'One' (bir) ile aynı okunur."
+},
+{
+"word": "wonderful",
+"partOfSpeech": "adjective",
+"meaningTr": "harika, muhteşem",
+"sentenceEn": "We had a wonderful holiday.",
+"sentenceTr": "Harika bir tatil geçirdik.",
+"phonetic": "/ˈwʌn.də.fəl/",
+"memoryTip": "Wonder (hayret) + -ful (dolu) = hayranlık verici, harika."
+},
+{
+"word": "word",
+"partOfSpeech": "noun",
+"meaningTr": "kelime, sözcük; söz",
+"sentenceEn": "I learn a new word every day.",
+"sentenceTr": "Her gün yeni bir kelime öğreniyorum.",
+"phonetic": "/wɜːd/",
+"memoryTip": "Bu uygulamanın konusu: words! 'Keep your word' = sözünü tut."
+},
+{
+"word": "work",
+"partOfSpeech": "verb",
+"meaningTr": "çalışmak; çalışmak (makine)",
+"sentenceEn": "My parents work in a hospital.",
+"sentenceTr": "Annemle babam bir hastanede çalışıyor.",
+"phonetic": "/wɜːk/",
+"memoryTip": "'It doesn't work' = çalışmıyor, bozuk."
+},
+{
+"word": "working",
+"partOfSpeech": "adjective",
+"meaningTr": "çalışan; çalışma ile ilgili",
+"sentenceEn": "My working hours are from nine to five.",
+"sentenceTr": "Çalışma saatlerim dokuzdan beşe kadar.",
+"phonetic": "/ˈwɜː.kɪŋ/",
+"memoryTip": "Working day = iş günü."
+},
+{
+"word": "workman",
+"partOfSpeech": "noun",
+"meaningTr": "işçi",
+"sentenceEn": "A workman is repairing the road.",
+"sentenceTr": "Bir işçi yolu tamir ediyor.",
+"phonetic": "/ˈwɜːk.mən/",
+"memoryTip": "Work (iş) + man (adam) = işçi."
+},
+{
+"word": "worn",
+"partOfSpeech": "verb",
+"meaningTr": "giyilmiş (wear fiilinin üçüncü hâli)",
+"sentenceEn": "I have never worn this dress.",
+"sentenceTr": "Bu elbiseyi hiç giymedim.",
+"phonetic": "/wɔːn/",
+"memoryTip": "Wear → wore → worn. 'Worn out' = yıpranmış, bitkin."
+},
+{
+"word": "worry",
+"partOfSpeech": "verb",
+"meaningTr": "endişelenmek",
+"sentenceEn": "Don't worry; everything will be fine.",
+"sentenceTr": "Endişelenme, her şey yoluna girecek.",
+"phonetic": "/ˈwʌr.i/",
+"memoryTip": "'Don't worry' = merak etme, endişelenme."
+},
+{
+"word": "worse",
+"partOfSpeech": "adjective",
+"meaningTr": "daha kötü",
+"sentenceEn": "The weather is worse today than yesterday.",
+"sentenceTr": "Hava bugün dünden daha kötü.",
+"phonetic": "/wɜːs/",
+"memoryTip": "Bad → worse → worst: kötü → daha kötü → en kötü."
+},
+{
+"word": "would",
+"partOfSpeech": "verb",
+"meaningTr": "-erdi, -ardı; (would like) isterim",
+"sentenceEn": "Would you like some cake?",
+"sentenceTr": "Biraz kek ister misin?",
+"phonetic": "/wʊd/",
+"memoryTip": "'l' okunmaz: /wʊd/. 'Would you like...?' kibar ikram kalıbı."
+},
+{
+"word": "write",
+"partOfSpeech": "verb",
+"meaningTr": "yazmak",
+"sentenceEn": "Write your name at the top of the page.",
+"sentenceTr": "Adını sayfanın en üstüne yaz.",
+"phonetic": "/raɪt/",
+"memoryTip": "'w' okunmaz; 'right' ile aynı okunur. Write → wrote → written."
+},
+{
+"word": "wrong",
+"partOfSpeech": "adjective",
+"meaningTr": "yanlış",
+"sentenceEn": "Sorry, you have the wrong number.",
+"sentenceTr": "Üzgünüm, yanlış numarayı aradınız.",
+"phonetic": "/rɒŋ/",
+"memoryTip": "'w' okunmaz: /rɒŋ/. Zıttı 'right' (doğru)."
+},
+{
+"word": "wrote",
+"partOfSpeech": "verb",
+"meaningTr": "yazdı (write fiilinin geçmiş hâli)",
+"sentenceEn": "I wrote a letter to my pen friend.",
+"sentenceTr": "Mektup arkadaşıma bir mektup yazdım.",
+"phonetic": "/rəʊt/",
+"memoryTip": "Write → wrote → written."
+},
+{
+"word": "year",
+"partOfSpeech": "noun",
+"meaningTr": "yıl",
+"sentenceEn": "Happy New Year!",
+"sentenceTr": "Mutlu yıllar!",
+"phonetic": "/jɪər/",
+"memoryTip": "Yaş sorarken: I am ten years old."
+},
+{
+"word": "yellow",
+"partOfSpeech": "adjective",
+"meaningTr": "sarı",
+"sentenceEn": "Bananas are yellow.",
+"sentenceTr": "Muzlar sarıdır.",
+"phonetic": "/ˈjel.əʊ/",
+"memoryTip": "Yellow card = sarı kart."
+},
+{
+"word": "yes",
+"partOfSpeech": "adverb",
+"meaningTr": "evet",
+"sentenceEn": "Yes, I can help you.",
+"sentenceTr": "Evet, sana yardım edebilirim.",
+"phonetic": "/jes/",
+"memoryTip": "Zıttı 'no' (hayır)."
+},
+{
+"word": "yesterday",
+"partOfSpeech": "adverb",
+"meaningTr": "dün",
+"sentenceEn": "I saw her yesterday.",
+"sentenceTr": "Onu dün gördüm.",
+"phonetic": "/ˈjes.tə.deɪ/",
+"memoryTip": "Yesterday (dün) → today (bugün) → tomorrow (yarın). Fiil geçmiş zamanda olur."
+},
+{
+"word": "yet",
+"partOfSpeech": "adverb",
+"meaningTr": "henüz, daha",
+"sentenceEn": "I haven't finished my homework yet.",
+"sentenceTr": "Ödevimi henüz bitirmedim.",
+"phonetic": "/jet/",
+"memoryTip": "Olumsuz ve soru cümlelerinin sonunda: Not yet = henüz değil."
+},
+{
+"word": "yoghurt",
+"partOfSpeech": "noun",
+"meaningTr": "yoğurt",
+"sentenceEn": "We eat yoghurt with almost every meal.",
+"sentenceTr": "Neredeyse her yemekle yoğurt yeriz.",
+"phonetic": "/ˈjɒɡ.ət/",
+"memoryTip": "Türkçe 'yoğurt' kelimesinden dünyaya yayılmıştır!"
+},
+{
+"word": "you",
+"partOfSpeech": "pronoun",
+"meaningTr": "sen, siz; seni, sizi",
+"sentenceEn": "Thank you very much.",
+"sentenceTr": "Çok teşekkür ederim.",
+"phonetic": "/juː/",
+"memoryTip": "Tekil ve çoğul için aynı: sen de siz de 'you'."
+},
+{
+"word": "young",
+"partOfSpeech": "adjective",
+"meaningTr": "genç",
+"sentenceEn": "My grandmother looks young for her age.",
+"sentenceTr": "Babaannem yaşına göre genç görünüyor.",
+"phonetic": "/jʌŋ/",
+"memoryTip": "Zıttı 'old' (yaşlı)."
+},
+{
+"word": "your",
+"partOfSpeech": "determiner",
+"meaningTr": "senin, sizin",
+"sentenceEn": "Is this your bag?",
+"sentenceTr": "Bu senin çantan mı?",
+"phonetic": "/jɔːr/",
+"memoryTip": "'You're' (you are) ile karıştırma: your = senin."
+},
+{
+"word": "yours",
+"partOfSpeech": "pronoun",
+"meaningTr": "seninki, sizinki",
+"sentenceEn": "Is this pen yours?",
+"sentenceTr": "Bu kalem seninki mi?",
+"phonetic": "/jɔːz/",
+"memoryTip": "Mektup sonunda 'Yours sincerely' = saygılarımla."
+},
+{
+"word": "yourself",
+"partOfSpeech": "pronoun",
+"meaningTr": "kendin, kendini",
+"sentenceEn": "Help yourself to some fruit.",
+"sentenceTr": "Meyveden buyur, al.",
+"phonetic": "/jɔːˈself/",
+"memoryTip": "'Help yourself' = buyur, kendin al. 'Take care of yourself' = kendine iyi bak."
+},
+{
+"word": "yourselves",
+"partOfSpeech": "pronoun",
+"meaningTr": "kendiniz, kendinizi",
+"sentenceEn": "Children, please behave yourselves.",
+"sentenceTr": "Çocuklar, lütfen uslu durun.",
+"phonetic": "/jɔːˈselvz/",
+"memoryTip": "Yourself'in çoğulu: birden fazla kişiye seslenirken."
+},
+{
+"word": "zero",
+"partOfSpeech": "number",
+"meaningTr": "sıfır",
+"sentenceEn": "The temperature fell below zero last night.",
+"sentenceTr": "Dün gece sıcaklık sıfırın altına düştü.",
+"phonetic": "/ˈzɪə.rəʊ/",
+"memoryTip": "Telefon numarasında 0 bazen 'oh' diye okunur."
+},
+{
+"word": "zoo",
+"partOfSpeech": "noun",
+"meaningTr": "hayvanat bahçesi",
+"sentenceEn": "We saw lions and giraffes at the zoo.",
+"sentenceTr": "Hayvanat bahçesinde aslan ve zürafa gördük.",
+"phonetic": "/zuː/",
+"memoryTip": "Zoology (zooloji) kelimesinin kısaltmasından gelir."
+}
+]

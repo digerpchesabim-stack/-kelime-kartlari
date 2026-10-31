@@ -1,0 +1,902 @@
+[
+{
+"word": "see",
+"partOfSpeech": "verb",
+"meaningTr": "görmek",
+"sentenceEn": "I can see the sea from my window.",
+"sentenceTr": "Penceremden denizi görebiliyorum.",
+"phonetic": "/siː/",
+"memoryTip": "See → saw → seen. 'See you!' = görüşürüz."
+},
+{
+"word": "seek",
+"partOfSpeech": "verb",
+"meaningTr": "aramak, peşinde olmak",
+"sentenceEn": "Many young people seek jobs in big cities.",
+"sentenceTr": "Birçok genç büyük şehirlerde iş arar.",
+"phonetic": "/siːk/",
+"memoryTip": "Hide and seek = saklambaç (saklan ve ara)."
+},
+{
+"word": "seem",
+"partOfSpeech": "verb",
+"meaningTr": "gibi görünmek",
+"sentenceEn": "You seem tired today.",
+"sentenceTr": "Bugün yorgun görünüyorsun.",
+"phonetic": "/siːm/",
+"memoryTip": "'It seems...' = ...gibi görünüyor."
+},
+{
+"word": "seen",
+"partOfSpeech": "verb",
+"meaningTr": "görmüş (see fiilinin üçüncü hâli)",
+"sentenceEn": "Have you seen my keys?",
+"sentenceTr": "Anahtarlarımı gördün mü?",
+"phonetic": "/siːn/",
+"memoryTip": "See → saw → seen. 'Have/has' ile kullanılır."
+},
+{
+"word": "sell",
+"partOfSpeech": "verb",
+"meaningTr": "satmak",
+"sentenceEn": "They sell fresh bread at this bakery.",
+"sentenceTr": "Bu fırında taze ekmek satıyorlar.",
+"phonetic": "/sel/",
+"memoryTip": "Sell → sold → sold. Zıttı 'buy' (satın almak)."
+},
+{
+"word": "send",
+"partOfSpeech": "verb",
+"meaningTr": "göndermek",
+"sentenceEn": "Can you send me the photos?",
+"sentenceTr": "Fotoğrafları bana gönderebilir misin?",
+"phonetic": "/send/",
+"memoryTip": "Send → sent → sent."
+},
+{
+"word": "sense",
+"partOfSpeech": "noun",
+"meaningTr": "duyu; anlam; his",
+"sentenceEn": "Dogs have a good sense of smell.",
+"sentenceTr": "Köpeklerin koku alma duyusu iyidir.",
+"phonetic": "/sens/",
+"memoryTip": "'It makes sense' = mantıklı. 'Sense of humour' = mizah anlayışı."
+},
+{
+"word": "sent",
+"partOfSpeech": "verb",
+"meaningTr": "gönderdi (send fiilinin geçmiş hâli)",
+"sentenceEn": "I sent a birthday card to my aunt.",
+"sentenceTr": "Teyzeme bir doğum günü kartı gönderdim.",
+"phonetic": "/sent/",
+"memoryTip": "Send → sent → sent."
+},
+{
+"word": "sentence",
+"partOfSpeech": "noun",
+"meaningTr": "cümle",
+"sentenceEn": "Write a sentence with this word.",
+"sentenceTr": "Bu kelimeyle bir cümle yaz.",
+"phonetic": "/ˈsen.təns/",
+"memoryTip": "Bu kartlardaki örnekler birer 'sentence'tır."
+},
+{
+"word": "September",
+"partOfSpeech": "noun",
+"meaningTr": "eylül",
+"sentenceEn": "School starts in September.",
+"sentenceTr": "Okul eylülde başlar.",
+"phonetic": "/sepˈtem.bər/",
+"memoryTip": "Septem (yedi) kökünden: eski Roma takviminin yedinci ayı."
+},
+{
+"word": "serious",
+"partOfSpeech": "adjective",
+"meaningTr": "ciddi",
+"sentenceEn": "Are you joking or serious?",
+"sentenceTr": "Şaka mı yapıyorsun, ciddi misin?",
+"phonetic": "/ˈsɪə.ri.əs/",
+"memoryTip": "'Seriously?' = Ciddi misin?"
+},
+{
+"word": "serve",
+"partOfSpeech": "verb",
+"meaningTr": "servis etmek, hizmet etmek",
+"sentenceEn": "They serve breakfast until ten o'clock.",
+"sentenceTr": "Saat ona kadar kahvaltı servis ediyorlar.",
+"phonetic": "/sɜːv/",
+"memoryTip": "Türkçedeki 'servis' bu kelimeden gelir."
+},
+{
+"word": "service",
+"partOfSpeech": "noun",
+"meaningTr": "hizmet, servis",
+"sentenceEn": "The service in this restaurant is very good.",
+"sentenceTr": "Bu restoranın hizmeti çok iyi.",
+"phonetic": "/ˈsɜː.vɪs/",
+"memoryTip": "Türkçedeki 'servis' ile aynıdır."
+},
+{
+"word": "set",
+"partOfSpeech": "verb",
+"meaningTr": "kurmak, ayarlamak; takım",
+"sentenceEn": "I set my alarm for seven o'clock.",
+"sentenceTr": "Alarmımı saat yediye kurdum.",
+"phonetic": "/set/",
+"memoryTip": "Set → set → set. 'Set the table' = sofrayı kurmak."
+},
+{
+"word": "several",
+"partOfSpeech": "determiner",
+"meaningTr": "birkaç, çeşitli",
+"sentenceEn": "I have read this book several times.",
+"sentenceTr": "Bu kitabı birkaç kez okudum.",
+"phonetic": "/ˈsev.ər.əl/",
+"memoryTip": "'A few'dan biraz fazlası: birkaç tane."
+},
+{
+"word": "sex",
+"partOfSpeech": "noun",
+"meaningTr": "cinsiyet",
+"sentenceEn": "Write your name, age and sex on the form.",
+"sentenceTr": "Forma adını, yaşını ve cinsiyetini yaz.",
+"phonetic": "/seks/",
+"memoryTip": "Formlarda 'sex: male / female' = cinsiyet: erkek / kadın."
+},
+{
+"word": "shall",
+"partOfSpeech": "verb",
+"meaningTr": "-elim mi?, -ecek (öneri)",
+"sentenceEn": "Shall we go to the cinema?",
+"sentenceTr": "Sinemaya gidelim mi?",
+"phonetic": "/ʃæl/",
+"memoryTip": "'Shall we...?' = ...yapalım mı? Öneri yapmanın kalıbı."
+},
+{
+"word": "share",
+"partOfSpeech": "verb",
+"meaningTr": "paylaşmak",
+"sentenceEn": "I share a room with my brother.",
+"sentenceTr": "Kardeşimle aynı odayı paylaşıyorum.",
+"phonetic": "/ʃeər/",
+"memoryTip": "Sosyal medyada 'share' = paylaş düğmesi."
+},
+{
+"word": "she",
+"partOfSpeech": "pronoun",
+"meaningTr": "o (kadın)",
+"sentenceEn": "She is my best friend.",
+"sentenceTr": "O benim en iyi arkadaşım.",
+"phonetic": "/ʃiː/",
+"memoryTip": "Kadınlar için 'she', erkekler için 'he'."
+},
+{
+"word": "shoe",
+"partOfSpeech": "noun",
+"meaningTr": "ayakkabı",
+"sentenceEn": "I can't find my left shoe.",
+"sentenceTr": "Sol ayakkabımı bulamıyorum.",
+"phonetic": "/ʃuː/",
+"memoryTip": "Genelde çift olarak kullanılır: a pair of shoes."
+},
+{
+"word": "shop",
+"partOfSpeech": "noun",
+"meaningTr": "dükkân, mağaza",
+"sentenceEn": "There is a small shop on the corner.",
+"sentenceTr": "Köşede küçük bir dükkân var.",
+"phonetic": "/ʃɒp/",
+"memoryTip": "Fiil olarak 'go shopping' = alışverişe gitmek."
+},
+{
+"word": "shopkeeper",
+"partOfSpeech": "noun",
+"meaningTr": "esnaf, dükkân sahibi",
+"sentenceEn": "The shopkeeper gave me my change.",
+"sentenceTr": "Dükkân sahibi para üstümü verdi.",
+"phonetic": "/ˈʃɒpˌkiː.pər/",
+"memoryTip": "Shop (dükkân) + keeper (tutan, bakan) = dükkân sahibi."
+},
+{
+"word": "short",
+"partOfSpeech": "adjective",
+"meaningTr": "kısa",
+"sentenceEn": "My sister has short hair.",
+"sentenceTr": "Kız kardeşimin saçı kısa.",
+"phonetic": "/ʃɔːt/",
+"memoryTip": "Zıttı 'long' (uzun) ve boy için 'tall' (uzun boylu)."
+},
+{
+"word": "should",
+"partOfSpeech": "verb",
+"meaningTr": "-meli, -malı (tavsiye)",
+"sentenceEn": "You should drink more water.",
+"sentenceTr": "Daha çok su içmelisin.",
+"phonetic": "/ʃʊd/",
+"memoryTip": "'l' okunmaz: /ʃʊd/. Tavsiye vermek için kullanılır."
+},
+{
+"word": "show",
+"partOfSpeech": "verb",
+"meaningTr": "göstermek; gösteri",
+"sentenceEn": "Can you show me the way to the station?",
+"sentenceTr": "Bana istasyonun yolunu gösterebilir misin?",
+"phonetic": "/ʃəʊ/",
+"memoryTip": "Türkçedeki 'şov' bu kelimeden gelir."
+},
+{
+"word": "shut",
+"partOfSpeech": "verb",
+"meaningTr": "kapatmak",
+"sentenceEn": "Please shut the window; it's cold.",
+"sentenceTr": "Lütfen pencereyi kapat, hava soğuk.",
+"phonetic": "/ʃʌt/",
+"memoryTip": "Shut → shut → shut. 'Close' ile aynı anlam."
+},
+{
+"word": "sick",
+"partOfSpeech": "adjective",
+"meaningTr": "hasta",
+"sentenceEn": "I was sick, so I didn't go to school.",
+"sentenceTr": "Hastaydım, o yüzden okula gitmedim.",
+"phonetic": "/sɪk/",
+"memoryTip": "'Ill' ile benzer. 'Feel sick' = midesi bulanmak."
+},
+{
+"word": "side",
+"partOfSpeech": "noun",
+"meaningTr": "taraf, yan",
+"sentenceEn": "The bank is on the other side of the road.",
+"sentenceTr": "Banka yolun öbür tarafında.",
+"phonetic": "/saɪd/",
+"memoryTip": "Inside (iç taraf), outside (dış taraf), beside (yanında)."
+},
+{
+"word": "similar",
+"partOfSpeech": "adjective",
+"meaningTr": "benzer",
+"sentenceEn": "Your bag is similar to mine.",
+"sentenceTr": "Çantan benimkine benziyor.",
+"phonetic": "/ˈsɪm.ɪ.lər/",
+"memoryTip": "'Similar to' = ...ya benzer."
+},
+{
+"word": "simple",
+"partOfSpeech": "adjective",
+"meaningTr": "basit, sade",
+"sentenceEn": "The answer is very simple.",
+"sentenceTr": "Cevap çok basit.",
+"phonetic": "/ˈsɪm.pəl/",
+"memoryTip": "Türkçedeki 'simple/sade'; zıttı 'difficult'."
+},
+{
+"word": "simply",
+"partOfSpeech": "adverb",
+"meaningTr": "basitçe, sadece",
+"sentenceEn": "Simply press this button.",
+"sentenceTr": "Sadece bu düğmeye bas.",
+"phonetic": "/ˈsɪm.pli/",
+"memoryTip": "Simple + -ly = basitçe."
+},
+{
+"word": "since",
+"partOfSpeech": "preposition",
+"meaningTr": "-den beri",
+"sentenceEn": "I have lived here since 2015.",
+"sentenceTr": "2015'ten beri burada yaşıyorum.",
+"phonetic": "/sɪns/",
+"memoryTip": "Since + başlangıç zamanı (since Monday); for + süre (for two days)."
+},
+{
+"word": "sing",
+"partOfSpeech": "verb",
+"meaningTr": "şarkı söylemek",
+"sentenceEn": "She likes to sing in the shower.",
+"sentenceTr": "Duşta şarkı söylemeyi sever.",
+"phonetic": "/sɪŋ/",
+"memoryTip": "Sing → sang → sung."
+},
+{
+"word": "singer",
+"partOfSpeech": "noun",
+"meaningTr": "şarkıcı",
+"sentenceEn": "Barış Manço was a famous singer.",
+"sentenceTr": "Barış Manço ünlü bir şarkıcıydı.",
+"phonetic": "/ˈsɪŋ.ər/",
+"memoryTip": "Sing (şarkı söylemek) + -er = şarkıcı."
+},
+{
+"word": "single",
+"partOfSpeech": "adjective",
+"meaningTr": "tek; bekâr",
+"sentenceEn": "I'd like a single room, please.",
+"sentenceTr": "Tek kişilik bir oda istiyorum, lütfen.",
+"phonetic": "/ˈsɪŋ.ɡəl/",
+"memoryTip": "Single room = tek kişilik oda; single ticket = tek yön bilet."
+},
+{
+"word": "sister",
+"partOfSpeech": "noun",
+"meaningTr": "kız kardeş, abla",
+"sentenceEn": "My sister is older than me.",
+"sentenceTr": "Ablam benden büyük.",
+"phonetic": "/ˈsɪs.tər/",
+"memoryTip": "İngilizcede abla ile kız kardeş için aynı kelime: sister."
+},
+{
+"word": "sit",
+"partOfSpeech": "verb",
+"meaningTr": "oturmak",
+"sentenceEn": "Please sit down.",
+"sentenceTr": "Lütfen oturun.",
+"phonetic": "/sɪt/",
+"memoryTip": "Sit → sat → sat. 'Sit down' = otur."
+},
+{
+"word": "situation",
+"partOfSpeech": "noun",
+"meaningTr": "durum",
+"sentenceEn": "This is a difficult situation.",
+"sentenceTr": "Bu zor bir durum.",
+"phonetic": "/ˌsɪtʃ.uˈeɪ.ʃən/",
+"memoryTip": "Türkçedeki 'situasyon' ile aynı kökten."
+},
+{
+"word": "size",
+"partOfSpeech": "noun",
+"meaningTr": "beden, boyut",
+"sentenceEn": "What size are your shoes?",
+"sentenceTr": "Ayakkabı numaran kaç?",
+"phonetic": "/saɪz/",
+"memoryTip": "Kıyafette S, M, L harfleri 'size'ı gösterir."
+},
+{
+"word": "ski",
+"partOfSpeech": "verb",
+"meaningTr": "kayak yapmak",
+"sentenceEn": "We go to Uludağ to ski in winter.",
+"sentenceTr": "Kışın kayak yapmak için Uludağ'a gideriz.",
+"phonetic": "/skiː/",
+"memoryTip": "Türkçedeki 'kayak' anlamı; 'skiing' = kayak sporu."
+},
+{
+"word": "sleep",
+"partOfSpeech": "verb",
+"meaningTr": "uyumak",
+"sentenceEn": "I sleep eight hours every night.",
+"sentenceTr": "Her gece sekiz saat uyurum.",
+"phonetic": "/sliːp/",
+"memoryTip": "Sleep → slept → slept."
+},
+{
+"word": "sleepy",
+"partOfSpeech": "adjective",
+"meaningTr": "uykulu",
+"sentenceEn": "I feel sleepy after lunch.",
+"sentenceTr": "Öğle yemeğinden sonra uykum geliyor.",
+"phonetic": "/ˈsliː.pi/",
+"memoryTip": "Sleep + -y = uykulu."
+},
+{
+"word": "small",
+"partOfSpeech": "adjective",
+"meaningTr": "küçük",
+"sentenceEn": "We live in a small village.",
+"sentenceTr": "Küçük bir köyde yaşıyoruz.",
+"phonetic": "/smɔːl/",
+"memoryTip": "Zıttı 'big' ya da 'large'."
+},
+{
+"word": "so",
+"partOfSpeech": "adverb",
+"meaningTr": "çok; bu yüzden",
+"sentenceEn": "It was raining, so we stayed inside.",
+"sentenceTr": "Yağmur yağıyordu, bu yüzden içeride kaldık.",
+"phonetic": "/səʊ/",
+"memoryTip": "'So' hem 'bu yüzden' hem de 'çok' demek: so happy."
+},
+{
+"word": "soccer",
+"partOfSpeech": "noun",
+"meaningTr": "futbol",
+"sentenceEn": "In America, football is called soccer.",
+"sentenceTr": "Amerika'da futbola 'soccer' denir.",
+"phonetic": "/ˈsɒk.ər/",
+"memoryTip": "İngiltere'de 'football', Amerika'da 'soccer'."
+},
+{
+"word": "society",
+"partOfSpeech": "noun",
+"meaningTr": "toplum; dernek",
+"sentenceEn": "Teachers are important for society.",
+"sentenceTr": "Öğretmenler toplum için önemlidir.",
+"phonetic": "/səˈsaɪ.ə.ti/",
+"memoryTip": "Social (sosyal) ile aynı kökten."
+},
+{
+"word": "sock",
+"partOfSpeech": "noun",
+"meaningTr": "çorap",
+"sentenceEn": "There is a hole in my sock.",
+"sentenceTr": "Çorabımda bir delik var.",
+"phonetic": "/sɒk/",
+"memoryTip": "Genelde çift: a pair of socks."
+},
+{
+"word": "soft",
+"partOfSpeech": "adjective",
+"meaningTr": "yumuşak",
+"sentenceEn": "This pillow is very soft.",
+"sentenceTr": "Bu yastık çok yumuşak.",
+"phonetic": "/sɒft/",
+"memoryTip": "Zıttı 'hard' (sert). Soft drink = alkolsüz içecek."
+},
+{
+"word": "sold",
+"partOfSpeech": "verb",
+"meaningTr": "sattı (sell fiilinin geçmiş hâli)",
+"sentenceEn": "We sold our old car last week.",
+"sentenceTr": "Geçen hafta eski arabamızı sattık.",
+"phonetic": "/səʊld/",
+"memoryTip": "Sell → sold → sold. 'Sold out' = tükendi."
+},
+{
+"word": "some",
+"partOfSpeech": "determiner",
+"meaningTr": "biraz, birkaç",
+"sentenceEn": "Would you like some tea?",
+"sentenceTr": "Biraz çay ister misin?",
+"phonetic": "/sʌm/",
+"memoryTip": "Olumlu cümlede 'some', olumsuz ve soruda genelde 'any'."
+},
+{
+"word": "somebody",
+"partOfSpeech": "pronoun",
+"meaningTr": "birisi",
+"sentenceEn": "Somebody is knocking at the door.",
+"sentenceTr": "Birisi kapıyı çalıyor.",
+"phonetic": "/ˈsʌm.bə.di/",
+"memoryTip": "'Someone' ile aynı anlam."
+},
+{
+"word": "someone",
+"partOfSpeech": "pronoun",
+"meaningTr": "birisi",
+"sentenceEn": "Someone left a bag in the classroom.",
+"sentenceTr": "Birisi sınıfta bir çanta bırakmış.",
+"phonetic": "/ˈsʌm.wʌn/",
+"memoryTip": "Some (bir) + one (kişi) = birisi."
+},
+{
+"word": "something",
+"partOfSpeech": "pronoun",
+"meaningTr": "bir şey",
+"sentenceEn": "I want to tell you something.",
+"sentenceTr": "Sana bir şey söylemek istiyorum.",
+"phonetic": "/ˈsʌm.θɪŋ/",
+"memoryTip": "Some + thing (şey) = bir şey."
+},
+{
+"word": "sometimes",
+"partOfSpeech": "adverb",
+"meaningTr": "bazen",
+"sentenceEn": "I sometimes cook dinner for my family.",
+"sentenceTr": "Bazen ailem için akşam yemeği pişiririm.",
+"phonetic": "/ˈsʌm.taɪmz/",
+"memoryTip": "Some + times (kez) = bazı kezler, bazen."
+},
+{
+"word": "somewhere",
+"partOfSpeech": "adverb",
+"meaningTr": "bir yer, bir yerde",
+"sentenceEn": "I left my glasses somewhere.",
+"sentenceTr": "Gözlüğümü bir yerde bıraktım.",
+"phonetic": "/ˈsʌm.weər/",
+"memoryTip": "Some + where (nerede) = bir yerde."
+},
+{
+"word": "son",
+"partOfSpeech": "noun",
+"meaningTr": "oğul",
+"sentenceEn": "Their son is a doctor.",
+"sentenceTr": "Oğulları doktor.",
+"phonetic": "/sʌn/",
+"memoryTip": "'Sun' (güneş) ile aynı okunur: /sʌn/."
+},
+{
+"word": "son-in-law",
+"partOfSpeech": "noun",
+"meaningTr": "damat",
+"sentenceEn": "My aunt's son-in-law is from İzmir.",
+"sentenceTr": "Teyzemin damadı İzmirli.",
+"phonetic": "/ˈsʌn.ɪn.lɔː/",
+"memoryTip": "Son + in law (yasaya göre) = evlilikle gelen oğul, damat."
+},
+{
+"word": "soon",
+"partOfSpeech": "adverb",
+"meaningTr": "yakında, birazdan",
+"sentenceEn": "See you soon!",
+"sentenceTr": "Yakında görüşürüz!",
+"phonetic": "/suːn/",
+"memoryTip": "'As soon as possible' = mümkün olan en kısa sürede."
+},
+{
+"word": "sorry",
+"partOfSpeech": "adjective",
+"meaningTr": "üzgün; özür dilerim",
+"sentenceEn": "Sorry, I'm late.",
+"sentenceTr": "Özür dilerim, geç kaldım.",
+"phonetic": "/ˈsɒr.i/",
+"memoryTip": "'Sorry?' soru tonuyla 'Efendim, anlamadım?' demektir."
+},
+{
+"word": "sort",
+"partOfSpeech": "noun",
+"meaningTr": "tür, çeşit",
+"sentenceEn": "What sort of music do you like?",
+"sentenceTr": "Ne tür müzik seversin?",
+"phonetic": "/sɔːt/",
+"memoryTip": "'Kind' ile aynı: what kind of = what sort of."
+},
+{
+"word": "sound",
+"partOfSpeech": "noun",
+"meaningTr": "ses",
+"sentenceEn": "I heard a strange sound outside.",
+"sentenceTr": "Dışarıda garip bir ses duydum.",
+"phonetic": "/saʊnd/",
+"memoryTip": "Fiil olarak 'kulağa ... gelmek': That sounds good!"
+},
+{
+"word": "south",
+"partOfSpeech": "noun",
+"meaningTr": "güney",
+"sentenceEn": "Antalya is in the south of Türkiye.",
+"sentenceTr": "Antalya, Türkiye'nin güneyindedir.",
+"phonetic": "/saʊθ/",
+"memoryTip": "Pusulada S harfi 'south' demektir."
+},
+{
+"word": "space",
+"partOfSpeech": "noun",
+"meaningTr": "uzay; boşluk, yer",
+"sentenceEn": "There is no space for another chair.",
+"sentenceTr": "Bir sandalye daha için yer yok.",
+"phonetic": "/speɪs/",
+"memoryTip": "Klavyedeki uzun tuş 'space bar'dır."
+},
+{
+"word": "speak",
+"partOfSpeech": "verb",
+"meaningTr": "konuşmak",
+"sentenceEn": "Do you speak English?",
+"sentenceTr": "İngilizce konuşuyor musun?",
+"phonetic": "/spiːk/",
+"memoryTip": "Speak → spoke → spoken. Dil için 'speak' kullanılır."
+},
+{
+"word": "special",
+"partOfSpeech": "adjective",
+"meaningTr": "özel",
+"sentenceEn": "Today is a special day for me.",
+"sentenceTr": "Bugün benim için özel bir gün.",
+"phonetic": "/ˈspeʃ.əl/",
+"memoryTip": "Özel eğitim = special education."
+},
+{
+"word": "specific",
+"partOfSpeech": "adjective",
+"meaningTr": "belirli, özel, kesin",
+"sentenceEn": "Can you give me a specific date?",
+"sentenceTr": "Bana kesin bir tarih verebilir misin?",
+"phonetic": "/spəˈsɪf.ɪk/",
+"memoryTip": "Türkçedeki 'spesifik' ile aynıdır."
+},
+{
+"word": "speed",
+"partOfSpeech": "noun",
+"meaningTr": "hız",
+"sentenceEn": "The speed limit here is 50 km an hour.",
+"sentenceTr": "Buradaki hız sınırı saatte 50 km.",
+"phonetic": "/spiːd/",
+"memoryTip": "Speed limit = hız sınırı."
+},
+{
+"word": "spend",
+"partOfSpeech": "verb",
+"meaningTr": "harcamak; geçirmek (zaman)",
+"sentenceEn": "I like to spend time with my friends.",
+"sentenceTr": "Arkadaşlarımla vakit geçirmeyi severim.",
+"phonetic": "/spend/",
+"memoryTip": "Spend → spent → spent. Para da zaman da 'spend' edilir."
+},
+{
+"word": "spoke",
+"partOfSpeech": "verb",
+"meaningTr": "konuştu (speak fiilinin geçmiş hâli)",
+"sentenceEn": "I spoke to my teacher after class.",
+"sentenceTr": "Dersten sonra öğretmenimle konuştum.",
+"phonetic": "/spəʊk/",
+"memoryTip": "Speak → spoke → spoken."
+},
+{
+"word": "spoken",
+"partOfSpeech": "verb",
+"meaningTr": "konuşulmuş (speak fiilinin üçüncü hâli)",
+"sentenceEn": "English is spoken all over the world.",
+"sentenceTr": "İngilizce dünyanın her yerinde konuşulur.",
+"phonetic": "/ˈspəʊ.kən/",
+"memoryTip": "Speak → spoke → spoken. Edilgen cümlelerde: is spoken."
+},
+{
+"word": "spoon",
+"partOfSpeech": "noun",
+"meaningTr": "kaşık",
+"sentenceEn": "I need a spoon for my soup.",
+"sentenceTr": "Çorbam için bir kaşığa ihtiyacım var.",
+"phonetic": "/spuːn/",
+"memoryTip": "Teaspoon = çay kaşığı. Fork = çatal, knife = bıçak."
+},
+{
+"word": "sport",
+"partOfSpeech": "noun",
+"meaningTr": "spor",
+"sentenceEn": "Swimming is my favourite sport.",
+"sentenceTr": "Yüzme en sevdiğim spor.",
+"phonetic": "/spɔːt/",
+"memoryTip": "Türkçedeki 'spor' ile aynıdır."
+},
+{
+"word": "stage",
+"partOfSpeech": "noun",
+"meaningTr": "sahne; aşama",
+"sentenceEn": "The actors are on the stage.",
+"sentenceTr": "Oyuncular sahnede.",
+"phonetic": "/steɪdʒ/",
+"memoryTip": "İki anlamı var: tiyatro sahnesi ve bir sürecin aşaması."
+},
+{
+"word": "stairs",
+"partOfSpeech": "noun",
+"meaningTr": "merdiven",
+"sentenceEn": "The lift is broken, so take the stairs.",
+"sentenceTr": "Asansör bozuk, merdivenleri kullan.",
+"phonetic": "/steəz/",
+"memoryTip": "Hep çoğul kullanılır: go up the stairs."
+},
+{
+"word": "stamp",
+"partOfSpeech": "noun",
+"meaningTr": "pul; damga",
+"sentenceEn": "Put a stamp on the envelope.",
+"sentenceTr": "Zarfın üstüne bir pul yapıştır.",
+"phonetic": "/stæmp/",
+"memoryTip": "Türkçedeki 'istampa/damga' ile akraba."
+},
+{
+"word": "stand",
+"partOfSpeech": "verb",
+"meaningTr": "ayakta durmak",
+"sentenceEn": "Please stand up when the teacher comes in.",
+"sentenceTr": "Öğretmen girince lütfen ayağa kalkın.",
+"phonetic": "/stænd/",
+"memoryTip": "Stand → stood → stood. 'Stand up' = ayağa kalk."
+},
+{
+"word": "station",
+"partOfSpeech": "noun",
+"meaningTr": "istasyon",
+"sentenceEn": "The train station is near the city centre.",
+"sentenceTr": "Tren istasyonu şehir merkezine yakın.",
+"phonetic": "/ˈsteɪ.ʃən/",
+"memoryTip": "Türkçedeki 'istasyon' ile aynıdır."
+},
+{
+"word": "stay",
+"partOfSpeech": "verb",
+"meaningTr": "kalmak",
+"sentenceEn": "We will stay in a hotel for three nights.",
+"sentenceTr": "Üç gece bir otelde kalacağız.",
+"phonetic": "/steɪ/",
+"memoryTip": "'Stay at home' = evde kal."
+},
+{
+"word": "still",
+"partOfSpeech": "adverb",
+"meaningTr": "hâlâ",
+"sentenceEn": "Are you still at school?",
+"sentenceTr": "Hâlâ okulda mısın?",
+"phonetic": "/stɪl/",
+"memoryTip": "'Still water' ise gazsız su demektir."
+},
+{
+"word": "stood",
+"partOfSpeech": "verb",
+"meaningTr": "durdu, ayakta durdu (stand fiilinin geçmiş hâli)",
+"sentenceEn": "We stood in the rain for an hour.",
+"sentenceTr": "Bir saat yağmurda ayakta durduk.",
+"phonetic": "/stʊd/",
+"memoryTip": "Stand → stood → stood."
+},
+{
+"word": "stop",
+"partOfSpeech": "verb",
+"meaningTr": "durmak, durdurmak",
+"sentenceEn": "Stop talking, please.",
+"sentenceTr": "Konuşmayı bırakın, lütfen.",
+"phonetic": "/stɒp/",
+"memoryTip": "Bus stop = otobüs durağı."
+},
+{
+"word": "store",
+"partOfSpeech": "noun",
+"meaningTr": "mağaza; depo",
+"sentenceEn": "I bought this shirt at a big store.",
+"sentenceTr": "Bu gömleği büyük bir mağazadan aldım.",
+"phonetic": "/stɔːr/",
+"memoryTip": "Amerikan İngilizcesinde 'shop' yerine 'store' denir."
+},
+{
+"word": "street",
+"partOfSpeech": "noun",
+"meaningTr": "cadde, sokak",
+"sentenceEn": "I live on a quiet street.",
+"sentenceTr": "Sessiz bir sokakta yaşıyorum.",
+"phonetic": "/striːt/",
+"memoryTip": "Adreslerde kısaltması 'St.' olarak yazılır."
+},
+{
+"word": "strong",
+"partOfSpeech": "adjective",
+"meaningTr": "güçlü, kuvvetli; sert (çay)",
+"sentenceEn": "My father is very strong.",
+"sentenceTr": "Babam çok güçlüdür.",
+"phonetic": "/strɒŋ/",
+"memoryTip": "Zıttı 'weak' (zayıf). Strong tea = demli çay."
+},
+{
+"word": "strongly",
+"partOfSpeech": "adverb",
+"meaningTr": "güçlü bir şekilde, kesinlikle",
+"sentenceEn": "I strongly believe you can do it.",
+"sentenceTr": "Bunu yapabileceğine kesinlikle inanıyorum.",
+"phonetic": "/ˈstrɒŋ.li/",
+"memoryTip": "Strong + -ly = güçlü bir şekilde."
+},
+{
+"word": "student",
+"partOfSpeech": "noun",
+"meaningTr": "öğrenci",
+"sentenceEn": "There are thirty students in my class, and every student has a book.",
+"sentenceTr": "Sınıfımda otuz öğrenci var ve her öğrencinin bir kitabı var.",
+"phonetic": "/ˈstjuː.dənt/",
+"memoryTip": "Study (çalışmak) ile aynı kökten: ders çalışan kişi."
+},
+{
+"word": "success",
+"partOfSpeech": "noun",
+"meaningTr": "başarı",
+"sentenceEn": "Hard work is the key to success.",
+"sentenceTr": "Çok çalışmak başarının anahtarıdır.",
+"phonetic": "/səkˈses/",
+"memoryTip": "Successful = başarılı."
+},
+{
+"word": "such",
+"partOfSpeech": "determiner",
+"meaningTr": "öyle, böyle, o kadar",
+"sentenceEn": "It was such a beautiful day.",
+"sentenceTr": "O kadar güzel bir gündü ki.",
+"phonetic": "/sʌtʃ/",
+"memoryTip": "'Such a + sıfat + isim' = öyle ... bir."
+},
+{
+"word": "suddenly",
+"partOfSpeech": "adverb",
+"meaningTr": "aniden, birden",
+"sentenceEn": "Suddenly, the lights went out.",
+"sentenceTr": "Birden ışıklar söndü.",
+"phonetic": "/ˈsʌd.ən.li/",
+"memoryTip": "Sudden (ani) + -ly = aniden."
+},
+{
+"word": "suffer",
+"partOfSpeech": "verb",
+"meaningTr": "acı çekmek, sıkıntı çekmek",
+"sentenceEn": "Many animals suffer in hot weather.",
+"sentenceTr": "Birçok hayvan sıcak havada acı çeker.",
+"phonetic": "/ˈsʌf.ər/",
+"memoryTip": "'Suffer from' = ...dan muzdarip olmak."
+},
+{
+"word": "suggest",
+"partOfSpeech": "verb",
+"meaningTr": "önermek",
+"sentenceEn": "Can you suggest a good book?",
+"sentenceTr": "İyi bir kitap önerebilir misin?",
+"phonetic": "/səˈdʒest/",
+"memoryTip": "Suggestion = öneri."
+},
+{
+"word": "suggestion",
+"partOfSpeech": "noun",
+"meaningTr": "öneri, tavsiye",
+"sentenceEn": "That's a good suggestion.",
+"sentenceTr": "Bu iyi bir öneri.",
+"phonetic": "/səˈdʒes.tʃən/",
+"memoryTip": "Suggest (önermek) + -ion = öneri."
+},
+{
+"word": "summer",
+"partOfSpeech": "noun",
+"meaningTr": "yaz",
+"sentenceEn": "We go to the beach in summer.",
+"sentenceTr": "Yazın plaja gideriz.",
+"phonetic": "/ˈsʌm.ər/",
+"memoryTip": "Mevsimler: spring, summer, autumn, winter."
+},
+{
+"word": "sun",
+"partOfSpeech": "noun",
+"meaningTr": "güneş",
+"sentenceEn": "The sun is very hot today.",
+"sentenceTr": "Bugün güneş çok sıcak.",
+"phonetic": "/sʌn/",
+"memoryTip": "'Son' (oğul) ile aynı okunur: /sʌn/."
+},
+{
+"word": "Sunday",
+"partOfSpeech": "noun",
+"meaningTr": "pazar (gün)",
+"sentenceEn": "We have a big breakfast on Sunday.",
+"sentenceTr": "Pazar günü büyük bir kahvaltı yaparız.",
+"phonetic": "/ˈsʌn.deɪ/",
+"memoryTip": "Sun (güneş) + day = güneşin günü."
+},
+{
+"word": "sunflower",
+"partOfSpeech": "noun",
+"meaningTr": "ayçiçeği",
+"sentenceEn": "A sunflower always turns towards the sun.",
+"sentenceTr": "Ayçiçeği hep güneşe döner.",
+"phonetic": "/ˈsʌnˌflaʊ.ər/",
+"memoryTip": "Sun (güneş) + flower (çiçek) = güneş çiçeği."
+},
+{
+"word": "sung",
+"partOfSpeech": "verb",
+"meaningTr": "söylenmiş (sing fiilinin üçüncü hâli)",
+"sentenceEn": "This song is sung at every wedding.",
+"sentenceTr": "Bu şarkı her düğünde söylenir.",
+"phonetic": "/sʌŋ/",
+"memoryTip": "Sing → sang → sung."
+},
+{
+"word": "sunglasses",
+"partOfSpeech": "noun",
+"meaningTr": "güneş gözlüğü",
+"sentenceEn": "Don't forget your sunglasses.",
+"sentenceTr": "Güneş gözlüğünü unutma.",
+"phonetic": "/ˈsʌnˌɡlɑː.sɪz/",
+"memoryTip": "Sun (güneş) + glasses (gözlük). Hep çoğul kullanılır."
+},
+{
+"word": "sunlight",
+"partOfSpeech": "noun",
+"meaningTr": "güneş ışığı",
+"sentenceEn": "Plants need sunlight to grow.",
+"sentenceTr": "Bitkilerin büyümek için güneş ışığına ihtiyacı var.",
+"phonetic": "/ˈsʌn.laɪt/",
+"memoryTip": "Sun (güneş) + light (ışık) = güneş ışığı."
+},
+{
+"word": "sunny",
+"partOfSpeech": "adjective",
+"meaningTr": "güneşli",
+"sentenceEn": "It's a sunny day; let's go to the park.",
+"sentenceTr": "Güneşli bir gün, hadi parka gidelim.",
+"phonetic": "/ˈsʌn.i/",
+"memoryTip": "Sun + -ny = güneşli."
+}
+]

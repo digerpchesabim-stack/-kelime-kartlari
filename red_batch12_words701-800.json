@@ -1,0 +1,902 @@
+[
+{
+"word": "management",
+"partOfSpeech": "noun",
+"meaningTr": "yönetim, idare",
+"sentenceEn": "The hotel has a new management team.",
+"sentenceTr": "Otelin yeni bir yönetim ekibi var.",
+"phonetic": "/ˈmæn.ɪdʒ.mənt/",
+"memoryTip": "Manage (yönetmek) + -ment (iş/eylem) = yönetim."
+},
+{
+"word": "manager",
+"partOfSpeech": "noun",
+"meaningTr": "müdür, yönetici",
+"sentenceEn": "I want to speak to the manager, please.",
+"sentenceTr": "Lütfen müdürle konuşmak istiyorum.",
+"phonetic": "/ˈmæn.ɪ.dʒər/",
+"memoryTip": "Manage (yönetmek) + -er (yapan kişi) = yöneten kişi, müdür."
+},
+{
+"word": "many",
+"partOfSpeech": "determiner",
+"meaningTr": "çok, birçok (sayılabilen)",
+"sentenceEn": "There are many books in our school library.",
+"sentenceTr": "Okul kütüphanemizde birçok kitap var.",
+"phonetic": "/ˈmen.i/",
+"memoryTip": "Sayılabilenler için 'many', sayılamayanlar için 'much': many books, much water."
+},
+{
+"word": "March",
+"partOfSpeech": "noun",
+"meaningTr": "mart",
+"sentenceEn": "Spring starts in March.",
+"sentenceTr": "Bahar martta başlar.",
+"phonetic": "/mɑːtʃ/",
+"memoryTip": "Ay adları İngilizcede her zaman büyük harfle başlar: March."
+},
+{
+"word": "market",
+"partOfSpeech": "noun",
+"meaningTr": "pazar, çarşı",
+"sentenceEn": "My mother buys fresh vegetables at the market.",
+"sentenceTr": "Annem taze sebzeleri pazardan alır.",
+"phonetic": "/ˈmɑː.kɪt/",
+"memoryTip": "Türkçedeki 'market' ile aynı köken; İngilizcede daha çok açık pazar demektir."
+},
+{
+"word": "material",
+"partOfSpeech": "noun",
+"meaningTr": "malzeme, madde, kumaş",
+"sentenceEn": "This bag is made of a strong material.",
+"sentenceTr": "Bu çanta sağlam bir malzemeden yapılmış.",
+"phonetic": "/məˈtɪə.ri.əl/",
+"memoryTip": "Türkçedeki 'materyal' kelimesiyle aynıdır."
+},
+{
+"word": "matter",
+"partOfSpeech": "verb",
+"meaningTr": "önemli olmak",
+"sentenceEn": "It doesn't matter if you are late.",
+"sentenceTr": "Geç kalman önemli değil.",
+"phonetic": "/ˈmæt.ər/",
+"memoryTip": "'It doesn't matter' = önemli değil, fark etmez. Çok sık kullanılır."
+},
+{
+"word": "maximum",
+"partOfSpeech": "adjective",
+"meaningTr": "en fazla, azami",
+"sentenceEn": "The maximum speed on this road is 90 km.",
+"sentenceTr": "Bu yolda azami hız 90 km'dir.",
+"phonetic": "/ˈmæk.sɪ.məm/",
+"memoryTip": "Türkçedeki 'maksimum' ile aynıdır; zıttı 'minimum'."
+},
+{
+"word": "may",
+"partOfSpeech": "verb",
+"meaningTr": "-ebilir, izin vermek (kibar)",
+"sentenceEn": "May I open the window?",
+"sentenceTr": "Pencereyi açabilir miyim?",
+"phonetic": "/meɪ/",
+"memoryTip": "'May I...?' izin istemenin en kibar yoludur. Ay adı olan May (mayıs) ise büyük harfle yazılır."
+},
+{
+"word": "maybe",
+"partOfSpeech": "adverb",
+"meaningTr": "belki",
+"sentenceEn": "Maybe it will rain tomorrow.",
+"sentenceTr": "Belki yarın yağmur yağar.",
+"phonetic": "/ˈmeɪ.bi/",
+"memoryTip": "May (olabilir) + be (olmak) = belki olur, belki."
+},
+{
+"word": "me",
+"partOfSpeech": "pronoun",
+"meaningTr": "beni, bana",
+"sentenceEn": "Can you help me with my homework?",
+"sentenceTr": "Ödevimde bana yardım edebilir misin?",
+"phonetic": "/miː/",
+"memoryTip": "'I' cümlenin öznesidir, 'me' ise nesnesi: I see him, he sees me."
+},
+{
+"word": "mean",
+"partOfSpeech": "verb",
+"meaningTr": "anlamına gelmek, kastetmek",
+"sentenceEn": "What does this word mean?",
+"sentenceTr": "Bu kelime ne anlama geliyor?",
+"phonetic": "/miːn/",
+"memoryTip": "'What does it mean?' = Ne demek? Anlamadığın kelimeyi sormanın kalıbı."
+},
+{
+"word": "meaning",
+"partOfSpeech": "noun",
+"meaningTr": "anlam",
+"sentenceEn": "I looked up the meaning in the dictionary.",
+"sentenceTr": "Anlamına sözlükten baktım.",
+"phonetic": "/ˈmiː.nɪŋ/",
+"memoryTip": "Mean (anlamına gelmek) + -ing = anlam."
+},
+{
+"word": "meant",
+"partOfSpeech": "verb",
+"meaningTr": "kastetti, demek istedi (mean fiilinin geçmiş hâli)",
+"sentenceEn": "Sorry, I meant Tuesday, not Thursday.",
+"sentenceTr": "Pardon, perşembe değil salı demek istedim.",
+"phonetic": "/ment/",
+"memoryTip": "Mean → meant → meant. Yazılışı 'mean'e benzer ama /ment/ okunur."
+},
+{
+"word": "mechanic",
+"partOfSpeech": "noun",
+"meaningTr": "tamirci, makinist",
+"sentenceEn": "The mechanic repaired our car in one hour.",
+"sentenceTr": "Tamirci arabamızı bir saatte onardı.",
+"phonetic": "/məˈkæn.ɪk/",
+"memoryTip": "Türkçedeki 'mekanik' ile aynı kökten; makineyle uğraşan kişi."
+},
+{
+"word": "meeting",
+"partOfSpeech": "noun",
+"meaningTr": "toplantı, buluşma",
+"sentenceEn": "We have a teachers' meeting after school.",
+"sentenceTr": "Okuldan sonra öğretmenler toplantımız var.",
+"phonetic": "/ˈmiː.tɪŋ/",
+"memoryTip": "Meet (buluşmak) + -ing = buluşma, toplantı. Türkçede de 'miting' olarak geçer."
+},
+{
+"word": "melon",
+"partOfSpeech": "noun",
+"meaningTr": "kavun",
+"sentenceEn": "We ate a sweet melon after dinner.",
+"sentenceTr": "Akşam yemeğinden sonra tatlı bir kavun yedik.",
+"phonetic": "/ˈmel.ən/",
+"memoryTip": "Watermelon = su + kavun = karpuz. Melon tek başına kavundur."
+},
+{
+"word": "member",
+"partOfSpeech": "noun",
+"meaningTr": "üye",
+"sentenceEn": "My brother is a member of the football club.",
+"sentenceTr": "Kardeşim futbol kulübünün üyesi.",
+"phonetic": "/ˈmem.bər/",
+"memoryTip": "Ailenin bir 'member'ı = aile üyesi. Membership = üyelik."
+},
+{
+"word": "membership",
+"partOfSpeech": "noun",
+"meaningTr": "üyelik",
+"sentenceEn": "The gym membership costs 500 lira a month.",
+"sentenceTr": "Spor salonu üyeliği aylık 500 lira.",
+"phonetic": "/ˈmem.bə.ʃɪp/",
+"memoryTip": "Member (üye) + -ship (durum) = üyelik. Friend → friendship gibi."
+},
+{
+"word": "memory",
+"partOfSpeech": "noun",
+"meaningTr": "hafıza, anı",
+"sentenceEn": "My grandfather has a very good memory.",
+"sentenceTr": "Dedemin hafızası çok iyidir.",
+"phonetic": "/ˈmem.ər.i/",
+"memoryTip": "Bu kelimenin kendisi 'memoryTip' içinde geçiyor: hafıza ipucu!"
+},
+{
+"word": "men",
+"partOfSpeech": "noun",
+"meaningTr": "adamlar, erkekler (man kelimesinin çoğulu)",
+"sentenceEn": "Two men are waiting at the bus stop.",
+"sentenceTr": "Otobüs durağında iki adam bekliyor.",
+"phonetic": "/men/",
+"memoryTip": "Düzensiz çoğul: one man, two men. -s almaz."
+},
+{
+"word": "mention",
+"partOfSpeech": "verb",
+"meaningTr": "bahsetmek, söz etmek",
+"sentenceEn": "She didn't mention the exam in her message.",
+"sentenceTr": "Mesajında sınavdan bahsetmedi.",
+"phonetic": "/ˈmen.ʃən/",
+"memoryTip": "'Don't mention it' = rica ederim, lafı bile olmaz."
+},
+{
+"word": "message",
+"partOfSpeech": "noun",
+"meaningTr": "mesaj, ileti",
+"sentenceEn": "I sent you a message this morning.",
+"sentenceTr": "Bu sabah sana bir mesaj gönderdim.",
+"phonetic": "/ˈmes.ɪdʒ/",
+"memoryTip": "Türkçedeki 'mesaj' ile aynıdır."
+},
+{
+"word": "met",
+"partOfSpeech": "verb",
+"meaningTr": "tanıştı, buluştu (meet fiilinin geçmiş hâli)",
+"sentenceEn": "I met my best friend at primary school.",
+"sentenceTr": "En iyi arkadaşımla ilkokulda tanıştım.",
+"phonetic": "/met/",
+"memoryTip": "Meet → met → met. 'Nice to meet you' tanışırken, 'I met him' tanıştım."
+},
+{
+"word": "method",
+"partOfSpeech": "noun",
+"meaningTr": "yöntem, metot",
+"sentenceEn": "This is an easy method for learning new words.",
+"sentenceTr": "Bu, yeni kelimeler öğrenmek için kolay bir yöntem.",
+"phonetic": "/ˈmeθ.əd/",
+"memoryTip": "Türkçedeki 'metot' ile aynıdır."
+},
+{
+"word": "midday",
+"partOfSpeech": "noun",
+"meaningTr": "öğle vakti, öğlen",
+"sentenceEn": "The shop closes at midday on Saturdays.",
+"sentenceTr": "Dükkân cumartesileri öğlen kapanır.",
+"phonetic": "/ˌmɪdˈdeɪ/",
+"memoryTip": "Mid (orta) + day (gün) = günün ortası, öğlen."
+},
+{
+"word": "middle",
+"partOfSpeech": "noun",
+"meaningTr": "orta",
+"sentenceEn": "There is a big tree in the middle of the garden.",
+"sentenceTr": "Bahçenin ortasında büyük bir ağaç var.",
+"phonetic": "/ˈmɪd.əl/",
+"memoryTip": "'In the middle of' = ...nın ortasında."
+},
+{
+"word": "might",
+"partOfSpeech": "verb",
+"meaningTr": "-ebilir (olasılık)",
+"sentenceEn": "Take an umbrella; it might rain.",
+"sentenceTr": "Şemsiye al, yağmur yağabilir.",
+"phonetic": "/maɪt/",
+"memoryTip": "Might, may'den biraz daha zayıf bir olasılıktır: belki, olabilir."
+},
+{
+"word": "mine",
+"partOfSpeech": "pronoun",
+"meaningTr": "benimki",
+"sentenceEn": "This pen is not mine.",
+"sentenceTr": "Bu kalem benim değil.",
+"phonetic": "/maɪn/",
+"memoryTip": "My book = benim kitabım; the book is mine = kitap benimki. 'Mine'dan sonra isim gelmez."
+},
+{
+"word": "minimum",
+"partOfSpeech": "adjective",
+"meaningTr": "en az, asgari",
+"sentenceEn": "The minimum age for this course is sixteen.",
+"sentenceTr": "Bu kurs için en düşük yaş on altıdır.",
+"phonetic": "/ˈmɪn.ɪ.məm/",
+"memoryTip": "Türkçedeki 'minimum' ile aynıdır; zıttı 'maximum'."
+},
+{
+"word": "minister",
+"partOfSpeech": "noun",
+"meaningTr": "bakan",
+"sentenceEn": "The minister visited our city yesterday.",
+"sentenceTr": "Bakan dün şehrimizi ziyaret etti.",
+"phonetic": "/ˈmɪn.ɪ.stər/",
+"memoryTip": "Prime minister = başbakan."
+},
+{
+"word": "minus",
+"partOfSpeech": "preposition",
+"meaningTr": "eksi",
+"sentenceEn": "Ten minus four is six.",
+"sentenceTr": "On eksi dört altı eder.",
+"phonetic": "/ˈmaɪ.nəs/",
+"memoryTip": "Matematikte '−' işareti; zıttı 'plus' (+)."
+},
+{
+"word": "minute",
+"partOfSpeech": "noun",
+"meaningTr": "dakika",
+"sentenceEn": "Wait a minute, I am coming.",
+"sentenceTr": "Bir dakika bekle, geliyorum.",
+"phonetic": "/ˈmɪn.ɪt/",
+"memoryTip": "'Wait a minute' = bir dakika bekle."
+},
+{
+"word": "Miss",
+"partOfSpeech": "noun",
+"meaningTr": "Bayan (evlenmemiş kadınlar için hitap)",
+"sentenceEn": "Our English teacher is Miss Brown.",
+"sentenceTr": "İngilizce öğretmenimiz Bayan Brown.",
+"phonetic": "/mɪs/",
+"memoryTip": "Miss + soyadı. Fiil olan 'miss' ise özlemek ya da kaçırmak demektir."
+},
+{
+"word": "missing",
+"partOfSpeech": "adjective",
+"meaningTr": "kayıp, eksik",
+"sentenceEn": "One page of my book is missing.",
+"sentenceTr": "Kitabımın bir sayfası eksik.",
+"phonetic": "/ˈmɪs.ɪŋ/",
+"memoryTip": "Bir şey 'missing' ise yerinde yoktur: kayıp ya da eksik."
+},
+{
+"word": "mistake",
+"partOfSpeech": "noun",
+"meaningTr": "hata, yanlış",
+"sentenceEn": "I made a mistake in the second question.",
+"sentenceTr": "İkinci soruda bir hata yaptım.",
+"phonetic": "/mɪˈsteɪk/",
+"memoryTip": "'Make a mistake' = hata yapmak (do değil, make)."
+},
+{
+"word": "mixture",
+"partOfSpeech": "noun",
+"meaningTr": "karışım",
+"sentenceEn": "Pour the mixture into the cake tin.",
+"sentenceTr": "Karışımı kek kalıbına dök.",
+"phonetic": "/ˈmɪks.tʃər/",
+"memoryTip": "Mix (karıştırmak) + -ture = karışım. Mikser de aynı kökten."
+},
+{
+"word": "modern",
+"partOfSpeech": "adjective",
+"meaningTr": "modern, çağdaş",
+"sentenceEn": "Our school has a modern computer room.",
+"sentenceTr": "Okulumuzun modern bir bilgisayar odası var.",
+"phonetic": "/ˈmɒd.ən/",
+"memoryTip": "Türkçedeki 'modern' ile aynıdır."
+},
+{
+"word": "moment",
+"partOfSpeech": "noun",
+"meaningTr": "an",
+"sentenceEn": "Please wait a moment.",
+"sentenceTr": "Lütfen bir dakika bekleyin.",
+"phonetic": "/ˈməʊ.mənt/",
+"memoryTip": "'At the moment' = şu anda. 'Just a moment' = bir saniye."
+},
+{
+"word": "Monday",
+"partOfSpeech": "noun",
+"meaningTr": "pazartesi",
+"sentenceEn": "School starts again on Monday.",
+"sentenceTr": "Okul pazartesi yeniden başlıyor.",
+"phonetic": "/ˈmʌn.deɪ/",
+"memoryTip": "Moon (ay) + day = Ay'ın günü. Günler büyük harfle yazılır."
+},
+{
+"word": "money",
+"partOfSpeech": "noun",
+"meaningTr": "para",
+"sentenceEn": "I don't have much money in my pocket.",
+"sentenceTr": "Cebimde fazla para yok.",
+"phonetic": "/ˈmʌn.i/",
+"memoryTip": "Sayılamaz bir isimdir: much money (many money değil)."
+},
+{
+"word": "month",
+"partOfSpeech": "noun",
+"meaningTr": "ay (takvim)",
+"sentenceEn": "My birthday is next month.",
+"sentenceTr": "Doğum günüm gelecek ay.",
+"phonetic": "/mʌnθ/",
+"memoryTip": "Moon (ay, gökyüzündeki) ile aynı kökten: ayın dönüşü bir 'month'."
+},
+{
+"word": "mosque",
+"partOfSpeech": "noun",
+"meaningTr": "cami",
+"sentenceEn": "There is an old mosque near the market.",
+"sentenceTr": "Pazarın yakınında eski bir cami var.",
+"phonetic": "/mɒsk/",
+"memoryTip": "Sondaki -que okunmaz gibi kısa söylenir: /mɒsk/."
+},
+{
+"word": "most",
+"partOfSpeech": "determiner",
+"meaningTr": "en çok, çoğu",
+"sentenceEn": "Most students in my class like football.",
+"sentenceTr": "Sınıfımdaki öğrencilerin çoğu futbolu sever.",
+"phonetic": "/məʊst/",
+"memoryTip": "Many/much → more → most: çok → daha çok → en çok."
+},
+{
+"word": "mother",
+"partOfSpeech": "noun",
+"meaningTr": "anne",
+"sentenceEn": "My mother is a nurse.",
+"sentenceTr": "Annem hemşiredir.",
+"phonetic": "/ˈmʌð.ər/",
+"memoryTip": "Mum ya da mummy daha samimi söylenişidir."
+},
+{
+"word": "mother-in-law",
+"partOfSpeech": "noun",
+"meaningTr": "kayınvalide, kaynana",
+"sentenceEn": "My mother-in-law makes delicious dolma.",
+"sentenceTr": "Kayınvalidem çok lezzetli dolma yapar.",
+"phonetic": "/ˈmʌð.ər.ɪn.lɔː/",
+"memoryTip": "Mother + in law (yasaya göre) = evlilikle gelen anne."
+},
+{
+"word": "motorway",
+"partOfSpeech": "noun",
+"meaningTr": "otoyol",
+"sentenceEn": "We drove to Ankara on the motorway.",
+"sentenceTr": "Ankara'ya otoyoldan gittik.",
+"phonetic": "/ˈməʊ.tə.weɪ/",
+"memoryTip": "Motor + way (yol) = motorlu araçların yolu. Amerikan İngilizcesinde 'highway'."
+},
+{
+"word": "mountain",
+"partOfSpeech": "noun",
+"meaningTr": "dağ",
+"sentenceEn": "Ağrı is the highest mountain in Türkiye.",
+"sentenceTr": "Ağrı, Türkiye'nin en yüksek dağıdır.",
+"phonetic": "/ˈmaʊn.tɪn/",
+"memoryTip": "Mount (tırmanmak) ile aynı kökten: tırmanılan yer, dağ."
+},
+{
+"word": "mouse",
+"partOfSpeech": "noun",
+"meaningTr": "fare",
+"sentenceEn": "The cat is running after a mouse.",
+"sentenceTr": "Kedi bir farenin peşinden koşuyor.",
+"phonetic": "/maʊs/",
+"memoryTip": "Bilgisayar faresi de 'mouse'tur. Çoğulu düzensiz: mice."
+},
+{
+"word": "mouth",
+"partOfSpeech": "noun",
+"meaningTr": "ağız",
+"sentenceEn": "Don't speak with your mouth full.",
+"sentenceTr": "Ağzın doluyken konuşma.",
+"phonetic": "/maʊθ/",
+"memoryTip": "Mouse (fare) ile karıştırma: mouth sonunda 'th' sesi var."
+},
+{
+"word": "move",
+"partOfSpeech": "verb",
+"meaningTr": "hareket etmek, taşınmak",
+"sentenceEn": "We will move to a new flat next month.",
+"sentenceTr": "Gelecek ay yeni bir daireye taşınacağız.",
+"phonetic": "/muːv/",
+"memoryTip": "Movie (film) = hareketli resimler; ikisi de 'move'dan gelir."
+},
+{
+"word": "movement",
+"partOfSpeech": "noun",
+"meaningTr": "hareket",
+"sentenceEn": "Every movement of the dancer was perfect.",
+"sentenceTr": "Dansçının her hareketi kusursuzdu.",
+"phonetic": "/ˈmuːv.mənt/",
+"memoryTip": "Move (hareket etmek) + -ment = hareket."
+},
+{
+"word": "movie",
+"partOfSpeech": "noun",
+"meaningTr": "film",
+"sentenceEn": "We watched a funny movie last night.",
+"sentenceTr": "Dün gece komik bir film izledik.",
+"phonetic": "/ˈmuː.vi/",
+"memoryTip": "Move (hareket) kökünden: hareketli resim. İngiliz İngilizcesinde 'film' de denir."
+},
+{
+"word": "Mr",
+"partOfSpeech": "noun",
+"meaningTr": "Bay (erkekler için hitap)",
+"sentenceEn": "Mr Yılmaz is our new school principal.",
+"sentenceTr": "Bay Yılmaz yeni okul müdürümüz.",
+"phonetic": "/ˈmɪs.tər/",
+"memoryTip": "'Mister'ın kısaltmasıdır; soyadından önce kullanılır."
+},
+{
+"word": "Mrs",
+"partOfSpeech": "noun",
+"meaningTr": "Bayan (evli kadınlar için hitap)",
+"sentenceEn": "Mrs Kaya teaches us history.",
+"sentenceTr": "Bayan Kaya bize tarih öğretiyor.",
+"phonetic": "/ˈmɪs.ɪz/",
+"memoryTip": "Evli kadın için Mrs, evlenmemiş için Miss, ikisi için de Ms kullanılır."
+},
+{
+"word": "much",
+"partOfSpeech": "determiner",
+"meaningTr": "çok (sayılamayan)",
+"sentenceEn": "How much is this bread?",
+"sentenceTr": "Bu ekmek ne kadar?",
+"phonetic": "/mʌtʃ/",
+"memoryTip": "'How much?' = Ne kadar? Fiyat sorarken kullanılır."
+},
+{
+"word": "multiply",
+"partOfSpeech": "verb",
+"meaningTr": "çarpmak (matematik)",
+"sentenceEn": "Multiply five by three and you get fifteen.",
+"sentenceTr": "Beşi üçle çarparsan on beş elde edersin.",
+"phonetic": "/ˈmʌl.tɪ.plaɪ/",
+"memoryTip": "Multi (çok) kökünden: bir sayıyı çoğaltmak, çarpmak."
+},
+{
+"word": "mummy",
+"partOfSpeech": "noun",
+"meaningTr": "anneciğim, anne (çocuk dilinde)",
+"sentenceEn": "The little girl is crying for her mummy.",
+"sentenceTr": "Küçük kız annesi için ağlıyor.",
+"phonetic": "/ˈmʌm.i/",
+"memoryTip": "Çocukların anneye seslenişidir. Aynı kelime 'mumya' anlamına da gelir."
+},
+{
+"word": "my",
+"partOfSpeech": "determiner",
+"meaningTr": "benim",
+"sentenceEn": "This is my new bike.",
+"sentenceTr": "Bu benim yeni bisikletim.",
+"phonetic": "/maɪ/",
+"memoryTip": "My + isim: my bag (benim çantam). İsimsiz kullanımı 'mine'."
+},
+{
+"word": "myself",
+"partOfSpeech": "pronoun",
+"meaningTr": "kendim, kendimi",
+"sentenceEn": "I made this cake myself.",
+"sentenceTr": "Bu keki kendim yaptım.",
+"phonetic": "/maɪˈself/",
+"memoryTip": "My + self (kendi) = kendim."
+},
+{
+"word": "name",
+"partOfSpeech": "noun",
+"meaningTr": "isim, ad",
+"sentenceEn": "What is your name?",
+"sentenceTr": "Adın ne?",
+"phonetic": "/neɪm/",
+"memoryTip": "First name = ad, surname = soyad."
+},
+{
+"word": "napkin",
+"partOfSpeech": "noun",
+"meaningTr": "peçete",
+"sentenceEn": "Can I have a napkin, please?",
+"sentenceTr": "Bir peçete alabilir miyim, lütfen?",
+"phonetic": "/ˈnæp.kɪn/",
+"memoryTip": "Nap (kısa uyku) ile karıştırma; masada ağız silinen kâğıt."
+},
+{
+"word": "national",
+"partOfSpeech": "adjective",
+"meaningTr": "ulusal, milli",
+"sentenceEn": "23 April is a national holiday in Türkiye.",
+"sentenceTr": "23 Nisan Türkiye'de ulusal bir bayramdır.",
+"phonetic": "/ˈnæʃ.ən.əl/",
+"memoryTip": "Nation (ulus, millet) + -al = ulusal, milli."
+},
+{
+"word": "nature",
+"partOfSpeech": "noun",
+"meaningTr": "doğa",
+"sentenceEn": "We should protect nature.",
+"sentenceTr": "Doğayı korumalıyız.",
+"phonetic": "/ˈneɪ.tʃər/",
+"memoryTip": "Natural (doğal) bu kelimeden gelir."
+},
+{
+"word": "near",
+"partOfSpeech": "preposition",
+"meaningTr": "yakın, yakınında",
+"sentenceEn": "Our house is near the school.",
+"sentenceTr": "Evimiz okula yakın.",
+"phonetic": "/nɪər/",
+"memoryTip": "Zıttı 'far' (uzak). 'Near here' = buralarda."
+},
+{
+"word": "necessarily",
+"partOfSpeech": "adverb",
+"meaningTr": "zorunlu olarak, illa ki",
+"sentenceEn": "Expensive things are not necessarily better.",
+"sentenceTr": "Pahalı şeyler illa ki daha iyi değildir.",
+"phonetic": "/ˌnes.əˈser.əl.i/",
+"memoryTip": "Genelde 'not necessarily' = her zaman değil, şart değil."
+},
+{
+"word": "necessary",
+"partOfSpeech": "adjective",
+"meaningTr": "gerekli",
+"sentenceEn": "Water is necessary for life.",
+"sentenceTr": "Su yaşam için gereklidir.",
+"phonetic": "/ˈnes.ə.ser.i/",
+"memoryTip": "Yazımı: bir 'c', iki 's' (ne-c-e-ss-ary)."
+},
+{
+"word": "need",
+"partOfSpeech": "verb",
+"meaningTr": "ihtiyacı olmak, gerekmek",
+"sentenceEn": "I need a new pair of shoes.",
+"sentenceTr": "Yeni bir çift ayakkabıya ihtiyacım var.",
+"phonetic": "/niːd/",
+"memoryTip": "'I need help' = yardıma ihtiyacım var."
+},
+{
+"word": "needle",
+"partOfSpeech": "noun",
+"meaningTr": "iğne",
+"sentenceEn": "My grandmother sews with a needle and thread.",
+"sentenceTr": "Babaannem iğne iplikle dikiş diker.",
+"phonetic": "/ˈniː.dəl/",
+"memoryTip": "Dikiş iğnesi de enjeksiyon iğnesi de 'needle'dır."
+},
+{
+"word": "never",
+"partOfSpeech": "adverb",
+"meaningTr": "asla, hiç",
+"sentenceEn": "I have never been to London.",
+"sentenceTr": "Hiç Londra'ya gitmedim.",
+"phonetic": "/ˈnev.ər/",
+"memoryTip": "Not + ever (hiç) = never. Cümlede ayrıca 'not' kullanılmaz."
+},
+{
+"word": "new",
+"partOfSpeech": "adjective",
+"meaningTr": "yeni",
+"sentenceEn": "I bought a new phone yesterday.",
+"sentenceTr": "Dün yeni bir telefon aldım.",
+"phonetic": "/njuː/",
+"memoryTip": "Zıttı 'old' (eski). 'Knew' (bildi) ile aynı okunur."
+},
+{
+"word": "news",
+"partOfSpeech": "noun",
+"meaningTr": "haber, haberler",
+"sentenceEn": "My father watches the news every evening.",
+"sentenceTr": "Babam her akşam haberleri izler.",
+"phonetic": "/njuːz/",
+"memoryTip": "Sonunda -s olsa da tekil sayılır: The news is good."
+},
+{
+"word": "newspaper",
+"partOfSpeech": "noun",
+"meaningTr": "gazete",
+"sentenceEn": "He reads the newspaper with his breakfast.",
+"sentenceTr": "Kahvaltıda gazete okur.",
+"phonetic": "/ˈnjuːzˌpeɪ.pər/",
+"memoryTip": "News (haber) + paper (kâğıt) = haber kâğıdı, gazete."
+},
+{
+"word": "next",
+"partOfSpeech": "adjective",
+"meaningTr": "sonraki, gelecek",
+"sentenceEn": "See you next week!",
+"sentenceTr": "Gelecek hafta görüşürüz!",
+"phonetic": "/nekst/",
+"memoryTip": "'Next to' = yanında: next to the door (kapının yanında)."
+},
+{
+"word": "nice",
+"partOfSpeech": "adjective",
+"meaningTr": "güzel, hoş, kibar",
+"sentenceEn": "Nice to meet you.",
+"sentenceTr": "Tanıştığıma memnun oldum.",
+"phonetic": "/naɪs/",
+"memoryTip": "'Nice to meet you' tanışırken söylenen kalıptır."
+},
+{
+"word": "night",
+"partOfSpeech": "noun",
+"meaningTr": "gece",
+"sentenceEn": "I go to bed at ten every night.",
+"sentenceTr": "Her gece onda yatarım.",
+"phonetic": "/naɪt/",
+"memoryTip": "'gh' okunmaz: /naɪt/. 'Good night' = iyi geceler."
+},
+{
+"word": "no",
+"partOfSpeech": "determiner",
+"meaningTr": "hayır; hiç",
+"sentenceEn": "There is no milk in the fridge.",
+"sentenceTr": "Buzdolabında hiç süt yok.",
+"phonetic": "/nəʊ/",
+"memoryTip": "'Hayır' anlamının yanında 'no + isim' = hiç ... yok."
+},
+{
+"word": "no one",
+"partOfSpeech": "pronoun",
+"meaningTr": "hiç kimse",
+"sentenceEn": "No one was at home when I called.",
+"sentenceTr": "Aradığımda evde kimse yoktu.",
+"phonetic": "/ˈnəʊ wʌn/",
+"memoryTip": "'Nobody' ile aynı anlam. Fiil tekil olur: No one is here."
+},
+{
+"word": "nobody",
+"partOfSpeech": "pronoun",
+"meaningTr": "hiç kimse",
+"sentenceEn": "Nobody knows the answer.",
+"sentenceTr": "Cevabı kimse bilmiyor.",
+"phonetic": "/ˈnəʊ.bə.di/",
+"memoryTip": "No (hiç) + body (kimse) = hiç kimse. Cümlede ayrıca 'not' gelmez."
+},
+{
+"word": "none",
+"partOfSpeech": "pronoun",
+"meaningTr": "hiçbiri",
+"sentenceEn": "None of my friends came to the party.",
+"sentenceTr": "Arkadaşlarımdan hiçbiri partiye gelmedi.",
+"phonetic": "/nʌn/",
+"memoryTip": "'None of...' = ...ların hiçbiri. 'No one' gibi okunur: /nʌn/."
+},
+{
+"word": "noon",
+"partOfSpeech": "noun",
+"meaningTr": "öğle, öğle vakti (12.00)",
+"sentenceEn": "We have lunch at noon.",
+"sentenceTr": "Öğlen yemek yeriz.",
+"phonetic": "/nuːn/",
+"memoryTip": "Afternoon = after (sonra) + noon (öğle) = öğleden sonra."
+},
+{
+"word": "normal",
+"partOfSpeech": "adjective",
+"meaningTr": "normal, olağan",
+"sentenceEn": "It's normal to feel nervous before an exam.",
+"sentenceTr": "Sınavdan önce gergin hissetmek normaldir.",
+"phonetic": "/ˈnɔː.məl/",
+"memoryTip": "Türkçedeki 'normal' ile aynıdır."
+},
+{
+"word": "normally",
+"partOfSpeech": "adverb",
+"meaningTr": "normalde, genellikle",
+"sentenceEn": "I normally walk to school.",
+"sentenceTr": "Normalde okula yürüyerek giderim.",
+"phonetic": "/ˈnɔː.mə.li/",
+"memoryTip": "Normal + -ly = normalde."
+},
+{
+"word": "north",
+"partOfSpeech": "noun",
+"meaningTr": "kuzey",
+"sentenceEn": "Samsun is in the north of Türkiye.",
+"sentenceTr": "Samsun, Türkiye'nin kuzeyindedir.",
+"phonetic": "/nɔːθ/",
+"memoryTip": "Pusulada N harfi 'north' demektir."
+},
+{
+"word": "not",
+"partOfSpeech": "adverb",
+"meaningTr": "değil, -me/-ma",
+"sentenceEn": "I am not hungry now.",
+"sentenceTr": "Şu an aç değilim.",
+"phonetic": "/nɒt/",
+"memoryTip": "Kısaltması n't: is not = isn't, do not = don't."
+},
+{
+"word": "note",
+"partOfSpeech": "noun",
+"meaningTr": "not, kısa yazı",
+"sentenceEn": "I left a note on the kitchen table.",
+"sentenceTr": "Mutfak masasına bir not bıraktım.",
+"phonetic": "/nəʊt/",
+"memoryTip": "'Take notes' = not almak. Okul notu ise 'mark' ya da 'grade'dir."
+},
+{
+"word": "notebook",
+"partOfSpeech": "noun",
+"meaningTr": "defter",
+"sentenceEn": "Write the new words in your notebook.",
+"sentenceTr": "Yeni kelimeleri defterine yaz.",
+"phonetic": "/ˈnəʊt.bʊk/",
+"memoryTip": "Note (not) + book (kitap) = not kitabı, defter."
+},
+{
+"word": "nothing",
+"partOfSpeech": "pronoun",
+"meaningTr": "hiçbir şey",
+"sentenceEn": "There is nothing in the box.",
+"sentenceTr": "Kutuda hiçbir şey yok.",
+"phonetic": "/ˈnʌθ.ɪŋ/",
+"memoryTip": "No + thing (şey) = hiçbir şey. Ayrıca 'not' kullanılmaz."
+},
+{
+"word": "notice",
+"partOfSpeech": "verb",
+"meaningTr": "fark etmek",
+"sentenceEn": "Did you notice her new haircut?",
+"sentenceTr": "Yeni saç kesimini fark ettin mi?",
+"phonetic": "/ˈnəʊ.tɪs/",
+"memoryTip": "İsim olarak 'duyuru, ilan' demektir: a notice on the board."
+},
+{
+"word": "noun",
+"partOfSpeech": "noun",
+"meaningTr": "isim (dil bilgisi)",
+"sentenceEn": "'Table' is a noun.",
+"sentenceTr": "'Table' bir isimdir.",
+"phonetic": "/naʊn/",
+"memoryTip": "Name (ad) ile aynı kökten: bir şeyin adı olan kelime."
+},
+{
+"word": "November",
+"partOfSpeech": "noun",
+"meaningTr": "kasım",
+"sentenceEn": "Teachers' Day is on 24 November in Türkiye.",
+"sentenceTr": "Türkiye'de Öğretmenler Günü 24 Kasım'dadır.",
+"phonetic": "/nəʊˈvem.bər/",
+"memoryTip": "Ay adları büyük harfle yazılır: November."
+},
+{
+"word": "now",
+"partOfSpeech": "adverb",
+"meaningTr": "şimdi, şu an",
+"sentenceEn": "I am doing my homework now.",
+"sentenceTr": "Şu an ödevimi yapıyorum.",
+"phonetic": "/naʊ/",
+"memoryTip": "'Right now' = hemen şimdi."
+},
+{
+"word": "number",
+"partOfSpeech": "noun",
+"meaningTr": "sayı, numara",
+"sentenceEn": "What is your phone number?",
+"sentenceTr": "Telefon numaran ne?",
+"phonetic": "/ˈnʌm.bər/",
+"memoryTip": "Kısaltması 'No.' olarak yazılır: Room No. 5."
+},
+{
+"word": "nurse",
+"partOfSpeech": "noun",
+"meaningTr": "hemşire",
+"sentenceEn": "The nurse gave me some medicine.",
+"sentenceTr": "Hemşire bana biraz ilaç verdi.",
+"phonetic": "/nɜːs/",
+"memoryTip": "Hem kadın hem erkek hemşire için 'nurse' kullanılır."
+},
+{
+"word": "nut",
+"partOfSpeech": "noun",
+"meaningTr": "kabuklu yemiş, fındık, ceviz",
+"sentenceEn": "This chocolate has a nut inside.",
+"sentenceTr": "Bu çikolatanın içinde bir fındık var.",
+"phonetic": "/nʌt/",
+"memoryTip": "Hazelnut = fındık, walnut = ceviz; hepsi 'nut' ailesinden."
+},
+{
+"word": "o'clock",
+"partOfSpeech": "adverb",
+"meaningTr": "saat (tam saatlerde)",
+"sentenceEn": "The lesson starts at nine o'clock.",
+"sentenceTr": "Ders saat dokuzda başlıyor.",
+"phonetic": "/əˈklɒk/",
+"memoryTip": "Yalnızca tam saatlerde: nine o'clock (9.00). 9.30 için kullanılmaz."
+},
+{
+"word": "obviously",
+"partOfSpeech": "adverb",
+"meaningTr": "açıkça, belli ki",
+"sentenceEn": "She was obviously tired after the long trip.",
+"sentenceTr": "Uzun yolculuktan sonra belli ki yorgundu.",
+"phonetic": "/ˈɒb.vi.əs.li/",
+"memoryTip": "Obvious (apaçık) + -ly = açıkça, besbelli."
+},
+{
+"word": "occasion",
+"partOfSpeech": "noun",
+"meaningTr": "durum, fırsat, özel gün",
+"sentenceEn": "A wedding is a special occasion.",
+"sentenceTr": "Düğün özel bir gündür.",
+"phonetic": "/əˈkeɪ.ʒən/",
+"memoryTip": "Yazımı: iki 'c', bir 's' (o-cc-a-s-ion)."
+},
+{
+"word": "ocean",
+"partOfSpeech": "noun",
+"meaningTr": "okyanus",
+"sentenceEn": "Whales live in the ocean.",
+"sentenceTr": "Balinalar okyanusta yaşar.",
+"phonetic": "/ˈəʊ.ʃən/",
+"memoryTip": "'c' burada /ʃ/ (ş) gibi okunur: /ˈəʊ.ʃən/."
+},
+{
+"word": "October",
+"partOfSpeech": "noun",
+"meaningTr": "ekim",
+"sentenceEn": "Republic Day is on 29 October.",
+"sentenceTr": "Cumhuriyet Bayramı 29 Ekim'dedir.",
+"phonetic": "/ɒkˈtəʊ.bər/",
+"memoryTip": "Octo (sekiz) kökünden: eski Roma takviminin sekizinci ayıydı."
+}
+]
