@@ -1,0 +1,34 @@
+name: Tests
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'docs/index.html'
+      - 'docs/sw.js'
+      - 'tests/**'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Playwright kur
+        run: |
+          npm install --no-save playwright@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Yüklenen index.html kaynakla aynı mı?
+        run: |
+          cp docs/index.html /tmp/uploaded.html
+          python3 src/build.py
+          cmp -s docs/index.html /tmp/uploaded.html || echo "::warning::docs/index.html, src/template.html ile aynı değil. İkisini birlikte yükle."
+      - name: Testleri çalıştır
+        run: node tests/run.js
